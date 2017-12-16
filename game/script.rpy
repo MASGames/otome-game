@@ -15,6 +15,8 @@ label start:
    hide v normal
    
    v "This is something Alex added."
+   
+   v "Another test line"
 
    return
    
