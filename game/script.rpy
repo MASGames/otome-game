@@ -4,15 +4,17 @@ define v = Character("Viola")
 
 label start:
 
-    scene bg 1
-    show v normal at left
+   scene bg 1
 
-    v "The game is starting? This is so exciting!"
-    
-    v "This is example text."
-    
-    hide v normal
-    
-    v "This is something Alex added."
+   show v normal at left
 
-    return
+   v "The game is starting? This is so exciting!"
+   
+   v "This is example text."
+   
+   hide v normal
+   
+   v "This is something Alex added."
+
+   return
+   
