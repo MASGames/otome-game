@@ -20,4 +20,16 @@ label start:
 
    v "Test line from Sara"
 
+menu: 
+
+   "Nora's route": 
+      jump Nora
+
+   "Finn's route":
+      jump Finn
+
+label Finn:
+
+   "sample text"
+
    return
