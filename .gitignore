@@ -3,6 +3,7 @@ log.txt
 cache/
 saves/
 tl/
+*.rpyc
 
 # Visual Studio Code settings
 .vscode/
