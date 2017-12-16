@@ -8,5 +8,11 @@ label start:
     show v normal at left
 
     v "The game is starting? This is so exciting!"
+    
+    v "This is example text."
+    
+    hide v normal
+    
+    v "This is something Alex added."
 
     return
