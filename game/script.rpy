@@ -28,6 +28,9 @@ menu:
    "Finn's route":
       jump Finn
 
+   "Liam's route":
+      jump Liam
+
 label Finn:
 
    "sample text"
