@@ -5,7 +5,7 @@ define c = Character("Connor")
 define p1 = Character("Professor") 
 
 label start:
-   scene bg 1
+   scene bg 1 # university birds-eye view 
    
    "Wyderwold University.  The premier magic college in the United States. Members of my family have attended for generations, and I've wanted to come, following in my brother's footsteps, since before I can remember."
 
@@ -19,7 +19,12 @@ label start:
 
    "So I can find the source of the curse, and end it. For good."
 
-   scene bg 2
+   # TODO: Add scene with Viola meeting Nora for the first time as they're moving in
+   # - Liam's helping her move idk a chair, so they get their first introduction + some 
+   #   implications that he's the osananajimi character
+   # - Nora has some artificing equipment that Viola asks about, fleshing her character out some
+
+   scene bg 2 # Nora and Viola's dorm room
 
    show n normal at center
 
@@ -37,7 +42,7 @@ label start:
 
    n "As long as it doesn't make us late –"
  
-   scene bg 3
+   scene bg 3 # Classroom 
 
    show v normal at left # vspot
    show n normal at center
@@ -82,3 +87,16 @@ label start:
    p1 "All right, class, it's nice you're all becoming such good friends, but we have things to learn, and we don't have all day to do it in. Everyone to their desks, please."
 
    "Nora's desk isn't too far away from mine. Unfortunately, Liam's halfway across the room, and Connor's off in the opposite corner."
+
+   # Next steps: 
+   # - Seiji dramatic entrance. Viola and Liam exchange looks but can't actually say anything 
+   # - he and Viola snipe at each other a bit before the professor takes contrl? 
+   # 
+   # After class: 
+   # - Notice Connor's bracelet on the floor; decide to go after him to return it 
+   # - Happen upon him explaining the curse to some other freshmen -- piques Viola's interest because 
+   #   she really wants to know more about the curse
+   # - Return the bracelet; he seems shocked to realize he lost it, is a bit overly effusive with his thanks
+
+   return
+   
