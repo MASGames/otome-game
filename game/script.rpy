@@ -3,6 +3,7 @@ define n = Character("Nora")
 define l = Character("Liam")
 define c = Character("Connor")
 define p1 = Character("Professor") 
+define s = Character("Shouhei")
 
 label start:
    scene bg 1 # university birds-eye view 
@@ -92,7 +93,7 @@ label start:
 
    [show CG scene: Viola and Liam staring at the person standing in front of the door, nora and connor confused in background]
 
-   [show shouhei at right]
+   [show s normal at right]
 
    v “That person is--”
 
