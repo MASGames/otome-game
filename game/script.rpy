@@ -3,6 +3,10 @@ define n = Character("Nora")
 define l = Character("Liam")
 define c = Character("Connor")
 define p1 = Character("Professor") 
+define mystery = Character("???")
+define s = Character("Shouhei")
+define sf = Character("Kinuko")
+define vf = Character("Olly")
 
 label start:
    scene bg 1 # university birds-eye view 
@@ -84,61 +88,72 @@ label start:
 
    c "I'll keep an eye out."
 
-   Nora waves again from her desk and leans over, about to say something when--
+   "Nora waves again from her desk and leans over, about to say something when--"
 
-   [play sound “door opening”]
+   # [play sound “door opening”]
 
-   ???: Sorry for being late, Professor.
+   mystery "Sorry for being late, Professor."
 
-   [show CG scene: Viola and Liam staring at the person standing in front of the door, nora and connor confused in background]
+   # TODO: This shouldn't be necessary once we have the CG in place, I think
+   hide v
+   hide n
+   hide l
+   hide c
+   # [show CG scene: Viola and Liam staring at the person standing in front of the door, nora and connor confused in background]
 
-   [show shouhei at right]
+   show s normal at right
 
-   v “That person is--”
+   "That person is--"
 
    p1 "Shouhei TKlastname, how nice of you to join us. Take a seat anywhere you like."
 
-   v "The chatter in the room starts up again, but I can barely hear it. His eyes skim the room before they stop to look at--me? He doesn’t meet my glance though. His eyes flicker once to the other side of the room- to Liam? - before he moves forward past the lines of desks. He sits down, on the third seat in the middle column of chairs and takes out his books."
+   "The chatter in the room starts up again, but I can barely hear it. His eyes skim the room before they stop to look at--me?"
+   
+   "He doesn’t meet my glance though. His eyes flicker once to the other side of the room--to Liam?--before he moves forward past the lines of desks. He sits down, on the third seat in the middle column of chairs and takes out his books."
 
    n "Who is that?"
 
-   Before I can answer, suddenly…
+   "Before I can answer, suddenly…"
 
-   [play sound “TK magic sound”]
-   [show: kinuko, a crane familiar, flying through the window, at center]
+   # [play sound “TK magic sound”]
+   show sf normal at center # should be "flying through the window"
 
-   v "A crane appears, gracefully gliding through an open window to rest by Shouhei’s desk. A physical familiar. The whispers around me get louder. Physical familiars are not unknown, but rarer now than they once were.
+   "A crane appears, gracefully gliding through an open window to rest by Shouhei’s desk. A physical familiar. The whispers around me get louder. Physical familiars are not unknown, but they're rarer now than they once were."
+
+   hide s
+   hide sf 
 
    p1 "All right, class, it’s nice you’re all becoming such good friends, but we have things to learn, and we don’t have all day to do it in. Everyone back to their desks, please." 
 
-   Nora’s desk isn’t too far away from mine. Unfortunately, Liam’s halfway across the room, and Connor’s off in the opposite corner. Shouhei is in the middle of the room.
+   "Nora’s desk isn’t too far away from mine. Unfortunately, Liam’s halfway across the room, and Connor’s off in the opposite corner. Shouhei is in the middle of the room."
 
-   v "Shouhei. Neither I nor Liam have spoken to him since…it was a while ago. I shake off the thought. I can talk with Liam about this later. I turn to the board and Professor begins their lesson."
+   "Shouhei. Neither I nor Liam have spoken to him since…it was a while ago. I shake off the thought. I can talk with Liam about this later. I turn to the board and Professor begins their lesson."
 
-   p1 [TKsome magical canon facts stuff here, like 3 sentences]
+   p1 "(TKsome magical canon facts stuff here, like 3 sentences)"
 
-   v "The chimes ring, signalling the end of the lesson. I stand and stretch, feeling stiff from sitting at the desk for so long. I pack up my bag and head towards the door with the rest of the class, before I almost trip on something."
+   "The chimes ring, signalling the end of the lesson. I stand and stretch, feeling stiff from sitting at the desk for so long. I pack up my bag and head towards the door with the rest of the class, before I almost trip on something."
 
    v "That looks like…"
 
-   [show: TKbracelet, at the center]
+   show TKbracelet at center # (do we neeed a character for this or can we just show random images too?)
 
    v "I pick up the bracelet from the floor. It looks a little familiar. Oh, right. Wasn’t Connor wearing this, when I first met him? It looks sort of expensive. If he dropped it, I probably should return it to him."
 
-   [show: olly, viola’s familiar projecting from her phone at right]
+   hide TKbracelet
+   show vf phone at right
 
-   Olly "It’s lunchtime! Where are you going to go now?" 
+   vf "It’s lunchtime! Where are you going to go now?" 
 
-   v "Most of the class has filed out already. Nora waved cheerfully to me as she left, Liam had dashed off to his after-class job. Connor looked like he was heading back to his room. Shouhei had left too, his familiar gliding behind him."
+   "Most of the class has filed out already. Nora waved cheerfully to me as she left, Liam had dashed off to his after-class job. Connor looked like he was heading back to his room. Shouhei had left too, his familiar gliding behind him."
 
-   I think I’ll go eat lunch at:
+   v "I think I’ll go eat lunch at:"
 
 #TODO TK code these choices
-Choice 1: The health center (to keep company with Liam)
-Choice 2: The rose gardens (Nora)
-Choice 3: The dorms (Connor)
-Choice 4: The lake (Shouhei)
-Choice 5: The cafeteria (common route- she gets food, talks more to Olly about her classes)
+# Choice 1: The health center (to keep company with Liam)
+# Choice 2: The rose gardens (Nora)
+# Choice 3: The dorms (Connor)
+# Choice 4: The lake (Shouhei)
+# Choice 5: The cafeteria (common route- she gets food, talks more to Olly about her classes)
 
    # Next steps: 
    # - Shouhei dramatic entrance Viola and Liam exchange looks but can't actually say anything 
