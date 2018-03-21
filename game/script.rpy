@@ -2,9 +2,10 @@
 define n = Character("Nora")
 define l = Character("Liam")
 define c = Character("Connor")
+define s = Character("Shouhei")
+
 define p1 = Character("Professor") 
 define mystery = Character("???")
-define s = Character("Shouhei")
 define sf = Character("Kinuko")
 define vf = Character("Olly")
 
