@@ -1,13 +1,25 @@
-﻿define v = Character("Viola")
-define n = Character("Nora")
-define l = Character("Liam")
-define c = Character("Connor")
-define p1 = Character("Professor") 
+﻿define v = Character("Viola", image= "v")
+define n = Character("Nora", image = "n")
+define l = Character("Liam", image = "l")
+define c = Character("Connor", image = "c")
+define s = Character("Shouhei", image = "s")
+define o = Character ("Olly", image = "o")
+define cl = Character ("Clara", image = "cl")
+define k = Character ("Kinuko", image = "k")
+define p = Character ("Perrault", image = "p")
+define pc = Character("Professor Corbet", image = "pc") 
+
+image side v normal = "v normal.jpg"
+image side v happy = "v happy.jpg"
+image l normal = "l normal.jpg"
+image l happy = "l happy.jpg"
+image n normal = "n normal.jpg"
+image c normal = "c normal.jpg"
 
 label start:
    scene bg 1 # university birds-eye view 
    
-   "Wyderwold University.  The premier magic college in the United States. Members of my family have attended for generations, and I've wanted to come, following in my brother's footsteps, since before I can remember."
+   "Wyderwold University.  The premier applied magic college in the United States. Members of my family have attended for generations, and I've wanted to come, following in my sister's footsteps, since before I can remember."
 
    "Rumor has it that the school is afflicted with a very peculiar curse: that if you run across it, and you're lucky, you'll be marked for greatness, destined for a life of wealth and plenty."
 
@@ -15,22 +27,124 @@ label start:
 
    "Well."
 
-   "After what happened to my brother, to my whole family, I've wanted to come to this school even more."
+   "After what happened to my sister, to my whole family, I've wanted to come to this school even more."
 
    "So I can find the source of the curse, and end it. For good."
+   
+   scene bg hallway
+   show l normal at left
+   
+   l "Hey Viola, where do you want this to go?" 
+   
+   v normal "That one's books--just put it on my desk for now, I'll unpack it later." 
+   
+   l happy "Oof, no wonder it was so heavy!" 
+   
+   "Well, here I am. After years of looking forward to this day, it's finally come: my first day of classes at Wyderwold University starts tomorrow." 
+   
+   "Which means that tonight is reserved for moving in." 
+   
+   "My parents dropped my stuff off at the entrance to the dorms, but they're too busy to stick around and help me move in properly, so we hugged at the entrance, they gave me the usual reminders to remember to make our family name proud, and left." 
+   
+   "Luckily for my back, on my second trip upstairs--because of course my dorm room is on the third floor--I ran into Liam, and he's been helping me move everything else up." 
+   
+   "Liam was one of my best friends when we were younger, but after…everything, my parents could no longer afford to retain his doctor mother's services, so he and his mothers had ended up having to move away." 
+   
+   "We'd kept in touch for a while, but we were also *twelve*; eventually we lost touch." 
+   "Until a few weeks ago, when I'd received a message from him out of the blue, asking if I was still planning on attending Wyderwold, and mentioning that he'd managed to get in as well." 
+   
+   "(Back when we were younger, we'd all three planned to attend together. But then, well. That hadn't really worked out.)" 
+   
+   "We planned to both arrive at the same time, so we could help each other move in, but then my parents had a meeting that ran late, and there was a minor emergency of some sort, and--well, an on-time arrival just didn't happen." 
+   
+   l "I'm heading back downstairs for another load." 
+   
+   v happy "Thanks! Just--be careful if you grab the purple duffle bag, it's got some kinda fragile stuff inside." 
+   
+   l "Got it." 
+   
+   "Luckily, he doesn't seem to mind helping me out, even if I got here too late to return the favor. I should see if he'll let me buy him lunch sometime this week, as thanks."
+   
+   hide l
+   scene bg v dorm
+   
+   "It looks like I got here a lot later than my new roommate, too. Her side of the room is already set up: a computer on her desk with a large lamp looming over it; bed carefully made up with a comforter a lovely shade of light blue; wardrobe with one door left slightly ajar showing that it had been filled with clothes, and a stack of deconstructed cardboard boxes stacked up behind the trash cans." 
+   
+   "I'd be a bit worried that she'd think I was some sort of slob--I'm truly not, but I also don't always keep everything 100 percent straightened 100 percent of the time--except for the stack of small objects scattered over the rest of her desk, a few of which appeared to have spilled over onto her bed and the floor. A couple of them look like old smartphones, or pieces of them, but most of them I have no idea what they are, or what they're for." 
+   
+   "Liam and I are carrying my last two bags into the room when we almost bump into my new roommate." 
+   
+   show l normal at left
+   show n normal at right
+   
+   v "Oh, sorry! We're almost done. I'm your new roommate--Viola Ashmark." 
+   
+   n "Nice to meet you, I'm Nora Galena." 
+   
+   "She steps out of the way to let us pass." 
+   
+   n "I was just about to run my boxes down to the recycling station--I'll be back upstairs in a few minutes." 
+   
+   v "Oh, good idea! I should probably finish unpacking first, though." 
+   
+   hide n
+   scene bg hallway
+   
+   "The dorm administrators set up a station in the main hall of the dorms, where you can leave your boxes and they'll be dealt with appropriately. I'm sure if recycling is exactly the right word, given that I also heard that that was where you were supposed to go to get materials to pack up for the summer, and it seems like a waste if they're going to end up breaking the boxes down at the beginning of the year just to reconstitute them into...more boxes, at the end of the year. But I didn't bother to enquire too deeply into the process; as far as I'm concerned, the boxes will be out of my dorm room and not my problem anymore, which is all I need to know."
+   
+   scene bg v dorm
+   
+   "I've unpacked about half my clothes, and I'm taking a break to get Liam's help with making up my bed, when Nora returns." 
+   
+   show n normal at right
+   
+   n "And--your brother?" 
 
-   # TODO: Add scene with Viola meeting Nora for the first time as they're moving in
-   # - Liam's helping her move idk a chair, so they get their first introduction + some 
-   #   implications that he's the osananajimi character
-   # - Nora has some artificing equipment that Viola asks about, fleshing her character out some
+   "Liam and I look nothing alike, but I suppose it's not an unfair assumption to make--one of us could be adopted, after all." 
+
+   v "Sorry, I should have introduced you earlier--this is Liam. We were friends when we were younger." 
+
+   "Hopefully we still would be. We hadn't talked about much, yet, but if he wanted to pick up where we'd left off all those years ago, I'd be happy to do so too." 
+
+   l happy "Nice to meet you." 
+
+   n happy "Likewise." 
+
+   l "I'll try not to invade your room in the future, it's just."
+   
+   v "I asked him to help."
+   
+   show l normal at left
+
+   n normal "Moving in is pretty terrible, yeah. Even with my family helping, it took me most of the afternoon to get settled." 
+
+   n "I don't mind if you drop by in the future--I'm sure you two will want to catch up, too. Just maybe let me know in advance? Just in case I'm not in a fit state for visitors."
+   
+   l "Of course. That's only polite." 
+
+   l "Speaking of, I should probably be going." 
+
+   v "Oh right--I probably interrupted your unpacking process, too, didn't I? Sure, go ahead--I'll see you in Summoning 101 in the morning?" 
+
+   "I hesitate. Back when we were kids, we'd usually hug each other before we went back home." 
+
+   "But we're not kids anymore, a fact that is blatantly obvious just looking at Liam. He must be nearly a foot taller than me by now, and he has muscles! [TK more oh no he's hot??]"
+
+   "But before I can make up my mind for sure, the moment passes." 
+
+   l happy "See you in the morning!" 
+
+   hide l
+
+   "He leaves, and I turn back to my side of the room. I've still got so much left to unpack." 
+
+   "But at least I'm here now."
 
    scene bg 2 # Nora and Viola's dorm room
 
    show n normal at center
 
    n "Viola, are you about ready? It's almost time for (intro class TK) to start."
-
-   show v normal at left # vspot
 
    v "Yes, I'll be right there!"
 
@@ -43,15 +157,11 @@ label start:
    n "As long as it doesn't make us late –"
  
    scene bg 3 # Classroom 
-
-   show v normal at left # vspot
    show n normal at center
 
    v "– And the first rose bush was originally donated by one of my ancestors, though it's at the center of the garden, so we didn't see it this time."
   
    n "Wow, that's, what – several hundred years ago?  And it still blooms?"
-
-   show v normal at left # happy at vspot
 
    v "Magic."
 
@@ -84,7 +194,7 @@ label start:
 
    c "I'll keep an eye out."
 
-   p1 "All right, class, it's nice you're all becoming such good friends, but we have things to learn, and we don't have all day to do it in. Everyone to their desks, please."
+   pc "All right, class, it's nice you're all becoming such good friends, but we have things to learn, and we don't have all day to do it in. Everyone to their desks, please."
 
    "Nora's desk isn't too far away from mine. Unfortunately, Liam's halfway across the room, and Connor's off in the opposite corner."
 
