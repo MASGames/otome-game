@@ -1,4 +1,4 @@
-﻿define v = Character("Viola", image= "v")
+define v = Character("Viola", image= "v")
 define n = Character("Nora", image = "n")
 define l = Character("Liam", image = "l")
 define c = Character("Connor", image = "c")
@@ -193,20 +193,6 @@ label start:
    # TODO: characters laughing? 
 
    c "I'll keep an eye out."
-
-   pc "All right, class, it's nice you're all becoming such good friends, but we have things to learn, and we don't have all day to do it in. Everyone to their desks, please."
-
-   "Nora's desk isn't too far away from mine. Unfortunately, Liam's halfway across the room, and Connor's off in the opposite corner."
-
-   # Next steps: 
-   # - Seiji dramatic entrance. Viola and Liam exchange looks but can't actually say anything 
-   # - he and Viola snipe at each other a bit before the professor takes contrl? 
-   # 
-   # After class: 
-   # - Notice Connor's bracelet on the floor; decide to go after him to return it 
-   # - Happen upon him explaining the curse to some other freshmen -- piques Viola's interest because 
-   #   she really wants to know more about the curse
-   # - Return the bracelet; he seems shocked to realize he lost it, is a bit overly effusive with his thanks
 
    return
    
