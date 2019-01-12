@@ -192,7 +192,7 @@ label start:
 
    # TODO: characters laughing? 
 
-   c "I'll keep an eye out."
+   c "I'll keep an eye out." test
 
    return
    
