@@ -8,7 +8,9 @@ define cl = Character ("Clara", image = "cl")
 define k = Character ("Kinuko", image = "k")
 define p = Character ("Perrault", image = "p")
 define pc = Character("Professor Corbet", image = "pc")
-define mystery = Character ("???") 
+define mystery = Character ("???")
+define audio.dooropen = Door Squeak.mp3
+define audio.magiceffect = shootingstar.mp3
 
 image side v normal = "v normal.jpg"
 image side v happy = "v happy.jpg"
@@ -240,7 +242,7 @@ label start:
    
    "Nora leans over from her desk, about to say something when--"
 
-   play sound "Door Squeak.mp3" 
+   play sound dooropen 
 
    mystery "Sorry for being late, Professor."
 
@@ -256,7 +258,7 @@ label start:
 
    "Before I can answer, suddenly--"
    
-   play sound "magicsound.mp3"
+   play sound magiceffect
 
    show k at center
 
