@@ -225,9 +225,9 @@ label start:
 
    n "And this is Perrault." 
 
-   show per normal
+   show p normal
 
-   per "Greetings, all. It is a pleasure to meet you." 
+   p "Greetings, all. It is a pleasure to meet you." 
 
    "Perrault seems pretty laid back; he manifests in a sitting position and doesn't bother to either stand or open his wings. I hope this is a good sign that he and Nora will make good roommates. I really like Clara, but even if co-ed dorm rooms were allowed, I don't think I'd want to live with her." 
 
