@@ -256,7 +256,7 @@ label start:
 
    "Before I can answer, suddenly--"
    
-   play sound "magicsound.mp3"
+   #play sound "magicsound.mp3"
 
    show k at center
 
@@ -289,48 +289,33 @@ label start:
 
    "I think I’ll go eat lunch at:"
 
-   $lpoints = 0
-   $spoints = 0
+$lpoints = 0
+$spoints = 0
    
-   menu:
-
-   "The health center to keep company with Liam":
-   $lpoints += 1
-   jump l1
-
-   "The rose gardens":
-   $lpoints += 1
-   jump n1
-
-   "The dorms":
-   $lpoints += 1
-   jump c1
-
-   "The lake":
-   $spoints += 1
-   jump s1
+menu:
+       "The health center":
+            $lpoints += 1
+            jump l1
+       
+       "The rose garden":
+            $spoints += 1
+            jump s1
+       
+label l1:
+    
+    l "y"
+    
+    jump postchoice
+    
+label s1:
+    
+    s "y"
+    
+    jump postchoice
+    
+label postchoice:
    
-   label l1:
-   l "You did something that got you a point with Liam."
-
-   jump postchoice
-   
-   label n1:
-   l "You did something that got you a point with Nora."
-
-   jump postchoice
-
-   label c1:
-   l "You did something that got you a point with Connor."
-
-   jump postchoice
-
-   label s1:
-   s "You did something that got you a point with Shouhei."
-
-   jump postchoice
-   
-   label postchoice:
+   v "y"
 
    return
    
