@@ -294,21 +294,21 @@ label start:
    
    menu:
 
-   "The health center to keep company with Liam":
-   $lpoints += 1
-   jump l1
+      "The health center to keep company with Liam":
+         $lpoints += 1
+         jump l1
 
-   "The rose gardens":
-   $lpoints += 1
-   jump n1
+      "The rose gardens":
+         $lpoints += 1
+         jump n1
 
-   "The dorms":
-   $lpoints += 1
-   jump c1
+      "The dorms":
+         $lpoints += 1
+         jump c1
 
-   "The lake":
-   $spoints += 1
-   jump s1
+      "The lake":
+         $spoints += 1
+         jump s1
    
    label l1:
    l "You did something that got you a point with Liam."
