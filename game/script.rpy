@@ -51,9 +51,10 @@ label start:
    
    "Luckily for my back, on my second trip upstairs--because of course my dorm room is on the third floor--I ran into Liam, and he's been helping me move everything else up." 
    
-   "Liam was one of my best friends when we were younger, but after…everything, my parents could no longer afford to retain his doctor mother's services, so he and his mothers had ended up having to move away." 
+   "Liam was one of my best friends when we were younger, but after...everything, my parents could no longer afford to retain his doctor mother's services, so he and his mothers had ended up having to move away." 
    
    "We'd kept in touch for a while, but we were also *twelve*; eventually we lost touch." 
+   
    "Until a few weeks ago, when I'd received a message from him out of the blue, asking if I was still planning on attending Wyderwold, and mentioning that he'd managed to get in as well." 
    
    "(Back when we were younger, we'd all three planned to attend together. But then, well. That hadn't really worked out.)" 
@@ -68,7 +69,6 @@ label start:
    
    "Luckily, he doesn't seem to mind helping me out, even if I got here too late to return the favor. I should see if he'll let me buy him lunch sometime this week, as thanks."
    
-   hide l
    scene bg v dorm
    
    "It looks like I got here a lot later than my new roommate, too. Her side of the room is already set up: a computer on her desk with a large lamp looming over it; bed carefully made up with a comforter a lovely shade of light blue; wardrobe with one door left slightly ajar showing that it had been filled with clothes, and a stack of deconstructed cardboard boxes stacked up behind the trash cans." 
@@ -104,6 +104,8 @@ label start:
    n "And--your brother?" 
 
    "Liam and I look nothing alike, but I suppose it's not an unfair assumption to make--one of us could be adopted, after all." 
+   
+   show l normal at left
 
    v "Sorry, I should have introduced you earlier--this is Liam. We were friends when we were younger." 
 
@@ -127,11 +129,13 @@ label start:
 
    l "Speaking of, I should probably be going." 
 
-   v "Oh right--I probably interrupted your unpacking process, too, didn't I? Sure, go ahead--I'll see you in Summoning 101 in the morning?" 
+   v "Oh right--I probably interrupted your unpacking process, too, didn't I? Sure, go ahead--I'll see you in Magical Fields in the morning?" 
 
    "I hesitate. Back when we were kids, we'd usually hug each other before we went back home." 
 
-   "But we're not kids anymore, a fact that is blatantly obvious just looking at Liam. He must be nearly a foot taller than me by now, and he has muscles! (TK more oh no he's hot, brief description of appearance here??)"
+   "But we're not kids anymore, a fact that is blatantly obvious just looking at Liam. He must be nearly a foot taller than me by now, and are those actual muscles? It's a far cry from the scrawny kid I remember."
+   
+   "I'm not complaining, but it's a lot to take in. And maybe he's beyond kid stuff now."
 
    "But before I can make up my mind for sure, the moment passes." 
 
@@ -145,47 +149,46 @@ label start:
 
    scene bg 2 # Nora and Viola's dorm room
 
-   show n normal at center
+# I kinda wanna put a fade in here. 
 
-   n "Viola, are you about ready? It's almost time for Summoning 101 to start."
+   show n normal
+
+   n "Viola, are you about ready? It's almost time for Magical Fields to start."
 
    v "Yes, I'll be right there!"
-
-   "Nora Galena is my roommate; we met last night while we were finishing moving in. She said she's planning on majoring in artificing – apparently her entire family are artificers"
    
-   "That means that we'll have Summoning 101 and Magical Fields together. It'll be nice to know someone other than Liam in a few of my classes."
+   "Turns out we have two classes together--Magical Fields and Summoning 101. It'll be nice to know someone other than Liam in a few of my classes."
 
    v "Let's go! This is your first time on campus, right? Let's go by way of the gardens, I'll show you the way."
 
    n "As long as it doesn't make us late-–"
  
    scene bg 3 # Classroom 
-   show n normal at center
+   show n normal
 
    v "–-And the first rose bush was originally donated by one of my ancestors, though it's at the center of the garden, so we didn't see it this time."
   
-   n "Wow, that's, what – several hundred years ago?  And it still blooms?"
+   n "Wow, that's, what--several hundred years ago?  And it still blooms?"
 
-   v "Magic."
-
-   show n normal at center # TODO: laughing or should it just be happy?  
+   #v "Magic."
    
-   n "Fair point."
+   #n happy "Fair point." [I feel like this banter fits a little less in a world where magic is normal.]
+   
+   v "Miranda Ashmark wasn't big on entropy."
 
-   show l normal at left
-   show n normal at right 
+   show l normal at right
+   show n normal at left 
  
    l "Viola! Long time no see." 
 
-   v "Oh yes, a whole 24 hours. Come on, come sit with us. This is Nora, my roommate. Nora, this is Liam--we've been friends since we were..."
+   v "Oh yes, a whole 15 hours. Come on, come sit with us."
+   
+   "Liam's with someone I don't recognize. Another classmate, maybe?"
 
-   l "Infants?" 
-
-   v "Close enough."
-
-   l "Nice to meet you, Nora. This is my roommate, Connor."
-
-   show c normal at left
+   l "Oh, and this is my roommate, Connor."
+   
+   show l normal at center
+   show c normal at right
 
    c "Nice to meet you, Viola, Nora."
 
@@ -193,8 +196,9 @@ label start:
 
    l "That was one time! We were five!"
 
-   # TODO: characters laughing? 
-
+   show n laughing at left
+   show c laughing at right
+                                                                                                            
    c "I'll keep an eye out."  
    
    v "Oh, right--and this is my familiar, Oleander." 
@@ -203,7 +207,7 @@ label start:
    
    "He's about twice the size of the phone, which is pretty common for dragon familiars, and his coloration--a darkish green with gold accents--is still one of my favorite things about his appearance." 
 
-   show o normal
+   show o normal #We'll have to define new locations to show four characters at once. Right now he's overwritten Liam.
 
    o "Nice to meet you! Please call me Olly." 
    
@@ -211,7 +215,7 @@ label start:
    
    l "This is Clara." 
    
-   show cl normal
+   show cl normal #For this scene I think we can swap out the familiar sprites, so we don't end up with seven people on screen, which is a little crowded.
    
    cl "Olly! Good to see you again." 
    
@@ -221,10 +225,7 @@ label start:
 
    show cl preening
 
-   cl "It sure has!"
-
-   hide cl
-   hide o
+   cl "They sure have!"
 
    n "And this is Perrault." 
 
@@ -238,7 +239,9 @@ label start:
    
    "We all turn to Connor, but before he has a chance to introduce his familiar, the professor comes in, and we all hastily sit down."
    
-   pc "Welcome to Summoning 101: An Introduction to Familiars and You. And as this likely the first class for many of you, I would like to formally welcome you to Wyderwold University as well."
+   pc "Welcome to Foundations 105: Magical Fields. I'm Professor Corbet." 
+   
+   pc "And as this likely the first class for many of you, I would like to formally welcome you to Wyderwold University as well."
    
    "Nora leans over from her desk, about to say something when--"
 
@@ -248,73 +251,106 @@ label start:
 
    scene bg #CG scene: Viola and Liam staring at the person standing in front of the door, nora and connor confused in background
 
-   v "That person is--"
+   v "That person is--" #I'm sure there's a way to show a character's name without showing their sprite, but actually, what do you guys think about showing sprites at Viola's location during CGs? It's especially useful for if the CGs don't show everyone's faces. We'd just have to make and define new side images.
 
    pc "Shouhei Utsurikawa, was it? How nice of you to join us. Take a seat anywhere you like."
 
-   "The chatter in the room starts up again, but I can barely hear it. His eyes skim the room before they stop to look at--me? He doesn’t meet my glance though. His eyes flicker once to the other side of the room--to Liam?--before he moves forward past the lines of desks. He sits down, on the third seat in the middle column of chairs and takes out his books."
+   "The chatter in the room starts up again, but I can barely hear it. His eyes skim the room before they stop to look at--me? Liam? Both?"
+   
+   "He doesn’t meet my glance, though. His eyes flicker away, and he takes a seat on the opposite side of the room. Without another word, he takes out his books and faces forward, away from us."
+   
+   scene bg 3 # Classroom
+   show n normal at left
 
-   n "Who is that?"
+   n "You know that guy?" 
 
    "Before I can answer, suddenly--"
    
+   hide n
+   
    play sound magiceffect
 
-   show k at center
+   show k
 
    "A crane appears, gracefully gliding through an open window to rest by Shouhei’s desk. A physical familiar. The whispers around me get louder. Physical familiars are not unknown, but rarer now than they once were."
    
    hide k
+   show pc normal
    
-   pc "All right, class, it’s nice you’re all becoming such good friends, but we have things to learn, and we don’t have all day to do it in. Everyone back to their desks, please."
+   #pc "All right, class, it’s nice you’re all becoming such good friends, but we have things to learn, and we don’t have all day to do it in. Everyone back to their desks, please."
 
-   "Nora’s desk isn’t too far away from mine. Unfortunately, Liam’s halfway across the room, and Connor’s off in the opposite corner. Shouhei is in the middle of the room."
+   #"Nora’s desk isn’t too far away from mine. Unfortunately, Liam’s halfway across the room, and Connor’s off in the opposite corner. Shouhei is in the middle of the room." [Is there a reason they're all separated?]
    
-   "Shouhei. Neither I nor Liam have spoken to him since…it was a while ago. I shake off the thought. I can talk with Liam about this later. I turn to the board and Professor begins their lesson."
+   pc "As I was saying..."
+   
+   "I should pay attention to Corbet, but I'm still stuck on Shouhei. Neither I nor Liam have spoken to him since...it was a while ago. I shake off the thought. I can talk with Liam about this later. I turn to the board and Corbet begins their lesson."
 
-   pc "TK blah blah blah some magical facts on summoning here."
+   pc "TK blah blah blah some facts on magical fields here."
+   
+   hide pc
+   
+   "The chimes ring, signalling the end of the lesson. I stand and stretch, feeling stiff from sitting at the desk for so long. I pack up my bag and head towards the door with the rest of the class."
 
-   "The chimes ring, signalling the end of the lesson. I stand and stretch, feeling stiff from sitting at the desk for so long. I pack up my bag and head towards the door with the rest of the class, before I almost trip on something."
+   #"The chimes ring, signalling the end of the lesson. I stand and stretch, feeling stiff from sitting at the desk for so long. I pack up my bag and head towards the door with the rest of the class, before I almost trip on something."
 
-   v "That looks like…"
+   #v "That looks like..."
 
-   show bracelet at center
+   #show bracelet
 
-   "I pick up the bracelet from the floor. It looks a little bit familiar. Oh, right. Wasn’t Connor wearing this, when I first met him? It looks sort of expensive. If he dropped it, I probably should return it to him."
+   #"I pick up the bracelet from the floor. It looks a little bit familiar. Oh, right. Wasn’t Connor wearing this, when I first met him? It looks sort of expensive. If he dropped it, I probably should return it to him."
 
-   hide bracelet
+   #hide bracelet [All of this will be hidden until we figure out what the code is for unlocking it.]
    show o at right
 
    o "It’s lunchtime! Where are you going to go now?" 
 
-   "Most of the class has filed out already. Nora waved cheerfully to me as she left, Liam had dashed off to his after-class job. Connor looked like he was heading back to his room. Shouhei had left too, Kinuko gliding behind him."
+   "Most of the class has filed out already. Nora waved cheerfully to me as she left, Liam dashed off to his after-class job. Connor looked like he was heading back to his room. Shouhei's left too, Kinuko gliding behind him."
 
-   "I think I’ll go eat lunch at:"
+   "I think I’ll go eat lunch at..."
 
 $lpoints = 0
+$spoints = 0
 $npoints = 0
+$cpoints = 0
    
 menu:
 
-       "The health center":
+    "The health center":
             $lpoints += 1
-            jump l1
+            jump health1
+            
+    "The lake":
+            $spoints += 1
+            jump lake1
        
-       "The rose garden":
+    "The rose garden":
             $npoints += 1
-            jump s1
+            jump garden1
+            
+    #"The dorms":
+            #$cpoints += 1
+            #jump dorms1
+        
        
-label l1:
+label health1:
     
     l "y"
     
     jump postchoice
     
-label n1:
+label lake1:
+    
+    s "y"
+    
+    jump postchoice
+
+label garden1:
     
     n "y"
     
-    jump postchoice
+#label dorms1:
+
+    #c "y"
     
 label postchoice:
    
