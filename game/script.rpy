@@ -295,6 +295,7 @@ $lpoints = 0
 $spoints = 0
    
 menu:
+
        "The health center":
             $lpoints += 1
             jump l1
