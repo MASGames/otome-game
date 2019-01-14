@@ -7,7 +7,8 @@ define o = Character ("Olly", image = "o")
 define cl = Character ("Clara", image = "cl")
 define k = Character ("Kinuko", image = "k")
 define p = Character ("Perrault", image = "p")
-define pc = Character("Professor Corbet", image = "pc") 
+define pc = Character("Professor Corbet", image = "pc")
+define mystery = Character ("???") 
 
 image side v normal = "v normal.jpg"
 image side v happy = "v happy.jpg"
@@ -241,7 +242,7 @@ label start:
 
    play sound "dooropen.mp3" 
 
-   ??? "Sorry for being late, Professor."
+   mystery "Sorry for being late, Professor."
 
    scene bg #CG scene: Viola and Liam staring at the person standing in front of the door, nora and connor confused in background
 
