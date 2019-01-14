@@ -194,5 +194,42 @@ label start:
 
    c "I'll keep an eye out."  
    
+   v "Oh, right--and this is my familiar, Oleander." 
+
+   "I pull out my phone--Olly can manifest through my pocket too, but it's only polite to show your phone when introducing familiars. He appears with a bit of a twirl, spreading his wings wide and puffing his chest out proudly." 
+   
+   "He's about twice the size of the phone, which is pretty common for dragon familiars, and his coloration--a darkish green with gold accents--is still one of my favorite things about his appearance." 
+
+   show o normal
+
+   o "Nice to meet you! Please call me Olly." 
+   
+   "Liam and Nora pull their phones out, too. Liam's is an older model, though clearly well cared for, and Nora's looks brand new." 
+   
+   l "This is Clara." 
+   
+   show c normal
+   
+   c "Olly! Good to see you again." 
+   
+   "Clara is a jackalope familiar. A rabbit with sleek brown fur and bright eyes, outwardly no different from other rabbits, except for one tiny detail. I feel a twinge of something sharp, maybe something sad--it's been so long since I had last seen her, and Liam."
+
+   o "Likewise! Your antlers look great--have they grown?" 
+
+   show c preening
+
+   c "It sure has!"
+
+   hide c
+   hide o
+
+   n "And this is Perrault." 
+
+   show per normal
+
+   per "Greetings, all. It is a pleasure to meet you." 
+
+   "Perrault seems pretty laid back; he manifests in a sitting position and doesn't bother to either stand or open his wings. I hope this is a good sign that he and Nora will make good roommates. I really like Clara, but even if co-ed dorm rooms were allowed, I don't think I'd want to live with her." 
+
     return
    
