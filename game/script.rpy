@@ -258,11 +258,7 @@ label start:
 
    "Before I can answer, suddenly--"
    
-<<<<<<< HEAD
-   #play sound "magicsound.mp3"
-=======
    play sound magiceffect
->>>>>>> 5bf2851aaa55df3016ece795422e4fc55e11f7d7
 
    show k at center
 
