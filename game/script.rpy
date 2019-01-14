@@ -128,7 +128,7 @@ label start:
 
    "I hesitate. Back when we were kids, we'd usually hug each other before we went back home." 
 
-   "But we're not kids anymore, a fact that is blatantly obvious just looking at Liam. He must be nearly a foot taller than me by now, and he has muscles! [TK more oh no he's hot??]"
+   "But we're not kids anymore, a fact that is blatantly obvious just looking at Liam. He must be nearly a foot taller than me by now, and he has muscles! (TK more oh no he's hot, brief description of appearance here??)"
 
    "But before I can make up my mind for sure, the moment passes." 
 
@@ -144,22 +144,22 @@ label start:
 
    show n normal at center
 
-   n "Viola, are you about ready? It's almost time for (intro class TK) to start."
+   n "Viola, are you about ready? It's almost time for Summoning 101 to start."
 
    v "Yes, I'll be right there!"
 
-   "Nora (last name TK) is my roommate; we met last night while we were finishing moving in. She said she's planning on majoring in artificing – apparently her entire family are artificers"
+   "Nora Galena is my roommate; we met last night while we were finishing moving in. She said she's planning on majoring in artificing – apparently her entire family are artificers"
    
-   "That means that we'll have (intro class TK) and (artificing 101?) together. It'll be nice to know someone other than Liam in a few of my classes."
+   "That means that we'll have Summoning 101 and Magical Fields together. It'll be nice to know someone other than Liam in a few of my classes."
 
    v "Let's go! This is your first time on campus, right? Let's go by way of the gardens, I'll show you the way."
 
-   n "As long as it doesn't make us late –"
+   n "As long as it doesn't make us late-–"
  
    scene bg 3 # Classroom 
    show n normal at center
 
-   v "– And the first rose bush was originally donated by one of my ancestors, though it's at the center of the garden, so we didn't see it this time."
+   v "–-And the first rose bush was originally donated by one of my ancestors, though it's at the center of the garden, so we didn't see it this time."
   
    n "Wow, that's, what – several hundred years ago?  And it still blooms?"
 
@@ -174,7 +174,7 @@ label start:
  
    l "Viola! Long time no see." 
 
-   v "Oh yes, a whole 24 hours. Come on, come sit with us. This is Nora, my roommate. Nora, this is Liam -- we've been friends since we were ..."
+   v "Oh yes, a whole 24 hours. Come on, come sit with us. This is Nora, my roommate. Nora, this is Liam--we've been friends since we were..."
 
    l "Infants?" 
 
@@ -186,7 +186,7 @@ label start:
 
    c "Nice to meet you, Viola, Nora."
 
-   v "Watch out -- Liam bites."
+   v "Watch out--Liam bites."
 
    l "That was one time! We were five!"
 
@@ -237,5 +237,15 @@ label start:
    
    pc "Welcome to Summoning 101: An Introduction to Familiars and You. And as this likely the first class for many of you, I would like to formally welcome you to Wyderwold University as well."
    
+   "Nora leans over from her desk, about to say something when--"
+
+   play sound "dooropen.mp3" 
+
+   ??? "Sorry for being late, Professor."
+
+   scene bg #CG scene: Viola and Liam staring at the person standing in front of the door, nora and connor confused in background
+
+   v "That person is--"
+
    return
    
