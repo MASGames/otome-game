@@ -229,7 +229,13 @@ label start:
 
    p "Greetings, all. It is a pleasure to meet you." 
 
-   "Perrault seems pretty laid back; he manifests in a sitting position and doesn't bother to either stand or open his wings. I hope this is a good sign that he and Nora will make good roommates. I really like Clara, but even if co-ed dorm rooms were allowed, I don't think I'd want to live with her." 
+   "Perrault seems pretty laid back; he manifests in a sitting position and doesn't bother to either stand or open his wings. I hope this is a good sign that he and Nora will make good roommates. I really like Clara, but even if co-ed dorm rooms were allowed, I don't think I'd want to live with her."
 
-    return
+   "Though who knows, maybe she's calmed down in the past few years."
+   
+   "We all turn to Connor, but before he has a chance to introduce his familiar, the professor comes in, and we all hastily sit down."
+   
+   pc "Welcome to Summoning 101: An Introduction to Familiars and You. And as this likely the first class for many of you, I would like to formally welcome you to Wyderwold University as well."
+   
+   return
    
