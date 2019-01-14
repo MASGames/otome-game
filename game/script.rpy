@@ -23,7 +23,7 @@ label start:
 
    "Rumor has it that the school is afflicted with a very peculiar curse: that if you run across it, and you're lucky, you'll be marked for greatness, destined for a life of wealth and plenty."
 
-   "If you're unlucky ..."
+   "If you're unlucky..."
 
    "Well."
 
@@ -246,6 +246,47 @@ label start:
    scene bg #CG scene: Viola and Liam staring at the person standing in front of the door, nora and connor confused in background
 
    v "That person is--"
+
+   pc "Shouhei Utsurikawa, was it? How nice of you to join us. Take a seat anywhere you like."
+
+   "The chatter in the room starts up again, but I can barely hear it. His eyes skim the room before they stop to look at--me? He doesn’t meet my glance though. His eyes flicker once to the other side of the room--to Liam?--before he moves forward past the lines of desks. He sits down, on the third seat in the middle column of chairs and takes out his books."
+
+   n "Who is that?"
+
+   "Before I can answer, suddenly--"
+   
+   play sound "magicsound.mp3"
+
+   show k at center
+
+   "A crane appears, gracefully gliding through an open window to rest by Shouhei’s desk. A physical familiar. The whispers around me get louder. Physical familiars are not unknown, but rarer now than they once were."
+   
+   Hide k
+   
+   pc "All right, class, it’s nice you’re all becoming such good friends, but we have things to learn, and we don’t have all day to do it in. Everyone back to their desks, please."
+
+   "Nora’s desk isn’t too far away from mine. Unfortunately, Liam’s halfway across the room, and Connor’s off in the opposite corner. Shouhei is in the middle of the room."
+   
+   "Shouhei. Neither I nor Liam have spoken to him since…it was a while ago. I shake off the thought. I can talk with Liam about this later. I turn to the board and Professor begins their lesson."
+
+   pc "TK blah blah blah some magical facts on summoning here."
+
+   "The chimes ring, signalling the end of the lesson. I stand and stretch, feeling stiff from sitting at the desk for so long. I pack up my bag and head towards the door with the rest of the class, before I almost trip on something."
+
+   v "That looks like…"
+
+   show bracelet at center
+
+   "I pick up the bracelet from the floor. It looks a little bit familiar. Oh, right. Wasn’t Connor wearing this, when I first met him? It looks sort of expensive. If he dropped it, I probably should return it to him."
+
+   hide bracelet
+   show o at right
+
+   o "It’s lunchtime! Where are you going to go now?" 
+
+   "Most of the class has filed out already. Nora waved cheerfully to me as she left, Liam had dashed off to his after-class job. Connor looked like he was heading back to his room. Shouhei had left too, Kinuko gliding behind him."
+
+   "I think I’ll go eat lunch at:"
 
    return
    
