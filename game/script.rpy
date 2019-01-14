@@ -208,19 +208,19 @@ label start:
    
    l "This is Clara." 
    
-   show c normal
+   show cl normal
    
-   c "Olly! Good to see you again." 
+   cl "Olly! Good to see you again." 
    
    "Clara is a jackalope familiar. A rabbit with sleek brown fur and bright eyes, outwardly no different from other rabbits, except for one tiny detail. I feel a twinge of something sharp, maybe something sad--it's been so long since I had last seen her, and Liam."
 
    o "Likewise! Your antlers look great--have they grown?" 
 
-   show c preening
+   show cl preening
 
-   c "It sure has!"
+   cl "It sure has!"
 
-   hide c
+   hide cl
    hide o
 
    n "And this is Perrault." 
@@ -261,7 +261,7 @@ label start:
 
    "A crane appears, gracefully gliding through an open window to rest by Shouhei’s desk. A physical familiar. The whispers around me get louder. Physical familiars are not unknown, but rarer now than they once were."
    
-   Hide k
+   hide k
    
    pc "All right, class, it’s nice you’re all becoming such good friends, but we have things to learn, and we don’t have all day to do it in. Everyone back to their desks, please."
 
@@ -287,6 +287,49 @@ label start:
    "Most of the class has filed out already. Nora waved cheerfully to me as she left, Liam had dashed off to his after-class job. Connor looked like he was heading back to his room. Shouhei had left too, Kinuko gliding behind him."
 
    "I think I’ll go eat lunch at:"
+
+   $lpoints = 0
+   $spoints = 0
+   
+   menu:
+
+   "The health center to keep company with Liam":
+   $lpoints += 1
+   jump l1
+
+   "The rose gardens":
+   $lpoints += 1
+   jump n1
+
+   "The dorms":
+   $lpoints += 1
+   jump c1
+
+   "The lake":
+   $spoints += 1
+   jump s1
+   
+   label l1:
+   l "You did something that got you a point with Liam."
+
+   jump postchoice
+   
+   label n1:
+   l "You did something that got you a point with Nora."
+
+   jump postchoice
+
+   label c1:
+   l "You did something that got you a point with Connor."
+
+   jump postchoice
+
+   label s1:
+   s "You did something that got you a point with Shouhei."
+
+   jump postchoice
+   
+   label postchoice:
 
    return
    
