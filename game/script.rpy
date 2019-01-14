@@ -192,7 +192,12 @@ label start:
 
    # TODO: characters laughing? 
 
-   c "I'll keep an eye out."
+   c "I'll keep an eye out."  
+   
+   v "says something here test sentence test sentence."
+   
+   o "says a response here test sentence test sentence."
+  
 
    return
    
