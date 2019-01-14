@@ -9,8 +9,8 @@ define k = Character ("Kinuko", image = "k")
 define p = Character ("Perrault", image = "p")
 define pc = Character("Professor Corbet", image = "pc")
 define mystery = Character ("???")
-define audio.dooropen = Door Squeak.mp3
-define audio.magiceffect = shootingstar.mp3
+define audio.dooropen = "Door Squeak.mp3"
+define audio.magiceffect = "shootingstar.mp3"
 
 image side v normal = "v normal.jpg"
 image side v happy = "v happy.jpg"
