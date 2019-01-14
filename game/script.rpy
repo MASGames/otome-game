@@ -240,7 +240,7 @@ label start:
    
    "Nora leans over from her desk, about to say something when--"
 
-   play sound "dooropen.mp3" 
+   play sound "Door Squeak.mp3" 
 
    mystery "Sorry for being late, Professor."
 
