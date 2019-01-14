@@ -292,7 +292,7 @@ label start:
    "I think I’ll go eat lunch at:"
 
 $lpoints = 0
-$spoints = 0
+$npoints = 0
    
 menu:
 
@@ -301,7 +301,7 @@ menu:
             jump l1
        
        "The rose garden":
-            $spoints += 1
+            $npoints += 1
             jump s1
        
 label l1:
@@ -310,9 +310,9 @@ label l1:
     
     jump postchoice
     
-label s1:
+label n1:
     
-    s "y"
+    n "y"
     
     jump postchoice
     
