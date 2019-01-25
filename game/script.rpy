@@ -3,12 +3,13 @@ define n = Character("Nora", image = "n")
 define l = Character("Liam", image = "l")
 define c = Character("Connor", image = "c")
 define s = Character("Shouhei", image = "s")
-define o = Character ("Olly", image = "o")
-define cl = Character ("Clara", image = "cl")
-define k = Character ("Kinuko", image = "k")
-define p = Character ("Perrault", image = "p")
+define o = Character("Olly", image = "o")
+define cl = Character("Clara", image = "cl")
+define k = Character("Kinuko", image = "k")
+define p = Character("Perrault", image = "p")
 define pc = Character("Professor Corbet", image = "pc")
-define mystery = Character ("???")
+define lm = Character("Liam's mother")
+define mystery = Character("???")
 define audio.dooropen = "Door Squeak.mp3"
 define audio.magiceffect = "shootingstar.mp3"
 
@@ -334,13 +335,211 @@ menu:
        
 label health1:
     
-    l "y"
+    "I head downstairs from the classroom, towards the health center. One of Liam's moms is a healer, and he’s been interested in healing since before I can remember. It's nice to see that some things haven’t changed."
+    
+    scene bg 4 # school hallway with an open door
+    
+    #[First closeup of Liam. Liam is helping someone with their familiar. Viola possibly has a flashback of when Liam helped her also when they were young. Back to present.]
+    
+    "He’s with someone else, who is TK familiar has some kind of issue"
+    
+    l "Just remember to let him rest after every 3 cycles or so, and he will be fine. Come back again if he starts having issues later. You’ll both be all right now."
+    
+    "The familiar--a grey plover--nuzzles Liam’s hand before sinking back into its phone. It’s easy for many people (and their familiars) to trust Liam, with his calm presence and his reassuring voice. That reminds me..."
+    
+    #Do we want to have child sprites for Viola, Liam, and Shouhei? If so, we should use them here. If not, maybe we should keep the whole scene black; it'd need a few different CGs to convey the progression of events, and it's short enough that that's not really practical.
+    
+    scene bg black
+    
+    l "Viola! Viola! Where are you?"
+    
+    v "What happened?"
+    
+    l "Quickly! I think it’s hurt!"
+    
+    #play sound "running footsteps.mp3"
+    
+    "I look down. Liam is crouched down, trying to reach out his hand to something small and white-furred. I crouch down too."
+    
+    v "It’s a weasel. What are you trying to do?"
+    
+    l "Its front leg is..."
+    
+    "I lean forward. It’s hard to see the weasel against the snow we’re kneeling in, but. There. A red slicing scratch on one of its legs, as it tries to skitter away from Liam’s fingers."
+    
+    l "If I could just bring it back with me, then maybe TK- his healer mom could help it. Ow!"
+    
+    v "Liam!"
+    
+    "Liam rocks back from his position, holding his hand. The weasel slips around Liam’s foot and jumps into the snow, disappearing from sight."   
+    
+    "We look around for awhile but the weasel is nowhere to be seen. We hurry back to Liam’s house."
+    
+    l "I don’t understand. I just wanted to help it get better."
+    
+    lm "Oh, Liam. It’s not a bad thing to want to help something that has been hurt. But it was scared and didn’t know who you were. That’s the only reason why it bit you."
+    
+    l "But, but what else can I do to help someone if I can help them, but they’re scared?"
+    
+    lm "Staying calm would be the first thing. They have more reason to be scared than you do, if they’re hurt. You can come visit my other patients with me later tomorrow, if you want to learn more."
+    
+    l "Can’t I go today?"
+    
+    lm "Not that fast. We should clean your scratch first. I’ll go find the disinfectant."
+    
+    "Liam’s mother walks out of the dining room, towards the upstairs."
+    
+    v "Liam? Does it still hurt?"
+    
+    l "Not that badly."
+    
+    v "Okay. I’ll just sit here for a little while."
+    
+    "I see Liam’s other hand, the uninjured one, is squeezed into a fist. I reach out and tug on his sleeve." 
+    
+    v "You shouldn’t do that to your other hand. Here." 
+    
+    l "What?"
+    
+    v "If you need to hold something, you can hold my hand. Just until your mother comes back." 
+    
+    "Liam doesn’t look at me, but he reaches across our chairs, and his fingers squeeze around mine."
+    
+    l "Thanks."
+    
+    scene bg healthcenter
+    
+    show l normal at center
+    
+    l "Viola! I thought you would be at lunch."
     
     jump postchoice
     
 label lake1:
     
-    s "y"
+    "It’s a nice day. The outdoors would be a great spot to relax and eat lunch, especially after the crowded classroom. I jiggle the doorhandle of the exit until the door turns from red to rust-orange to blue, and push it open. The air is cool, and smells like sun-warmed grass, a hint of pine."
+    
+    "The school tries to keep the environment comfortable for students most of the time, so the weather tends to be more temperate. I have heard there was some tricky spellwork that cordoned off a certain lab building on campus to include 10 or 12 different kinds of land types, though not every student will visit all those areas. The BB students sure love that feature though." 
+    
+    "I jog forward, until the blue line that I see in the distance expands into the lake. The Wishing Well is its official name, but everyone else just calls it  (the Waffle (great place to eat pastries and stare at the water) some funny name here- The Lake of Mistakes, 3 AM Regrets, the Oubliette)."
+    
+    "A cold wind rushes past and my hair flies forward, fluttering past my face. I shake my head and look up."
+    
+    "My stomach drops."
+    
+    "I recognize that bird. And I recognize that face."
+    
+    mystery "How did you get here?"
+    
+    show s normal at left
+    show k normal at right
+    
+    "Kinuko, Shouhei’s familiar, is now resting on the lake in a spot two feet away from the shore. She raises her head to regard me with one black eye." 
+    
+    v "What do you mean, how I got here? I walked, just like everyone else would."
+    
+    s "I mean this spot by the lake. I had a spell set up to warn me if anyone else had come to this spot." 
+    
+    v "You always did like to find the quiet spots away from everyone else, except for..."
+    
+    "I stop myself before I finish the sentence. 'Except for when you were bored, and wanted to see me and Liam,' I almost said." 
+    
+    "Oh. The silence is getting awkward, now. I’m not sure if I still want to eat lunch here."
+    
+    s "I need to get to my next class. You can stay here if you want."
+    
+    hide s
+    hide k
+    
+    "That’s definitely a lie. It’s barely been ten minutes since lunch started. The phone in my pocket shakes, and Olly slips out, landing on my shoulder."
+    
+    show o normal at right
+    
+    o "Viola! Aren’t you going to say anything to him?"
+    
+    hide o
+    
+    "Shouhei and Kinuko are getting farther and farther away. My fists clench."
+    
+    v angry "I’m not that hungry, Shouhei! You don’t need to trouble yourself because of me. So don’t act like you’re doing me any favors."
+    
+    "Shouhei turns around. He takes one step forward, and another."
+    
+    show s angry at center
+    
+    s "I just needed to be somewhere else. You don’t have to take it personally, Viola."
+    
+    v "I’m taking it personally? Me? You have to go because you can’t stand to see me or something?"
+    
+    show o normal at right
+    
+    o "I thought you two were just going to talk, Viola." 
+    
+    hide o
+    
+    "Olly sounds nervous. It’s been a long time since Shouhei and I have talked, I know. Not just days or weeks. It’s been years. I know that. But he can’t even give me a 'hello?'" 
+    
+    "Something in Shouhei’s face stiffens. The light is bouncing off at a strange angle from his glasses, a glare slashing through the sight of his dark eyes."
+    
+    s angry "I don’t like lying. You know that." 
+    
+    v "If you have to say something, then just say it to me straight out. Don’t dance around the topic."
+    
+    s "Fine. You had to ask it. Yes."
+    
+    v "Yes, what?"
+    
+    s "I don’t want to see you."
+    
+    "I can’t speak. The anger that rushes to my head isn’t red, but stronger than that, burning like ice on skin."
+    
+    v "Why--how could you say that? Did you even think about how Liam would feel? How I would feel? We didn’t hear from you for so long, it was like you had di--"
+    
+    s "Like I had died, you mean."
+    
+    v sad "..."
+    
+    v "Did you. Did you not talk to us because your family asked you not to?"
+    
+    "It sounds desperate. I’m just trying, trying hard to get answers from Shouhei. I trust that he’ll still answer me truthfully, even after our long silence, even after everything that has happened."
+    
+    s "I decided not to answer any letters or calls, on my own. Liam’s. And yours. It’s not like they keep me locked up in my own home."
+    
+    v "I never said I thought that--"
+    
+    s "If it’s skeletons you’re looking for, Viola, I would check your own backyard first."
+    
+    "I draw back, with a visible flinch. A rush of wind passes between us again, this time not from Kinuko. My eyes close, briefly. Now I’m the one who doesn’t want to look at Shouhei’s face anymore."
+    
+    show k at left
+    
+    "I open my eyes. Kinuko is next to Shouhei, and he has his head tilted towards her. She must be speaking, but it’s not loud enough for me to hear."
+    
+    s normal "I didn’t mean what I said earlier."
+    
+    "Shouhei’s expression doesn’t really match his words. But he does seem less cold, than he was before. It’s polite, the thing he is saying. That is all I can sense."
+    
+    s "I really am sorry for being rude. I hope--"
+    
+    "His voice stops, just for a moment."
+    
+    s "I hope we can both do well this year. Have a good semester."
+    
+    hide s
+    hide k
+    
+    "He leaves then. Kinuko seems to turn to look at me, just once. Then she follows, as she always does."
+    
+    show o normal at right
+    
+    o "Viola? Are you all right?"
+    
+    "I drop down to sit on the grass and rest my head on my knees. Olly’s next to me and there’s no other sounds now other than the water moving over the lake and my own breathing. I have to keep it together. I just need a couple seconds."
+    
+    v normal "I’ll be fine. I’m glad we could talk to him, at least. I still have a little bit of time to finish lunch, so we can talk about something else."
+    
+    "So we do. Well, I eat lunch. Olly chatters away, until our next class bell rings."
+
     
     jump postchoice
 
@@ -350,7 +549,7 @@ label garden1:
     
 #label dorms1:
 
-    #c "y"
+    c "y"
     
 label postchoice:
    
