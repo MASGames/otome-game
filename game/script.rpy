@@ -545,11 +545,105 @@ label lake1:
 
 label garden1:
     
-    n "y"
+    "Walking to class through the rose gardens earlier reminded me how much I used to love them when I was younger. Liam and I would play tag or hide and seek in the hedge maze with...well, that part doesn't matter anymore. It's been a long time." 
+    
+    "I feel like I remember there being benches, too, carefully crafted from living wood. I used to lie on them sometimes, pretending I could feel the warmth of their life radiating from below me." 
+    
+    "I'm sure I can find a nice place to eat lunch there, and maybe I'll have time to wander around a bit more before my next class." 
+    
+    "Luckily, everyone else is gone now, so there's no waiting or arguing over the door. The last person left it on an eye-wateringly bright pink--wherever that goes--so I pull on it to reset to default grey, then turn it to exit the building." 
+    
+    "The sun feels nice on my face, but it's just warm enough that the intermittent shade once I enter the gardens feels good, too. I wander for a while, letting my feet go where they will." 
+    
+    "I've stopped to admire a particularly beautiful specimen--a blend of deep blues and purples that make me think of space, almost as big as my face and with thorns as long as my finger--when I hear faint, tuneless humming."
+    
+    o "What's that?" 
+    
+    v "Maybe the botanists have started experimenting with roses that sing?" 
+    
+    "I'm only half joking, but the truth turns out to be much simpler: my new roommate, Nora." 
+    
+    "She's sitting on a bench in a half-shaded nook, sun warm on the fluff of her curls, but with her face hidden in shadow, bent over the phone she's placed on the bench in front of her. A small, golden-brown creature projects above it--a griffin, I think?--with an assortment of graphs scattered above its head." #CGI here?
+    
+    "The humming stops as Nora takes a bite from the sandwich she's holding in one hand, and pokes at one of the graphs with a finger." 
+    
+    "I realize I sort of miss it. Then I realize I should probably say something instead of just staring." 
+    
+    scene bg rose garden
+    show n normal
+    
+    v "Um, hi?" 
+    
+    "Nora looks up, clearly startled. Her free hand spasms towards her mid-air display, but she arrests the motion halfway." 
+    
+    v "Sorry, I'm disturbing you, aren't I? I can go." 
+    
+    n "No, no, it's fine. I just wasn't expecting to see anyone. Do you want to join me? You're welcome to." 
+    
+    "She shifts over, pulling her phone into her lap, dismissing the rows of graphs, and leaving half the bench for me. I hesitate, but her invitation seems sincere and, well. I *am* hungry." 
+    
+    "I make it a whole two bites into my lunch before I can't hold my curiosity in anymore." 
+    
+    v "What was the, uh. Stuff? You had up earlier."
+    
+    "Smooth." 
+    
+    "Nora looks vaguely embarrassed, but she answers easily enough." 
+    
+    n "Diagnostic output. Perrault has been experiencing some hiccups the last few days--literally, if you can believe it?--so he asked me to take a look."
+    
+    v "Perrault--your familiar? Mine's name is Oleander, but I just call him Olly." 
+    
+    o "Hello, Nora, Perrault. It's nice to meet you." 
+    
+    show p normal at right
+    
+    p "Likewise. *hic* Sorry." 
+    
+    "Nora definitely looks embarrassed now. I don't see why, though." 
+    
+    v happy "It's really cool that you can figure out problems like that on your own! Olly and I are useless--we always end up having to go to a shop if he has any problems. Are you planning on majoring in Artificing?" 
+    
+    "That would explain why there were so many little mechanical and electronic things scattered across her desk and side of the room when I moved in earlier." 
+    
+    show n happy
+    
+    "Nora smiles, looking more relaxed now." 
+    
+    n "Perrault lets me experiment on him sometimes, so I figure it's only fair I fix my mistakes." 
+    
+    p "Avenues of discovery." 
+    
+    n "Yes, yes, avenues of discovering that I did something wrong. Anyway, Artificing is my plan.  How about you? Do you know what you want to major in yet?" 
+    
+    "I hesitate. Even though it's no big secret--I had to fill it in on my admission form!--saying it out loud feels like a confidence, even if I'm not going into all the reasons *why*." 
+    
+    v "I want to study Cursebreaking, if I can make it through all the prerequisites with high enough grades." 
+    
+    n "Wow! That's also pretty intense. Good luck to both of us!" 
+    
+    "She grins, and I grin back. I have a feeling that I'll enjoy having her as a roommate this year." 
+    
+    n "And, hey--if Olly has any problems, I'd be happy to take a look at him. I promise I won't tinker with anything without getting your permission first." 
+    
+    "I glance at Olly. He shrugs, wings rising and falling in a single fluid motion." 
+    
+    v "Sure, I think I'd like that." 
+    
+    n "And if I run into any curses, I'll be sure to call on you." 
+    
+    v "Haha, I'll do my best to get rid of them." 
+    
+    "Hopefully, before anyone else runs afoul of them." 
+    
+    "I shake off my dark thoughts. There will be a time for that, but for now I just want to concentrate on enjoying good food, the warmth of the sun, and pleasant conversation with my roommate." 
+    
+    "And so I do, until it's time for us to head to our next class."
+
     
 #label dorms1:
 
-    c "y"
+    #c "y"
     
 label postchoice:
    
