@@ -286,7 +286,7 @@ label start:
    
    "I should pay attention to Corbet, but I'm still stuck on Shouhei. Neither I nor Liam have spoken to him since...it was a while ago. I shake off the thought. I can talk with Liam about this later. I turn to the board and Corbet begins their lesson."
 
-   pc "TK blah blah blah some facts on magical fields here."
+   pc "Summoning. Enchantment. Botany & Beasts. Healing. And Artificing. These fields may be among the better-known arenas of magic, but this foundational course will delve deeper than that. How we decide what makes a magical field separate from another, how certain fields are defined in different countries in a historical, religious, and sociocultural context. Now can someone tell me...?"
    
    hide pc
    
@@ -341,7 +341,7 @@ label health1:
     
     #[First closeup of Liam. Liam is helping someone with their familiar. Viola possibly has a flashback of when Liam helped her also when they were young. Back to present.]
     
-    "He’s with someone else, who is TK familiar has some kind of issue"
+    "He’s with someone else. It looks like their bird familiar has some kind of issue."
     
     l "Just remember to let him rest after every 3 cycles or so, and he will be fine. Come back again if he starts having issues later. You’ll both be all right now."
     
