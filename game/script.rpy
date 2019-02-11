@@ -1,7 +1,7 @@
 define v = Character("Viola", image= "v")
 define n = Character("Nora", image = "n")
 define l = Character("Liam", image = "l")
-define c = Character("Connor", image = "c")
+define c = Character("Colin", image = "c")
 define s = Character("Shouhei", image = "s")
 define o = Character("Olly", image = "o")
 define cl = Character("Clara", image = "cl")
@@ -186,7 +186,7 @@ label start:
    
    "Liam's with someone I don't recognize. Another classmate, maybe?"
 
-   l "Oh, and this is my roommate, Connor."
+   l "Oh, and this is my roommate, Colin."
    
    show l normal at center
    show c normal at right
@@ -238,7 +238,7 @@ label start:
 
    "Though who knows, maybe she's calmed down in the past few years."
    
-   "We all turn to Connor, but before he has a chance to introduce his familiar, the professor comes in, and we all hastily sit down."
+   "We all turn to Colin, but before he has a chance to introduce his familiar, the professor comes in, and we all hastily sit down."
    
    pc "Welcome to Foundations 105: Magical Fields. I'm Professor Corbet." 
    
@@ -250,7 +250,7 @@ label start:
 
    mystery "Sorry for being late, Professor."
 
-   scene bg #CG scene: Viola and Liam staring at the person standing in front of the door, nora and connor confused in background
+   scene bg #CG scene: Viola and Liam staring at the person standing in front of the door, nora and Colin confused in background
 
    v "That person is--" #I'm sure there's a way to show a character's name without showing their sprite, but actually, what do you guys think about showing sprites at Viola's location during CGs? It's especially useful for if the CGs don't show everyone's faces. We'd just have to make and define new side images.
 
@@ -280,7 +280,7 @@ label start:
    
    #pc "All right, class, it’s nice you’re all becoming such good friends, but we have things to learn, and we don’t have all day to do it in. Everyone back to their desks, please."
 
-   #"Nora’s desk isn’t too far away from mine. Unfortunately, Liam’s halfway across the room, and Connor’s off in the opposite corner. Shouhei is in the middle of the room." [Is there a reason they're all separated?]
+   #"Nora’s desk isn’t too far away from mine. Unfortunately, Liam’s halfway across the room, and Colin’s off in the opposite corner. Shouhei is in the middle of the room." [Is there a reason they're all separated?]
    
    pc "As I was saying..."
    
@@ -298,14 +298,14 @@ label start:
 
    #show bracelet
 
-   #"I pick up the bracelet from the floor. It looks a little bit familiar. Oh, right. Wasn’t Connor wearing this, when I first met him? It looks sort of expensive. If he dropped it, I probably should return it to him."
+   #"I pick up the bracelet from the floor. It looks a little bit familiar. Oh, right. Wasn’t Colin wearing this, when I first met him? It looks sort of expensive. If he dropped it, I probably should return it to him."
 
    #hide bracelet [All of this will be hidden until we figure out what the code is for unlocking it.]
    show o at right
 
    o "It’s lunchtime! Where are you going to go now?" 
 
-   "Most of the class has filed out already. Nora waved cheerfully to me as she left, Liam dashed off to his after-class job. Connor looked like he was heading back to his room. Shouhei's left too, Kinuko gliding behind him."
+   "Most of the class has filed out already. Nora waved cheerfully to me as she left, Liam dashed off to his after-class job. Colin looked like he was heading back to his room. Shouhei's left too, Kinuko gliding behind him."
 
    "I think I’ll go eat lunch at..."
 
