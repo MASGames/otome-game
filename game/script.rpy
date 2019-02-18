@@ -8,10 +8,19 @@ define cl = Character("Clara", image = "cl")
 define k = Character("Kinuko", image = "k")
 define p = Character("Perrault", image = "p")
 define pc = Character("Professor Corbet", image = "pc")
+define pm = Character("Professor Marquez", image = "pm")
 define lm = Character("Liam's mother")
 define mystery = Character("???")
+define s1 = Character("Student 1")
+define s2 = Character("Student 2")
+
 define audio.dooropen = "Door Squeak.mp3"
 define audio.magiceffect = "shootingstar.mp3"
+
+default lpoints = 0
+default spoints = 0
+default npoints = 0
+default cpoints = 0
 
 image side v normal = "v normal.jpg"
 image side v happy = "v happy.jpg"
@@ -21,6 +30,7 @@ image n normal = "n normal.jpg"
 image c normal = "c normal.jpg"
 
 label start:
+   # 1.1 Atmospheric intro scene
    scene bg 1 # university birds-eye view 
    
    "Wyderwold University.  The premier applied magic college in the United States. Members of my family have attended for generations, and I've wanted to come, following in my sister's footsteps, since before I can remember."
@@ -35,6 +45,7 @@ label start:
 
    "So I can find the source of the curse, and end it. For good."
    
+   # 1.2 Viola moves into the dorms 
    scene bg hallway
    show l normal at left
    
@@ -148,6 +159,8 @@ label start:
 
    "But at least I'm here now."
 
+   # 1.3 Viola and Nora go to their first class 
+
    scene bg 2 # Nora and Viola's dorm room
 
 # I kinda wanna put a fade in here. 
@@ -164,6 +177,8 @@ label start:
 
    n "As long as it doesn't make us late-–"
  
+   # 1.4 First Magical Fields class
+
    scene bg 3 # Classroom 
    show n normal
 
@@ -308,346 +323,700 @@ label start:
    "Most of the class has filed out already. Nora waved cheerfully to me as she left, Liam dashed off to his after-class job. Colin looked like he was heading back to his room. Shouhei's left too, Kinuko gliding behind him."
 
    "I think I’ll go eat lunch at..."
-
-$lpoints = 0
-$spoints = 0
-$npoints = 0
-$cpoints = 0
    
 menu:
 
-    "The health center":
-            $lpoints += 1
-            jump health1
+   "The health center":
+      $lpoints += 1
+      jump health1
             
-    "The lake":
-            $spoints += 1
-            jump lake1
+   "The lake":
+      $spoints += 1
+      jump lake1
        
-    "The rose garden":
-            $npoints += 1
-            jump garden1
+   "The rose garden":
+      $npoints += 1
+      jump garden1
             
-    #"The dorms":
-            #$cpoints += 1
-            #jump dorms1
+   #"The dorms":
+      #$cpoints += 1
+      #jump dorms1
         
        
 label health1:
+
+   # 1.5a Lunch with Liam 
+
+   "I head downstairs from the classroom, towards the health center. One of Liam's moms is a healer, and he’s been interested in healing since before I can remember. It's nice to see that some things haven’t changed."
     
-    "I head downstairs from the classroom, towards the health center. One of Liam's moms is a healer, and he’s been interested in healing since before I can remember. It's nice to see that some things haven’t changed."
+   scene bg 4 # school hallway with an open door
     
-    scene bg 4 # school hallway with an open door
+   #[First closeup of Liam. Liam is helping someone with their familiar. Viola possibly has a flashback of when Liam helped her also when they were young. Back to present.]
     
-    #[First closeup of Liam. Liam is helping someone with their familiar. Viola possibly has a flashback of when Liam helped her also when they were young. Back to present.]
+   "He’s with someone else. It looks like their bird familiar has some kind of issue."
     
-    "He’s with someone else. It looks like their bird familiar has some kind of issue."
+   l "Just remember to let him rest after every 3 cycles or so, and he will be fine. Come back again if he starts having issues later. You’ll both be all right now."
     
-    l "Just remember to let him rest after every 3 cycles or so, and he will be fine. Come back again if he starts having issues later. You’ll both be all right now."
+   "The familiar--a grey plover--nuzzles Liam’s hand before sinking back into its phone. It’s easy for many people (and their familiars) to trust Liam, with his calm presence and his reassuring voice. That reminds me..."
     
-    "The familiar--a grey plover--nuzzles Liam’s hand before sinking back into its phone. It’s easy for many people (and their familiars) to trust Liam, with his calm presence and his reassuring voice. That reminds me..."
+   #Do we want to have child sprites for Viola, Liam, and Shouhei? If so, we should use them here. If not, maybe we should keep the whole scene black; it'd need a few different CGs to convey the progression of events, and it's short enough that that's not really practical.
     
-    #Do we want to have child sprites for Viola, Liam, and Shouhei? If so, we should use them here. If not, maybe we should keep the whole scene black; it'd need a few different CGs to convey the progression of events, and it's short enough that that's not really practical.
+   scene bg black
     
-    scene bg black
+   l "Viola! Viola! Where are you?"
     
-    l "Viola! Viola! Where are you?"
+   v "What happened?"
     
-    v "What happened?"
+   l "Quickly! I think it’s hurt!"
     
-    l "Quickly! I think it’s hurt!"
+   #play sound "running footsteps.mp3"
     
-    #play sound "running footsteps.mp3"
+   "I look down. Liam is crouched down, trying to reach out his hand to something small and white-furred. I crouch down too."
     
-    "I look down. Liam is crouched down, trying to reach out his hand to something small and white-furred. I crouch down too."
+   v "It’s a weasel. What are you trying to do?"
     
-    v "It’s a weasel. What are you trying to do?"
+   l "Its front leg is..."
     
-    l "Its front leg is..."
+   "I lean forward. It’s hard to see the weasel against the snow we’re kneeling in, but. There. A red slicing scratch on one of its legs, as it tries to skitter away from Liam’s fingers."
     
-    "I lean forward. It’s hard to see the weasel against the snow we’re kneeling in, but. There. A red slicing scratch on one of its legs, as it tries to skitter away from Liam’s fingers."
+   l "If I could just bring it back with me, then maybe TK- his healer mom could help it. Ow!"
     
-    l "If I could just bring it back with me, then maybe TK- his healer mom could help it. Ow!"
+   v "Liam!"
     
-    v "Liam!"
+   "Liam rocks back from his position, holding his hand. The weasel slips around Liam’s foot and jumps into the snow, disappearing from sight."   
     
-    "Liam rocks back from his position, holding his hand. The weasel slips around Liam’s foot and jumps into the snow, disappearing from sight."   
+   "We look around for awhile but the weasel is nowhere to be seen. We hurry back to Liam’s house."
     
-    "We look around for awhile but the weasel is nowhere to be seen. We hurry back to Liam’s house."
+   l "I don’t understand. I just wanted to help it get better."
     
-    l "I don’t understand. I just wanted to help it get better."
+   lm "Oh, Liam. It’s not a bad thing to want to help something that has been hurt. But it was scared and didn’t know who you were. That’s the only reason why it bit you."
     
-    lm "Oh, Liam. It’s not a bad thing to want to help something that has been hurt. But it was scared and didn’t know who you were. That’s the only reason why it bit you."
+   l "But, but what else can I do to help someone if I can help them, but they’re scared?"
     
-    l "But, but what else can I do to help someone if I can help them, but they’re scared?"
+   lm "Staying calm would be the first thing. They have more reason to be scared than you do, if they’re hurt. You can come visit my other patients with me later tomorrow, if you want to learn more."
     
-    lm "Staying calm would be the first thing. They have more reason to be scared than you do, if they’re hurt. You can come visit my other patients with me later tomorrow, if you want to learn more."
+   l "Can’t I go today?"
     
-    l "Can’t I go today?"
+   lm "Not that fast. We should clean your scratch first. I’ll go find the disinfectant."
     
-    lm "Not that fast. We should clean your scratch first. I’ll go find the disinfectant."
+   "Liam’s mother walks out of the dining room, towards the upstairs."
     
-    "Liam’s mother walks out of the dining room, towards the upstairs."
+   v "Liam? Does it still hurt?"
     
-    v "Liam? Does it still hurt?"
+   l "Not that badly."
     
-    l "Not that badly."
+   v "Okay. I’ll just sit here for a little while."
     
-    v "Okay. I’ll just sit here for a little while."
+   "I see Liam’s other hand, the uninjured one, is squeezed into a fist. I reach out and tug on his sleeve." 
     
-    "I see Liam’s other hand, the uninjured one, is squeezed into a fist. I reach out and tug on his sleeve." 
+   v "You shouldn’t do that to your other hand. Here." 
     
-    v "You shouldn’t do that to your other hand. Here." 
+   l "What?"
+   
+   v "If you need to hold something, you can hold my hand. Just until your mother comes back." 
     
-    l "What?"
+   "Liam doesn’t look at me, but he reaches across our chairs, and his fingers squeeze around mine."
     
-    v "If you need to hold something, you can hold my hand. Just until your mother comes back." 
+   l "Thanks."
     
-    "Liam doesn’t look at me, but he reaches across our chairs, and his fingers squeeze around mine."
+   scene bg healthcenter
     
-    l "Thanks."
+   show l normal at center
     
-    scene bg healthcenter
+   l "Viola! I thought you would be at lunch."
     
-    show l normal at center
-    
-    l "Viola! I thought you would be at lunch."
-    
-    jump postchoice
+   jump postlunch
     
 label lake1:
     
-    "It’s a nice day. The outdoors would be a great spot to relax and eat lunch, especially after the crowded classroom. I jiggle the doorhandle of the exit until the door turns from red to rust-orange to blue, and push it open. The air is cool, and smells like sun-warmed grass, a hint of pine."
+   # 1.5b Lunch with Shouhei
+
+   "It’s a nice day. The outdoors would be a great spot to relax and eat lunch, especially after the crowded classroom. I jiggle the doorhandle of the exit until the door turns from red to rust-orange to blue, and push it open. The air is cool, and smells like sun-warmed grass, a hint of pine."
     
-    "The school tries to keep the environment comfortable for students most of the time, so the weather tends to be more temperate. I have heard there was some tricky spellwork that cordoned off a certain lab building on campus to include 10 or 12 different kinds of land types, though not every student will visit all those areas. The BB students sure love that feature though." 
+   "The school tries to keep the environment comfortable for students most of the time, so the weather tends to be more temperate. I have heard there was some tricky spellwork that cordoned off a certain lab building on campus to include 10 or 12 different kinds of land types, though not every student will visit all those areas. The BB students sure love that feature though." 
     
-    "I jog forward, until the blue line that I see in the distance expands into the lake. The Wishing Well is its official name, but everyone else just calls it  (the Waffle (great place to eat pastries and stare at the water) some funny name here- The Lake of Mistakes, 3 AM Regrets, the Oubliette)."
+   "I jog forward, until the blue line that I see in the distance expands into the lake. The Wishing Well is its official name, but everyone else just calls it  (the Waffle (great place to eat pastries and stare at the water) some funny name here- The Lake of Mistakes, 3 AM Regrets, the Oubliette)."
     
-    "A cold wind rushes past and my hair flies forward, fluttering past my face. I shake my head and look up."
+   "A cold wind rushes past and my hair flies forward, fluttering past my face. I shake my head and look up."
     
-    "My stomach drops."
+   "My stomach drops."
     
-    "I recognize that bird. And I recognize that face."
+   "I recognize that bird. And I recognize that face."
     
-    mystery "How did you get here?"
+   mystery "How did you get here?"
+   
+   show s normal at left
+   show k normal at right
     
-    show s normal at left
-    show k normal at right
+   "Kinuko, Shouhei’s familiar, is now resting on the lake in a spot two feet away from the shore. She raises her head to regard me with one black eye." 
+   
+   v "What do you mean, how I got here? I walked, just like everyone else would."
     
-    "Kinuko, Shouhei’s familiar, is now resting on the lake in a spot two feet away from the shore. She raises her head to regard me with one black eye." 
+   s "I mean this spot by the lake. I had a spell set up to warn me if anyone else had come to this spot." 
     
-    v "What do you mean, how I got here? I walked, just like everyone else would."
+   v "You always did like to find the quiet spots away from everyone else, except for..."
+   
+   "I stop myself before I finish the sentence. 'Except for when you were bored, and wanted to see me and Liam,' I almost said." 
     
-    s "I mean this spot by the lake. I had a spell set up to warn me if anyone else had come to this spot." 
+   "Oh. The silence is getting awkward, now. I’m not sure if I still want to eat lunch here."
     
-    v "You always did like to find the quiet spots away from everyone else, except for..."
+   s "I need to get to my next class. You can stay here if you want."
     
-    "I stop myself before I finish the sentence. 'Except for when you were bored, and wanted to see me and Liam,' I almost said." 
+   hide s
+   hide k
     
-    "Oh. The silence is getting awkward, now. I’m not sure if I still want to eat lunch here."
+   "That’s definitely a lie. It’s barely been ten minutes since lunch started. The phone in my pocket shakes, and Olly slips out, landing on my shoulder."
     
-    s "I need to get to my next class. You can stay here if you want."
+   show o normal at right
     
-    hide s
-    hide k
+   o "Viola! Aren’t you going to say anything to him?"
     
-    "That’s definitely a lie. It’s barely been ten minutes since lunch started. The phone in my pocket shakes, and Olly slips out, landing on my shoulder."
+   hide o
     
-    show o normal at right
+   "Shouhei and Kinuko are getting farther and farther away. My fists clench."
     
-    o "Viola! Aren’t you going to say anything to him?"
+   v angry "I’m not that hungry, Shouhei! You don’t need to trouble yourself because of me. So don’t act like you’re doing me any favors."
     
-    hide o
+   "Shouhei turns around. He takes one step forward, and another."
     
-    "Shouhei and Kinuko are getting farther and farther away. My fists clench."
+   show s angry at center
     
-    v angry "I’m not that hungry, Shouhei! You don’t need to trouble yourself because of me. So don’t act like you’re doing me any favors."
+   s "I just needed to be somewhere else. You don’t have to take it personally, Viola."
     
-    "Shouhei turns around. He takes one step forward, and another."
+   v "I’m taking it personally? Me? You have to go because you can’t stand to see me or something?"
+   
+   show o normal at right
     
-    show s angry at center
+   o "I thought you two were just going to talk, Viola." 
     
-    s "I just needed to be somewhere else. You don’t have to take it personally, Viola."
+   hide o
     
-    v "I’m taking it personally? Me? You have to go because you can’t stand to see me or something?"
+   "Olly sounds nervous. It’s been a long time since Shouhei and I have talked, I know. Not just days or weeks. It’s been years. I know that. But he can’t even give me a 'hello?'" 
     
-    show o normal at right
+   "Something in Shouhei’s face stiffens. The light is bouncing off at a strange angle from his glasses, a glare slashing through the sight of his dark eyes."
     
-    o "I thought you two were just going to talk, Viola." 
+   s angry "I don’t like lying. You know that." 
     
-    hide o
+   v "If you have to say something, then just say it to me straight out. Don’t dance around the topic."
     
-    "Olly sounds nervous. It’s been a long time since Shouhei and I have talked, I know. Not just days or weeks. It’s been years. I know that. But he can’t even give me a 'hello?'" 
+   s "Fine. You had to ask it. Yes."
     
-    "Something in Shouhei’s face stiffens. The light is bouncing off at a strange angle from his glasses, a glare slashing through the sight of his dark eyes."
+   v "Yes, what?"
     
-    s angry "I don’t like lying. You know that." 
+   s "I don’t want to see you."
     
-    v "If you have to say something, then just say it to me straight out. Don’t dance around the topic."
+   "I can’t speak. The anger that rushes to my head isn’t red, but stronger than that, burning like ice on skin."
     
-    s "Fine. You had to ask it. Yes."
+   v "Why--how could you say that? Did you even think about how Liam would feel? How I would feel? We didn’t hear from you for so long, it was like you had di--"
     
-    v "Yes, what?"
+   s "Like I had died, you mean."
     
-    s "I don’t want to see you."
+   v sad "..."
     
-    "I can’t speak. The anger that rushes to my head isn’t red, but stronger than that, burning like ice on skin."
+   v "Did you. Did you not talk to us because your family asked you not to?"
     
-    v "Why--how could you say that? Did you even think about how Liam would feel? How I would feel? We didn’t hear from you for so long, it was like you had di--"
+   "It sounds desperate. I’m just trying, trying hard to get answers from Shouhei. I trust that he’ll still answer me truthfully, even after our long silence, even after everything that has happened."
     
-    s "Like I had died, you mean."
+   s "I decided not to answer any letters or calls, on my own. Liam’s. And yours. It’s not like they keep me locked up in my own home."
     
-    v sad "..."
+   v "I never said I thought that--"
+   
+   s "If it’s skeletons you’re looking for, Viola, I would check your own backyard first."
     
-    v "Did you. Did you not talk to us because your family asked you not to?"
+   "I draw back, with a visible flinch. A rush of wind passes between us again, this time not from Kinuko. My eyes close, briefly. Now I’m the one who doesn’t want to look at Shouhei’s face anymore."
     
-    "It sounds desperate. I’m just trying, trying hard to get answers from Shouhei. I trust that he’ll still answer me truthfully, even after our long silence, even after everything that has happened."
+   show k at left
     
-    s "I decided not to answer any letters or calls, on my own. Liam’s. And yours. It’s not like they keep me locked up in my own home."
+   "I open my eyes. Kinuko is next to Shouhei, and he has his head tilted towards her. She must be speaking, but it’s not loud enough for me to hear."
     
-    v "I never said I thought that--"
+   s normal "I didn’t mean what I said earlier."
     
-    s "If it’s skeletons you’re looking for, Viola, I would check your own backyard first."
+   "Shouhei’s expression doesn’t really match his words. But he does seem less cold, than he was before. It’s polite, the thing he is saying. That is all I can sense."
     
-    "I draw back, with a visible flinch. A rush of wind passes between us again, this time not from Kinuko. My eyes close, briefly. Now I’m the one who doesn’t want to look at Shouhei’s face anymore."
+   s "I really am sorry for being rude. I hope--"
     
-    show k at left
+   "His voice stops, just for a moment."
+   
+   s "I hope we can both do well this year. Have a good semester."
+   
+   hide s
+   hide k
     
-    "I open my eyes. Kinuko is next to Shouhei, and he has his head tilted towards her. She must be speaking, but it’s not loud enough for me to hear."
+   "He leaves then. Kinuko seems to turn to look at me, just once. Then she follows, as she always does."
     
-    s normal "I didn’t mean what I said earlier."
+   show o normal at right
+   
+   o "Viola? Are you all right?"
+   
+   "I drop down to sit on the grass and rest my head on my knees. Olly’s next to me and there’s no other sounds now other than the water moving over the lake and my own breathing. I have to keep it together. I just need a couple seconds."
     
-    "Shouhei’s expression doesn’t really match his words. But he does seem less cold, than he was before. It’s polite, the thing he is saying. That is all I can sense."
+   v normal "I’ll be fine. I’m glad we could talk to him, at least. I still have a little bit of time to finish lunch, so we can talk about something else."
     
-    s "I really am sorry for being rude. I hope--"
-    
-    "His voice stops, just for a moment."
-    
-    s "I hope we can both do well this year. Have a good semester."
-    
-    hide s
-    hide k
-    
-    "He leaves then. Kinuko seems to turn to look at me, just once. Then she follows, as she always does."
-    
-    show o normal at right
-    
-    o "Viola? Are you all right?"
-    
-    "I drop down to sit on the grass and rest my head on my knees. Olly’s next to me and there’s no other sounds now other than the water moving over the lake and my own breathing. I have to keep it together. I just need a couple seconds."
-    
-    v normal "I’ll be fine. I’m glad we could talk to him, at least. I still have a little bit of time to finish lunch, so we can talk about something else."
-    
-    "So we do. Well, I eat lunch. Olly chatters away, until our next class bell rings."
+   "So we do. Well, I eat lunch. Olly chatters away, until our next class bell rings."
 
     
-    jump postchoice
+   jump postlunch
 
 label garden1:
     
-    "Walking to class through the rose gardens earlier reminded me how much I used to love them when I was younger. Liam and I would play tag or hide and seek in the hedge maze with...well, that part doesn't matter anymore. It's been a long time." 
-    
-    "I feel like I remember there being benches, too, carefully crafted from living wood. I used to lie on them sometimes, pretending I could feel the warmth of their life radiating from below me." 
-    
-    "I'm sure I can find a nice place to eat lunch there, and maybe I'll have time to wander around a bit more before my next class." 
-    
-    "Luckily, everyone else is gone now, so there's no waiting or arguing over the door. The last person left it on an eye-wateringly bright pink--wherever that goes--so I pull on it to reset to default grey, then turn it to exit the building." 
-    
-    "The sun feels nice on my face, but it's just warm enough that the intermittent shade once I enter the gardens feels good, too. I wander for a while, letting my feet go where they will." 
-    
-    "I've stopped to admire a particularly beautiful specimen--a blend of deep blues and purples that make me think of space, almost as big as my face and with thorns as long as my finger--when I hear faint, tuneless humming."
-    
-    o "What's that?" 
-    
-    v "Maybe the botanists have started experimenting with roses that sing?" 
-    
-    "I'm only half joking, but the truth turns out to be much simpler: my new roommate, Nora." 
-    
-    "She's sitting on a bench in a half-shaded nook, sun warm on the fluff of her curls, but with her face hidden in shadow, bent over the phone she's placed on the bench in front of her. A small, golden-brown creature projects above it--a griffin, I think?--with an assortment of graphs scattered above its head." #CGI here?
-    
-    "The humming stops as Nora takes a bite from the sandwich she's holding in one hand, and pokes at one of the graphs with a finger." 
-    
-    "I realize I sort of miss it. Then I realize I should probably say something instead of just staring." 
-    
-    scene bg rose garden
-    show n normal
-    
-    v "Um, hi?" 
-    
-    "Nora looks up, clearly startled. Her free hand spasms towards her mid-air display, but she arrests the motion halfway." 
-    
-    v "Sorry, I'm disturbing you, aren't I? I can go." 
-    
-    n "No, no, it's fine. I just wasn't expecting to see anyone. Do you want to join me? You're welcome to." 
-    
-    "She shifts over, pulling her phone into her lap, dismissing the rows of graphs, and leaving half the bench for me. I hesitate, but her invitation seems sincere and, well. I *am* hungry." 
-    
-    "I make it a whole two bites into my lunch before I can't hold my curiosity in anymore." 
-    
-    v "What was the, uh. Stuff? You had up earlier."
-    
-    "Smooth." 
-    
-    "Nora looks vaguely embarrassed, but she answers easily enough." 
-    
-    n "Diagnostic output. Perrault has been experiencing some hiccups the last few days--literally, if you can believe it?--so he asked me to take a look."
-    
-    v "Perrault--your familiar? Mine's name is Oleander, but I just call him Olly." 
-    
-    o "Hello, Nora, Perrault. It's nice to meet you." 
-    
-    show p normal at right
-    
-    p "Likewise. *hic* Sorry." 
-    
-    "Nora definitely looks embarrassed now. I don't see why, though." 
-    
-    v happy "It's really cool that you can figure out problems like that on your own! Olly and I are useless--we always end up having to go to a shop if he has any problems. Are you planning on majoring in Artificing?" 
-    
-    "That would explain why there were so many little mechanical and electronic things scattered across her desk and side of the room when I moved in earlier." 
-    
-    show n happy
-    
-    "Nora smiles, looking more relaxed now." 
-    
-    n "Perrault lets me experiment on him sometimes, so I figure it's only fair I fix my mistakes." 
-    
-    p "Avenues of discovery." 
-    
-    n "Yes, yes, avenues of discovering that I did something wrong. Anyway, Artificing is my plan.  How about you? Do you know what you want to major in yet?" 
-    
-    "I hesitate. Even though it's no big secret--I had to fill it in on my admission form!--saying it out loud feels like a confidence, even if I'm not going into all the reasons *why*." 
-    
-    v "I want to study Cursebreaking, if I can make it through all the prerequisites with high enough grades." 
-    
-    n "Wow! That's also pretty intense. Good luck to both of us!" 
-    
-    "She grins, and I grin back. I have a feeling that I'll enjoy having her as a roommate this year." 
-    
-    n "And, hey--if Olly has any problems, I'd be happy to take a look at him. I promise I won't tinker with anything without getting your permission first." 
-    
-    "I glance at Olly. He shrugs, wings rising and falling in a single fluid motion." 
-    
-    v "Sure, I think I'd like that." 
-    
-    n "And if I run into any curses, I'll be sure to call on you." 
-    
-    v "Haha, I'll do my best to get rid of them." 
-    
-    "Hopefully, before anyone else runs afoul of them." 
-    
-    "I shake off my dark thoughts. There will be a time for that, but for now I just want to concentrate on enjoying good food, the warmth of the sun, and pleasant conversation with my roommate." 
-    
-    "And so I do, until it's time for us to head to our next class."
+   # 1.5c Lunch with Nora
 
+   "Walking to class through the rose gardens earlier reminded me how much I used to love them when I was younger. Liam and I would play tag or hide and seek in the hedge maze with...well, that part doesn't matter anymore. It's been a long time." 
+    
+   "I feel like I remember there being benches, too, carefully crafted from living wood. I used to lie on them sometimes, pretending I could feel the warmth of their life radiating from below me." 
+    
+   "I'm sure I can find a nice place to eat lunch there, and maybe I'll have time to wander around a bit more before my next class." 
+    
+   "Luckily, everyone else is gone now, so there's no waiting or arguing over the door. The last person left it on an eye-wateringly bright pink--wherever that goes--so I pull on it to reset to default grey, then turn it to exit the building." 
+    
+   "The sun feels nice on my face, but it's just warm enough that the intermittent shade once I enter the gardens feels good, too. I wander for a while, letting my feet go where they will." 
+    
+   "I've stopped to admire a particularly beautiful specimen--a blend of deep blues and purples that make me think of space, almost as big as my face and with thorns as long as my finger--when I hear faint, tuneless humming."
+    
+   o "What's that?" 
+    
+   v "Maybe the botanists have started experimenting with roses that sing?" 
+    
+   "I'm only half joking, but the truth turns out to be much simpler: my new roommate, Nora." 
+    
+   "She's sitting on a bench in a half-shaded nook, sun warm on the fluff of her curls, but with her face hidden in shadow, bent over the phone she's placed on the bench in front of her. A small, golden-brown creature projects above it--a griffin, I think?--with an assortment of graphs scattered above its head." #CGI here?
+    
+   "The humming stops as Nora takes a bite from the sandwich she's holding in one hand, and pokes at one of the graphs with a finger." 
+    
+   "I realize I sort of miss it. Then I realize I should probably say something instead of just staring." 
+    
+   scene bg rose garden
+   show n normal
+    
+   v "Um, hi?" 
+   
+   "Nora looks up, clearly startled. Her free hand spasms towards her mid-air display, but she arrests the motion halfway." 
+    
+   v "Sorry, I'm disturbing you, aren't I? I can go." 
+    
+   n "No, no, it's fine. I just wasn't expecting to see anyone. Do you want to join me? You're welcome to." 
+    
+   "She shifts over, pulling her phone into her lap, dismissing the rows of graphs, and leaving half the bench for me. I hesitate, but her invitation seems sincere and, well. I *am* hungry." 
+    
+   "I make it a whole two bites into my lunch before I can't hold my curiosity in anymore." 
+    
+   v "What was the, uh. Stuff? You had up earlier."
+    
+   "Smooth." 
+    
+   "Nora looks vaguely embarrassed, but she answers easily enough." 
+    
+   n "Diagnostic output. Perrault has been experiencing some hiccups the last few days--literally, if you can believe it?--so he asked me to take a look."
+    
+   v "Perrault--your familiar? Mine's name is Oleander, but I just call him Olly." 
+    
+   o "Hello, Nora, Perrault. It's nice to meet you." 
+    
+   show p normal at right
+    
+   p "Likewise. *hic* Sorry." 
+    
+   "Nora definitely looks embarrassed now. I don't see why, though." 
+    
+   v happy "It's really cool that you can figure out problems like that on your own! Olly and I are useless--we always end up having to go to a shop if he has any problems. Are you planning on majoring in Artificing?" 
+    
+   "That would explain why there were so many little mechanical and electronic things scattered across her desk and side of the room when I moved in earlier." 
+    
+   show n happy
+    
+   "Nora smiles, looking more relaxed now." 
+    
+   n "Perrault lets me experiment on him sometimes, so I figure it's only fair I fix my mistakes." 
+    
+   p "Avenues of discovery." 
+    
+   n "Yes, yes, avenues of discovering that I did something wrong. Anyway, Artificing is my plan.  How about you? Do you know what you want to major in yet?" 
+    
+   "I hesitate. Even though it's no big secret--I had to fill it in on my admission form!--saying it out loud feels like a confidence, even if I'm not going into all the reasons *why*." 
+    
+   v "I want to study Cursebreaking, if I can make it through all the prerequisites with high enough grades." 
+    
+   n "Wow! That's also pretty intense. Good luck to both of us!" 
+    
+   "She grins, and I grin back. I have a feeling that I'll enjoy having her as a roommate this year." 
+    
+   n "And, hey--if Olly has any problems, I'd be happy to take a look at him. I promise I won't tinker with anything without getting your permission first." 
+    
+   "I glance at Olly. He shrugs, wings rising and falling in a single fluid motion." 
+    
+   v "Sure, I think I'd like that." 
+    
+   n "And if I run into any curses, I'll be sure to call on you." 
+    
+   v "Haha, I'll do my best to get rid of them." 
+    
+   "Hopefully, before anyone else runs afoul of them." 
+    
+   "I shake off my dark thoughts. There will be a time for that, but for now I just want to concentrate on enjoying good food, the warmth of the sun, and pleasant conversation with my roommate." 
+    
+   "And so I do, until it's time for us to head to our next class."
+
+   jump postlunch
     
 #label dorms1:
 
+   # 1.5d Lunch with Colin
+
     #c "y"
     
-label postchoice:
+label postlunch:
    
+   # 1.6 Viola seeks Liam out to talk about Shouhei
+
+   # play sound footsteps.mp3 
+
+   scene bg hallway
+
+   "There's still an hour or two before my first Cursebreaking class of the year. Olly also has had time to be fully charged. I have time to find Liam. If I could only remember which room is his..."
+
+   o "13...15...25...Viola! Is it this one? The green door!"
+
+   "The front door of his shared dorm suite. Is that a doorbell?" 
+
+   v "Oh, wait. Olly? The door, please?" 
+
+   o "Of course!" 
+
+   "Olly swoops up from my phone, floating up to the doorknob and presses his snout against it. The door chimes. 'Viola Ashmark, first year' glows in silvery letters across the front of the door."
+
+   "The letters dissolve into the wood. 'Please enter,' flashes on the door a moment later."
+
+   "Liam must be in. Outside of general sleeping hours, students can invite mostly anyone they like into their dorms. The security system at Wynderwold allows students to enter most places with a familiar. For those without one, a demonstrated spell would suffice."  
+
+   play sound dooropen
+
+   "Olly zips back into my phone and I dash inside, my bag swinging against my hip."
+
+   v "Liam! Can you believe this? I knew he would still be studying magic somewhere but not--"
+
+   "I blink. It's Colin in front of me, a hoodie half-zipped up and a short towel draped around his neck. Droplets of water drip from his hair."
+
+   c "Hi. I'm going to go with my first guess that it's not me you're looking for."
+
+# menu: There will be a menu here once we figure out how to hide/show Colin's route 
+
+#     "Right. I'm looking for Liam, is he in?":
+#            $lpoints += 1
+#            jump liam1
+            
+#    "I'm looking. You know me, I always appreciate a nice view.":
+#            $cpoints += 1
+#            jump colin1
+
+# label liam1: 
+
+   # 1.7a Viola and Liam talk about Shouhei 
+
+   v "Right. I'm looking for Liam, is he in? The copy of his schedule that he gave me says he should be free right now, but."
+
+   c "You have his schedule, huh? He did tell me to expect you to show up round here a lot. He should be right in there." 
+
+   l "Viola!"
+
+   "Liam's head pokes out from behind another door. He smiles when he sees me and waves, the holograph of Clara nestling on top of his head." 
+
+   # [note I have no idea how their dorm room is set up like, a hallway, a door, a little living area and then the shared room with liam and connor? Idk]
+
+   c "Well, I see you two have things to talk about. I'm out, got things to do and all."
+
+   "Connor hangs his towel over the back of a chair and fully zips up his jacket. The door opens with a creak and closes behind him."
+
+   "I walk into the room, to see their shared dorm room. Other than the small living area and kitchen area where Connor had been standing, the rest of the room is neat. In decent shape. Liam's space has some empty boxes stacked in a compact pile in a corner, a cheerful blue plaid quilt over his bed, some open textbooks on top of his desk. There's another bed and desk opposite his, but with a honey-brown blanket instead. Connor's side, I think."  
+
+   v "You got everything unpacked."
+
+   "Some of mine still aren't. I make a mental note to clean more of it up after class today. Don't want the rest of my friends this year to think I'm sloppy. Liam always has been reliably organized, though I'm not that bad myself."
+
+   l "I could come over and help if you needed me to. Did you want to get an early dinner today or…?"
+
+   v "That's not what I wanted to talk about."
+
+   "Liam's smile falls. On his head, Clara lifts up her ears and opens her eyes. Her nose twitches, once, twice. She drops to his shoulder, then without a word, shimmers and fades into his phone."
+
+   "In my own phone, Olly is silent. I'm grateful, to the both of them."
+
+   v "I couldn't believe it, you know. That Shouhei would go here."
+
+   l "I know. I know."
+
+   "Liam is silent still, watching me. He pats his hand on the chair next to the one he is sitting in."
+
+   "I sit down. Kick at the bottom of my chair legs, just to see the wheels move over the floor.."
+
+   v "It's just…"
+
+   "I still don't know what to say. Liam remembers. He's one of the few who would remember, who would understand."
+
+   l "Did you want to talk to him? Or do you want him to--do you want us to stay away from him?"
+
+   v "I think--. I don't know. You can talk to him, Liam, I don't think it's fair if I'm the one to tell you not to."
+
+   "My chair spins, slowly. One circle, and another. My thoughts are, too. Honestly speaking though, I don't want to have to think about him. I do want to see him though, get some answers. Get to the truth. If Liam does become friends with him again...something in my stomach clenches at that. I don't want to avoid Liam, I don't want to have to avoid both of them. "
+
+   l "Well."
+
+   "I stop spinning. Liam's hand is on my shoulder, just resting there, lightly. It's reassuring."
+
+   l "He was my friend, once, before. But right now, you're the one who is here. Your friendship matters to me." 
+
+   v "Thank you."
+
+   "My hand reaches up to squeeze his hand on my shoulder. He smiles, and lets go. I want to say more than that. But then. I have to focus. The topic we were discussing..."
+
+   v "I don't want to have to talk to him. I can be polite if I have to. And if there's something he knows about what happened. I want to find that out."
+
+   l "That event from those years ago. That hurt the both of you. If there's something else you need to find about it, something you need. I'll help you the best I can, you know that?" # [note to self, the wording, up the intensity in details here somehow]
+
+   v "I'll remember that, Liam."
+
+   "He nods, expression serious. Then he stands and rolls his shoulders."
+
+   l "So then. How about that dinner, before your class?"
+
+   "And off we go, to the cafeteria. My steps are lighter now, hearing Liam's footsteps following me. No matter what, I think, I know I can count on him."
+
+jump common_nora1
+
+# label colin1: 
+
+# 1.7b Viola and Colin flirt 
+
+# jump liam1 <= going back to the Liam scene
+
+label common_nora1:
+
+   # 1.8 Viola and Nora chat in the evening
+
+   scene bg v dorm
+
+   $npoints += 1
+
+   "Liam and I talked for so long over dinner that the cafeteria personnel eventually had to politely ask us to leave. We kept the conversation carefully away from … certain topics, but luckily having known each other for (TK seven?) years means there's never a shortage of things to talk about." 
+
+   "I'm glad we did. I'm feeling a bit better about this whole situation after having taken my mind off it for a while." 
+
+   "I do feel a bit bad for coming back to the room so late, though. I'm not breaking curfew (yet) but I have no idea what sort of schedule Nora keeps. I'd hate to be the kind of inconsiderate person who barges in after her roommate is already asleep."
+
+   "I turn the corner and see the door to our room, light clearly shining from the crack underneath the door into the dim corridor, and sigh in relief. Looks like I'm safe this time."
+
+   "Nora is sitting at her desk, bent over--something small? I would have guessed her phone, but that's sitting off to the side, charging.  Perrault hovers above it, also peering at the device in Nora's hands."
+
+   "After a moment's hesitation, I enter the room. I hang my jacket and scarf on the hooks near the door, set my bag on the floor next to my desk, and flop across the bed." 
+
+   "It's been a long day." 
+
+   n "Viola? Sorry, I didn't notice you coming in."
+
+   v "I hope I didn't disturb you. You seemed really busy with--actually, what is it that you're working on, exactly?" 
+
+   n "Oh, this? It's not really anything special. Just a little project for my parents that I didn't have a chance to finish before I came here." 
+
+   "I lift my head. Nora looks a bit embarrassed, but pleased." 
+
+   v "Your parents? Do they like fiddling with their familiars, too?" 
+
+   n "Haha, you could say that--theirs and everyone else's! They run--you probably don't know it, but it's a little shop, in (TK major nearby city). Galena Gadgets." 
+
+   "The name sounds vaguely familiar, but I can't quite place it." 
+
+   v "Wait--it's near the Rainbow Fountain, right? I've never been inside, but I remember walking past it a few times. I always enjoyed looking at the window displays." 
+
+   "The hesitance fades from Nora's face as she beams at me. She has a very nice smile--almost as nice as her laugh." 
+
+   n "Yes, that's my parents' shop.  My little brother does the displays--he's the best of us at figuring out what will draw people in." 
+
+   v "That's really cool. Is your entire family artificers?" 
+
+   n "My grandfather started the business, and passed it down to my mom when he retired a few years ago. My dad claims she just married him because he has more patience with paperwork than she does, but he knows quite a bit too, even if he isn't as good at the really detailed work." 
+
+   v "Wow, that's really cool." 
+
+   "I can hardly imagine what it would be like, to have a life like that--growing up knowing exactly what you want to do, following in your parents' footsteps, with nothing hanging over your head. Even before--well, everything. I knew my place, but it had never really been a choice. Just the way things were." 
+
+   n "Do you --" 
+
+   v "What?" 
+
+   "Nora looks like she's suddenly realized she made a terrible mistake, and despite myself, I find myself curious what awkward question she'd been about to ask. About my sister's supposed murder of her best friend? About my family's fall from grace? So many great choices, and she'd lasted longer than most before giving in to curiosity." 
+
+   n "Sorry, it's not really my business." 
+
+   v "Go ahead and ask. I can't promise I'll answer, though." 
+
+   n "Okay. This is really rude, but, I was wondering--what does your family actually do? You're the heir, um, now, right? But what does that mean?" 
+
+   "Oh. The question--the sheer normalcy of the question--catches me off guard, and I have to actually think a moment." 
+
+   v "Not a whole lot, anymore, to be honest. It's usually a lot of networking--talking with the other high families, working together to solve issues in magical society. Or, you know, backstabbing each other and stealing the credit. That happens a lot, too." 
+
+   v "No one really wants to work with the family whose heir got a life sentence for actually stabbing someone in the back, though. So." 
+
+   "I close my eyes, take a deep breath and let it out. I shouldn't yell at Nora. It's not her fault that my family is a sensitive subject." 
+
+   v "We have to do paperwork, too, of course. I suspect no one's entirely immune from that." 
+
+   "Nora laughs quietly, and some of the tension in my shoulders eases. I like the sound of her laugh. It's … kind." 
+
+   n "Sorry for prying. I get really curious, as you might have noticed, but I'm trying to be better about not getting into other people's business." 
+
+   v "No, it was fine--I don't mind."
+
+   "And I was surprised to find that it was true." 
+
+   "I think I'm going to enjoy having Nora as my roommate. I hope she feels the same."
+
+   scene bg 3 # Classroom
+
+   # 1.9 Magical Fields introduces the group project 
+
+   "Magical Fields is buzzing with speculation as I walk in a respectable five minutes before class starts. And no wonder--Professor Marquez told us on Wednesday that she hoped she would have some exciting news for us today." 
+
+   "Liam waves me over--he's early, of course, and it looks like he saved me a seat." 
+
+   show l normal
+
+   l "Morning! So what's your guess about this mysterious announcement?" 
+
+   show v shrugging
+
+   v "No idea. It sounded like she wasn't sure, though, so maybe it'll turn out to be nothing?" 
+
+   "A few rows ahead, Nora turns to look at us." 
+
+   show v normal 
+   show n normal
+
+   n "It's probably something to do with the syllabus, don't you think? It's strange that this is the only class where we haven't received a grading rubric yet, when we're already nearly two weeks into the semester. The only class I'm taking, at least." 
+
+   show l thoughtful 
+
+   l "No, you're right--my other classes all gave us that information on day 1." 
+
+   v "Same here." 
+
+   "Before we have a chance to speculate further, Professor Marquez walks in." 
+
+   hide v 
+   hide n
+   hide l 
+   show pm
+
+   pm "Good morning, class! Looks like you're all here already, good. Let's go ahead and get started." 
+
+   pm "First, I have some excellent news for you all! I've finally gotten official sign-off on my proposed changes to the curriculum this year." 
+
+   "I exchange a skeptical look with Liam. An experimental curriculum sounded like it could be fun, or could be a complete mess--and I knew which one I would bet on." 
+
+   pm "Aww, don't make those faces at me--this will be fun!" 
+
+   pm "For those of you with older siblings who've told you all about how this class goes--well, first of all, shame on them, ruining the surprise! But you won't see a lot of changes from how it usually goes this semester. Next semester, however ..." 
+
+   "She pauses dramatically, as though daring anyone to ask her what she means. No one does." 
+
+   "At least no one's staring at me after that mention of older siblings. Or at Shouhei, who as usual is sitting in the farthest corner away from where Liam and I are sitting." 
+
+   "Just as well--Eliza must have taken this class, but she'd never told me anything about it, and I didn't think that Mariko had ever said anything to Shouhei, either. He would have mentioned it, back then." 
+
+   "Or at least, I thought he would have."
+
+   pm "Next semester is when the fun really starts: I'm going to have you all pair up and do a group project!" 
+
+   "Instantly, the classroom started buzzing as everyone turned to comment to each other. I shared another look with Liam and Nora." 
+
+   "Maybe one of them would be my partner? Liam and I always used to do group projects together back in elementary school." 
+
+   pm "If you're trying to talk your seatmates into teaming up with you, I regret to announce that you're wasting your time--I will be assigning everyone's partners."
+
+   s1 "What are the group projects going to be about?" 
+
+   pm "I'm glad you asked! *That*, each group will be allowed to choose, but it must be related to at least two of the magical fields we discuss in this class. Think of it as a … practical application of the skills you'll be gaining." 
+
+   "Okay, I'd been pretty skeptical--and I still didn't like that we wouldn't get to pick our partners; what if I ended up with someone I didn't get along with?--but this sounded like it might actually be pretty fun."
+
+   "I definitely wanted to do a project related to cursebreaking somehow, but what else?" 
+
+   s2 "What if your partner is going into the same field as you are?" 
+
+   pm "That's one of the reasons I'm reserving the right to assign partners--I'll be aiming for a good distribution of interests and skills. However, I will also note that the magical fields involved in your project do not necessarily have to correspond to your declared majors." 
+
+   pm "In fact, I'd recommend everyone go into this project with an open mind. After all, what you think you're interested in now may change over the course of the year, or over the course of the next four years." 
+
+   pm "This could be an excellent chance for you to test out a different field, and find out that you like it." 
+
+   "A few rows away, Connor looked thoughtful. I tried to remember if he'd mentioned what field he was going into. Maybe he was undeclared?" 
+
+   "Liam and Nora looked less convinced, and I'm sure I did as well. I'm sure there were plenty of good things about the various other majors, and that I'd do all right in some of them. But I was going into cursebreaking for more reasons than just because I thought it would be fun." 
+
+   "And regardless of what I learned this semester in this class, I doubted that would change." 
+
+   pm "So get started thinking about what projects you might want to do! I'll assign your partners in (TK December?), and you'll have the rest of the semester after that to make a final decision on the subject of your project, and the entirety of next semester to work on it." 
+
+   pm "Any other questions? No? All right, then let's get back to work. Continuing from where we left off on Wednesday, I'll be covering the basics of (TK subject) today …" 
+
+   "I pull out my notebook and started taking notes." 
+
+   scene bg outdoors 
+   
+   # 1.10 Viola enjoys the day, decides who to do homework with
+
+   "The day had dawned bright and warm, the weather so nice it seemed like a terrible waste to have to spend most of my morning in Summoning 101." 
+
+   "Admittedly, for once it hadn't been a complete waste of time. " # [TK interesting factoid here.]
+
+   "Still, I was glad that was over with, and now I was sitting in a corner of the outdoor seating area of the dining hall, finishing up a sandwich." 
+
+   o "What do you want to do this afternoon?" 
+
+   v "I don't care, really, as long as it's not inside."
+
+   o "Shouldn't you be working on homework? All your professors seem to like to assign a lot of it." 
+
+   "That was definitely true. Most of them seem to be under the mistaken impression that their class is the only one we're taking, and they assign ridiculous amounts to prove it." 
+
+   o "Would you like me to provide you with a list? I can order them by due date." 
+
+   v "No, that's fine!" 
+
+   "I lean back in my chair and try to think.  Olly's right about one thing--I really probably should make progress on something. Take advantage of my open Monday afternoons while I still had them, since I've heard that we'll start having more intense practicums as the semester goes on." 
+
+   "It's such a nice day, though." 
+
+   "Come to think of it--everyone else should have Monday afternoon free, too. Maybe I should see if I can find one of my classmates to do homework with?" 
+
+menu: 
+
+   "I'll see if I can find Nora":
+      $npoints += 1
+      jump nora2
+
+   "I think I'll go study with Liam.":
+      $lpoints += 1
+      jump liam2
+
+   #"(Colin)":
+      #$cpoints += 1
+      # jump colin2
+
+label nora2:
+
    v "y"
 
+   jump posthomework
+
+label liam2:
+
+   v "yy"
+
+   jump posthomework
+
+label posthomework:
+
+   v "a"
+
    return
-   
+
