@@ -353,7 +353,7 @@ label health1:
     
    #[First closeup of Liam. Liam is helping someone with their familiar. Viola possibly has a flashback of when Liam helped her also when they were young. Back to present.]
     
-   "He’s with someone else. It looks like their bird familiar has some kind of issue."
+   "He’s with someone else. Another student. It looks like their bird familiar has some kind of issue."
     
    l "Just remember to let him rest after every 3 cycles or so, and he will be fine. Come back again if he starts having issues later. You’ll both be all right now."
     
@@ -379,13 +379,15 @@ label health1:
     
    "I lean forward. It’s hard to see the weasel against the snow we’re kneeling in, but. There. A red slicing scratch on one of its legs, as it tries to skitter away from Liam’s fingers."
     
-   l "If I could just bring it back with me, then maybe TK- his healer mom could help it. Ow!"
+   l "If I could just bring it back with me, then maybe one of my mothers could help it. Ow!"
     
    v "Liam!"
     
    "Liam rocks back from his position, holding his hand. The weasel slips around Liam’s foot and jumps into the snow, disappearing from sight."   
     
-   "We look around for awhile but the weasel is nowhere to be seen. We hurry back to Liam’s house."
+   "We look around for awhile but the weasel is nowhere to be seen. We hurry back to Liam’s house." 
+
+   "Inside, one of his mothers, Mrs. Bonnie, is studying an array of vials on a table. On seeing our faces, she wastes no time in moving her vials to a counter and asking us both to sit down."
     
    l "I don’t understand. I just wanted to help it get better."
     
@@ -399,7 +401,7 @@ label health1:
     
    lm "Not that fast. We should clean your scratch first. I’ll go find the disinfectant."
     
-   "Liam’s mother walks out of the dining room, towards the upstairs."
+   "Mrs. Bonnie walks out of the dining room, towards the upstairs."
     
    v "Liam? Does it still hurt?"
     
@@ -424,6 +426,32 @@ label health1:
    show l normal at center
     
    l "Viola! I thought you would be at lunch."
+   
+   v "I. Um. Thought you didn't have lunch yet. Do you want to eat together?"
+   
+   "The words hang awkwardly in the air for a second. I would be fine if he didn't want to, but it would be nice. To catch up."
+   
+   l "Yes! Just let me clean up here for a second. I'll be right out."
+
+   "We both get bags of sandwiches from a little stand outside the health center. Liam seems to take a lot longer to choose his sandwich and pay."
+   
+   "We eat sitting against the wall of the building, and chat a bit about our majors and schedules. Olly and Clara don't show up--well, it might be better to let them conserve their energy for classes later on in the day."
+
+   "I'm folding up some used paper napkins into my paper bag to throw away when Liam taps something against my hand."
+   
+   v "Liam, what...?"
+
+   l "So. Um. Do you want this? This was your favorite before, and I saw it hidden away under some drinks at the stand we were at. But, uh, I don't know if you still like it."
+
+   "It's a little container of green jello, with a green apple on the lid. I complained a lot when I was smaller, I think, at how many times I tried something green, only to find out it was lime-flavored and not apple."
+
+   "Liam's face is looking at mine. His hand holding the jello moves down a little, like he wants to put it back into the paper bag."
+
+   v "No! Wait!"
+   
+   v "Yes! Sorry, I mean yes. I still like it. Thank you."
+
+   "The nervousness disappears from Liam's expression and he smiles when I reach out to take the jello from his hand. I open the lid and take a spoonful. It's as good as the hundreds of times I had it before, as good as I remember it to be."
     
    jump postlunch
     
