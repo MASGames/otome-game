@@ -9,7 +9,7 @@ define k = Character("Kinuko", image = "k")
 define p = Character("Perrault", image = "p")
 define pc = Character("Professor Corbet", image = "pc")
 define pm = Character("Professor Marquez", image = "pm")
-define lm = Character("Liam's mother")
+define bt = Character("Bonnie")
 define mystery = Character("???")
 define s1 = Character("Student 1")
 define s2 = Character("Student 2")
@@ -301,7 +301,9 @@ label start:
    
    "I should pay attention to Corbet, but I'm still stuck on Shouhei. Neither I nor Liam have spoken to him since...it was a while ago. I shake off the thought. I can talk with Liam about this later. I turn to the board and Corbet begins their lesson."
 
-   pc "Summoning. Enchantment. Botany & Beasts. Healing. And Artificing. These fields may be among the better-known arenas of magic, but this foundational course will delve deeper than that. How we decide what makes a magical field separate from another, how certain fields are defined in different countries in a historical, religious, and sociocultural context. Now can someone tell me...?"
+   pc "Summoning. Enchantment. Botany & Beasts. Healing. And Artificing. These fields may be among the better-known arenas of magic, but this foundational course will delve deeper than that."
+
+   "How we decide what makes one magical field separate from another, how certain fields are defined in different countries in a historical, religious, and sociocultural context. Now can someone tell me--?"
    
    hide pc
    
@@ -369,8 +371,6 @@ label health1:
     
    l "Quickly! I think it’s hurt!"
     
-   #play sound "running footsteps.mp3"
-    
    "I look down. Liam is crouched down, trying to reach out his hand to something small and white-furred. I crouch down too."
     
    v "It’s a weasel. What are you trying to do?"
@@ -387,19 +387,19 @@ label health1:
     
    "We look around for awhile but the weasel is nowhere to be seen. We hurry back to Liam’s house." 
 
-   "Inside, one of his mothers, Mrs. Bonnie, is studying an array of vials on a table. On seeing our faces, she wastes no time in moving her vials to a counter and asking us both to sit down."
+   "Inside, one of his mothers, Mrs. Bonnie, is studying an array of vials on a table. On seeing our faces, she wastes no time in whisking her vials off to a counter and asking us both to sit down."
     
    l "I don’t understand. I just wanted to help it get better."
     
-   lm "Oh, Liam. It’s not a bad thing to want to help something that has been hurt. But it was scared and didn’t know who you were. That’s the only reason why it bit you."
+   bt "Oh, Liam. It’s not a bad thing to want to help something that has been hurt. But it was scared and didn’t know who you were. That’s the only reason why it bit you."
     
    l "But, but what else can I do to help someone if I can help them, but they’re scared?"
     
-   lm "Staying calm would be the first thing. They have more reason to be scared than you do, if they’re hurt. You can come visit my other patients with me later tomorrow, if you want to learn more."
+   bt "Staying calm would be the first thing. They have more reason to be scared than you do, if they’re hurt. You can come visit my other patients with me later tomorrow, if you want to learn more."
     
    l "Can’t I go today?"
     
-   lm "Not that fast. We should clean your scratch first. I’ll go find the disinfectant."
+   bt "Not that fast. We should clean your scratch first. I’ll go find the disinfectant."
     
    "Mrs. Bonnie walks out of the dining room, towards the upstairs."
     
@@ -463,7 +463,7 @@ label lake1:
     
    "The school tries to keep the environment comfortable for students most of the time, so the weather tends to be more temperate. I have heard there was some tricky spellwork that cordoned off a certain lab building on campus to include 10 or 12 different kinds of land types, though not every student will visit all those areas. The BB students sure love that feature though." 
     
-   "I jog forward, until the blue line that I see in the distance expands into the lake. The Wishing Well is its official name, but everyone else just calls it  (the Waffle (great place to eat pastries and stare at the water) some funny name here- The Lake of Mistakes, 3 AM Regrets, the Oubliette)."
+   "I jog forward, until the blue line that I see in the distance expands into the lake. The Wishing Well is its official name, but I don't think any student actually calls it that."
     
    "A cold wind rushes past and my hair flies forward, fluttering past my face. I shake my head and look up."
     
@@ -748,13 +748,11 @@ label postlunch:
 
    "Liam's head pokes out from behind another door. He smiles when he sees me and waves, the holograph of Clara nestling on top of his head." 
 
-   # [note I have no idea how their dorm room is set up like, a hallway, a door, a little living area and then the shared room with liam and connor? Idk]
-
    c "Well, I see you two have things to talk about. I'm out, got things to do and all."
 
-   "Connor hangs his towel over the back of a chair and fully zips up his jacket. The door opens with a creak and closes behind him."
+   "Colin hangs his towel over the back of a chair and fully zips up his jacket. The door opens with a creak and closes behind him."
 
-   "I walk into the room, to see their shared dorm room. Other than the small living area and kitchen area where Connor had been standing, the rest of the room is neat. In decent shape. Liam's space has some empty boxes stacked in a compact pile in a corner, a cheerful blue plaid quilt over his bed, some open textbooks on top of his desk. There's another bed and desk opposite his, but with a honey-brown blanket instead. Connor's side, I think."  
+   "I walk into the room, to see their shared dorm room. Other than the small living area and kitchen area where Colin had been standing, the rest of the room is neat. In decent shape. Liam's space has some empty boxes stacked in a compact pile in a corner, a cheerful blue plaid quilt over his bed, some open textbooks on top of his desk. There's another bed and desk opposite his, but with a honey-brown blanket instead. Colin's side, I think."  
 
    v "You got everything unpacked."
 
@@ -804,7 +802,7 @@ label postlunch:
 
    "He nods, expression serious. Then he stands and rolls his shoulders."
 
-   l "So then. How about that dinner, before your class?"
+   l "So. How about that dinner, before your class?"
 
    "And off we go, to the cafeteria. My steps are lighter now, hearing Liam's footsteps following me. No matter what, I think, I know I can count on him."
 
@@ -976,7 +974,7 @@ label common_nora1:
 
    pm "This could be an excellent chance for you to test out a different field, and find out that you like it." 
 
-   "A few rows away, Connor looked thoughtful. I tried to remember if he'd mentioned what field he was going into. Maybe he was undeclared?" 
+   "A few rows away, Colin looked thoughtful. I tried to remember if he'd mentioned what field he was going into. Maybe he was undeclared?" 
 
    "Liam and Nora looked less convinced, and I'm sure I did as well. I'm sure there were plenty of good things about the various other majors, and that I'd do all right in some of them. But I was going into cursebreaking for more reasons than just because I thought it would be fun." 
 
