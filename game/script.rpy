@@ -720,7 +720,7 @@ label postlunch:
 
    "Olly zips back into my phone and I dash inside, my bag swinging against my hip."
 
-   v "Liam! Can you believe this? I knew he would still be studying magic somewhere but not--"
+   v "Liam? You here? It took me a while to find the right door number, but I just wanted to see if we could talk a little more--"
 
    "I blink. It's Colin in front of me, a hoodie half-zipped up and a short towel draped around his neck. Droplets of water drip from his hair."
 
