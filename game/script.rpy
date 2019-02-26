@@ -85,7 +85,7 @@ label start:
    
    "It looks like I got here a lot later than my new roommate, too. Her side of the room is already set up." 
    
-   "A computer on her desk with a large lamp looming over it; bed carefully made up with a comforter a lovely shade of light blue; a wardrobe with one door left slightly ajar filled with clothes, and a stack of deconstructed cardboard boxes stacked up behind the trash cans." 
+   "A computer on her desk with a large lamp looming over it; a bed carefully made up with a comforter in a lovely shade of light blue; a wardrobe with one door left slightly ajar is filled with clothes, and a stack of deconstructed cardboard boxes are stacked up behind the trash cans." 
    
    "I'd be a bit worried that she'd think I was some sort of slob--I'm truly not, but I also don't always keep everything 100 percent straightened 100 percent of the time--except for the stack of small objects scattered over the rest of her desk, a few of which appeared to have spilled over onto her bed and the floor." 
    
@@ -111,7 +111,9 @@ label start:
    
    "The dorm administrators set up a station in the main hall of the dorms, where you can leave your boxes and they'll be dealt with appropriately." 
    
-   "I'm sure if recycling is exactly the right word, given that I also heard that that was where you were supposed to go to get materials to pack up for the summer, and it seems like a waste if they're going to end up breaking the boxes down at the beginning of the year just to reconstitute them into...more boxes, at the end of the year. But as far as I'm concerned, the boxes will be out of my dorm room and not my problem anymore, which is all I need to know."
+   "I'm sure if recycling is exactly the right word, given that I also heard that that was where you were supposed to go to get materials to pack up for the summer." 
+   
+   "It seems like a waste if they're going to end up breaking the boxes down at the beginning of the year just to reconstitute them into...more boxes, at the end of the year. But as far as I'm concerned, the boxes will be out of my dorm room and not my problem anymore, which is all I need to know."
    
    scene bg v dorm
    
@@ -307,13 +309,13 @@ label start:
    
    "I should pay attention to Corbet, but I'm still stuck on Shouhei. Neither I nor Liam have spoken to him since...it was a while ago. I shake off the thought. I can talk with Liam about this later. I turn to the board and Corbet begins their lesson."
 
-   pc "Summoning. Enchantment. Botany & Beasts. Healing. And Artificing. These fields may be among the better-known arenas of magic, but this foundational course will delve deeper than that."
+   pc "Summoning. Enchantment. Botany & Beasts. Healing. Artificing. These fields may be among the better-known arenas of magic, but this foundational course will delve deeper than that."
 
-   pc "How do we decide what makes one magical field separate from another? How are certain fields are defined in different countries in a historical, religious, and sociocultural context? Now can someone tell me--?"
+   pc "How do we decide what makes one magical field separate from another? How are certain fields defined in different countries in a historical, religious, and sociocultural context? Now can someone tell me--?"
    
    hide pc
    
-   "The chimes ring, signalling the end of the lesson. I stand and stretch, feeling stiff from sitting at the desk for so long. I pack up my bag and head towards the door with the rest of the class."
+   "Eventually, the chimes ring, signalling the end of the lesson. I stand and stretch, feeling stiff from sitting at the desk for so long. I pack up my bag and head towards the door with the rest of the class."
 
    #"The chimes ring, signalling the end of the lesson. I stand and stretch, feeling stiff from sitting at the desk for so long. I pack up my bag and head towards the door with the rest of the class, before I almost trip on something."
 
@@ -441,7 +443,9 @@ label health1:
 
    "We both get bags of sandwiches from a little stand outside the health center. Liam seems to take a lot longer to choose his sandwich and pay."
    
-   "We eat sitting against the wall of the building, and chat a bit about our majors and schedules. There are other topics--other people--we could be talking about too, but it's the first time I have seen him in a while."
+   "We eat sitting against the wall of the building, and chat a bit about our majors and schedules."
+   
+   "There are other topics--other people--we could be talking about too, but it's the first time I have seen him in a while. A long while."
    
    "I make a mental note to bring it up to him later. Olly and Clara don't show up--well, it might be better to let them conserve their energy for classes later on in the day."
 
@@ -569,7 +573,7 @@ label lake1:
     
    s normal "I didn’t mean what I said earlier."
     
-   "Shouhei’s expression doesn’t really match his words. But he does seem less cold, than he was before. It’s polite, the thing he is saying. That is all I can sense."
+   "Shouhei’s expression doesn’t really match his words. But he does seem less cold, than he was before. It’s polite, the things he's saying. That is all I can sense."
     
    s "I really am sorry for being rude. I hope--"
     
@@ -764,13 +768,17 @@ label postlunch:
 
    "Colin hangs his towel over the back of a chair and fully zips up his jacket. The door opens with a creak and closes behind him."
 
-   "I walk into the room, to see their shared dorm room. Other than the small living area and kitchen area where Colin had been standing, the rest of the room is neat. In decent shape. Liam's space has some empty boxes stacked in a compact pile in a corner, a cheerful blue plaid quilt over his bed, some open textbooks on top of his desk. There's another bed and desk opposite his, but with a honey-brown blanket instead. Colin's side, I think."  
+   "I walk into the room, to see their shared dorm room. Other than the small living area and kitchen area where Colin had been standing, the rest of the room is neat. In decent shape." 
+   
+   "Liam's space has a cheerful blue plaid quilt over his bed, some open textbooks on top of his desk, and no boxes to be seen anywhere on the floor. 
+   
+   "There's another bed and desk opposite his, but with a honey-brown blanket instead. Colin's side, I think."  
 
    v "You got everything unpacked."
 
    "Some of mine still aren't. I make a mental note to clean more of it up after class today."
 
-   l "I could come over and help if you needed me to. Did you want to get an early dinner today or…?"
+   l "I could come over and help if you needed me to. Did you want to get an early dinner today or--?"
 
    v "That's not what I wanted to talk about."
 
@@ -808,7 +816,7 @@ label postlunch:
 
    v "Thank you."
 
-   "My hand reaches up to squeeze his hand on my shoulder. He smiles, and lets go. I want to say more than that. But then. I have to focus. The topic we were discussing..."
+   "My hand reaches up to squeeze his hand on my shoulder. He smiles, and lets go. I want to say more than that. But I have to focus. The topic we were discussing..."
 
    v "I don't want to have to talk to him. I can be polite if I have to. And if there's something he knows about what happened. I want to find that out."
 
@@ -996,7 +1004,7 @@ label common_nora1:
 
    "And regardless of what I learned this semester in this class, I doubted that would change." 
 
-   pm "So get started thinking about what projects you might want to do! I'll assign your partners in (TK December?), and you'll have the rest of the semester after that to make a final decision on the subject of your project, and the entirety of next semester to work on it." 
+   pm "So get started thinking about what projects you might want to do! I'll assign your partners in November, and you'll have the rest of the semester after that to make a final decision on the subject of your project, and the entirety of next semester to work on it." 
 
    pm "Any other questions? No? All right, then let's get back to work. Continuing from where we left off on Wednesday, I'll be covering the basics of (TK subject) today …" 
 
