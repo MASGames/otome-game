@@ -69,7 +69,7 @@ label start:
    
    "Until a few weeks ago, when I'd received a message from him out of the blue, asking if I was still planning on attending Wyderwold, and mentioning that he'd managed to get in as well." 
    
-   "(Back when we were younger, we'd all three planned to attend together. But then, well. That hadn't really worked out.)" 
+   "Back when we were younger, we'd all three planned to attend together. But then, well. That hadn't really worked out." 
    
    "We planned to both arrive at the same time, so we could help each other move in, but then my parents had a meeting that ran late, and there was a minor emergency of some sort, and--well, an on-time arrival just didn't happen." 
    
@@ -83,9 +83,13 @@ label start:
    
    scene bg v dorm
    
-   "It looks like I got here a lot later than my new roommate, too. Her side of the room is already set up: a computer on her desk with a large lamp looming over it; bed carefully made up with a comforter a lovely shade of light blue; wardrobe with one door left slightly ajar showing that it had been filled with clothes, and a stack of deconstructed cardboard boxes stacked up behind the trash cans." 
+   "It looks like I got here a lot later than my new roommate, too. Her side of the room is already set up." 
    
-   "I'd be a bit worried that she'd think I was some sort of slob--I'm truly not, but I also don't always keep everything 100 percent straightened 100 percent of the time--except for the stack of small objects scattered over the rest of her desk, a few of which appeared to have spilled over onto her bed and the floor. A couple of them look like old smartphones, or pieces of them, but most of them I have no idea what they are, or what they're for." 
+   "A computer on her desk with a large lamp looming over it; bed carefully made up with a comforter a lovely shade of light blue; a wardrobe with one door left slightly ajar filled with clothes, and a stack of deconstructed cardboard boxes stacked up behind the trash cans." 
+   
+   "I'd be a bit worried that she'd think I was some sort of slob--I'm truly not, but I also don't always keep everything 100 percent straightened 100 percent of the time--except for the stack of small objects scattered over the rest of her desk, a few of which appeared to have spilled over onto her bed and the floor." 
+   
+   "A couple of them look like old smartphones, or pieces of them, but most of them I have no idea what they are, or what they're for." 
    
    "Liam and I are carrying my last two bags into the room when we almost bump into my new roommate." 
    
@@ -105,7 +109,9 @@ label start:
    hide n
    scene bg hallway
    
-   "The dorm administrators set up a station in the main hall of the dorms, where you can leave your boxes and they'll be dealt with appropriately. I'm sure if recycling is exactly the right word, given that I also heard that that was where you were supposed to go to get materials to pack up for the summer, and it seems like a waste if they're going to end up breaking the boxes down at the beginning of the year just to reconstitute them into...more boxes, at the end of the year. But I didn't bother to enquire too deeply into the process; as far as I'm concerned, the boxes will be out of my dorm room and not my problem anymore, which is all I need to know."
+   "The dorm administrators set up a station in the main hall of the dorms, where you can leave your boxes and they'll be dealt with appropriately." 
+   
+   "I'm sure if recycling is exactly the right word, given that I also heard that that was where you were supposed to go to get materials to pack up for the summer, and it seems like a waste if they're going to end up breaking the boxes down at the beginning of the year just to reconstitute them into...more boxes, at the end of the year. But as far as I'm concerned, the boxes will be out of my dorm room and not my problem anymore, which is all I need to know."
    
    scene bg v dorm
    
@@ -155,7 +161,7 @@ label start:
 
    hide l
 
-   "He leaves, and I turn back to my side of the room. I've still got so much left to unpack." 
+   "He leaves, and I turn back to my side of the room. I've still got so much left to unpack before I can even think about collapsing into bed for the night." 
 
    "But at least I'm here now."
 
@@ -303,7 +309,7 @@ label start:
 
    pc "Summoning. Enchantment. Botany & Beasts. Healing. And Artificing. These fields may be among the better-known arenas of magic, but this foundational course will delve deeper than that."
 
-   "How we decide what makes one magical field separate from another, how certain fields are defined in different countries in a historical, religious, and sociocultural context. Now can someone tell me--?"
+   pc "How do we decide what makes one magical field separate from another? How are certain fields are defined in different countries in a historical, religious, and sociocultural context? Now can someone tell me--?"
    
    hide pc
    
@@ -375,7 +381,7 @@ label health1:
     
    v "It’s a weasel. What are you trying to do?"
     
-   l "Its front leg is..."
+   l "Its front leg is--"
     
    "I lean forward. It’s hard to see the weasel against the snow we’re kneeling in, but. There. A red slicing scratch on one of its legs, as it tries to skitter away from Liam’s fingers."
     
@@ -435,7 +441,9 @@ label health1:
 
    "We both get bags of sandwiches from a little stand outside the health center. Liam seems to take a lot longer to choose his sandwich and pay."
    
-   "We eat sitting against the wall of the building, and chat a bit about our majors and schedules. Olly and Clara don't show up--well, it might be better to let them conserve their energy for classes later on in the day."
+   "We eat sitting against the wall of the building, and chat a bit about our majors and schedules. There are other topics--other people--we could be talking about too, but it's the first time I have seen him in a while."
+   
+   "I make a mental note to bring it up to him later. Olly and Clara don't show up--well, it might be better to let them conserve their energy for classes later on in the day."
 
    "I'm folding up some used paper napkins into my paper bag to throw away when Liam taps something against my hand."
    
@@ -461,11 +469,13 @@ label lake1:
 
    "It’s a nice day. The outdoors would be a great spot to relax and eat lunch, especially after the crowded classroom. I jiggle the doorhandle of the exit until the door turns from red to rust-orange to blue, and push it open. The air is cool, and smells like sun-warmed grass, a hint of pine."
     
-   "The school tries to keep the environment comfortable for students most of the time, so the weather tends to be more temperate. I have heard there was some tricky spellwork that cordoned off a certain lab building on campus to include 10 or 12 different kinds of land types, though not every student will visit all those areas. The BB students sure love that feature though." 
+   "The school tries to keep the environment comfortable for students most of the time, so the weather tends to be more temperate. I have heard there was some tricky spellwork that cordoned off a certain lab building on campus to include about ten different kinds of land and habitat types. The BB students sure love that feature." 
     
    "I jog forward, until the blue line that I see in the distance expands into the lake. The Wishing Well is its official name, but I don't think any student actually calls it that."
     
    "A cold wind rushes past and my hair flies forward, fluttering past my face. I shake my head and look up."
+   
+   play sound magiceffect
     
    "My stomach drops."
     
@@ -480,7 +490,7 @@ label lake1:
    
    v "What do you mean, how I got here? I walked, just like everyone else would."
     
-   s "I mean this spot by the lake. I had a spell set up to warn me if anyone else had come to this spot." 
+   s "I mean this spot by the lake. I had a spell set up to warn me if anyone else had come here." 
     
    v "You always did like to find the quiet spots away from everyone else, except for..."
    
@@ -700,7 +710,9 @@ label postlunch:
 
    scene bg hallway
 
-   "There's still an hour or two before my first Cursebreaking class of the year. Olly also has had time to be fully charged. I have time to find Liam. If I could only remember which room is his..."
+   "There's still an hour or two before my first Cursebreaking class of the year. It's only the third day of the school year and I don't want to give a bad impression by being late to any classes before we even turn in our first assignments." 
+   
+   "I still have time to find Liam. If I could only remember which room is his..."
 
    o "13...15...25...Viola! Is it this one? The green door!"
 
@@ -756,7 +768,7 @@ label postlunch:
 
    v "You got everything unpacked."
 
-   "Some of mine still aren't. I make a mental note to clean more of it up after class today. Don't want the rest of my friends this year to think I'm sloppy. Liam always has been reliably organized, though I'm not that bad myself."
+   "Some of mine still aren't. I make a mental note to clean more of it up after class today."
 
    l "I could come over and help if you needed me to. Did you want to get an early dinner today or…?"
 
@@ -782,11 +794,15 @@ label postlunch:
 
    v "I think--. I don't know. You can talk to him, Liam, I don't think it's fair if I'm the one to tell you not to."
 
-   "My chair spins, slowly. One circle, and another. My thoughts are, too. Honestly speaking though, I don't want to have to think about him. I do want to see him though, get some answers. Get to the truth. If Liam does become friends with him again...something in my stomach clenches at that. I don't want to avoid Liam, I don't want to have to avoid both of them. "
+   "My chair spins, slowly. One circle, and another. My thoughts are, too. Honestly speaking though, I don't want to have to think about him." 
+   
+   "I do want to see him though, get some answers. Get to the truth. If Liam does become friends with him again...something in my stomach clenches at that."
+   
+   "I don't want to avoid Liam, I don't want to have to avoid both of them."
 
    l "Well."
 
-   "I stop spinning. Liam's hand is on my shoulder, just resting there, lightly. It's reassuring."
+   "I stop spinning. Liam's hand is on my shoulder, resting there, his grip sure and warm. The pressure is reassuring."
 
    l "He was my friend, once, before. But right now, you're the one who is here. Your friendship matters to me." 
 
@@ -796,7 +812,7 @@ label postlunch:
 
    v "I don't want to have to talk to him. I can be polite if I have to. And if there's something he knows about what happened. I want to find that out."
 
-   l "That event from those years ago. That hurt the both of you. If there's something else you need to find about it, something you need. I'll help you the best I can, you know that?" # [note to self, the wording, up the intensity in details here somehow]
+   l "That time all those years ago...It was a bad one for both of you. If there's something else you need to find about it, something you need, I'll help you the best I can, you know that?" 
 
    v "I'll remember that, Liam."
 
