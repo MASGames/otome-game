@@ -1060,8 +1060,94 @@ label nora2:
 
 label liam2:
 
-   v "yy"
-
+   v "I sit up straighter in my chair. That looks like Liam, just walking out of the Larks Library. I stand up and wave in his direction."
+   
+   "He stops. He is standing a bit far to see me--is he doing the 'do I know this person?' calculation in his head right now?"
+   
+   "I pull a textbook out of my bag and wave that in the air also, with my other hand pointing at it. He jogs over."
+   
+   show l normal
+   
+   l "Viola! Are you studying now?" 
+   
+   v "Yeah. Thinking of getting started at least. Are you free?"
+   
+   l "Right now is fine. What's giving you trouble today?"
+   
+   v "This chapter of our Magical Fields reading. Something about famous botanists and their histories--I'm fine with reading that, but it feels like half of them have the same names!"
+   
+   l "Well, I can't say you're wrong there. A lot of them were from the same family lines, or adopted into them, after all."
+   
+   "Liam's face brightens." 
+   
+   l "I know exactly where we should go. Come on."
+   
+   "He catches the book I was waving around to tuck it under his elbow. Before I realize it, his other hand closes around my right hand, and we're running along."
+   
+   "We go past the dining hall, a library, and make a few turns. We go up one set of stairs. Then another."
+   
+   l "We're here!"
+   
+   "He lets go of my hand. I look to where he's pointing. The stairs lead out onto a type of...balcony? It does look like a quiet spot."
+   
+   l "You want to be careful here."
+   
+   "He walks out onto the balcony, leans an elbow against the white columned railing while staring into the distance." 
+   
+   "After a moment, he puts one hand down on the railing and swings one leg up--"
+   
+   v "LIAM!" 
+   
+   v "What are you doing??"
+   
+   "I've rushed up closer to him, but not too close. We have to be at least three stories up. Liam looks at my face."
+   
+   "His expression turns apologetic. He slips down from the railing, and walks back from the edge."
+   
+   l "I didn't mean to scare you. Sorry Viola. I thought--we could study at the tree down there? You could ask Olly to check if it's safe, if you want to?"
+   
+   "I set back my shoulders, and walk along the balcony to where Liam was standing before. There's a ladder there--a fire escape?"
+   
+   "I look down past the ladder." 
+   
+   "There is a tree there. I don't know what kind exactly. It's big. Old. The branches are just about high enough to touch the last runs of the ladder."
+   
+   "I look a bit closer. There is a big wooden platform there, built right between the tree branches. Enough to fit about five or six people sitting comfortable on it."
+   
+   v "Who made this?"
+   
+   l "I don't really know. Some graduate students? I've just been here once or twice, and if we were studying a chapter on botanists, I thought it would make more sense"
+   
+   l "if we were outdoors and it was supposed to be a good idea but I ended up worrying you, which I didn't plan to do. At all. Really, really sorry about that."
+   
+   "I don't think Liam was even breathing when he said all that."
+   
+   v "Okay! Ok, Liam. I forgive you. I think it looks safe enough. Let's get down there."
+   
+   l "Oh. Ok. If it's alright with you--ladies first?"
+   
+   "It doesn't take long for both of us to get down there."
+   
+   "I don't think Liam's feet even stayed on the ladder for more than two seconds. He practically seems to just leap down in two jumps after I reached the platform."
+     
+   "Olly does leave my phone after a while, zipping off in short loops around branches. Clara jumps out too, eventually. Scares off some butterflies that were flapping around the tiny blossoms on the tree."
+   
+   "It is autumn, but the weather this time of the day still carries the lingering warmth of summer. We sit cross-legged from each other on the platform, and I watch Liam add some diagrams to my notes."
+   
+   "His drawings are careful, detailed. Each part precisely labeled. The different flowers he sketches over the page look almost real."
+   
+   v "I think I get it now! Thanks!"
+   
+   l "Fair's fair, Viola. You think you could quiz me on this chapter?" 
+   
+   v "For which class? Healing?"
+   
+   l "Yeah." 
+   
+   "Liam closes his eyes. I take the book from his hand and adjust my position, so we're sitting back to back. I read aloud each marked word slowly, waiting for his voice to speak and supply the definitions."
+   
+   "It's a nice afternoon. We get a lot of our assignments done, and I get to see him. All in all, a productive day." 
+  
    jump posthomework
 
 label posthomework:
