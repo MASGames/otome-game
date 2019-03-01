@@ -770,7 +770,7 @@ label postlunch:
 
    "I walk into the room, to see their shared dorm room. Other than the small living area and kitchen area where Colin had been standing, the rest of the room is neat. In decent shape." 
    
-   "Liam's space has a cheerful blue plaid quilt over his bed, some open textbooks on top of his desk, and no boxes to be seen anywhere on the floor. 
+   "Liam's space has a cheerful blue plaid quilt over his bed, some open textbooks on top of his desk, and no boxes to be seen anywhere on the floor."
    
    "There's another bed and desk opposite his, but with a honey-brown blanket instead. Colin's side, I think."  
 
