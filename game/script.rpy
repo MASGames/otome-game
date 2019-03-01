@@ -13,6 +13,7 @@ define bt = Character("Bonnie")
 define mystery = Character("???")
 define s1 = Character("Student 1")
 define s2 = Character("Student 2")
+define j = Character("Janitor") # :D
 
 define audio.dooropen = "Door Squeak.mp3"
 define audio.magiceffect = "shootingstar.mp3"
@@ -1314,7 +1315,60 @@ label liam2:
 
 label posthomework:
 
-   v "a"
+   # 1.12 Viola investigates the ~haunted~ vending machine
+
+   "It's a sunny Sunday afternoon, the weather having been kind enough to remain nice all week, and I'm *finally* done with all of my homework. Which means I finally have a chance to do a little extra exploring!" 
+
+   "I've been visiting Wyderwold off and on for as long as I can remember, but it's always been accompanied by someone: my parents, when I was younger; when Eliza was attending school here they let me come stay with her once, for a weekend, but even then I spent most of my time with her." 
+
+   "So I know most of the big-name parts of the university pretty well; the parts that get shown off to prospective parents and donors. The rose garden, the library, the immense greenhouse out behind the Botany building." 
+
+   "(Home to at least eight entirely separate biomes, including the largest collection of magical Arctic species in the Western Hemisphere.)" 
+
+   "(Yes, I've heard the talks given to parents and donors more than once, too.)"
+
+   "But I still don't know a whole lot about the smaller things, the ones that don't make it onto the school president's list of Top 20 Reasons You Should Donate Money To Us." 
+
+   "And there are always rumors swirling around. *Probably* most of those rumors are caused by someone's class project gone wrong, but some of them might not be. And if I want to find out what *really* happened to my sister, I need to find out everything I could."
+
+   "Besides, if I come across a cursed object or something, maybe I can practice some of what I've been learning in Cursebreaking 103. It's mostly been about verbal curses so far, but hey, maybe there's crossover?" 
+
+   "First stop for the day: I overheard a couple of juniors talking in the cafeteria the other day about a vending machine out near the lake that might be haunted. Or cursed. There was some disagreement." 
+
+   "One of them had claimed that she'd heard voices coming from it late at night, and another had said that no matter what button she pushed, and what sort of soda appeared to be dropped down the chute, the only thing it dispensed was bottled sparkling water." 
+
+   "Not exactly the most dramatic of curses, if cursed it was, but I figure it's not a bad idea to start small."
+
+   "I take the shortcut door from the dorm to the lake--it's a nice day for a walk, but I don't want to waste precious daylight hours that I could be using for investigating. The lakeside door leads to the small dock that rents boats for traveling across it; that's not my aim for today, so instead I head outside." 
+
+   "The vending machine is supposedly a short way down the path; I pass a couple of upperclassmen loudly discussing some enchantment gone hilariously wrong. (At least to them--I wouldn't want to be the person who had to clean up that toilet after the fact!)"
+
+   "I pass a small copse of trees and turn to see it. One of the custodial staff is just finishing up emptying out the trash cans as I approach; I step off the path to let him pass." 
+
+   j "Appreciated, ma'am." 
+
+   "He tips his cap to me as he walks by." 
+
+   "Disappointingly, the vending machine looks, well. Like a vending machine. Five rows of wire racks hold five different types of drink each--none of which, I notice, are sparkling water--and a panel off to the side requests that you enter your desired row and column number, and pay the price shown." 
+
+   "I stand there for a few minutes--partly listening for the suspicious voices that one person had mentioned, partly just trying to decide what to order." 
+
+   "I hear nothing, of course, and eventually decide on an orange soda. I select it, hold my phone up to the panel to pay, and watch as the wire mechanism rotates and one of the bottles from the orange soda row drops." 
+
+   "I realize I'm holding my breath as I reach in to pick it up, and make myself start breathing again." 
+
+   "I pick the bottle up, and --" 
+
+   "-- it's just orange soda. As far as I can tell, exactly the same as what's being advertised." 
+
+   "I sigh. Probably it was just someone's school project gone wrong, then, and they cleaned it up already. Or maybe the people talking had just been confused to begin with." 
+
+   "Ah, well. I'll take the soda back to my room and run some additional tests on it. It'll be good practice. And if I find nothing, well. At least I have some delicious soda to drink?" 
+
+   "It's disappointing, to have found nothing, but I suspect I'll be running into that a lot, so maybe it's good that I'm getting practice dealing with disappointment early?" 
+
+   "I'm sure there will be other leads--I just need to keep my ears open." 
+
 
    return
 
