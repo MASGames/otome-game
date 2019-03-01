@@ -1054,11 +1054,173 @@ menu:
 
 label nora2:
 
-   v "y"
+   # 1.11a Viola and Nora do homework
+
+   v "I think I'll see if I can find Nora." 
+
+   "She seems to really like the rose gardens, and I've been struggling a bit in Magical Law--if she's there and willing, I'll get to make progress on homework AND stay outside. Win-win!" 
+
+   "I head over to the gardens, and wander the rose maze until I'm almost lost in its depths, then I start hearing her humming. After that, I just need to turn a few more corners and I'm there." 
+
+   show n normal
+
+   n "Oh, Viola, hi! Were you looking for me?"
+
+   "Now that I'm here, I'm suddenly having second thoughts. What if she comes here specifically so that she won't be bothered by people coming and trying to talk to her?" 
+
+   "On the other hand, it would be even more awkward to back out now, and I really do need the help." 
+
+   v "Actually, yes. I was wondering if you wanted to work on homework together for a while? I can leave if I'm bothering you, though." 
+
+   n "It's no bother! I'd actually been meaning to ask you the same, but it seemed like too pretty of a day to waste inside."
+
+   show v laughing
+
+   v "My thought exactly!" 
+
+   show v normal
+
+   "Nora shifts, making more room on the bench, and I take a seat too. It feels wider than last time. I wonder if the benches in the garden are alive, too. It wouldn't surprise me." 
+
+   n "What did you want to work on?"
+
+   v "Would you mind if we looked at Magical Law? I'm terrible at it, honestly. It just puts me to sleep." 
+
+   show n laughing
+
+   n "Professor Prasad is rather … soothing, isn't he?" 
+
+   show n normal 
+
+   n "And sure! I'm about halfway through the assignment for tomorrow; I think I understand it pretty well but it's been slow going. Do you have your textbook with you?" 
+
+   "Oops. I had my assignment--it was synced to my phone like everything else--but the textbook itself was still back in our room." 
+
+   "My costernation must have been pretty obvious, because Nora grinned sympathetically." 
+
+   n "I'm guessing that's a 'no'. Perrault, if you don't mind?" 
+
+   p "An Introduction to Magical Law, 1813 - 1897, right? Coming right up!" 
+
+   "Perrault had been hovering in the air a few inches above Nora's phone, but now he spread his wings wide, brought them forward to cover his head, and began to glow." 
+
+   "I had to look away as his glow brightened with a flash, and when I looked back, what looked like a book--a very familiar textbook, in fact--now hovered in the air in his place." 
+
+   "I leaned in to take a better look. Aside from being vaguely translucent, it--he?--looked exactly like the text I had left on my desk." 
+
+   v "Wow, I had no idea that familiars could do this. Olly, can you become one of my textbooks too?" 
+
+   o "If so, no one's ever told me!" 
+
+   n "I'd have been surprised if you said anything else. It's an experimental feature that Perrault and I have been working on." 
+
+   "She reached out and appeared to touch one of the pages, running her finger along it to pick it up and flip it." 
+
+   n "I don't have the tactile sensations quite right yet--the pages still feel kind of furry, like Perrault's body does--but it mostly works otherwise? Would you like to try?" 
+
+   v "Does it--he?--work for someone else? I thought phone familiars only physically manifested for their users." 
+
+   "And even that wasn't guaranteed--there was a setting you could modify to determine whether your familiar manifested physically as well as visually." 
+
+   "Olly and I mostly left it turned off, since he was just large enough that he had a tendency to accidentally bump into stuff, and it *did* make the phone's battery drain more quickly."
+
+   n "Oh, that part's pretty easy to fix! The functionality is mostly supported even in base model familiars, it's just that it's not surfaced in a terribly user-friendly manner." 
+
+   n "My family has a patch that gives people an easier way to work with that and a few other settings; it's one of the first things I've built that we actually sell." 
+
+   v "That's really cool!" 
+
+   n "It sounds cooler than it is--not very many people have actually bought it, to be honest." 
+
+   v "Still ... " 
+
+   "I reached over to touch the textbook, and couldn't suppress my laughter at the sensation." 
+
+   v "You're right, it really does feel like fur!" 
+
+   "Nora helpfully moves her phone closer to me, making it easier for me to experimentally flip a few pages. I can feel the edges of the pages just barely well enough to move them, but they feel more like a wrinkle in a very fluffy rug than anything else."
+
+   n "I'm really hoping I can get this working--I feel like it'll be really useful!  All the convenience of an electronic book, but still with the physicality of a paper one. I know I tend to learn better if I can flip pages back and forth instead of trying to remember percentage completion." 
+
+   v "Haha, same here. So, wait--does that mean that things like search and bookmarking still work?" 
+
+   n "Of course! And narration, using either the standard electronic reader or, since your familiar is *right there*, and effectively holding the entire book in their memory anyway, they can read it to you instead." 
+
+   "She turns to Perrault, taking a breath as though to start demonstrating some other cool feature, then pauses and looks back at me." 
+
+   n "I um, should probably warn you that it's not complete yet? You don't need to worry about explosions, or anything, but things might not work, or might work kind of strangely." 
+
+   v "That makes sense. I'll try not to be too disappointed if it doesn't work." 
+
+   "I hope she can tell that I'm joking--and from her quick grin, I think it worked." 
+
+   n "All right, here goes! Perrault, find--let's see, tomorrow afternoon's homework was from Chapter 2, wasn't it? Find 'War of 1812'." 
+
+   p "You got it!" 
+
+   "I realized that I'd been expecting some sort of movie special effect--wind blowing, pages flipping wildly--when I braced myself, but then was almost disappointed that nothing happened, aside from the book perhaps glowing a bit more brightly." 
+
+   "Instead, after a moment, what looks like one of the diagnostics panels that I'd seen Nora using before pops up, swiftly populating itself with a list of chapter, page numbers, and small excerpts of text." 
+
+   "Nora scans the list briefly, then selects the third on the list. The book glows brightly for a moment, and when the glow subsides, I see that we are now on that page." 
+
+   v "Wow!" 
+
+   n "I'd like to make the interface cleaner, and animate the pages flipping. Though maybe that would get annoying after a while? I still need to think about that some more. I still need to work a lot on bookmarks, too." 
+
+   "She runs her finger across a line of text about halfway down the page." 
+
+   n "Perrault, could you bookmark that for me, please?" 
+
+   p "Done!" 
+
+   "The line now looks like it's been highlighted, and a second window has popped up beside the search window. Nora casts a dissatisfied look at it." 
+
+   n "And I'd really like to make my bookmarks look like actual bookmarks, you know? Make the window available for people if they need it, but otherwise they ought to just be able to touch a bookmark that's stuck in the book and flip to that page manually, like you'd do with a real book."
+
+   v "That *would* be really cool. Not that this isn't! It seems really useful--I'm always leaving my textbooks behind, but I really don't like using the electronic ones if I don't have to." 
+
+   "Nora ducks her head, looking almost embarrassed." 
+
+   n "Thanks. If you want, I could let you and Olly try a beta version, once I have it working a little bit better?" 
+
+   v "Olly? Would you mind?" 
+
+   o "No, it sounds like fun!" 
+
+   v "Then we'll happily take you up on that offer--I'm looking forward to it!" 
+
+   v "And let me know if you want any help … I don't know what I'd be able to do, actually, but any second opinions on something?" 
+
+   n "Thanks, I will." 
+
+   n "... For now, we probably ought to be working on homework, though." 
+
+   show v embarrassed 
+
+   v "Right." 
+
+   n "Perrault, please turn to page 28." 
+
+   "We spend a few hours in the gardens, reading and talking and working on our assignments, before the setting sun finally drives us back inside. Nora had completely finished her assignment, and mine was, well. Mostly done. Close enough that I'm pretty sure I'll be able to complete it on my own without too much trouble." 
+
+   "Nora's really good at making the history sound interesting, and connecting the laws of the time period to things that were going on then." 
+
+   "She says it's because her dad really likes history--apparently when they were younger, he'd read them children's books about a particular subject, then come back the next day with three new stories related to that subject that he'd found out about by looking it up online." 
+
+   "It sounds … nice. My parents hadn't really had the time for that sort of thing, but had left strict instructions for my nanny that meant she was only allowed to read boring stories with morals about Duty and Honor and Responsibility." 
+
+   "Occasionally, when Eliza had the time, she'd show up and overrule my parents' instructions. I'd loved those nights the best--my nanny would tell *amazing* stories about little girls who got to go on fantastic adventures and do amazing deeds." 
+
+   "But they'd been uncommon to start with, and only grew more so as we grew up and Eliza had to spend more and more time on preparing to be a proper heir to our family."
+
+   "Maybe I should look into history a bit more, though. It sounds like it might be interesting, and if it can help me stay awake in Magical Law, it'll be more than worth the time spent!" 
 
    jump posthomework
 
 label liam2:
+
+   # 1.11b Viola and Liam do homework
 
    v "I sit up straighter in my chair. That looks like Liam, just walking out of the Larks Library. I stand up and wave in his direction."
    
