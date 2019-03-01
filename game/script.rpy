@@ -1669,5 +1669,154 @@ label posthomework:
 
    n smiling "I will." 
 
-   return
+   # 2.?? More on Viola and her major 
 
+   "It turns out that Professor Reynell really likes mystery boxes." 
+
+   "And while I really enjoyed the first several he assigned to us, well. almost three months into the semester, they've gotten a lot harder to unravel, and the consequences for not doing so rather more … interesting." 
+
+   n "... Should I ask why you're sitting on the ceiling?" 
+
+   scene bg v dorm
+
+   # can we flip Viola's sprite upside down in the scene? That would be hilarious and appropriate
+
+   v "Cursebreaking homework." 
+
+   n laughing "Again?" 
+
+   "I suppose it's not the first or even the worst thing she's seen happen to me as a result of making a mistake with one of these boxes. The day I spent with my skin glowing slowly rotating shades of purple was just embarrassing." 
+
+   "Though at least most of my other classmates ended up looking the same way." 
+
+   n "Want me to toss you the box?" 
+
+   v "Yes please! I accidentally dropped it a few minutes ago, and I'm getting bored, to be honest." 
+
+   n "Here you go." 
+
+   "At first, when I had … mishaps, I'd been reluctant to let Nora touch the box. Luckily, it seemed that Professor Reynell was not completely sadistic -- the traps all appeared to have been set to only react when interacted with by someone from the class." 
+
+   n "Should I be stacking pillows beneath you or something?" 
+
+   v "No, it's fine -- there's a height limit, and apparently when it wears off we drift slowly back down." 
+
+   "No one's box was quite the same, but the traps tended to be more similar than the solutions to the puzzles, so pretty early on in the class, most of us had set up a group chat where we could share warnings and tips with each other. If Professor Reynell knew, she clearly didn't mind." 
+
+   n "... Your homework is a lot more exciting than mine." 
+
+   v laughing "Only if I do it wrong." 
+
+   n smiling "I'm glad you're having fun?" 
+
+   v "I mean, you have to admit, being stuck to the ceiling is pretty cool, aside from the inconvenience of being unable to go anywhere." 
+
+   n "I'll stick to the ground, thanks." 
+
+   n "You know -- it occurs to me, I've never really asked before -- why did you choose Cursebreaking? Is this really that interesting to you?" 
+
+   "I hesitate. I'm not sure I'm ready to share the full reason. I don't want Nora to start thinking I'm some sort of conspiracy theory-chasing nut."
+   
+   "But there are some things I can say." 
+
+   v "Yeah, it is. I guess it started when I was younger -- my nurse liked telling tales of valour and cunning that often involved the protagonist having to solve some riddle or break through some lock, and it … always seemed like real magic to me, you know?"
+
+   v "I dragged Liam and -- well, my friends at the time, into so much trouble, running around our property trying to find puzzles to solve and treasure to rescue."
+#####
+   n amused "Did you ever find any?"
+
+   v "We did! Not always, and sometimes the puzzles were too hard and we had to come back and try again. One took us an entire month of adventures before -- we finally cracked it."
+
+   "It had been Shouhei who'd had the idea to send Kinuko up into the tops of the trees to see if there was anything up there that we were missing."
+
+   "And the clue had been right there, clear as day."
+
+   "Maybe I shouldn't have started talking at all. It's been so long since I've talked about those times that I sometimes forget just how full of painful reminders even the happy memories are."
+
+   n "That's really cool. Are most old houses like that? Making sure the coming generations are worthy by starting their training while they're young?"
+
+   "I get the feeling that she's teasing me. Though, to be fair, I wouldn't put it past some of the really proud old houses to do just that."
+
+   v amused "Sadly, no. At the time, of course, we just thought they magically appeared, but later, my s--"
+
+   "I stop. More than anything, I don't want to make this about what other people think about Eliza right now."
+
+   "Nora lets the silence lie for a moment, clearly trying to figure out something to say. I guess even without saying it, it's pretty obvious who and what I meant."
+
+   "I scramble to come up with something else to say. Anything else, to change the topic. But my mind empty of everything except the nostalgia and the pain." 
+
+   n "That was a really nice thing for your sister to do for you and your friends."
+
+   "I wait, expecting something more. Incredulity, that a murderer could be kind to her kid sister. Or anything, really, commenting on who -- and where -- Eliza was now."
+
+   "But Nora doesn't say anything else, just waits patiently to see if I'll pick the story back up where I left off."
+
+   "Smiling hurts, too, but I do it anyway." 
+
+   v "It was."
+
+   v "Solving the puzzles was fun, but the best part was the stories we made up about the process. I guess it sounds childish now, but we were always gallant knights, seeking out the cure for our prince's terrible ailment."
+
+   v "Or princes and princesses, whose parents had been trapped by a terrible curse that only we could fix."
+
+   n smiling "My brother and I used to play games like that, too. Although ours usually involved fewer puzzles and more monsters to defeat."
+
+   v smiling "We did some of that too, when we were in larger groups. But Liam's mom would worry over us if we accidentally injured each other, so we mostly stuck to the puzzles that we liked more anyway, when we were alone."
+
+   v "And I guess it stuck with me?"
+
+   v "In old myths and legends, sometimes the curse is inflicted on someone who deserves it, and they have to overcome it themselves, by learning an important lesson about life that they'd missed. Professor Reynell calls those Inward-Oriented Curses."
+
+   v "But most curses -- Outward-Oriented Curses -- are a lot more indiscriminate than that. They'll just attack anyone who's conveniently in range, or they'll have been badly built to begin with, and cause a lot more damage to more people that the caster originally intended."
+
+   v "And that just seems wrong to me, you know? People shouldn't have to worry about being struck down by something they can't see coming, just because they happen to have the wrong ancestor or say the wrong thing in the wrong place."
+
+   v "So I really like solving puzzles, but I think even more than that, I like having the knowledge that by deconstructing some curse, I'm making the world a little bit safer."
+
+   v "And if the person who originally set the curse has a problem with that, well, that's their problem. And maybe next time they'll go after the person they're actually mad at, instead of randomly hurting anyone who might be in the way."
+
+   "I don't know who put the school curse in place. I don't know why. I don't even really know the details of what it does, since the legends are frustratingly long on poetry and short on concrete details."
+
+   "But I refuse to believe that Eliza deserved what happened to her. That Mariko deserved to die, by whoever's hand did the deed."
+
+   "I don't even care that the curse has done well for some people. I've always thought that being on the curse's 'good side' meant you hadn't really earned what it gave you, anyway."
+
+   "I just really want it gone, so it can't hurt anyone like it hurt my sister, ever again."
+
+   n "I think that's really admirable."
+
+   "I wonder if she'd say the same, if she knew how much anger I carried with me, and how personal my vendetta against the school curse in particular was."
+
+   v "Haha, thanks? I don't think I'd do it if I didn't also really like solving puzzles, though. I'm not that good of a person."
+
+   n "Does that really matter? I wouldn't do all this if I didn't really love fiddling with phone programming, either."
+
+   "Her gesture took in the array of projects scattered across her desk." 
+   
+   "After a month and a half of rooming together, it was kind of neat to realize that I recognized and could describe in at least basic terms what most of them did."
+
+   v "I guess so. It's not as altruistic as playing knights and princesses, though."
+
+   n "Was that really altruism either? You said that you were generally trying to cure or save a loved one, or someone you felt beholden to. And I think it's entirely reasonable to want your loved ones to be safe and happy."
+
+   v "Heh. True."
+
+   "I wonder if she'd say the same if she knew about Eliza, and how convinced I am that she's innocent."
+
+   "It's funny, though, to consider that in some ways, I guess I am just re-enacting our childhood games all over again. Just with Eliza in the role of cursed princess this time."
+
+   "I hope I'm as successful at unraveling this puzzle as we were (eventually) at solving the ones she prepared for us."
+
+   v "Speaking of solving puzzles, I probably ought to go ahead and try to solve this one."
+
+   n laughing "I guess you should. I don't think you'd do too well trying to eat up there, and it's almost dinner time."
+
+   v smiling "I don't really want to sleep up here, either. The ceiling's not that comfortable."
+
+   n "Want me to throw you a pillow to sit on?"
+
+   v "Ask me again if I'm still up here in an hour."
+
+   "Heart a little bit lighter, I turn back to the box."
+
+   return
