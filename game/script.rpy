@@ -1385,7 +1385,7 @@ label posthomework:
 
    l "Clara, who is it from?" 
 
-   c "It's from Mom. It's been a while since you last called her, you know." 
+   cl "It's from Mom. It's been a while since you last called her, you know." 
 
    l "Yeah, you're right--remind me tonight?" 
 
@@ -1476,6 +1476,198 @@ label posthomework:
    l "You know I'll do everything I can to help you, right? Just let me know." 
 
    "And with Liam on my side, somehow the path ahead of me feels a little bit less steep than before." 
+
+   scene bg v dorm
+
+   # 2.? Viola and Nora talk about Nora's side projects
+
+   "Cursebreaking today was fantastic! We talked about (TK something cool). I don't know if it'll come in handy at all for my immediate goals, but it's days like this that remind me that this really is what I want to do, even after breaking the curse on the school." 
+
+   "There's just so much interesting stuff there." 
+
+   "Plus! Professor Reynell gave each of us a small box at the end of class, and said that it was our homework for Friday." 
+
+   "The box itself doesn't seem to be cursed--at least, not anything that activates with touch. Although I'm pretty sure I caught him laughing to himself as he watched all of us run through all the analyses we could think of as a group before someone finally gave in and picked a box up." 
+
+   "I'm almost certain that whatever is inside the box--and there's definitely *something* inside; I can feel it sliding around when I'm not careful to keep the box steady--*is* cursed, though. It should be a fun puzzle to figure out." 
+
+   "Nora had been hard at work on something when I left for class, but I'm kind of hoping that she's wrapped it up by now. I don't want to disturb her with my homework, if the contents of the box end up involving loud noises or flashing lights or other similar annoyances." 
+
+   "Unfortunately, when I stick my head into our room, it looks like she's still there." 
+
+   "And, in fact, looks like she's leaning over the same fiddly device she was when I left, Perrault equally engrossed at her shoulder." 
+
+   "I pad quietly into the room, putting my book bag by the side of the bed and the box next to it, for now, then sit down and watch for a little bit." 
+
+   "If she wasn't breathing, and occasionally shifting position slightly, I'd have started wondering if she had been frozen somehow." 
+
+   v "Hard assignment?"
+
+   n "What? Oh, no, this isn't for class. I've already finished all my homework for tomorrow." 
+
+   "And when she says all, she really means *all*--I'd intentionally tried to give myself a fairly balanced schedule, but as far as I could tell, Nora had scheduled every class she possibly could in Tuesday/Thursday blocks." 
+
+   "I occasionally envy how much free time that gives her on Wednesdays and Fridays, but seeing how worn out she gets after running around to class all day Tuesday and Thursday?" 
+
+   "No thanks, I'll stick to my more balanced schedule." 
+
+   "She was also way better than me at getting her homework done well ahead of time. Though that was probably my fault, for spending so much time out wandering, trying to find out more about the curse on the school." 
+
+   v "A personal project, then?" 
+
+   n "You could say that." 
+
+   "She sounds sort of frustrated--more than I can remember hearing from her before."
+
+   v "I'll let you get back to it, then. Sorry for interrupting." 
+
+   n "No, it's fine."
+
+   "She leans back in her chair and sighs, rubbing at her forehead." 
+
+   n "I haven't made hardly any progress all day, anyway." 
+
+   v "You've been working on this all day?" 
+
+   "I'd seen her at Magical Fields today, so I knew she'd at least broken away to attend that. But that was only ten to noon; she was almost always up long before I woke up, and it was almost 5 now."
+
+   v "You have eaten, right?" 
+
+   "I'd grabbed lunch at the cafeteria, using all the extra time I had to pore over my Cursebreaking text for the quiz that Professor Reynell had given in the first part of class." 
+
+   "(Which, as far as I could tell, I had aced. Another reason today's class was great!)" 
+
+   "I hadn't seen Nora at the cafeteria, but that could just mean that I hadn't been paying enough attention." 
+
+   show n amused
+
+   n "Yes, mother, I did." 
+
+   hide n
+
+   "She gestures towards the corner of the room near the door, where our trash cans live--one each for food scraps, easily recyclable material, and everything else, with a tray to the side for dishes and silverware." 
+
+   "All of them are spelled to transport their contents to the appropriate locations. I know that food scraps go to the Botany greenhouses, and the dish tray back to the cafeteria, but I'd never bothered to ask about the other two." 
+
+   "The transport spell could be invoked manually, but it was a somewhat complex and intensive spell. I'd wanted a nap after the first time I tried to cast it. So since we very rarely filled any of them more than half full, much less full enough to need to do a mid-week empty, most of the time we just let them do their weekly auto-invocation. (Daily for the dish tray.) Generally that happened sometime either late at night Sunday or early in the morning Monday." 
+
+   "I'd never seen it, although Nora was also sometimes up later than me, so maybe she had." 
+
+   "And right now, although the cans aren't full enough for me to see into them, I can clearly see a plate and silverware stacked in the dish tray." 
+
+   v "Sorry, I guess that did kind of come off as patronizing, didn't it?" 
+
+   n "Haha, no, it's a reasonable question. I have been known to forget to eat in the past, so a reminder never hurts."
+
+   v "What are you working on? If you don't mind me asking." 
+
+   n "It's not all that interesting, honestly. Just something my mom asked if I could look into, the last time we chatted." 
+
+   v "Something for the shop?" 
+
+   n smiling "Not one of our production models, thankfully. But it's something I'd been working on before I got here -- Mom said she'd take the project over if she had time, since she wants me to be able to concentrate on my studies, but she hasn't been able to make much progress either."
+
+   "It's on the tip of my tongue to ask if it does interfere, but I stop myself." 
+
+   "First, because it's just more mother-henning, and I know how much I hate it when other people try to tell me what to do, or act like I don't know my own mind perfectly well." 
+
+   "And second, because … who am I kidding? Whenever I see Nora, she's always working on something. And she's always ahead on me when it comes to homework for the classes we share. She clearly has her studies well under control." 
+
+   v "Is it a new kind of phone? -- Um, feel free not to tell me if it's a secret or something like that." 
+
+   n "Haha! No, it's fine. We sell familiar-phone combos because a lot of people like the convenience, but we don't do a whole lot of work with the underlying hardware. Mostly just integrating the familiars in, and providing some additional helpful software." 
+
+   v "Like the textbook visualization you and Perrault have been working on?" 
+
+   n "Yes, exactly! Which reminds me, I need to get back to that, too. I still can't figure out how to keep the pages from feeling furry." 
+
+   n "Anyway. This is another little add-on utility -- or hopefully will be, eventually." 
+
+   "She gestures me over, and lifts the device slightly, pressing a button that causes paragraphs of nonsense text to appear in mid-air. If I look more closely at the device, it's got a screen about the same size and shape as my smartphone, currently displaying the same set of text." 
+
+   n "We get a lot of different variety in our clientele, as you might imagine.  Plenty of young children, coming in to get their first familiar. Those are always fun -- their wide-eyed awe at the process kind of … reminds me just how magical this all is, you know?" 
+
+   "I nod. I barely remember the circumstances surrounding when I got my first smartphone, but a few things remain, and the glorious flash of green and gold scales as Olly manifested for the first time in front of me is definitely one of them." 
+
+   n "Then there's a lot of people looking to upgrade their hardware. Technically they can buy the new phones from the manufacturer's stores directly, and they should be able to transfer the familiars without any problem." 
+
+   n "But not everyone trusts that, and especially with people who've bought our other add-ons -- we guarantee free replacements for anything that gets broken unexpectedly by an upgrade, but in those cases it's often easier on both them and us to just let us do the entire upgrade." 
+
+   n "And then there are our oldest customers, who've had the same familiar for decades, but can no longer see or hear them as well anymore -- or the phone, either. Those break my heart the most." 
+
+   "I nod again. My grandparents are still alive and in good health, my grandfather happily telling my father all the things he would be doing differently if he was still in charge of the clan." 
+
+   "(One minor side benefit to proving Eliza's innocence: I won't have to deal with my dad doing the exact same thing, when he decides it's time to retire and hand down the reins.  Because I already know that he absolutely will.)" 
+
+   "But my great-grandfather passed away a year or two after everything happened with Eliza, and his sight and hearing were both almost entirely gone by that point."
+
+   "When Eliza and I went to visit him, he'd always ask us to reassure him that his familiar was still there, and to tell her that he still appreciated her. Because most of the time, he could still tell she was there. But sometimes … he couldn't." 
+
+   n "Sometimes, they're just not aware of existing smartphone functionality, so we can help them connect their familiar to the screenreading software, so their familiar can more easily read to them what's happening on the phone." 
+
+   n "But most existing smartphones have pretty simplistic software in that respect, so we've been trying to see if we can come up with a suite of tools that we can provide that'll make these things easier." 
+
+   n "Like this? As you can see, I've lifted the text from the screen into mid-air, so that you don't have to squint down at the phone, which helps some people. But the real thing I'm working on, is" 
+
+   "She pinches two of her fingers over one of the sentences, and then spreads them apart."
+
+   "First the text increases in size, until only a few words at a time show up in each row. Then the roughly phone-sized patch of air abruptly expands to two, three times its previous size, but the text shrinks back down to normal." 
+
+   "And then it all disappears. Nora sighs, but she doesn't look terribly surprised." 
+
+   n "... As you can see, it's very much still a work in progress." 
+
+   o "Fascinating." 
+
+   "I jump. I hadn't noticed that Oly had left the immediate confines of the phone to come hover at my shoulder, spectral claws digging into my shirt in a way that thankfully would not leave any real holes." 
+
+   o "You're combining text zoom, screen projection, and screen expansion?" 
+
+   n "Yes, exactly. Most newer phones support all three, but they're not well-integrated with each other. Or at all, really. So I want to build an application that will allow controlling all three in a smooth fashion." 
+
+   p "And not just with gestures, either." 
+
+   n "Right -- once I have it integrated, we can make it a familiar command, too, so that our older customers, or customers with limited eyesight, can just ask their familiars to zoom text for them." 
+
+   n "I've mostly been working with gestures so far, because I figure that's less annoying than hearing me say 'Perrault, special zoom' over and over." 
+
+   v smiling "I appreciate the consideration, though as long as I'm not trying to sleep, I'm pretty good at tuning that sort of thing out." 
+
+   v "And that's really cool. I'm sure my great-grandfather would have loved to have something like that. He used to love reading, before his eyesight got too bad." 
+
+   v "I assume you're working on something for people who are hard-of-hearing, too?" 
+
+   n "I guess it's pretty obvious, huh? Yes, that's what I'd like to try to build something for next." 
+
+   n "Most people like to keep their familiars at a normal conversational volume or lower, because it's just polite, you know? But I've been looking through some of the documentation, and it looks like there are ways to make it so that you're the only one who can hear your familiar." 
+
+   n "So if we were to combine that with a big volume boost, or with adjustable pitch, people who still have some hearing will be able to still hear their familiar talking to them without feeling like they're inconveniencing everyone else." 
+
+   "Nora suddenly pauses her explanation, looking a bit hesitant." 
+
+   n "Sorry, I'm boring you, aren't I? I tend to go on and on about things I like, if given an excuse, as you may have noticed." 
+
+   n "You can tell me to stop if you ever want me to. I promise I won't be offended." 
+
+   v "No, you're not boring me at all! I obviously don't know all that much about artificing, so I have no idea how you'd go about doing … all the things you're describing. But you're really good at saying things in a way I can follow." 
+
+   v "And all the things you've been working on -- they seem really neat and really useful. I'm incredibly impressed that you somehow manage to find time to do all that and your schoolwork, though." 
+
+   "To be honest -- if I hadn't already been so focused on cursebreaking, for a variety of reasons, knowing Nora might have made me seriously consider switching my major to Artificing."
+
+   "I hadn't ever really thought much about how my phone and Oly did the things they did, and what sort of things they might be able to do instead, but. Listening to Nora speak kind of made me want to learn." 
+
+   n blushing "Thanks. I like to think that what I'm doing will be helpful to people, but sometimes I get so caught up in the problem-solving aspects that it can be hard to see."
+
+   v "I'm still really looking forward to trying out the textbook-reading app, once that's ready, too." 
+
+   o "Yeah, me too!" 
+
+   n "Thanks, both of you." 
+
+   v "Just, make sure you take care of yourself, too?" 
+
+   n smiling "I will." 
 
    return
 
