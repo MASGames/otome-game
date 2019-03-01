@@ -1317,6 +1317,8 @@ label posthomework:
 
    # 1.12 Viola investigates the ~haunted~ vending machine
 
+   scene bg outdoors
+
    "It's a sunny Sunday afternoon, the weather having been kind enough to remain nice all week, and I'm *finally* done with all of my homework. Which means I finally have a chance to do a little extra exploring!" 
 
    "I've been visiting Wyderwold off and on for as long as I can remember, but it's always been accompanied by someone: my parents, when I was younger; when Eliza was attending school here they let me come stay with her once, for a weekend, but even then I spent most of my time with her." 
@@ -1369,6 +1371,111 @@ label posthomework:
 
    "I'm sure there will be other leads--I just need to keep my ears open." 
 
+   # 2.1 Viola and Liam talk about Viola's family
+
+   scene bg patio # patio outside the cafeteria
+
+   "I'm eating lunch on the outdoor patio next to the cafeteria, trying to take advantage of the good weather while it lasts, when Liam walks up." 
+
+   l "Mind if I join you?" 
+
+   v "Not at all! Go ahead." 
+
+   "He sits down, and we eat in companionable silence for a while. Suddenly, his phone buzzes."
+
+   l "Clara, who is it from?" 
+
+   c "It's from Mom. It's been a while since you last called her, you know." 
+
+   l "Yeah, you're right--remind me tonight?" 
+
+   "He looks at the text, and then laughs, and turns to show it to me." 
+
+   "One of his mothers is standing next to what looks like a giant Venus flytrap, grinning broadly. Her head's far closer to those teeth than *I* would ever want to get, but then, I'm not a botanist." 
+
+   v "Your moms are still doing well?" 
+
+   l "They are--Mum's got steady work at the local hospital, and takes the occasional specialized client on the side, and Mom's, well, you saw--she's still at home most of the time, but she's gotten a few grants that have let her make a few more trips recently."
+
+   v "That's good! I remember how much she used to enjoy those trips." 
+
+   l "And … your family?" 
+
+   "I grimace. I hate talking about this, but--if anyone deserves to know, and if anyone would actually *understand*, it's Liam." 
+
+   "His family was affected by everything that happened too." 
+
+   l "Sorry. You don't have to talk about it if you don't want to." 
+
+   v "No, it's fine." 
+
+   v "And things are about the same as ever, honestly. No one talks about any of...well, you know. If they can help it."
+
+   l "Has she called at all?"
+
+   "He had to mean Eliza."
+
+   v "The usual stilted family calls on major holidays, though I think my parents would stop having them if they thought they could get away with it. Otherwise, not really." 
+
+   "I'm aware I sound bitter, and part of me wants to rein myself in. Politically speaking, it makes total sense that my parents would not want to continue to associate themselves overly much with someone who had theoretically besmirched the family's name as much as my sister had." 
+
+   "But I knew Eliza wouldn't do something like that, and I hated the fact that they just took everything at face value. That the only reason they maintained contact at all is because it would reflect even worse on our family if we were seen as abandoning our own." 
+
+   l "That sucks. I'm sorry."
+
+   "I smile weakly at Liam. It helps that he understands my bitterness, at least. It feels nice to know that I still don't have to rein myself in around him." 
+
+   l "... Do you mind if I ask you something … kind of personal?" 
+
+   v "Of course not!" 
+
+   l "Back then, you were convinced that Eliza didn't do anything wrong. Do you still think --?" 
+
+   v "Yes." 
+
+   "I know I sound short, and that's probably unfair to Liam, but did he really think that would have changed?" 
+
+   "I loved -- love -- my sister, and I knew her, and I had recognized nothing of her in the lurid media portrayals of her during the trial." 
+
+   "She and Mariko -- they'd been even closer friends than Shouhei, Liam, and I, back before everything. Almost all of the stories she'd told of Wyderwold had featured Mariko, and I'd hung on every one." 
+
+   "Back then, I'd dreamed of coming here with Liam and Shouhei, the three of us together, having all sorts of fun adventures like Eliza and Mariko did." 
+
+   "I guess all three of us had made it here in the end, at least." 
+
+   "But the trial -- all the descriptions of rooms covered in blood, Eliza with Mariko's blood on her hands and face, laughing maniacally …" 
+
+   "No, that was not the sister I knew." 
+
+   "So I didn't care if she'd pled guilty. Maybe she was taking the fall for someone else. Maybe it was an accident and she felt responsible because there was nothing she could have done." 
+
+   "But I refused to believe that my sister would have killed her best friend in cold blood." 
+
+   l "Has she ever said anything to you about it?" 
+
+   "It's only his non-judgmental tone -- and the fact that this is Liam -- that keeps me from lashing out further. He's not the sort to lead me around in circular arguments. At least, he always used to be willing to tell me straight out when he thought I was wrong." 
+
+   v "No. But we never get a chance to talk alone, either."
+
+   "I'd tried to smuggle her my phone number early on, so she'd be able to contact me privately, but she'd never used it. So who knew if she had even received it?"
+
+   l "And you think she'd want to keep hiding it -- whatever happened -- from your parents?" 
+
+   v "There must be a reason why she pled guilty, right? If someone was blackmailing her, or if something about the truth would have besmirched our family somehow … our parents are the last people she'd tell." 
+
+   l "What if it is something like that?" 
+
+   "I hesitate. It's something I've tried to avoid thinking about, to be honest. If proving Eliza's innocence meant destroying our family from the inside …" 
+
+   v "... I don't know." 
+
+   v "But I need to know the truth." 
+
+   "Liam meets my eyes, the solemn sincerity hitting me with an almost physical force." 
+
+   l "You know I'll do everything I can to help you, right? Just let me know." 
+
+   "And with Liam on my side, somehow the path ahead of me feels a little bit less steep than before." 
 
    return
 
