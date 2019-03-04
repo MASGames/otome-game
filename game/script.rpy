@@ -264,9 +264,9 @@ label start:
    
    "We all turn to Colin, but before he has a chance to introduce his familiar, the professor comes in, and we all hastily sit down."
    
-   pc "Welcome to Foundations 105: Magical Fields. I'm Professor Corbet." 
+   pm "Welcome to Foundations 105: Magical Fields. I'm Professor Marquez!" 
    
-   pc "And as this likely the first class for many of you, I would like to formally welcome you to Wyderwold University as well."
+   pm "As this is the first day for most of you at Wyderwold University, we can skim over the basics today before getting into the really fun stuff--"
    
    "Nora leans over from her desk, about to say something when--"
 
@@ -278,7 +278,7 @@ label start:
 
    v "That person is--" #I'm sure there's a way to show a character's name without showing their sprite, but actually, what do you guys think about showing sprites at Viola's location during CGs? It's especially useful for if the CGs don't show everyone's faces. We'd just have to make and define new side images.
 
-   pc "Shouhei Utsurikawa, was it? How nice of you to join us. Take a seat anywhere you like."
+   pm "Shouhei Utsurikawa, was it? Come in, come in--take a seat anywhere that's free!"
 
    "The chatter in the room starts up again, but I can barely hear it. His eyes skim the room before they stop to look at--me? Liam? Both?"
    
@@ -302,19 +302,17 @@ label start:
    hide k
    show pc normal
    
-   #pc "All right, class, it’s nice you’re all becoming such good friends, but we have things to learn, and we don’t have all day to do it in. Everyone back to their desks, please."
+   #pm "All right, class, we have all year to make friends--which I very much hope you will--but let's get this show started."
 
    #"Nora’s desk isn’t too far away from mine. Unfortunately, Liam’s halfway across the room, and Colin’s off in the opposite corner. Shouhei is in the middle of the room." [Is there a reason they're all separated?]
    
-   pc "As I was saying..."
-   
-   "I should pay attention to Corbet, but I'm still stuck on Shouhei. Neither I nor Liam have spoken to him since...it was a while ago. I shake off the thought. I can talk with Liam about this later. I turn to the board and Corbet begins their lesson."
+   "I should pay attention to Marquez, but I'm still stuck on Shouhei. Neither I nor Liam have spoken to him since...it was a while ago. I shake off the thought. I can talk with Liam about this later. I turn to the board and Professor Marquez begins their lesson."
 
-   pc "Summoning. Enchantment. Botany & Beasts. Healing. Artificing. These fields may be among the better-known arenas of magic, but this foundational course will delve deeper than that."
+   pm "Summoning. Enchantment. Botany & Beasts. Healing. Artificing. These fields may be among the better-known arenas of magic, but this foundational course will look deeper than that."
 
-   pc "How do we decide what makes one magical field separate from another? How are certain fields defined in different countries in a historical, religious, and sociocultural context? Now can someone tell me--?"
+   pm "How do we decide what makes one magical field separate from another? What factors--social, religious, cultural--shape and differentiate the developments of any magical field? Now can someone tell me--?"
    
-   hide pc
+   hide pm
    
    "Eventually, the chimes ring, signalling the end of the lesson. I stand and stretch, feeling stiff from sitting at the desk for so long. I pack up my bag and head towards the door with the rest of the class."
 
