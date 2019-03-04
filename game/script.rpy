@@ -1612,19 +1612,19 @@ label posthomework:
 
    n "And then there are our oldest customers, who've had the same familiar for decades, but can no longer see or hear them as well anymore--or the phone, either. Those break my heart the most." 
 
-   "I nod again. My grandparents are still alive and in good health, my grandfather happily telling my father all the things he would be doing differently if he was still in charge of the clan." 
+   "I nod again. My grandparents are still alive and in good health, my grandfather happily telling my father all the things he would be doing differently if he was still in charge of the family." 
 
    "(One minor side benefit to proving Eliza's innocence: I won't have to deal with my dad doing the exact same thing, when he decides it's time to retire and hand down the reins.  Because I already know that he absolutely will.)" 
 
-   "But my great-grandfather passed away a year or two after everything happened with Eliza, and his sight and hearing were both almost entirely gone by that point."
+   "But my great-grandmother passed away a year or two after everything happened with Eliza, and her sight and hearing were both almost entirely gone by that point."
 
-   "When Eliza and I went to visit him, he'd always ask us to reassure him that his familiar was still there, and to tell her that he still appreciated her. Because most of the time, he could still tell she was there. But sometimes...he couldn't." 
+   "When Eliza and I went to visit her, she'd always ask us to reassure her that her familiar was still there, and to tell him that she still appreciated him. Because most of the time, she could still tell he was there. But sometimes...she couldn't." 
 
    n "Sometimes, they're just not aware of existing smartphone functionality, so we can help them connect their familiar to the screenreading software, so their familiar can more easily read to them what's happening on the phone." 
 
    n "But most existing smartphones have pretty simplistic software in that respect, so we've been trying to see if we can come up with a suite of tools that we can provide that'll make these things easier." 
 
-   n "Like this? As you can see, I've lifted the text from the screen into mid-air, so that you don't have to squint down at the phone, which helps some people. But the real thing I'm working on, is" 
+   n "Like this? As you can see, I've lifted the text from the screen into mid-air, so that you don't have to squint down at the phone, which helps some people. But the real thing I'm working on is..." 
 
    "She pinches two of her fingers over one of the sentences, and then spreads them apart."
 
@@ -1650,7 +1650,7 @@ label posthomework:
 
    v happy "I appreciate the consideration, though as long as I'm not trying to sleep, I'm pretty good at tuning that sort of thing out." 
 
-   v "And that's really cool. I'm sure my great-grandfather would have loved to have something like that. He used to love reading, before his eyesight got too bad." 
+   v "And that's really cool. I'm sure my great-grandmother would have loved to have something like that. She used to love reading, before her eyesight got too bad." 
 
    v "I assume you're working on something for people who are hard-of-hearing, too?" 
 
@@ -1921,7 +1921,7 @@ label postpick:
 
    pm "Good try, but your partners have already been decided."
 
-   "She holds up the sheaf of papers that she'd brought into the room with her. I hadn't paid it much attention, since she's often carrying papers or occasionally a small bound notebook. But this particular stack does look larger than usual." 
+   "They hold up the sheaf of papers that they'd brought into the room with them. I hadn't paid it much attention, since they're often carrying papers or occasionally a small bound notebook. But this particular stack does look larger than usual." 
 
    pm "Speaking of, I assume that's what you're all here to find out, yes?"
 
@@ -1933,7 +1933,7 @@ label postpick:
 
    pm "I prefer if appeals are presented to me in written form, and placed in the proper receptacle."
 
-   "She gestures to the small trash can by her desk, as a handful of the other students stifle snickers."
+   "They gesture to the small trash can by their desk, as a handful of the other students stifle snickers."
 
    pm "Everyone understand? Good."
 
