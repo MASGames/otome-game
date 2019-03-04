@@ -31,6 +31,19 @@ image n normal = "n normal.jpg"
 image c normal = "c normal.jpg"
 
 label start:
+
+   "DEBUG CHOICE: IS COLIN'S ROUTE UNLOCKED?"
+
+   menu: 
+
+      "Yes.":
+
+         $persistent.colin_route_unlocked = True
+
+      "No.": 
+
+         $persistent.colin_route_unlocked = False
+
    # 1.1 Atmospheric intro scene
    scene bg 1 # university birds-eye view 
    
@@ -188,7 +201,7 @@ label start:
  
    # 1.4 First Magical Fields class
 
-   scene bg 3 # Classroom 
+   scene bg mf_class 
    show n normal
 
    v "–-And the first rose bush was originally donated by one of my ancestors, though it's at the center of the garden, so we didn't see it this time."
@@ -284,7 +297,7 @@ label start:
    
    "He doesn’t meet my glance, though. His eyes flicker away, and he takes a seat on the opposite side of the room. Without another word, he takes out his books and faces forward, away from us."
    
-   scene bg 3 # Classroom
+   scene bg mf_class
    show n normal at left
 
    n "You know that guy?" 
@@ -300,9 +313,9 @@ label start:
    "A crane appears, gracefully gliding through an open window to rest by Shouhei’s desk. A physical familiar. The whispers around me get louder. Physical familiars are not unknown, but rarer now than they once were."
    
    hide k
-   show pc normal
+   show pm normal
    
-   #pc "All right, class, it’s nice you’re all becoming such good friends, but we have things to learn, and we don’t have all day to do it in. Everyone back to their desks, please."
+   #pm "All right, class, it’s nice you’re all becoming such good friends, but we have things to learn, and we don’t have all day to do it in. Everyone back to their desks, please."
 
    #"Nora’s desk isn’t too far away from mine. Unfortunately, Liam’s halfway across the room, and Colin’s off in the opposite corner. Shouhei is in the middle of the room." [Is there a reason they're all separated?]
    
@@ -349,9 +362,9 @@ menu:
       $npoints += 1
       jump garden1
             
-   #"The dorms":
-      #$cpoints += 1
-      #jump dorms1
+   "The dorms" if persistent.colin_route_unlocked == True:
+      $cpoints += 1
+      jump dorms1
         
        
 label health1:
@@ -701,11 +714,11 @@ label garden1:
 
    jump postlunch
     
-#label dorms1:
+label dorms1:
 
    # 1.5d Lunch with Colin
 
-    #c "y"
+   c "y"
     
 label postlunch:
    
@@ -742,18 +755,18 @@ label postlunch:
    "I blink. It's Colin in front of me, a hoodie half-zipped up and a short towel draped around his neck. Droplets of water drip from his hair."
 
    c "Hi. I'm going to go with my first guess that it's not me you're looking for."
+   
+   menu: 
 
-# menu: There will be a menu here once we figure out how to hide/show Colin's route 
+      "Right. I'm looking for Liam, is he in?":
+         $lpoints += 1
+         jump liam1
 
-#     "Right. I'm looking for Liam, is he in?":
-#            $lpoints += 1
-#            jump liam1
-            
-#    "I'm looking. You know me, I always appreciate a nice view.":
-#            $cpoints += 1
-#            jump colin1
+      "I'm looking. You know me, I always appreciate a nice view." if persistent.colin_route_unlocked == True:
+         $cpoints += 1
+         jump colin1
 
-# label liam1: 
+label liam1: 
 
    # 1.7a Viola and Liam talk about Shouhei 
 
@@ -831,13 +844,13 @@ label postlunch:
 
    "And off we go, to the cafeteria. My steps are lighter now, hearing Liam's footsteps following me. No matter what, I think, I know I can count on him."
 
-jump common_nora1
+   jump common_nora1
 
-# label colin1: 
+label colin1: 
 
-# 1.7b Viola and Colin flirt 
+   # 1.7b Viola and Colin flirt 
 
-# jump liam1 <= going back to the Liam scene
+   jump liam1 # <= going back to the Liam scene after the flirtation.
 
 label common_nora1:
 
@@ -847,7 +860,7 @@ label common_nora1:
 
    $npoints += 1
 
-   "Liam and I talked for so long over dinner that the cafeteria personnel eventually had to politely ask us to leave. We kept the conversation carefully away from … certain topics, but luckily having known each other for (TK seven?) years means there's never a shortage of things to talk about." 
+   "Liam and I talked for so long over dinner that the cafeteria personnel eventually had to politely ask us to leave. We kept the conversation carefully away from...certain topics, but luckily having known each other for (TK seven?) years means there's never a shortage of things to talk about." 
 
    "I'm glad we did. I'm feeling a bit better about this whole situation after having taken my mind off it for a while." 
 
@@ -889,7 +902,7 @@ label common_nora1:
 
    "I can hardly imagine what it would be like, to have a life like that--growing up knowing exactly what you want to do, following in your parents' footsteps, with nothing hanging over your head. Even before--well, everything. I knew my place, but it had never really been a choice. Just the way things were." 
 
-   n "Do you --" 
+   n "Do you--" 
 
    v "What?" 
 
@@ -911,7 +924,7 @@ label common_nora1:
 
    v "We have to do paperwork, too, of course. I suspect no one's entirely immune from that." 
 
-   "Nora laughs quietly, and some of the tension in my shoulders eases. I like the sound of her laugh. It's … kind." 
+   "Nora laughs quietly, and some of the tension in my shoulders eases. I like the sound of her laugh. It's...kind." 
 
    n "Sorry for prying. I get really curious, as you might have noticed, but I'm trying to be better about not getting into other people's business." 
 
@@ -921,7 +934,7 @@ label common_nora1:
 
    "I think I'm going to enjoy having Nora as my roommate. I hope she feels the same."
 
-   scene bg 3 # Classroom
+   scene bg mf_class
 
    # 1.9 Magical Fields introduces the group project 
 
@@ -985,7 +998,7 @@ label common_nora1:
 
    s1 "What are the group projects going to be about?" 
 
-   pm "I'm glad you asked! *That*, each group will be allowed to choose, but it must be related to at least two of the magical fields we discuss in this class. Think of it as a … practical application of the skills you'll be gaining." 
+   pm "I'm glad you asked! *That*, each group will be allowed to choose, but it must be related to at least two of the magical fields we discuss in this class. Think of it as a...practical application of the skills you'll be gaining." 
 
    "Okay, I'd been pretty skeptical--and I still didn't like that we wouldn't get to pick our partners; what if I ended up with someone I didn't get along with?--but this sounded like it might actually be pretty fun."
 
@@ -1007,7 +1020,7 @@ label common_nora1:
 
    pm "So get started thinking about what projects you might want to do! I'll assign your partners in November, and you'll have the rest of the semester after that to make a final decision on the subject of your project, and the entirety of next semester to work on it." 
 
-   pm "Any other questions? No? All right, then let's get back to work. Continuing from where we left off on Wednesday, I'll be covering the basics of (TK subject) today …" 
+   pm "Any other questions? No? All right, then let's get back to work. Continuing from where we left off on Wednesday, I'll be covering the basics of (TK subject) today..." 
 
    "I pull out my notebook and started taking notes." 
 
@@ -1049,9 +1062,9 @@ menu:
       $lpoints += 1
       jump liam2
 
-   #"(Colin)":
-      #$cpoints += 1
-      # jump colin2
+   "Maybe Colin's around somewhere?" if persistent.colin_route_unlocked == True:
+      $cpoints += 1
+      jump colin2
 
 label nora2:
 
@@ -1089,7 +1102,7 @@ label nora2:
 
    show n laughing
 
-   n "Professor Prasad is rather … soothing, isn't he?" 
+   n "Professor Prasad is rather...soothing, isn't he?" 
 
    show n normal 
 
@@ -1097,7 +1110,7 @@ label nora2:
 
    "Oops. I had my assignment--it was synced to my phone like everything else--but the textbook itself was still back in our room." 
 
-   "My costernation must have been pretty obvious, because Nora grinned sympathetically." 
+   "My consternation must have been pretty obvious, because Nora grinned sympathetically." 
 
    n "I'm guessing that's a 'no'. Perrault, if you don't mind?" 
 
@@ -1133,7 +1146,7 @@ label nora2:
 
    n "It sounds cooler than it is--not very many people have actually bought it, to be honest." 
 
-   v "Still ... " 
+   v "Still ..." 
 
    "I reached over to touch the textbook, and couldn't suppress my laughter at the sensation." 
 
@@ -1191,11 +1204,11 @@ label nora2:
 
    v "Then we'll happily take you up on that offer--I'm looking forward to it!" 
 
-   v "And let me know if you want any help … I don't know what I'd be able to do, actually, but any second opinions on something?" 
+   v "And let me know if you want any help...I don't know what I'd be able to do, actually, but any second opinions on something?" 
 
    n "Thanks, I will." 
 
-   n "... For now, we probably ought to be working on homework, though." 
+   n "...For now, we probably ought to be working on homework, though." 
 
    show v embarrassed 
 
@@ -1209,7 +1222,7 @@ label nora2:
 
    "She says it's because her dad really likes history--apparently when they were younger, he'd read them children's books about a particular subject, then come back the next day with three new stories related to that subject that he'd found out about by looking it up online." 
 
-   "It sounds … nice. My parents hadn't really had the time for that sort of thing, but had left strict instructions for my nanny that meant she was only allowed to read boring stories with morals about Duty and Honor and Responsibility." 
+   "It sounds...nice. My parents hadn't really had the time for that sort of thing, but had left strict instructions for my nanny that meant she was only allowed to read boring stories with morals about Duty and Honor and Responsibility." 
 
    "Occasionally, when Eliza had the time, she'd show up and overrule my parents' instructions. I'd loved those nights the best--my nanny would tell *amazing* stories about little girls who got to go on fantastic adventures and do amazing deeds." 
 
@@ -1275,7 +1288,7 @@ label liam2:
    
    "There is a tree there. I don't know what kind exactly. It's big. Old. The branches are just about high enough to touch the last runs of the ladder."
    
-   "I look a bit closer. There is a big wooden platform there, built right between the tree branches. Enough to fit about five or six people sitting comfortable on it."
+   "I look a bit closer. There is a big wooden platform there, built right between the tree branches. Enough to fit about five or six people sitting comfortably on it."
    
    v "Who made this?"
    
@@ -1291,7 +1304,7 @@ label liam2:
    
    "It doesn't take long for both of us to get down there."
    
-   "I don't think Liam's feet even stayed on the ladder for more than two seconds. He practically seems to just leap down in two jumps after I reached the platform."
+   "I don't think Liam's feet even stayed on the ladder for more than two seconds. It only takes him two jumps to get down after I reach the platform."
      
    "Olly does leave my phone after a while, zipping off in short loops around branches. Clara jumps out too, eventually. Scares off some butterflies that were flapping around the tiny blossoms on the tree."
    
@@ -1311,6 +1324,12 @@ label liam2:
    
    "It's a nice afternoon. We get a lot of our assignments done, and I get to see him. All in all, a productive day." 
   
+   jump posthomework
+
+label colin2: 
+
+   # 1.11c Viola and Colin do homework
+
    jump posthomework
 
 label posthomework:
@@ -1359,9 +1378,9 @@ label posthomework:
 
    "I realize I'm holding my breath as I reach in to pick it up, and make myself start breathing again." 
 
-   "I pick the bottle up, and --" 
+   "I pick the bottle up, and--" 
 
-   "-- it's just orange soda. As far as I can tell, exactly the same as what's being advertised." 
+   "--it's just orange soda. As far as I can tell, exactly the same as what's being advertised." 
 
    "I sigh. Probably it was just someone's school project gone wrong, then, and they cleaned it up already. Or maybe the people talking had just been confused to begin with." 
 
@@ -1399,7 +1418,7 @@ label posthomework:
 
    v "That's good! I remember how much she used to enjoy those trips." 
 
-   l "And … your family?" 
+   l "And...your family?" 
 
    "I grimace. I hate talking about this, but--if anyone deserves to know, and if anyone would actually *understand*, it's Liam." 
 
@@ -1425,25 +1444,25 @@ label posthomework:
 
    "I smile weakly at Liam. It helps that he understands my bitterness, at least. It feels nice to know that I still don't have to rein myself in around him." 
 
-   l "... Do you mind if I ask you something … kind of personal?" 
+   l "...Do you mind if I ask you something...kind of personal?" 
 
    v "Of course not!" 
 
-   l "Back then, you were convinced that Eliza didn't do anything wrong. Do you still think --?" 
+   l "Back then, you were convinced that Eliza didn't do anything wrong. Do you still think--?" 
 
    v "Yes." 
 
    "I know I sound short, and that's probably unfair to Liam, but did he really think that would have changed?" 
 
-   "I loved -- love -- my sister, and I knew her, and I had recognized nothing of her in the lurid media portrayals of her during the trial." 
+   "I loved--love--my sister, and I knew her, and I had recognized nothing of her in the lurid media portrayals of her during the trial." 
 
-   "She and Mariko -- they'd been even closer friends than Shouhei, Liam, and I, back before everything. Almost all of the stories she'd told of Wyderwold had featured Mariko, and I'd hung on every one." 
+   "She and Mariko--they'd been even closer friends than Shouhei, Liam, and I, back before everything. Almost all of the stories she'd told of Wyderwold had featured Mariko, and I'd hung on every one." 
 
    "Back then, I'd dreamed of coming here with Liam and Shouhei, the three of us together, having all sorts of fun adventures like Eliza and Mariko did." 
 
    "I guess all three of us had made it here in the end, at least." 
 
-   "But the trial -- all the descriptions of rooms covered in blood, Eliza with Mariko's blood on her hands and face, laughing maniacally …" 
+   "But the trial--all the descriptions of rooms covered in blood, Eliza with Mariko's blood on her hands and face..." 
 
    "No, that was not the sister I knew." 
 
@@ -1453,21 +1472,21 @@ label posthomework:
 
    l "Has she ever said anything to you about it?" 
 
-   "It's only his non-judgmental tone -- and the fact that this is Liam -- that keeps me from lashing out further. He's not the sort to lead me around in circular arguments. At least, he always used to be willing to tell me straight out when he thought I was wrong." 
+   "It's only his non-judgmental tone--and the fact that this is Liam--that keeps me from lashing out further. He's not the sort to lead me around in circular arguments. At least, he always used to be willing to tell me straight out when he thought I was wrong." 
 
    v "No. But we never get a chance to talk alone, either."
 
    "I'd tried to smuggle her my phone number early on, so she'd be able to contact me privately, but she'd never used it. So who knew if she had even received it?"
 
-   l "And you think she'd want to keep hiding it -- whatever happened -- from your parents?" 
+   l "And you think she'd want to keep hiding it--whatever happened--from your parents?" 
 
-   v "There must be a reason why she pled guilty, right? If someone was blackmailing her, or if something about the truth would have besmirched our family somehow … our parents are the last people she'd tell." 
+   v "There must be a reason why she pled guilty, right? If someone was blackmailing her, or if something about the truth would have besmirched our family somehow...our parents are the last people she'd tell." 
 
    l "What if it is something like that?" 
 
-   "I hesitate. It's something I've tried to avoid thinking about, to be honest. If proving Eliza's innocence meant destroying our family from the inside …" 
+   "I hesitate. It's something I've tried to avoid thinking about, to be honest. If proving Eliza's innocence meant destroying our family from the inside..." 
 
-   v "... I don't know." 
+   v "...I don't know." 
 
    v "But I need to know the truth." 
 
@@ -1565,15 +1584,15 @@ label posthomework:
 
    v "Something for the shop?" 
 
-   n smiling "Not one of our production models, thankfully. But it's something I'd been working on before I got here -- Mom said she'd take the project over if she had time, since she wants me to be able to concentrate on my studies, but she hasn't been able to make much progress either."
+   n happy "Not one of our production models, thankfully. But it's something I'd been working on before I got here--Mom said she'd take the project over if she had time, since she wants me to be able to concentrate on my studies, but she hasn't been able to make much progress either."
 
    "It's on the tip of my tongue to ask if it does interfere, but I stop myself." 
 
    "First, because it's just more mother-henning, and I know how much I hate it when other people try to tell me what to do, or act like I don't know my own mind perfectly well." 
 
-   "And second, because … who am I kidding? Whenever I see Nora, she's always working on something. And she's always ahead on me when it comes to homework for the classes we share. She clearly has her studies well under control." 
+   "And second, because...who am I kidding? Whenever I see Nora, she's always working on something. And she's always ahead on me when it comes to homework for the classes we share. She clearly has her studies well under control." 
 
-   v "Is it a new kind of phone? -- Um, feel free not to tell me if it's a secret or something like that." 
+   v "Is it a new kind of phone?--Um, feel free not to tell me if it's a secret or something like that." 
 
    n "Haha! No, it's fine. We sell familiar-phone combos because a lot of people like the convenience, but we don't do a whole lot of work with the underlying hardware. Mostly just integrating the familiars in, and providing some additional helpful software." 
 
@@ -1581,19 +1600,19 @@ label posthomework:
 
    n "Yes, exactly! Which reminds me, I need to get back to that, too. I still can't figure out how to keep the pages from feeling furry." 
 
-   n "Anyway. This is another little add-on utility -- or hopefully will be, eventually." 
+   n "Anyway. This is another little add-on utility--or hopefully will be, eventually." 
 
    "She gestures me over, and lifts the device slightly, pressing a button that causes paragraphs of nonsense text to appear in mid-air. If I look more closely at the device, it's got a screen about the same size and shape as my smartphone, currently displaying the same set of text." 
 
-   n "We get a lot of different variety in our clientele, as you might imagine.  Plenty of young children, coming in to get their first familiar. Those are always fun -- their wide-eyed awe at the process kind of … reminds me just how magical this all is, you know?" 
+   n "We get a lot of different variety in our clientele, as you might imagine.  Plenty of young children, coming in to get their first familiar. Those are always fun--their wide-eyed awe at the process kind of...reminds me just how magical this all is, you know?" 
 
    "I nod. I barely remember the circumstances surrounding when I got my first smartphone, but a few things remain, and the glorious flash of green and gold scales as Olly manifested for the first time in front of me is definitely one of them." 
 
    n "Then there's a lot of people looking to upgrade their hardware. Technically they can buy the new phones from the manufacturer's stores directly, and they should be able to transfer the familiars without any problem." 
 
-   n "But not everyone trusts that, and especially with people who've bought our other add-ons -- we guarantee free replacements for anything that gets broken unexpectedly by an upgrade, but in those cases it's often easier on both them and us to just let us do the entire upgrade." 
+   n "But not everyone trusts that, and especially with people who've bought our other add-ons--we guarantee free replacements for anything that gets broken unexpectedly by an upgrade, but in those cases it's often easier on both them and us to just let us do the entire upgrade." 
 
-   n "And then there are our oldest customers, who've had the same familiar for decades, but can no longer see or hear them as well anymore -- or the phone, either. Those break my heart the most." 
+   n "And then there are our oldest customers, who've had the same familiar for decades, but can no longer see or hear them as well anymore--or the phone, either. Those break my heart the most." 
 
    "I nod again. My grandparents are still alive and in good health, my grandfather happily telling my father all the things he would be doing differently if he was still in charge of the clan." 
 
@@ -1601,7 +1620,7 @@ label posthomework:
 
    "But my great-grandfather passed away a year or two after everything happened with Eliza, and his sight and hearing were both almost entirely gone by that point."
 
-   "When Eliza and I went to visit him, he'd always ask us to reassure him that his familiar was still there, and to tell her that he still appreciated her. Because most of the time, he could still tell she was there. But sometimes … he couldn't." 
+   "When Eliza and I went to visit him, he'd always ask us to reassure him that his familiar was still there, and to tell her that he still appreciated her. Because most of the time, he could still tell she was there. But sometimes...he couldn't." 
 
    n "Sometimes, they're just not aware of existing smartphone functionality, so we can help them connect their familiar to the screenreading software, so their familiar can more easily read to them what's happening on the phone." 
 
@@ -1615,11 +1634,11 @@ label posthomework:
 
    "And then it all disappears. Nora sighs, but she doesn't look terribly surprised." 
 
-   n "... As you can see, it's very much still a work in progress." 
+   n "...As you can see, it's very much still a work in progress." 
 
    o "Fascinating." 
 
-   "I jump. I hadn't noticed that Oly had left the immediate confines of the phone to come hover at my shoulder, spectral claws digging into my shirt in a way that thankfully would not leave any real holes." 
+   "I jump. I hadn't noticed that Olly had left the immediate confines of the phone to come hover at my shoulder, spectral claws digging into my shirt in a way that thankfully would not leave any real holes." 
 
    o "You're combining text zoom, screen projection, and screen expansion?" 
 
@@ -1627,11 +1646,11 @@ label posthomework:
 
    p "And not just with gestures, either." 
 
-   n "Right -- once I have it integrated, we can make it a familiar command, too, so that our older customers, or customers with limited eyesight, can just ask their familiars to zoom text for them." 
+   n "Right--once I have it integrated, we can make it a familiar command, too, so that our older customers, or customers with limited eyesight, can just ask their familiars to zoom text for them." 
 
    n "I've mostly been working with gestures so far, because I figure that's less annoying than hearing me say 'Perrault, special zoom' over and over." 
 
-   v smiling "I appreciate the consideration, though as long as I'm not trying to sleep, I'm pretty good at tuning that sort of thing out." 
+   v happy "I appreciate the consideration, though as long as I'm not trying to sleep, I'm pretty good at tuning that sort of thing out." 
 
    v "And that's really cool. I'm sure my great-grandfather would have loved to have something like that. He used to love reading, before his eyesight got too bad." 
 
@@ -1649,13 +1668,13 @@ label posthomework:
 
    n "You can tell me to stop if you ever want me to. I promise I won't be offended." 
 
-   v "No, you're not boring me at all! I obviously don't know all that much about artificing, so I have no idea how you'd go about doing … all the things you're describing. But you're really good at saying things in a way I can follow." 
+   v "No, you're not boring me at all! I obviously don't know all that much about artificing, so I have no idea how you'd go about doing...all the things you're describing. But you're really good at saying things in a way I can follow." 
 
-   v "And all the things you've been working on -- they seem really neat and really useful. I'm incredibly impressed that you somehow manage to find time to do all that and your schoolwork, though." 
+   v "And all the things you've been working on--they seem really neat and really useful. I'm incredibly impressed that you somehow manage to find time to do all that and your schoolwork, though." 
 
-   "To be honest -- if I hadn't already been so focused on cursebreaking, for a variety of reasons, knowing Nora might have made me seriously consider switching my major to Artificing."
+   "To be honest--if I hadn't already been so focused on cursebreaking, for a variety of reasons, knowing Nora might have made me seriously consider switching my major to Artificing."
 
-   "I hadn't ever really thought much about how my phone and Oly did the things they did, and what sort of things they might be able to do instead, but. Listening to Nora speak kind of made me want to learn." 
+   "I hadn't ever really thought much about how my phone and Olly did the things they did, and what sort of things they might be able to do instead, but. Listening to Nora speak kind of made me want to learn." 
 
    n blushing "Thanks. I like to think that what I'm doing will be helpful to people, but sometimes I get so caught up in the problem-solving aspects that it can be hard to see."
 
@@ -1667,15 +1686,21 @@ label posthomework:
 
    v "Just, make sure you take care of yourself, too?" 
 
-   n smiling "I will." 
+   n happy "I will." 
+
+   # 2.? Viola and Shouhei have an encounter, it's a bit awkward.
+
+   $spoints += 1
 
    # 2.?? More on Viola and her major 
 
+   $npoints += 1
+
    "It turns out that Professor Reynell really likes mystery boxes." 
 
-   "And while I really enjoyed the first several he assigned to us, well. almost three months into the semester, they've gotten a lot harder to unravel, and the consequences for not doing so rather more … interesting." 
+   "And while I really enjoyed the first several he assigned to us, well. almost three months into the semester, they've gotten a lot harder to unravel, and the consequences for not doing so rather more...interesting." 
 
-   n "... Should I ask why you're sitting on the ceiling?" 
+   n "...Should I ask why you're sitting on the ceiling?" 
 
    scene bg v dorm
 
@@ -1695,37 +1720,37 @@ label posthomework:
 
    n "Here you go." 
 
-   "At first, when I had … mishaps, I'd been reluctant to let Nora touch the box. Luckily, it seemed that Professor Reynell was not completely sadistic -- the traps all appeared to have been set to only react when interacted with by someone from the class." 
+   "At first, when I had...mishaps, I'd been reluctant to let Nora touch the box. Luckily, it seemed that Professor Reynell was not completely sadistic--the traps all appeared to have been set to only react when interacted with by someone from the class." 
 
    n "Should I be stacking pillows beneath you or something?" 
 
-   v "No, it's fine -- there's a height limit, and apparently when it wears off we drift slowly back down." 
+   v "No, it's fine--there's a height limit, and apparently when it wears off we drift slowly back down." 
 
    "No one's box was quite the same, but the traps tended to be more similar than the solutions to the puzzles, so pretty early on in the class, most of us had set up a group chat where we could share warnings and tips with each other. If Professor Reynell knew, she clearly didn't mind." 
 
-   n "... Your homework is a lot more exciting than mine." 
+   n "...Your homework is a lot more exciting than mine." 
 
    v laughing "Only if I do it wrong." 
 
-   n smiling "I'm glad you're having fun?" 
+   n happy "I'm glad you're having fun?" 
 
    v "I mean, you have to admit, being stuck to the ceiling is pretty cool, aside from the inconvenience of being unable to go anywhere." 
 
    n "I'll stick to the ground, thanks." 
 
-   n "You know -- it occurs to me, I've never really asked before -- why did you choose Cursebreaking? Is this really that interesting to you?" 
+   n "You know--it occurs to me, I've never really asked before--why did you choose Cursebreaking? Is this really that interesting to you?" 
 
    "I hesitate. I'm not sure I'm ready to share the full reason. I don't want Nora to start thinking I'm some sort of conspiracy theory-chasing nut."
    
    "But there are some things I can say." 
 
-   v "Yeah, it is. I guess it started when I was younger -- my nurse liked telling tales of valour and cunning that often involved the protagonist having to solve some riddle or break through some lock, and it … always seemed like real magic to me, you know?"
+   v "Yeah, it is. I guess it started when I was younger--my nurse liked telling tales of valor and cunning that often involved the protagonist having to solve some riddle or break through some lock, and it...always seemed like real magic to me, you know?"
 
-   v "I dragged Liam and -- well, my friends at the time, into so much trouble, running around our property trying to find puzzles to solve and treasure to rescue."
-#####
+   v "I dragged Liam and--well, my friends at the time, into so much trouble, running around our property trying to find puzzles to solve and treasure to rescue."
+
    n amused "Did you ever find any?"
 
-   v "We did! Not always, and sometimes the puzzles were too hard and we had to come back and try again. One took us an entire month of adventures before -- we finally cracked it."
+   v "We did! Not always, and sometimes the puzzles were too hard and we had to come back and try again. One took us an entire month of adventures before--we finally cracked it."
 
    "It had been Shouhei who'd had the idea to send Kinuko up into the tops of the trees to see if there was anything up there that we were missing."
 
@@ -1743,11 +1768,11 @@ label posthomework:
 
    "Nora lets the silence lie for a moment, clearly trying to figure out something to say. I guess even without saying it, it's pretty obvious who and what I meant."
 
-   "I scramble to come up with something else to say. Anything else, to change the topic. But my mind empty of everything except the nostalgia and the pain." 
+   "I scramble to come up with something else to say. Anything else, to change the topic. But my mind is empty of everything except the nostalgia and the pain." 
 
    n "That was a really nice thing for your sister to do for you and your friends."
 
-   "I wait, expecting something more. Incredulity, that a murderer could be kind to her kid sister. Or anything, really, commenting on who -- and where -- Eliza was now."
+   "I wait, expecting something more. Incredulity, that a murderer could be kind to her kid sister. Or anything, really, commenting on who--and where--Eliza was now."
 
    "But Nora doesn't say anything else, just waits patiently to see if I'll pick the story back up where I left off."
 
@@ -1759,15 +1784,15 @@ label posthomework:
 
    v "Or princes and princesses, whose parents had been trapped by a terrible curse that only we could fix."
 
-   n smiling "My brother and I used to play games like that, too. Although ours usually involved fewer puzzles and more monsters to defeat."
+   n happy "My brother and I used to play games like that, too. Although ours usually involved fewer puzzles and more monsters to defeat."
 
-   v smiling "We did some of that too, when we were in larger groups. But Liam's mom would worry over us if we accidentally injured each other, so we mostly stuck to the puzzles that we liked more anyway, when we were alone."
+   v happy "We did some of that too, when we were in larger groups. But Liam's mom would worry over us if we accidentally injured each other, so we mostly stuck to the puzzles that we liked more anyway, when we were alone."
 
    v "And I guess it stuck with me?"
 
    v "In old myths and legends, sometimes the curse is inflicted on someone who deserves it, and they have to overcome it themselves, by learning an important lesson about life that they'd missed. Professor Reynell calls those Inward-Oriented Curses."
 
-   v "But most curses -- Outward-Oriented Curses -- are a lot more indiscriminate than that. They'll just attack anyone who's conveniently in range, or they'll have been badly built to begin with, and cause a lot more damage to more people that the caster originally intended."
+   v "But most curses--Outward-Oriented Curses--are a lot more indiscriminate than that. They'll just attack anyone who's conveniently in range, or they'll have been badly built to begin with, and cause a lot more damage to more people that the caster originally intended."
 
    v "And that just seems wrong to me, you know? People shouldn't have to worry about being struck down by something they can't see coming, just because they happen to have the wrong ancestor or say the wrong thing in the wrong place."
 
@@ -1811,12 +1836,150 @@ label posthomework:
 
    n laughing "I guess you should. I don't think you'd do too well trying to eat up there, and it's almost dinner time."
 
-   v smiling "I don't really want to sleep up here, either. The ceiling's not that comfortable."
+   v happy "I don't really want to sleep up here, either. The ceiling's not that comfortable."
 
    n "Want me to throw you a pillow to sit on?"
 
    v "Ask me again if I'm still up here in an hour."
 
    "Heart a little bit lighter, I turn back to the box."
+
+   # 2.? Kinuko seeks out Liam and Viola 
+
+   "Placeholder scene. Kinuko seeks Liam and Viola. Shouhei follows, and tells them to leave him alone for the rest of the year."
+
+   menu: 
+
+      "Fine. Come on, Liam, let's go.":
+
+         $lpoints += 1
+
+      "Hey, can I talk to you for a second first?":
+
+         $spoints += 1
+
+   # 3.? Scene with Liam at the health center 
+
+   $lpoints += 1
+
+   # 3.? Encounter with Shouhei after reprimanding an NPC 
+
+   $spoints += 1
+
+   if persistent.colin_route_unlocked: 
+
+      # 3.? People practicing spellcasting with their familiars; Colin admits he doesn't have one. 
+
+      $cpoints += 1
+
+   # 3.? "What would you do if you got the school curse?"
+
+   v "Placeholder text for this scene here."
+
+   v "Characters are asked what they'd do if they got the school curse."
+
+   menu:
+
+      "Ask Colin first" if persistent.colin_route_unlocked == True:
+         $cpoints += 1
+         
+         "Some thoughts about why she's picking Colin."
+
+         jump postpick
+
+      "Ask Nora first":
+         $npoints += 1
+         
+         "Some thoughts about why she's picking Nora."
+
+         jump postpick
+
+      "Ask Shouhei first":
+         $spoints += 1
+         
+         "Some thoughts about why she's picking Shouhei."
+
+         jump postpick
+
+label postpick: 
+
+   scene bg mf_class
+
+   # 3.? Group project partners announced in Magical Fields
+
+   # background crowd noise sound? 
+
+   "The last Magical Fields class of the semester."
+
+   "We're finally going to learn who our partner is for next semester's group project. In my excitement, I made a point of arriving early, and looking around, it looks like I wasn't alone."
+
+   "Five minutes to the start of class, and the room is almost full already."
+
+   pm "So punctual! It's almost like you think something interesting is happening today."
+
+   s1 "There's always something interesting happening in your class, Professor!" 
+
+   "I share an amused glance with Liam. He's not entirely wrong, though I admit I'm surprised that he hasn't figured out by now that Professor Marquez doesn't care about brown-nosing."
+
+   pm "Good try, but your partners have already been decided."
+
+   "She holds up the sheaf of papers that she'd brought into the room with her. I hadn't paid it much attention, since she's often carrying papers or occasionally a small bound notebook. But this particular stack does look larger than usual." 
+
+   pm "Speaking of, I assume that's what you're all here to find out, yes?"
+
+   pm "First, a few ground rules."
+
+   pm "Please wait until I'm finished announcing all of the groups before doing anything. Afterwards, you can go say hi to your new partner, and start discussing ideas for your projects."
+
+   pm "If you absolutely must appeal to me to change your assigned group, please wait until after the announcements to do that as well."
+
+   pm "I prefer if appeals are presented to me in written form, and placed in the proper receptacle."
+
+   "She gestures to the small trash can by her desk, as a handful of the other students stifle snickers."
+
+   pm "Everyone understand? Good."
+
+   pm "First group: Aguilar, you're with Cohen."
+
+   "I'm tempted to zone out, but I force myself to keep paying attention. If Professor Marquez is giving out assignments in alphabetical order, then my name should be coming up soon."
+
+   "I just hope that my partner is someone I already know and get along with. It'll be pretty painful next semester if I have to work with someone I dislike."
+
+   "Especially given how much else I want to do with my time, too. I already feel like I haven't made enough progress this semester; I really need to buckle down and focus in January."
+
+   pm "Allen, you're with Williams."
+
+   "I tense. I should be next."
+
+   pm "Ashmark, you're with ..."
+
+   if persistent.true_route_unlocked: 
+
+      "Flynn, Galena, Thomas, and Utsurikawa."
+      jump true_start
+   
+   elif cpoints == 5:
+
+      "Flynn."
+      jump colin_start
+
+   elif lpoints == 5: 
+
+      "Thomas."
+      jump liam_start
+   
+   elif npoints == 5: 
+
+      "Galena."
+      jump nora_start
+
+   elif spoints == 5: 
+
+      "Utsurikawa."
+      jump shouhei_start
+
+   else:
+
+      "ERROR: we should never get here."
 
    return

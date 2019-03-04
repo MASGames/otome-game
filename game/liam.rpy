@@ -1,9 +1,3 @@
-label Liam:
+label liam_start:
 
-   scene bg 1
-
-   show v normal at right
-   
-   v "Liam's been my best friend since childhood, you know."
-
-   return
+   "Liam's route starts here!"

@@ -1,9 +1,3 @@
-label Nora:
+label nora_start:
 
-   scene bg 1
-
-   show v normal at right
-   
-   v "Nora's route? I'm looking forward to this. :)"
-
-   return
+   "Nora's route starts here!"
