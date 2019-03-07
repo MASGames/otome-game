@@ -1956,7 +1956,7 @@ label postpick:
       "Flynn, Galena, Thomas, and Utsurikawa."
       jump true_start
    
-   elif cpoints == 5:
+   elif cpoints == 5 and persistent.colin_route_unlocked:
 
       "Flynn."
       jump colin_start
