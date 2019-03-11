@@ -44,6 +44,8 @@ label start:
 
          $persistent.colin_route_unlocked = False
 
+   ### MONTH ONE BEGINS ###
+
    # 1.1 Atmospheric intro scene
    scene bg 1 # university birds-eye view 
    
@@ -1388,6 +1390,8 @@ label posthomework:
 
    "I'm sure there will be other leads--I just need to keep my ears open." 
 
+   ### MONTH TWO BEGINS ###
+
    # 2.1 Viola and Liam talk about Viola's family
 
    scene bg patio # patio outside the cafeteria
@@ -1690,6 +1694,8 @@ label posthomework:
 
    $spoints += 1
 
+   # 2.? Possibly a scene about other NPCs having fun playing with magic?
+
    # 2.?? More on Viola and her major 
 
    $npoints += 1
@@ -1856,6 +1862,12 @@ label posthomework:
 
          $spoints += 1
 
+   # 2.? Scene involving either Eliza or Viola's family contacting her, more family history? 
+
+   ### MONTH THREE BEGINS ###
+
+   # 3.? Worldbuilding / friendly interaction scene? Nods to alternate paths history took? 
+
    # 3.? Scene with Liam at the health center 
 
    $lpoints += 1
@@ -1869,6 +1881,8 @@ label posthomework:
       # 3.? People practicing spellcasting with their familiars; Colin admits he doesn't have one. 
 
       $cpoints += 1
+
+   # 3.? More detailed discussion of the school curse.
 
    # 3.? "What would you do if you got the school curse?"
 
@@ -1900,6 +1914,8 @@ label posthomework:
          jump postpick
 
 label postpick: 
+
+   # 3.? More detailed discussion of the break between Viola and Shouhei's families.
 
    scene bg mf_class
 

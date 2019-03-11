@@ -1,5 +1,7 @@
 label nora_start:
 
+   # 3.?b Nora and Viola discuss potential projects 
+
    "I blink, having a hard time believing my luck, then turn to meet Nora's gaze. We share a grin."
 
    "This project is going to be a lot of fun, I can already tell--and it'll be really convenient to not even have to travel anywhere to meet up with my partner."
@@ -27,3 +29,5 @@ label nora_start:
    scene bg rosegarden
 
    "We don't talk much on the way to the usual spot."
+
+   "Once we get settled on our usual bench, Nora turns to me."
