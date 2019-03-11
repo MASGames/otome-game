@@ -1028,11 +1028,11 @@ label common_nora1:
    
    # 1.10 Viola enjoys the day, decides who to do homework with
 
-   "The day had dawned bright and warm, the weather so nice it seemed like a terrible waste to have to spend most of my morning in Summoning 101." 
+   "The day's dawned bright and warm on the third week of the semester, the weather so nice it seems like a terrible waste to have spent most of my morning indoors." 
 
-   "Admittedly, for once it hadn't been a complete waste of time. " # [TK interesting factoid here.]
+   "Admittedly, Magical Fields was fun today. We learned about a witch who turned a whole swarm of bees into her familiars and used them to chase away people from her orchard. Antisocial, but cool, especially since having multiple familiars can drain you dry if you're not careful."
 
-   "Still, I was glad that was over with, and now I was sitting in a corner of the outdoor seating area of the dining hall, finishing up a sandwich." 
+   "Still, I'm glad that's over with, and now I'm sitting in a corner of the outdoor seating area of the dining hall, finishing up a sandwich." 
 
    o "What do you want to do this afternoon?" 
 
@@ -1040,13 +1040,13 @@ label common_nora1:
 
    o "Shouldn't you be working on homework? All your professors seem to like to assign a lot of it." 
 
-   "That was definitely true. Most of them seem to be under the mistaken impression that their class is the only one we're taking, and they assign ridiculous amounts to prove it." 
+   "That's definitely true. Most of them seem to be under the mistaken impression that their class is the only one we're taking, and they assign ridiculous amounts to prove it." 
 
    o "Would you like me to provide you with a list? I can order them by due date." 
 
    v "No, that's fine!" 
 
-   "I lean back in my chair and try to think.  Olly's right about one thing--I really probably should make progress on something. Take advantage of my open Monday afternoons while I still had them, since I've heard that we'll start having more intense practicums as the semester goes on." 
+   "I lean back in my chair and try to think. Olly's right about one thing--I really probably should make progress on something. Take advantage of my open Monday afternoons while I still had them, since I've heard that we'll start having more intense practicums as the semester goes on." 
 
    "It's such a nice day, though." 
 
@@ -1088,75 +1088,75 @@ label nora2:
 
    n "It's no bother! I'd actually been meaning to ask you the same, but it seemed like too pretty of a day to waste inside."
 
-   show v laughing
-
-   v "My thought exactly!" 
-
-   show v normal
+   v laughing "My thought exactly!" 
 
    "Nora shifts, making more room on the bench, and I take a seat too. It feels wider than last time. I wonder if the benches in the garden are alive, too. It wouldn't surprise me." 
 
    n "What did you want to work on?"
 
-   v "Would you mind if we looked at Magical Law? I'm terrible at it, honestly. It just puts me to sleep." 
+   v normal "Would you mind if we looked at Magical Law? I'm terrible at it, honestly. It just puts me to sleep." 
 
-   show n laughing
+   n laughing "Professor Prasad is rather...soothing, isn't he?" 
 
-   n "Professor Prasad is rather...soothing, isn't he?" 
-
-   show n normal 
-
-   n "And sure! I'm about halfway through the assignment for tomorrow; I think I understand it pretty well but it's been slow going. Do you have your textbook with you?" 
+   n normal "And sure! I'm about halfway through the assignment for tomorrow; I think I understand it pretty well but it's been slow going. Do you have your textbook with you?" 
 
    "Oops. I had my assignment--it was synced to my phone like everything else--but the textbook itself was still back in our room." 
 
    "My consternation must have been pretty obvious, because Nora grinned sympathetically." 
 
-   n "I'm guessing that's a 'no'. Perrault, if you don't mind?" 
+   n happy "I'm guessing that's a 'no'. Perrault, if you don't mind?" 
+   
+   show p normal at right
 
    p "An Introduction to Magical Law, 1813 - 1897, right? Coming right up!" 
+   
+   hide p
 
-   "Perrault had been hovering in the air a few inches above Nora's phone, but now he spread his wings wide, brought them forward to cover his head, and began to glow." 
+   "Perrault had been hovering in the air a few inches above Nora's phone, but now he spreads his wings wide, brought them forward to cover his head, and began to glow." 
 
-   "I had to look away as his glow brightened with a flash, and when I looked back, what looked like a book--a very familiar textbook, in fact--now hovered in the air in his place." 
+   "I have to look away as his glow brightened with a flash, and when I look back, what looks like a book--a very familiar textbook, in fact--now hovers in the air in his place." 
 
-   "I leaned in to take a better look. Aside from being vaguely translucent, it--he?--looked exactly like the text I had left on my desk." 
+   "I lean in to take a better look. Aside from being vaguely translucent, it--he?--looks exactly like the text I had left on my desk." 
 
    v "Wow, I had no idea that familiars could do this. Olly, can you become one of my textbooks too?" 
+   
+   show o normal at right
 
    o "If so, no one's ever told me!" 
+   
+   hide o
 
-   n "I'd have been surprised if you said anything else. It's an experimental feature that Perrault and I have been working on." 
+   n normal "I'd have been surprised if you said anything else. It's an experimental feature that Perrault and I have been working on." 
 
-   "She reached out and appeared to touch one of the pages, running her finger along it to pick it up and flip it." 
+   "She reaches out and appears to touch one of the pages, running her finger along it to pick it up and flip it." 
 
    n "I don't have the tactile sensations quite right yet--the pages still feel kind of furry, like Perrault's body does--but it mostly works otherwise? Would you like to try?" 
 
    v "Does it--he?--work for someone else? I thought phone familiars only physically manifested for their users." 
 
-   "And even that wasn't guaranteed--there was a setting you could modify to determine whether your familiar manifested physically as well as visually." 
+   "And even that isn't guaranteed--there's a setting you can modify to determine whether your familiar manifested physically as well as visually." 
 
-   "Olly and I mostly left it turned off, since he was just large enough that he had a tendency to accidentally bump into stuff, and it *did* make the phone's battery drain more quickly."
+   "Olly and I mostly leave it turned off, since he's just large enough that he has a tendency to accidentally bump into stuff, and it *does* make the phone's battery drain more quickly."
 
    n "Oh, that part's pretty easy to fix! The functionality is mostly supported even in base model familiars, it's just that it's not surfaced in a terribly user-friendly manner." 
 
    n "My family has a patch that gives people an easier way to work with that and a few other settings; it's one of the first things I've built that we actually sell." 
 
-   v "That's really cool!" 
+   v happy "That's really cool!" 
 
    n "It sounds cooler than it is--not very many people have actually bought it, to be honest." 
 
    v "Still ..." 
 
-   "I reached over to touch the textbook, and couldn't suppress my laughter at the sensation." 
+   "I reach over to touch the textbook, and can't suppress my laughter at the sensation." 
 
-   v "You're right, it really does feel like fur!" 
+   v laughing "You're right, it really does feel like fur!" 
 
    "Nora helpfully moves her phone closer to me, making it easier for me to experimentally flip a few pages. I can feel the edges of the pages just barely well enough to move them, but they feel more like a wrinkle in a very fluffy rug than anything else."
 
-   n "I'm really hoping I can get this working--I feel like it'll be really useful!  All the convenience of an electronic book, but still with the physicality of a paper one. I know I tend to learn better if I can flip pages back and forth instead of trying to remember percentage completion." 
+   n "I'm really hoping I can get this working--I feel like it'll be really useful! All the convenience of an electronic book, but still with the physicality of a paper one. I know I tend to learn better if I can flip pages back and forth instead of trying to remember percentage completion." 
 
-   v "Haha, same here. So, wait--does that mean that things like search and bookmarking still work?" 
+   v happy "Haha, same here. So, wait--does that mean that things like search and bookmarking still work?" 
 
    n "Of course! And narration, using either the standard electronic reader or, since your familiar is *right there*, and effectively holding the entire book in their memory anyway, they can read it to you instead." 
 
@@ -1164,13 +1164,17 @@ label nora2:
 
    n "I um, should probably warn you that it's not complete yet? You don't need to worry about explosions, or anything, but things might not work, or might work kind of strangely." 
 
-   v "That makes sense. I'll try not to be too disappointed if it doesn't work." 
+   v normal "That makes sense. I'll try not to be too disappointed if it doesn't work." 
 
    "I hope she can tell that I'm joking--and from her quick grin, I think it worked." 
 
-   n "All right, here goes! Perrault, find--let's see, tomorrow afternoon's homework was from Chapter 2, wasn't it? Find 'War of 1812'." 
+   n happy "All right, here goes! Perrault, find--let's see, tomorrow afternoon's homework was from Chapter 2, wasn't it? Find 'War of 1812'." 
+   
+   show p normal at right
 
    p "You got it!" 
+   
+   hide p
 
    "I realized that I'd been expecting some sort of movie special effect--wind blowing, pages flipping wildly--when I braced myself, but then was almost disappointed that nothing happened, aside from the book perhaps glowing a bit more brightly." 
 
@@ -1178,41 +1182,47 @@ label nora2:
 
    "Nora scans the list briefly, then selects the third on the list. The book glows brightly for a moment, and when the glow subsides, I see that we are now on that page." 
 
-   v "Wow!" 
+   v happy "Wow!" 
 
    n "I'd like to make the interface cleaner, and animate the pages flipping. Though maybe that would get annoying after a while? I still need to think about that some more. I still need to work a lot on bookmarks, too." 
 
    "She runs her finger across a line of text about halfway down the page." 
 
    n "Perrault, could you bookmark that for me, please?" 
+   
+   show p normal at right
 
    p "Done!" 
+   
+   hide p
 
    "The line now looks like it's been highlighted, and a second window has popped up beside the search window. Nora casts a dissatisfied look at it." 
 
    n "And I'd really like to make my bookmarks look like actual bookmarks, you know? Make the window available for people if they need it, but otherwise they ought to just be able to touch a bookmark that's stuck in the book and flip to that page manually, like you'd do with a real book."
 
-   v "That *would* be really cool. Not that this isn't! It seems really useful--I'm always leaving my textbooks behind, but I really don't like using the electronic ones if I don't have to." 
+   v normal "That *would* be really cool. Not that this isn't! It seems really useful--I'm always leaving my textbooks behind, but I really don't like using the electronic ones if I don't have to." 
 
    "Nora ducks her head, looking almost embarrassed." 
 
-   n "Thanks. If you want, I could let you and Olly try a beta version, once I have it working a little bit better?" 
+   n embarrassed "Thanks. If you want, I could let you and Olly try a beta version, once I have it working a little bit better?" 
 
    v "Olly? Would you mind?" 
+   
+   show o normal at right
 
    o "No, it sounds like fun!" 
+   
+   hide o
 
    v "Then we'll happily take you up on that offer--I'm looking forward to it!" 
 
    v "And let me know if you want any help...I don't know what I'd be able to do, actually, but any second opinions on something?" 
 
-   n "Thanks, I will." 
+   n normal "Thanks, I will." 
 
    n "...For now, we probably ought to be working on homework, though." 
 
-   show v embarrassed 
-
-   v "Right." 
+   v embarrassed "Right." 
 
    n "Perrault, please turn to page 28." 
 
@@ -1236,7 +1246,7 @@ label liam2:
 
    # 1.11b Viola and Liam do homework
 
-   v "I sit up straighter in my chair. That looks like Liam, just walking out of the Larks Library. I stand up and wave in his direction."
+   v "I sit up straighter in my chair. That looks like Liam, walking past the Larks Library with a crumpled lunch bag in one hand and a paper coffee cup in another. I stand up and wave in his direction."
    
    "He stops. He is standing a bit far to see me--is he doing the 'do I know this person?' calculation in his head right now?"
    
@@ -1256,9 +1266,9 @@ label liam2:
    
    "Liam's face brightens." 
    
-   l "I know exactly where we should go. Come on."
+   l happy "I know exactly where we should go. Come on."
    
-   "He catches the book I was waving around to tuck it under his elbow. Before I realize it, his other hand closes around my right hand, and we're running along."
+   "He tosses his lunch trash into a nearby trash bin, and catches the book I was waving around to tuck it under his elbow. Before I realize it, his other hand closes around my right hand, and we're running along."
    
    "We go past the dining hall, a library, and make a few turns. We go up one set of stairs. Then another."
    
@@ -1266,13 +1276,13 @@ label liam2:
    
    "He lets go of my hand. I look to where he's pointing. The stairs lead out onto a type of...balcony? It does look like a quiet spot."
    
-   l "You want to be careful here."
+   l normal "You want to be careful here."
    
    "He walks out onto the balcony, leans an elbow against the white columned railing while staring into the distance." 
    
    "After a moment, he puts one hand down on the railing and swings one leg up--"
    
-   v "LIAM!" 
+   v worried "LIAM!" 
    
    v "What are you doing??"
    
@@ -1280,7 +1290,7 @@ label liam2:
    
    "His expression turns apologetic. He slips down from the railing, and walks back from the edge."
    
-   l "I didn't mean to scare you. Sorry Viola. I thought--we could study at the tree down there? You could ask Olly to check if it's safe, if you want to?"
+   l worried "I didn't mean to scare you. Sorry Viola. I thought--we could study at the tree down there? You could ask Olly to check if it's safe, if you want to?"
    
    "I set back my shoulders, and walk along the balcony to where Liam was standing before. There's a ladder there--a fire escape?"
    
@@ -1290,17 +1300,17 @@ label liam2:
    
    "I look a bit closer. There is a big wooden platform there, built right between the tree branches. Enough to fit about five or six people sitting comfortably on it."
    
-   v "Who made this?"
+   v normal "Who made this?"
    
-   l "I don't really know. Some graduate students? I've just been here once or twice, and if we were studying a chapter on botanists, I thought it would make more sense"
+   l normal "I don't really know. Some graduate students? I've just been here once or twice, and if we were studying a chapter on botanists, I thought it would make more sense."
    
-   l "if we were outdoors and it was supposed to be a good idea but I ended up worrying you, which I didn't plan to do. At all. Really, really sorry about that."
+   l "If we were outdoors and it was supposed to be a good idea but I ended up worrying you, which I didn't plan to do. At all. Really, really sorry about that."
    
    "I don't think Liam was even breathing when he said all that."
    
-   v "Okay! Ok, Liam. I forgive you. I think it looks safe enough. Let's get down there."
+   v "Okay! Okay, Liam. I forgive you. I think it looks safe enough. Let's get down there."
    
-   l "Oh. Ok. If it's alright with you--ladies first?"
+   l "Oh. Okay. If it's alright with you--ladies first?"
    
    "It doesn't take long for both of us to get down there."
    
