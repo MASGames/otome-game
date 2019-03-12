@@ -112,7 +112,7 @@ label start:
    show l normal at left
    show n normal at right
    
-   v "Oh, sorry! We're almost done. I'm your new roommate--Viola Ashmark." 
+   v normal "Oh, sorry! We're almost done. I'm your new roommate--Viola Ashmark." 
    
    n "Nice to meet you, I'm Nora Galena." 
    
@@ -143,7 +143,7 @@ label start:
    
    show l normal at left
 
-   v "Sorry, I should have introduced you earlier--this is Liam. We were friends when we were younger." 
+   v normal "Sorry, I should have introduced you earlier--this is Liam. We were friends when we were younger." 
 
    "Hopefully we still would be. We hadn't talked about much, yet, but if he wanted to pick up where we'd left off all those years ago, I'd be happy to do so too." 
 
@@ -193,7 +193,7 @@ label start:
 
    n "Viola, are you about ready? It's almost time for Magical Fields to start."
 
-   v "Yes, I'll be right there!"
+   v normal "Yes, I'll be right there!"
    
    "Turns out we have two classes together--Magical Fields and Summoning 101. It'll be nice to know someone other than Liam in a few of my classes."
 
@@ -206,7 +206,7 @@ label start:
    scene bg mf_class 
    show n normal
 
-   v "–-And the first rose bush was originally donated by one of my ancestors, though it's at the center of the garden, so we didn't see it this time."
+   v normal "–-And the first rose bush was originally donated by one of my ancestors, though it's at the center of the garden, so we didn't see it this time."
   
    n "Wow, that's, what--several hundred years ago?  And it still blooms?"
 
@@ -272,12 +272,26 @@ label start:
    show p normal
 
    p "Greetings, all. It is a pleasure to meet you." 
+   
+   hide p
 
    "Perrault seems pretty laid back; he manifests in a sitting position and doesn't bother to either stand or open his wings. I hope this is a good sign that he and Nora will make good roommates. I really like Clara, but even if co-ed dorm rooms were allowed, I don't think I'd want to live with her."
 
    "Though who knows, maybe she's calmed down in the past few years."
    
-   "We all turn to Colin, but before he has a chance to introduce his familiar, the professor comes in, and we all hastily sit down."
+   "I glance over at Colin, the only one of us who hasn't brought out their familiar yet. He notices, and his face turns sheepish."
+   
+   c normal "I actually don't have a familiar. Yeah, I know, whatever."
+   
+   v "Oh, that's fine."
+   
+   "Fine? I mean, it is fine, but it's not really my place to give approval or not, so why'd I say that? I needed to say *something*, right? He probably gets a lot of rude comments about it. Maybe I shouldn't have said anything. But then it would've been awkward, right?"
+   
+   "Plenty of people don't have familiars. Maybe he can't afford one. Maybe he doesn't want to talk about it."
+   
+   "Maybe I should stop thinking about this."
+   
+   "Thankfully, the professor comes in, and my conversational abilities are saved."
    
    pm "Welcome to Foundations 105: Magical Fields. I'm Professor Marquez!" 
    
@@ -370,6 +384,8 @@ menu:
 label health1:
 
    # 1.5a Lunch with Liam 
+   
+   hide o
 
    "I head downstairs from the classroom, towards the health center. One of Liam's moms is a healer, and he’s been interested in healing since before I can remember. It's nice to see that some things haven’t changed."
     
@@ -445,11 +461,11 @@ label health1:
     
    scene bg healthcenter
     
-   show l normal at center
+   show l normal
     
    l "Viola! I thought you would be at lunch."
    
-   v "I. Um. Thought you didn't have lunch yet. Do you want to eat together?"
+   v normal "I. Um. Thought you didn't have lunch yet. Do you want to eat together?"
    
    "The words hang awkwardly in the air for a second. I would be fine if he didn't want to, but it would be nice. To catch up."
    
@@ -475,7 +491,9 @@ label health1:
 
    v "No! Wait!"
    
-   v "Yes! Sorry, I mean yes. I still like it. Thank you."
+   v happy "Yes! Sorry, I mean yes. I still like it. Thank you."
+   
+   show l happy
 
    "The nervousness disappears from Liam's expression and he smiles when I reach out to take the jello from his hand. I open the lid and take a spoonful. It's as good as the hundreds of times I had it before, as good as I remember it to be."
     
@@ -485,6 +503,8 @@ label lake1:
     
    # 1.5b Lunch with Shouhei
 
+   hide o
+   
    "It’s a nice day. The outdoors would be a great spot to relax and eat lunch, especially after the crowded classroom. I jiggle the doorhandle of the exit until the door turns from red to rust-orange to blue, and push it open. The air is cool, and smells like sun-warmed grass, a hint of pine."
     
    "The school tries to keep the environment comfortable for students most of the time, so the weather tends to be more temperate. I have heard there was some tricky spellwork that cordoned off a certain lab building on campus to include about ten different kinds of land and habitat types. The BB students sure love that feature." 
@@ -506,7 +526,7 @@ label lake1:
     
    "Kinuko, Shouhei’s familiar, is now resting on the lake in a spot two feet away from the shore. She raises her head to regard me with one black eye." 
    
-   v "What do you mean, how I got here? I walked, just like everyone else would."
+   v normal "What do you mean, how I got here? I walked, just like everyone else would."
     
    s "I mean this spot by the lake. I had a spell set up to warn me if anyone else had come here." 
     
@@ -535,7 +555,7 @@ label lake1:
     
    "Shouhei turns around. He takes one step forward, and another."
     
-   show s angry at center
+   show s angry
     
    s "I just needed to be somewhere else. You don’t have to take it personally, Viola."
     
@@ -587,7 +607,7 @@ label lake1:
     
    s normal "I didn’t mean what I said earlier."
     
-   "Shouhei’s expression doesn’t really match his words. But he does seem less cold, than he was before. It’s polite, the things he's saying. That is all I can sense."
+   "Shouhei’s expression doesn’t really match his words. But he does seem less cold than he was before. It’s polite, the things he's saying. That is all I can sense."
     
    s "I really am sorry for being rude. I hope--"
     
@@ -609,13 +629,14 @@ label lake1:
    v normal "I’ll be fine. I’m glad we could talk to him, at least. I still have a little bit of time to finish lunch, so we can talk about something else."
     
    "So we do. Well, I eat lunch. Olly chatters away, until our next class bell rings."
-
     
    jump postlunch
 
 label garden1:
     
    # 1.5c Lunch with Nora
+   
+   hide o
 
    "Walking to class through the rose gardens earlier reminded me how much I used to love them when I was younger. Liam and I would play tag or hide and seek in the hedge maze with...well, that part doesn't matter anymore. It's been a long time." 
     
@@ -628,14 +649,18 @@ label garden1:
    "The sun feels nice on my face, but it's just warm enough that the intermittent shade once I enter the gardens feels good, too. I wander for a while, letting my feet go where they will." 
     
    "I've stopped to admire a particularly beautiful specimen--a blend of deep blues and purples that make me think of space, almost as big as my face and with thorns as long as my finger--when I hear faint, tuneless humming."
+   
+   show o normal at right
     
    o "What's that?" 
     
-   v "Maybe the botanists have started experimenting with roses that sing?" 
+   v normal "Maybe the botanists have started experimenting with roses that sing?" 
+   
+   hide o
     
    "I'm only half joking, but the truth turns out to be much simpler: my new roommate, Nora." 
     
-   "She's sitting on a bench in a half-shaded nook, sun warm on the fluff of her curls, but with her face hidden in shadow, bent over the phone she's placed on the bench in front of her. A small, golden-brown creature projects above it--a griffin, I think?--with an assortment of graphs scattered above its head." #CGI here?
+   "She's sitting on a bench in a half-shaded nook, sun warm on the fluff of her curls, but with her face hidden in shadow, bent over the phone she's placed on the bench in front of her. Perrault projects above it with an assortment of graphs scattered above his head." #CGI here?
     
    "The humming stops as Nora takes a bite from the sandwich she's holding in one hand, and pokes at one of the graphs with a finger." 
     
@@ -663,14 +688,14 @@ label garden1:
    "Nora looks vaguely embarrassed, but she answers easily enough." 
     
    n "Diagnostic output. Perrault has been experiencing some hiccups the last few days--literally, if you can believe it?--so he asked me to take a look."
-    
-   v "Perrault--your familiar? Mine's name is Oleander, but I just call him Olly." 
-    
-   o "Hello, Nora, Perrault. It's nice to meet you." 
-    
+   
    show p normal at right
     
-   p "Likewise. *hic* Sorry." 
+   "Perrault makes a hiccuping noise. It's strangely cute." 
+   
+   hide p
+   
+   show n embarrassed
     
    "Nora definitely looks embarrassed now. I don't see why, though." 
     
@@ -731,20 +756,24 @@ label postlunch:
    "There's still an hour or two before my first Cursebreaking class of the year. It's only the third day of the school year and I don't want to give a bad impression by being late to any classes before we even turn in our first assignments." 
    
    "I still have time to find Liam. If I could only remember which room is his..."
+   
+   show o normal at right
 
    o "13...15...25...Viola! Is it this one? The green door!"
 
    "The front door of his shared dorm suite. Is that a doorbell?" 
 
-   v "Oh, wait. Olly? The door, please?" 
+   v normal "Oh, wait. Olly? The door, please?" 
 
    o "Of course!" 
+   
+   hide o
 
    "Olly swoops up from my phone, floating up to the doorknob and presses his snout against it. The door chimes. 'Viola Ashmark, first year' glows in silvery letters across the front of the door."
 
-   "The letters dissolve into the wood. 'Please enter,' flashes on the door a moment later."
+   "The letters dissolve into the wood. 'Please enter' flashes on the door a moment later."
 
-   "Liam must be in. Outside of general sleeping hours, students can invite mostly anyone they like into their dorms. The security system at Wynderwold allows students to enter most places with a familiar. For those without one, a demonstrated spell would suffice."  
+   "Liam must be in. Outside of general sleeping hours, students can invite mostly anyone they like into their dorms. The security system at Wyderwold allows students to enter most places with a familiar. For those without one, a demonstrated spell would suffice."  
 
    play sound dooropen
 
@@ -752,7 +781,7 @@ label postlunch:
 
    v "Liam? You here? It took me a while to find the right door number, but I just wanted to see if we could talk a little more--"
 
-   "I blink. It's Colin in front of me, a hoodie half-zipped up and a short towel draped around his neck. Droplets of water drip from his hair."
+   "I blink. It's Colin in front of me, a hoodie half-zipped up and a short towel draped around his neck. Droplets of water drip from his hair." # I think there should be a CG here. You know, for reasons.
 
    c "Hi. I'm going to go with my first guess that it's not me you're looking for."
    
@@ -762,9 +791,37 @@ label postlunch:
          $lpoints += 1
          jump liam1
 
-      "I'm looking. You know me, I always appreciate a nice view." if persistent.colin_route_unlocked == True:
+      "Oh, I'm looking." if persistent.colin_route_unlocked == True:
          $cpoints += 1
          jump colin1
+         
+label colin1:
+    
+    v happy "Oh, I'm looking."
+    
+    "WHY'D I SAY THAT."
+    
+    c embarrassed "Um."
+    
+    v embarrassed "At. The...other doors, because Liam's probably behind one of them? Yeah."
+    
+    c "Yeah."
+    
+    "Remember me as I lived: good at standardized tests, bad at...this."
+    
+    l "Viola!"
+    
+    "Liam's head pokes out from behind another door. I'm saved! He smiles when he sees me and waves, the holograph of Clara nestling on top of his head."
+    
+    c "I'm gonna...let you two talk now."
+    
+    v "Yeah."
+    
+    "Deep breaths. I came here for a serious reason, after all. I should put this disaster out of my head."
+    
+    "For now."
+    
+    jump liampostcolin
 
 label liam1: 
 
@@ -779,6 +836,8 @@ label liam1:
    "Liam's head pokes out from behind another door. He smiles when he sees me and waves, the holograph of Clara nestling on top of his head." 
 
    c "Well, I see you two have things to talk about. I'm out, got things to do and all."
+   
+label liampostcolin:
 
    "Colin hangs his towel over the back of a chair and fully zips up his jacket. The door opens with a creak and closes behind him."
 
@@ -788,9 +847,11 @@ label liam1:
    
    "There's another bed and desk opposite his, but with a honey-brown blanket instead. Colin's side, I think."  
 
-   v "You got everything unpacked."
+   v normal "You got everything unpacked."
 
    "Some of mine still aren't. I make a mental note to clean more of it up after class today."
+   
+   show l normal
 
    l "I could come over and help if you needed me to. Did you want to get an early dinner today or--?"
 
@@ -814,7 +875,7 @@ label liam1:
 
    l "Did you want to talk to him? Or do you want him to--do you want us to stay away from him?"
 
-   v "I think--. I don't know. You can talk to him, Liam, I don't think it's fair if I'm the one to tell you not to."
+   v "I think--I don't know. You can talk to him, Liam, I don't think it's fair if I'm the one to tell you not to."
 
    "My chair spins, slowly. One circle, and another. My thoughts are, too. Honestly speaking though, I don't want to have to think about him." 
    
@@ -828,11 +889,11 @@ label liam1:
 
    l "He was my friend, once, before. But right now, you're the one who is here. Your friendship matters to me." 
 
-   v "Thank you."
+   v happy "Thank you."
 
    "My hand reaches up to squeeze his hand on my shoulder. He smiles, and lets go. I want to say more than that. But I have to focus. The topic we were discussing..."
 
-   v "I don't want to have to talk to him. I can be polite if I have to. And if there's something he knows about what happened. I want to find that out."
+   v normal "I don't want to have to talk to him. I can be polite if I have to. And if there's something he knows about what happened. I want to find that out."
 
    l "That time all those years ago...It was a bad one for both of you. If there's something else you need to find about it, something you need, I'll help you the best I can, you know that?" 
 
@@ -840,17 +901,11 @@ label liam1:
 
    "He nods, expression serious. Then he stands and rolls his shoulders."
 
-   l "So. How about that dinner, before your class?"
+   l happy "So. How about that dinner, before your class?"
 
    "And off we go, to the cafeteria. My steps are lighter now, hearing Liam's footsteps following me. No matter what, I think, I know I can count on him."
 
    jump common_nora1
-
-label colin1: 
-
-   # 1.7b Viola and Colin flirt 
-
-   jump liam1 # <= going back to the Liam scene after the flirtation.
 
 label common_nora1:
 
@@ -858,7 +913,7 @@ label common_nora1:
 
    scene bg v dorm
 
-   $npoints += 1
+   $npoints += 1 # Does this need to be here? It's not a choice scene.
 
    "Liam and I talked for so long over dinner that the cafeteria personnel eventually had to politely ask us to leave. We kept the conversation carefully away from...certain topics, but luckily having known each other for (TK seven?) years means there's never a shortage of things to talk about." 
 
@@ -938,7 +993,7 @@ label common_nora1:
 
    # 1.9 Magical Fields introduces the group project 
 
-   "Magical Fields is buzzing with speculation as I walk in a respectable five minutes before class starts. And no wonder--Professor Marquez told us on Wednesday that she hoped she would have some exciting news for us today." 
+   "Magical Fields is buzzing with speculation as I walk in a respectable five minutes before class starts. And no wonder--Professor Marquez told us on Wednesday that they hoped they would have some exciting news for us today." 
 
    "Liam waves me over--he's early, of course, and it looks like he saved me a seat." 
 
@@ -948,7 +1003,7 @@ label common_nora1:
 
    show v shrugging
 
-   v "No idea. It sounded like she wasn't sure, though, so maybe it'll turn out to be nothing?" 
+   v "No idea. It sounded like they weren't sure, though, so maybe it'll turn out to be nothing?" 
 
    "A few rows ahead, Nora turns to look at us." 
 
@@ -980,7 +1035,7 @@ label common_nora1:
 
    pm "For those of you with older siblings who've told you all about how this class goes--well, first of all, shame on them, ruining the surprise! But you won't see a lot of changes from how it usually goes this semester. Next semester, however ..." 
 
-   "She pauses dramatically, as though daring anyone to ask her what she means. No one does." 
+   "They pause dramatically, as though daring anyone to ask them what they mean. No one does." 
 
    "At least no one's staring at me after that mention of older siblings. Or at Shouhei, who as usual is sitting in the farthest corner away from where Liam and I are sitting." 
 
@@ -1033,10 +1088,12 @@ label common_nora1:
    "Admittedly, Magical Fields was fun today. We learned about a witch who turned a whole swarm of bees into her familiars and used them to chase away people from her orchard. Antisocial, but cool, especially since having multiple familiars can drain you dry if you're not careful."
 
    "Still, I'm glad that's over with, and now I'm sitting in a corner of the outdoor seating area of the dining hall, finishing up a sandwich." 
+   
+   show o normal at right
 
    o "What do you want to do this afternoon?" 
 
-   v "I don't care, really, as long as it's not inside."
+   v normal "I don't care, really, as long as it's not inside."
 
    o "Shouldn't you be working on homework? All your professors seem to like to assign a lot of it." 
 
@@ -1045,6 +1102,8 @@ label common_nora1:
    o "Would you like me to provide you with a list? I can order them by due date." 
 
    v "No, that's fine!" 
+   
+   hide o
 
    "I lean back in my chair and try to think. Olly's right about one thing--I really probably should make progress on something. Take advantage of my open Monday afternoons while I still had them, since I've heard that we'll start having more intense practicums as the semester goes on." 
 
@@ -1070,7 +1129,7 @@ label nora2:
 
    # 1.11a Viola and Nora do homework
 
-   v "I think I'll see if I can find Nora." 
+   v normal "I think I'll see if I can find Nora." 
 
    "She seems to really like the rose gardens, and I've been struggling a bit in Magical Law--if she's there and willing, I'll get to make progress on homework AND stay outside. Win-win!" 
 
@@ -1112,7 +1171,7 @@ label nora2:
    
    hide p
 
-   "Perrault had been hovering in the air a few inches above Nora's phone, but now he spreads his wings wide, brought them forward to cover his head, and began to glow." 
+   "Perrault had been hovering in the air a few inches above Nora's phone, but now he spreads his wings wide, brings them forward to cover his head, and begins to glow." 
 
    "I have to look away as his glow brightened with a flash, and when I look back, what looks like a book--a very familiar textbook, in fact--now hovers in the air in his place." 
 
@@ -1246,7 +1305,7 @@ label liam2:
 
    # 1.11b Viola and Liam do homework
 
-   v "I sit up straighter in my chair. That looks like Liam, walking past the Larks Library with a crumpled lunch bag in one hand and a paper coffee cup in another. I stand up and wave in his direction."
+   v normal "I sit up straighter in my chair. That looks like Liam, walking past the Larks Library with a crumpled lunch bag in one hand and a paper coffee cup in another. I stand up and wave in his direction."
    
    "He stops. He is standing a bit far to see me--is he doing the 'do I know this person?' calculation in his head right now?"
    
