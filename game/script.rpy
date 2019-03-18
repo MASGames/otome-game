@@ -1815,7 +1815,7 @@ label posthomework:
    
    "And yes, I did have a basic grounding in it, thanks to the nannies we had, but when we were kids, running outside exploring trees and secret rooms was way more appealing than going through centuries of famous figures and old court transcripts."
    
-   "My roommate, Nora, has been pretty helpful. She knows more about the modern laws and up-to-date inventors than the early bits, and it's better to have a study buddy to review with anyways."
+   "Nora has been pretty helpful. She knows more about the modern laws and up-to-date inventors than the early bits, and it's better to have a study buddy to review with anyways."
    
    "Professor Prasad did promise a much more exciting lesson today. Something about how the rise of the law came about after catastrophic overlapping curses were cast on rulers during periods of power struggles?"
    
@@ -1831,7 +1831,7 @@ label posthomework:
     
    "They say the first boats used to be pulled by actual swans, but not anymore. I suppose the swans had other things they would rather be doing."
    
-   "The boat is still swan-shaped though. The head is gracefully sculpted, and the wings are arched high to block out the sun and rain from students' heads. I don't remember exactly how the boats keep moving and know how to start or dock without any obvious instructions."
+   "The boat is still swan-shaped though. The head and beak is gracefully sculpted, and the wings are arched high to block out the sun and rain from students' heads. I don't remember exactly how the boats keep moving and know how to start or dock without any obvious instructions."
    
    "I must have missed hearing that at the tour at the beginning of the year."
    
@@ -1855,6 +1855,8 @@ label posthomework:
     
    "The space feels small. Even if the boat was meant to carry up to 4 students, Shouhei and I are the only ones in here right now."
    
+   hide s
+   
    "I don't see Kinuko around either. She must be resting in a holding space, or flying around outside."
    
    "A sound seems to echo in our space as Shouhei shifts to lean an elbow against one side of the boat."
@@ -1876,6 +1878,8 @@ label posthomework:
    s "The same class as you. Yes."
    
    "He looks back to his side of the window, and doesn't seem to want to say much more. He did answer me with a whole sentence at least."
+   
+   hide s
    
    "That's a little better than I expected."
    
@@ -1906,6 +1910,8 @@ label posthomework:
    s "Fine."
    
    v "Fine."
+   
+   hide s
    
    "Talking like this is fine. We can talk normally, can't we? Act like any two normal students would act?"
    
