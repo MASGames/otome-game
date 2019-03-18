@@ -1821,7 +1821,7 @@ label posthomework:
    
    "Agh! It would take too long for me to get to class from here on foot. If only--"
    
-   show swan boat at center
+   #show swan boat at center
    
    "The boats."
    
