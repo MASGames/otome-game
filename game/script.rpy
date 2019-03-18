@@ -1804,7 +1804,113 @@ label posthomework:
    # 2.? Viola and Shouhei have an encounter, it's a bit awkward.
 
    $spoints += 1
-
+   
+   scene bg outdoors
+   
+   "I can't believe it. I thought by now I would have had a handle on the quickest routes to my classes."
+   
+   "But what with the surfing elephants fiasco blocking some of the dorm exits--all illusions, thanks to some mischievious first-year Enchantment students, I'm running late to class."
+   
+   "To my Magical Law and History class, to be exact. It's still--a bit heavy on the timeline charts and names sometimes."
+   
+   "And yes, I did have a basic grounding in it, thanks to the nannies we had, but when we were kids, running outside exploring trees and secret rooms was way more appealing than going through centuries of famous figures and old court transcripts."
+   
+   "My roommate, Nora, has been pretty helpful. She knows more about the modern laws and up-to-date inventors than the early bits, and it's better to have a study buddy to review with anyways."
+   
+   "Professor Prasad did promise a much more exciting lesson today. Something about how the rise of the law came about after catastrophic overlapping curses were cast on rulers during periods of power struggles?"
+   
+   "Agh! It would take too long for me to get to class from here on foot. If only--"
+   
+   show swan boat at center
+   
+   "The boats."
+   
+   "Of course."
+   
+   "Many years ago, the early campus was founded in a heavily forested area. Plenty of rivers running around. The professors didn't want too many magical teleportation accidents, so to let the students to travel quickly from class to class, the boats were set up."
+    
+   "They say the first boats used to be pulled by actual swans, but not anymore. I suppose the swans had other things they would rather be doing."
+   
+   "The boat is still swan-shaped though. The head is gracefully sculpted, and the wings are arched high to block out the sun and rain from students' heads. I don't remember exactly how the boats keep moving and know how to start or dock without any obvious instructions."
+   
+   "I must have missed hearing that at the tour at the beginning of the year."
+   
+   "The swan boat drifts closer to shore and stops. The wing swings open."
+   
+   "I jump forward, and slide into a seat, relieved that I wouldn't have to run to class. The door clicks shut behind me."
+   
+   "A sound of water rippling as the boat meanders away from shore."
+   
+   "I wipe my hand over my face, and look up. To the back is a little shelf for student's bags. To the front, a shimmering image is floating as a silvery hologram of a structure. It looks like the boat is floating past one of the buildings for Cursebreaking exams."
+   
+   "And to my right--"
+   
+   show s normal
+   
+   "I see Shouhei."
+   
+   s "..."
+   
+   "I turn my head slowly to the left, to peek through window carved--no, combined--with the wing. The boat is clearly already in the middle of the river."
+    
+   "The space feels small. Even if the boat was meant to carry up to 4 students, Shouhei and I are the only ones in here right now."
+   
+   "I don't see Kinuko around either. She must be resting in a holding space, or flying around outside."
+   
+   "A sound seems to echo in our space as Shouhei shifts to lean an elbow against one side of the boat."
+   
+   "I can't see his expression. I don't know what to say."
+   
+   "Too many words to choose from, too many choices to make. Should I say something?"
+   
+   v "So, why are you going this way?"
+   
+   "It sounds ridiculous after the question leaves my mouth. Why doesn't magic have an undo button?"
+   
+   show s normal 
+   
+   s "To Magical Law & History class."
+   
+   v "That's--"
+   
+   s "The same class as you. Yes."
+   
+   "He looks back to his side of the window, and doesn't seem to want to say much more. He did answer me with a whole sentence at least."
+   
+   "That's a little better than I expected."
+   
+   "The image at the front shifts into a familiar sight of the Magical Law & History building, with its high archway and cornices."
+   
+   s "We're here."
+   
+   "He gets his bag, and gets out first."
+   
+   "I stand too. My knees feel stiffer than they should be after that short ride. I must have been sitting too tensely."
+   
+   "I grab my bag, and take a step out--"
+   
+   "My foot catches against the edge of the boat and my balance is wobbling--"
+   
+   "A hand catches my wrist before I fall onto my face."
+   
+   s "Watch it!"
+   
+   "I breathe in. His hand is still holding mine and my pulse is still going fast. I pull away, take two steps farther from him. Solid ground."
+   
+   v "Thanks. We should go."
+   
+   show s sad
+   
+   "I see Shouhei's lips press together, before his hand goes to his glasses, steadying them."
+   
+   s "Fine."
+   
+   v "Fine."
+   
+   "Talking like this is fine. We can talk normally, can't we? Act like any two normal students would act?"
+   
+   "We were just heading to the same class today. This...will probably happen again, won't it? I won't be unprepared, next time." 
+   
    # 2.? Possibly a scene about other NPCs having fun playing with magic?
 
    # 2.?? More on Viola and her major 
