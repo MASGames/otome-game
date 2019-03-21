@@ -2072,8 +2072,106 @@ label posthomework:
    "Heart a little bit lighter, I turn back to the box."
 
    # 2.? Kinuko seeks out Liam and Viola 
-
-   "Placeholder scene. Kinuko seeks Liam and Viola. Shouhei follows, and tells them to leave him alone for the rest of the year."
+   
+   l normal "...and that's why that particular town developed a tradition of wearing hats with a chicken sitting on it."
+   
+   v "...You're serious."
+   
+   l "They might always be under fowl weather, but they sure do sell delicious meringues."
+   
+   l "That's what Mom said in her letter, anyways. She was trying to see if she could ship us some in the mail."
+   
+   "I want to swat at Liam for the pun, but I don't have the energy."
+   
+   "There's a light misty haze in the air, the clouds curling close to each other. We had been studying for a little while, but were taking a break."
+   
+   "Just a brief one."
+   
+   "Okay, maybe not that brief. We were both wearing warmer clothes--a long-sleeved hoodie for Liam, a jacket for myself--for the weather. The afternoon had been cool and languid."
+   
+   "I sit up, the grass underneath me shifting. There, in the distance, a faint white shape. Was that--?"
+   
+   play sound magiceffect
+   
+   show k normal
+   
+   "Why was she here?"
+   
+   "I'm standing on my feet, before I remember even getting up. A vague dread seems to have spilled over me like ice. Was Shouhei--?"
+   
+   k "He wants to see you."
+   
+   k "The two of you."
+   
+   "I sense Liam has stood up too, just right behind my shoulder. I breathe out, more slowly."
+   
+   l "Did he say why?"
+   
+   "Kinuko doesn't shrug, not exactly. She lifts a wing up, then brings it down, a subtle arc of feathers."
+   
+   k "He had a message."
+   
+   "I look back at Liam, and our eyes meet once. He nods, almost encouragingly."
+   
+   play sound magiceffect
+   
+   hide k
+   
+   "Kinuko has already taken off. She's expecting us to follow her, then. Liam and I take two seconds to grab our bags, and jog on."
+   
+   "We move from the grassy area just outside the library. I keep my eyes on Kinuko, her glowing winged shape tracing a soft line into the mist."
+   
+   "The area in front of us gives way from fields to a denser wood. We pass spruce and maple, hemlock and white ash. Leaves go about their quiet business of falling."
+   
+   "There's the smell of dried flowers, mosses, and damp earth, from beneath our feet. Things that have grown and withered. At some point on our walk, Olly and Clara have slipped out of their phones."
+ 
+   "They haven't said anything yet. But Olly hovering next to my right elbow is a comforting thought."
+   
+   "Oh. Kinuko has stopped."
+   
+   s "Thank you, Kinuko."
+   
+   show s normal
+   
+   s "You both came."
+   
+   l "Hello, Shouhei."
+   
+   l "Of course we did."
+   
+  "Liam's voice is still friendly. Just about managing to edge up to cheerful. I don't think mine is, though."
+   
+  v "My question is why."
+   
+  "Look, it's a fair question." 
+  
+  s "..."
+  
+  s "Just a request, if you would hear me out."
+  
+  v "We're here already. Can you get to it?"
+  
+  "It's shadowy in these woods. Shouhei's face, even while it is in front of me, is even harder to read."
+  
+  s "I was impolite last time, in my wording. I just wanted to be clearer, between all of us."
+  
+  s "We may be at the same school, now."
+  
+  s "But I don't want us to get in each other's way."
+  
+  show l angry
+  
+  l "Which means what."
+  
+  "His voice has lost the 'cheerful' and just got to all 'edge' now."
+  
+  hide l
+  
+  "I can't help remembering the times when Kinuko would come find us, just like this, when we were smaller. We don't look the same as we did then."
+  
+  "This is all. Backwards. Like players acting in costumes two sizes too small for them, in a scene they once knew well."
+  
+  "I get his point, even if it does hurt. What can I even say now?"
 
    menu: 
 
@@ -2081,7 +2179,7 @@ label posthomework:
 
          $lpoints += 1
 
-      "Hey, can I talk to you for a second first?":
+      "Hey, can I talk to you for a minute first?":
 
          $spoints += 1
 
