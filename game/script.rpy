@@ -2142,39 +2142,39 @@ label posthomework:
    
    l "Of course we did."
    
-  "Liam's voice is still friendly. Just about managing to edge up to cheerful. I don't think mine is, though."
+   "Liam's voice is still friendly. Just about managing to edge up to cheerful. I don't think mine is, though."
    
-  v "My question is why."
+   v "My question is why."
    
-  "Look, it's a fair question." 
-  
-  s "..."
-  
-  s "Just a request, if you would hear me out."
-  
-  v "We're here already. Can you get to it?"
-  
-  "It's shadowy in these woods. Shouhei's face, even while it is in front of me, is even harder to read."
-  
-  s "I was impolite last time, in my wording. I just wanted to be clearer, between all of us."
-  
-  s "We may be at the same school, now."
-  
-  s "But I don't want us to get in each other's way."
-  
-  show l angry
-  
-  l "Which means what."
-  
-  "His voice has lost the 'cheerful' and just got to all 'edge' now."
-  
-  hide l
-  
-  "I can't help remembering the times when Kinuko would come find us, just like this, when we were smaller. We don't look the same as we did then."
-  
-  "This is all. Backwards. Like players acting in costumes two sizes too small for them, in a scene they once knew well."
-  
-  "I get his point, even if it does hurt. What can I even say now?"
+   "Look, it's a fair question."
+   
+   s "..."
+   
+   s "Just a request, if you would hear me out."
+   
+   v "We're here already. Can you get to it?"
+   
+   "It's shadowy in these woods. Shouhei's face, even while it is in front of me, is even harder to read."
+   
+   s "I was impolite last time, in my wording. I just wanted to be clearer, between all of us."
+   
+   s "We may be at the same school, now."
+   
+   s "But I don't want us to get in each other's way."
+   
+   show l angry
+   
+   l "Which means what."
+   
+   "His voice has lost the 'cheerful' and just got to all 'edge' now."
+   
+   hide l
+   
+   "I can't help remembering the times when Kinuko would come find us, just like this, when we were smaller. We don't look the same as we did then."
+   
+   "This is all. Backwards. Like players acting in costumes two sizes too small for them, in a scene they once knew well."
+   
+   "I get his point, even if it does hurt. What can I even say now?"
 
    menu: 
 
