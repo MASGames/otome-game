@@ -17,6 +17,7 @@ define j = Character("Janitor") # :D
 
 define audio.dooropen = "Door Squeak.mp3"
 define audio.magiceffect = "shootingstar.mp3"
+define audio.forest= "Nature Ambiance.mp3"
 
 default lpoints = 0
 default spoints = 0
@@ -2120,6 +2121,8 @@ label posthomework:
    "Kinuko has already taken off. She's expecting us to follow her, then. Liam and I take two seconds to grab our bags, and jog on."
    
    "We move from the grassy area just outside the library. I keep my eyes on Kinuko, her glowing winged shape tracing a soft line into the mist."
+   
+   play sound forest
    
    "The area in front of us gives way from fields to a denser wood. We pass spruce and maple, hemlock and white ash. Leaves go about their quiet business of falling."
    
