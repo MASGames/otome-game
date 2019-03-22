@@ -1920,6 +1920,22 @@ label posthomework:
    
    # 2.? Possibly a scene about other NPCs having fun playing with magic?
 
+   scene bg outdoors
+
+   "I'm walking home from a study session at the library--it doesn't seem fair to lean on Nora to help me figure out Magical Law all the time--when I catch sight of a familiar figure up ahead."
+
+   v normal "Colin, hey!" 
+
+   "Happily for my stamina, he hears me, and stops to wait for me to catch up."
+
+   c normal "Viola! It's been a while. Heading home from class?"
+
+   v "No, I was just studying at the library. How about you?"
+
+   c "Just heading home from Calc. I'm not looking forward to this week's problem set."
+
+   v "I'm glad I managed to skip out on math completely, to be honest. Does your major require it? Nora was mentioning that Artificing does."
+
    # 2.?? More on Viola and her major 
 
    $npoints += 1
