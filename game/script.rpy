@@ -2197,7 +2197,7 @@ label posthomework:
       "Fine. Come on, Liam, let's go.":
 
          $lpoints += 1
-         jump liam3
+         jump liam4
 
       "Hey, can I talk to you for a minute first?":
 
@@ -2205,7 +2205,7 @@ label posthomework:
          jump shouhei3
         
         
-label liam3:
+label liam4:
 
    v "Fine."
    
