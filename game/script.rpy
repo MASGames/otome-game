@@ -2176,7 +2176,7 @@ label posthomework:
    
    s "We may be at the same school, now."
    
-   s "But I don't want us to get in each other's way."
+   s "But I don't want us to get in each other's way. That might be better, just for all of us."
    
    show l angry
    
@@ -2219,7 +2219,7 @@ label liam3:
    
    "Shouhei's eyes look up, just to meet with mine. He nods once, slowly and then steps back. Steps away from us."
    
-   s "All right. I have to get somewhere soon. Glad to see you're both well."
+   s "All right. I have to get somewhere soon."
    
    "This is it, then. I turn around, and start walking, one step, one more, and another, away from the forest."
    
@@ -2235,8 +2235,6 @@ label liam3:
    
    "I'll study Cursebreaking, Liam has his Healing, and Shouhei will learn what he came here to learn. We're not going to stay the same as we were when we were small."
    
-   "It still hurts."
-   
    l "Viola."
    
    l "I'm sorry."
@@ -2251,11 +2249,11 @@ label shouhei3:
 
    v "Shouhei. Can I talk to you for a minute?"
    
-   "I look back at Liam, who looks puzzled now. I mouth the words in the air, to let him know I would be back after a moment."
+   "I look back at Liam, who looks puzzled now. I mouth some words in the air, hold up one, two fingers, to let him know I would be back after a moment."
    
    "He seems to get it."
    
-   "Shouhei looks taken aback, momentarily. Kinuko has turned her head to study me intensely. Then her beak reaches forward, taps against Shouhei's wrist in a light motion."
+   "Shouhei looks taken aback. Kinuko has turned her head to study me intensely. Then her beak reaches forward, taps against Shouhei's wrist in a light motion."
    
    o "Viola, do you know what you'll say to him?"
    
@@ -2267,23 +2265,44 @@ label shouhei3:
    
    v "I understand, all right?"
    
-   v "We all came here to study well. You have your things to do. So do I. And I get why you don't want to talk with me more than you need to."
+   v "We all came here to study well. You're busy, you have things to do. So do I. And I get why you don't want to talk with me more than you need to."
    
-   v "We can be polite to each other in class. Say hi, even, if we're feeling adventurous."
+   v "We can be polite to each other in class. Say hi, even, eventually."
    
-   v "But for everything you just said, I think. I think you should talk to Liam."
+   v "But for everything you just said, after all of it. I think you should talk to Liam."
    
    v "If you want to. And if he wants to talk to you."
    
-   v "It's just. Not very fair to him. He didn't actually have anything to do with...all of that. I know it. You know it."
+   v "You're not. Not being very fair to him. He didn't actually have anything to do with...all of that. I know it. You know it."
    
    "Shouhei hasn't said anything while I'm speaking. When I look at him, he does look like he has been listening closely."
 
    s "Very well. I think."
    
-   s "I think you might be right. This wouldn't be [fill in rest of sentence here]"
+   s "I think you may have a point."
+   
+   v "Okay. That's all I wanted to say."
+   
+   v "He would be happy, if you did want to talk to him again."
+   
+   s "Perhaps."
+   
+   "I don't think there's anything else I can say at this point. I should go."
+   
+   s "I'm..."
+   
+   "I can't really hear his next words after that, over the soft chirping of birds and crunching pine needles. I stop walking and turn my head."
+   
+   v "Yes?"
+   
+   s "You can make a left at the grove of maple tree on the way back instead of a right. The bridge there will get you to the classrooms faster."
+   
+   v "Thanks for the tip."
+   
+   "I wander back, wondering if Shouhei will decide to talk to Liam again. Liam isn't really the type to hold onto a grudge against people."
+   
+   "I can't hope for much on that front. I decide not to worry too much about it now. There's lot of other things I have to think about, right now anyways."
   
-
    # 2.? Scene involving either Eliza or Viola's family contacting her, more family history? 
 
    ### MONTH THREE BEGINS ###
