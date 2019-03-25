@@ -2197,10 +2197,92 @@ label posthomework:
       "Fine. Come on, Liam, let's go.":
 
          $lpoints += 1
+         jump liam3
 
       "Hey, can I talk to you for a minute first?":
 
          $spoints += 1
+         jump shouhei3
+        
+        
+label liam3:
+
+   v "Fine."
+   
+   v "I get it. I get what you're saying. Come on, Liam. Let's go."
+   
+   l "Viola, what--"
+   
+   v "Shouhei. Thank you for your honesty, this time. You don't have to worry too much about it."
+   
+   v "We'll see you around in class."
+   
+   "Shouhei's eyes look up, just to meet with mine. He nods once, slowly and then steps back. Steps away from us."
+   
+   s "All right. I have to get somewhere soon. Glad to see you're both well."
+   
+   "This is it, then. I turn around, and start walking, one step, one more, and another, away from the forest."
+   
+   "My hand, somehow, has reached up to hold onto the elbow of Liam's sleeve. I feel a jerking motion, like Liam wants to tug away."
+   
+   v "Please. He's busy, and already said what he wanted to tell us. Please, Liam."
+   
+   "I'm sorry, just a little, that we couldn't talk more with Shouhei. More than a little."
+   
+   "I imagine if things had happened the other way around. No. I can't even think of it like that."
+   
+   "I feel just a bit relieved, beneath all that, to be absolutely honest. We know where we stand now."
+   
+   "I'll study Cursebreaking, Liam has his Healing, and Shouhei will learn what he came here to learn. We're not going to stay the same as we were when we were small."
+   
+   "It still hurts."
+   
+   l "Viola."
+   
+   l "I'm sorry."
+   
+   v "It'll be okay."
+   
+   "On one side, Liam walks with me, nearly shoulder to shoulder. Olly, resting on my other side, almost pats my shoulder, or attempts to make the same motion with his tail."
+   
+   "I can't really quite feel it, but it does cheer me up just slightly."
+
+label shouhei3:
+
+   v "Shouhei. Can I talk to you for a minute?"
+   
+   "I look back at Liam, who looks puzzled now. I mouth the words in the air, to let him know I would be back after a moment."
+   
+   "He seems to get it."
+   
+   "Shouhei looks taken aback, momentarily. Kinuko has turned her head to study me intensely. Then her beak reaches forward, taps against Shouhei's wrist in a light motion."
+   
+   o "Viola, do you know what you'll say to him?"
+   
+   "Good question, Olly. I'm wondering that myself."
+   
+   "We walk a little away from Liam, to between two giant pine trees. There's a clump of bluish-purple flowers blooming under one of them."
+   
+   s "So. What is it?"
+   
+   v "I understand, all right?"
+   
+   v "We all came here to study well. You have your things to do. So do I. And I get why you don't want to talk with me more than you need to."
+   
+   v "We can be polite to each other in class. Say hi, even, if we're feeling adventurous."
+   
+   v "But for everything you just said, I think. I think you should talk to Liam."
+   
+   v "If you want to. And if he wants to talk to you."
+   
+   v "It's just. Not very fair to him. He didn't actually have anything to do with...all of that. I know it. You know it."
+   
+   "Shouhei hasn't said anything while I'm speaking. When I look at him, he does look like he has been listening closely."
+
+   s "Very well. I think."
+   
+   s "I think you might be right. This wouldn't be [fill in rest of sentence here]"
+  
 
    # 2.? Scene involving either Eliza or Viola's family contacting her, more family history? 
 
