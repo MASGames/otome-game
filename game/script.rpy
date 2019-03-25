@@ -2090,9 +2090,11 @@ label posthomework:
 
    # 2.? Kinuko seeks out Liam and Viola 
    
-   l normal "...and that's why that particular town developed a tradition of wearing hats with a chicken sitting on it."
+   show l normal
    
-   v "...You're serious."
+   l "...and that's why that particular town developed a tradition of wearing hats with a chicken sitting on it."
+   
+   v normal "...You're serious."
    
    l "They might always be under fowl weather, but they sure do sell delicious meringues."
    
@@ -2110,7 +2112,7 @@ label posthomework:
    
    play sound magiceffect
    
-   show k normal
+   show k normal at right
    
    "Why was she here?"
    
@@ -2133,6 +2135,7 @@ label posthomework:
    play sound magiceffect
    
    hide k
+   hide l
    
    "Kinuko has already taken off. She's expecting us to follow her, then. Liam and I take two seconds to grab our bags, and jog on."
    
@@ -2150,9 +2153,11 @@ label posthomework:
    
    s "Thank you, Kinuko."
    
-   show s normal
+   show s normal at right
    
    s "You both came."
+   
+   show l normal at left
    
    l "Hello, Shouhei."
    
@@ -2178,13 +2183,12 @@ label posthomework:
    
    s "But I don't want us to get in each other's way. That might be better, just for all of us."
    
-   show l angry
-   
-   l "Which means what."
+   l angry "Which means what."
    
    "His voice has lost the 'cheerful' and just got to all 'edge' now."
    
    hide l
+   hide s
    
    "I can't help remembering the times when Kinuko would come find us, just like this, when we were smaller. We don't look the same as we did then."
    
@@ -2207,9 +2211,12 @@ label posthomework:
         
 label liam4:
 
-   v "Fine."
+   v normal "Fine."
    
    v "I get it. I get what you're saying. Come on, Liam. Let's go."
+   
+   show l normal at left
+   show s normal at right
    
    l "Viola, what--"
    
@@ -2220,6 +2227,8 @@ label liam4:
    "Shouhei's eyes look up, just to meet with mine. He nods once, slowly and then steps back. Steps away from us."
    
    s "All right. I have to get somewhere soon."
+   
+   hide s
    
    "This is it, then. I turn around, and start walking, one step, one more, and another, away from the forest."
    
@@ -2246,10 +2255,15 @@ label liam4:
    "On one side, Liam walks with me, nearly shoulder to shoulder. Olly, resting on my other side, almost pats my shoulder, or attempts to make the same motion with his tail."
    
    "I can't really quite feel it, but it does cheer me up just slightly."
+   
+   jump postforest
 
 label shouhei3:
-
-   v "Shouhei. Can I talk to you for a minute?"
+   
+   show l normal at left
+   show s normal at right
+   
+   v normal "Shouhei. Can I talk to you for a minute?"
    
    "I look back at Liam, who looks puzzled now. I mouth some words in the air, hold up one, two fingers, to let him know I would be back after a moment."
    
@@ -2257,7 +2271,11 @@ label shouhei3:
    
    "Shouhei looks taken aback. Kinuko has turned her head to study me intensely. Then her beak reaches forward, taps against Shouhei's wrist in a light motion."
    
+   show o normal at center
+   
    o "Viola, do you know what you'll say to him?"
+   
+   hide o
    
    "Good question, Olly. I'm wondering that myself."
    
@@ -2303,11 +2321,15 @@ label shouhei3:
    
    v "Thanks for the tip."
    
-   hide s normal
+   hide s
    
    "I wander back, wondering if Shouhei will decide to talk to Liam again. Liam isn't really the type to hold onto a grudge against people."
    
    "I can't hope for much on that front. I decide not to worry too much about it now. There's lot of other things I have to think about, right now anyways."
+   
+label postforest:
+   
+   "Placeholder dialogue!"
   
    # 2.? Scene involving either Eliza or Viola's family contacting her, more family history? 
 
