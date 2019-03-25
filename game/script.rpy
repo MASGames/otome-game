@@ -2142,7 +2142,7 @@ label posthomework:
    
    "The area in front of us gives way from fields to a denser wood. We pass spruce and maple, hemlock and white ash. Leaves go about their quiet business of falling."
    
-   "There's the smell of dried flowers, mosses, and damp earth, from beneath our feet. Things that have grown and withered. At some point on our walk, Olly and Clara have slipped out of their phones."
+   "There's the smell of dried flowers, mosses, and damp earth from beneath our feet. Things that have grown and withered. At some point on our walk, Olly and Clara have slipped out of their phones."
  
    "They haven't said anything yet. But Olly hovering next to my right elbow is a comforting thought."
    
@@ -2297,9 +2297,13 @@ label shouhei3:
    
    v "Yes?"
    
-   s "You can make a left at the grove of maple tree on the way back instead of a right. The bridge there will get you to the classrooms faster."
+   s "You can make a left at the grove of maple trees on the way back instead of a right."
+   
+   s "The bridge there will get you to the classrooms faster."
    
    v "Thanks for the tip."
+   
+   hide s normal
    
    "I wander back, wondering if Shouhei will decide to talk to Liam again. Liam isn't really the type to hold onto a grudge against people."
    
