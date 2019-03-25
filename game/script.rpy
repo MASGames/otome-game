@@ -2225,7 +2225,9 @@ label liam3:
    
    "My hand, somehow, has reached up to hold onto the elbow of Liam's sleeve. I feel a jerking motion, like Liam wants to tug away."
    
-   v "Please. He's busy, and already said what he wanted to tell us. Please, Liam."
+   v "Please. He's busy, and already said what he wanted to tell us."
+   
+   v "Please, Liam."
    
    "I'm sorry, just a little, that we couldn't talk more with Shouhei. More than a little."
    
