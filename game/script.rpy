@@ -14,7 +14,7 @@ define mystery = Character("???")
 define s1 = Character("Student 1")
 define s2 = Character("Student 2")
 define j = Character("Janitor") # :D
-define kc = Character ("Ken Crossley")
+define kc = Character("Ken Crossley")
 
 define audio.dooropen = "Door Squeak.mp3"
 define audio.magiceffect = "shootingstar.mp3"
@@ -2505,6 +2505,8 @@ label shouhei4:
    kc "Fine! Fine, I'll go report it myself. Just my bad luck today."
    
    "He places the green bottle he was holding down on the nearby table. Shoots one last glare at Shouhei and me, and leaves."
+   
+   hide kc
    
    v "What a mess. I didn't even know what he was thinking."
    
