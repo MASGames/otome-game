@@ -1938,6 +1938,24 @@ label posthomework:
 
    v "I'm glad I managed to skip out on math completely, to be honest. Does your major require it? Nora was mentioning that Artificing does."
 
+   c "I...haven't declared a major yet, actually. So I figured I should get as many of the general education requirements out of the way as I can, while I'm making up my mind."
+
+   v "That makes sense. Do you have any ideas about what you might want to pick? Types of magic you're interested in?"
+
+   c "Hmm, not really. I like a little bit of almost everything, to be honest."
+
+   "Sudden shouting draws my attention--and Colin's too, by the way he stiffens. We exchange a concerned look, and run in the direction of the shouting."
+
+   "We turn the corner around a building, and I skid to a stop."
+
+   "There's a giant--plant, I guess? It's at least very large and very green, waving around some knobby, ropey-looking tentacles that look sort of like roots."
+
+   "And it looks like it's standing on someone! Though from the expletives they're shouting, they sound more angry than injured."
+
+   s1 "Would you get this thing off me?! This is not funny anymore!"
+
+   s2 "It wasn't supposed to do that! I'm not sure how to make it stop!"
+
    # 2.?? More on Viola and her major 
 
    $npoints += 1
