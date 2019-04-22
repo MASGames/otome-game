@@ -14,6 +14,7 @@ define mystery = Character("???")
 define s1 = Character("Student 1")
 define s2 = Character("Student 2")
 define j = Character("Janitor") # :D
+define kc = Character ("Ken Crossley")
 
 define audio.dooropen = "Door Squeak.mp3"
 define audio.magiceffect = "shootingstar.mp3"
@@ -2116,7 +2117,7 @@ label posthomework:
    
    "Why was she here?"
    
-   "I'm standing on my feet, before I remember even getting up. A vague dread seems to have spilled over me like ice. Was Shouhei--?"
+   "I'm standing on my feet, before I remember even getting up. A vague dread spills over me like ice. Was Shouhei--?"
    
    k "He wants to see you."
    
@@ -2199,12 +2200,10 @@ label posthomework:
    menu: 
 
       "Fine. Come on, Liam, let's go.":
-
          $lpoints += 1
          jump liam4
 
       "Hey, can I talk to you for a minute first?":
-
          $spoints += 1
          jump shouhei3
         
@@ -2375,17 +2374,16 @@ label postforest:
        jump walkaway
 
       "Follow him.":
-
          $spoints += 1
          jump shouhei4
          
 label walkaway:
 
-   "Some people seem to do their work best at odd times. And I guess he felt like preferring a time with more privacy when doing their research."
+   "Some people seem to do their work best at odd times. And I guess he preferred a time with more privacy for his research."
    
    "Anyways, I don't really have a reason to stick around here."
    
-   "It takes me a little bit of looping around two sets of stairs, but eventually I find my way back to the dorms and get dinner."
+   "It takes me some time looping around two sets of stairs, but eventually I find my way back to the dorms and get dinner."
    
    "I'll think about my Cursebreaking assignment from today after that. Food first." 
    
@@ -2393,9 +2391,128 @@ label walkaway:
    
 label shouhei4:
 
-   v "That's...definitely not normal behavior. Probably."
+   v "That's...definitely not normal behavior."
    
-   "I should follow him."
+   "I run down the hallway, right up to the room he had gone into."
+   
+   play sound dooropen
+   
+   v angry "What are you doing?"
+   
+   s1 "What?"
+   
+   "The student has an unlabeled green bottle of something in his hand."
+   
+   "His other hand holds a clear glass flask, with several yellow butteflies fluttering inside."
+   
+   v "Are you supposed to be here?"
+   
+   s1 "Who are you?"
+   
+   "I look over at the little signpost on the right side of the wall next to the door."
+   
+   "There's a name labeled there and a set of dates that the project room is booked for."
+   
+   v "Unless your name is Camellia, I think you should leave."
+   
+   s1 angry "It's none of your business what I'm doing."
+   
+   "The student's hair is a faint blonde shade, with a more grayish tint to it than Liam's. He's wearing a cream-colored sweater and navy slacks."
+   
+   "He's not wearing any of the safety aprons or gloves that most students are reminded to wear when handling projects."
+   
+   v "You want to rethink this and go, before you get in trouble?"
+   
+   s1 "No."
+   
+   "He flicks off the lid of the green bottle and moves it towards the flask."
+   
+   v "Stop!"
+   
+   "I rush up and grab his hand."
+   
+   s1 "Oh, give up!"
+   
+   "A jolt to my side, and a shove. I almost lose my footing."
+   
+   "My elbow bangs onto something hard. I grit my teeth."
+   
+   "I have to think. I have been getting some physical strength training in our Cursebreaking classes. But I don't know how good I would be in a head-to-head fight."
+   
+   v "Olly! Go get someone! Hurry!"
+   
+   "My phone vibrates in my pocket. The familiar sound of something whooshing out."
+   
+   o "Viola! Why are you...?"
+   
+   v "Just go!"
+   
+   "I hope Olly listens this time."
+   
+   "The student and I are still grappling. I'm trying to get to the bottle he's holding, and he's still trying to push me away."
+   
+   "I've managed somehow to get him towards the doorframe. Maybe I can pull him away from the project."
+   
+   "His arm flails. A crash."
+   
+   "I jump away instinctively."
+   
+   "There's glass on the ground. The student and I stop. We stare at the mess."
+   
+   "The flask had broken apart. Around us, two, three, and more butterflies released from the flask are floating around the room, glowing faintly."
+   
+   v "You. You broke her research."
+   
+   s1 "...I didn't."
+   
+   "His eyes dart around the room. Then he leaps towards the door."
+   
+   v "Hey! You can't tamper with someone's project and just leave!"
+   
+   "How would I explain this mess? It looks. Bad. It would be bad."
+   
+   s angry "She's right about that."
+   
+   "The student doesn't make it out the door."
+   
+   "Shouhei's there."
+   
+   s "Crossley. Ken Crossley, wasn't it?"
+   
+   s "You dropped out of one of the courses we both had, ah, about a week ago?"
+   
+   kc "This is annoying. I didn't plan to break anything! This girl here just doesn't know when to leave something alone!"
+   
+   kc "It was just a prank, that was all."
+   
+   s "Damaging school property? Intefering with a fellow student's research? Injuring another student?"
+   
+   s "All for a simple prank, according to you? I've already told a professor there was trouble here."
+   
+   s "And if you don't want to inform the student council what you did, that's fine. I can go put in the report myself."
+   
+   "The student, Ken, is looking less angry now. More worried."
+   
+   kc "Fine! Fine, I'll go report it myself. Just my bad luck today."
+   
+   "He places the green bottle he was holding down on the nearby table. Shoots one last glare at Shouhei and me, and leaves."
+   
+   v "What a mess. I didn't even know what he was thinking."
+   
+   s "That was a bad idea, running into here."
+   
+   v "I wasn't the one sneaking around doing something bad!" 
+   
+   s normal "Fine. You had a reason for doing what you did."
+   
+   s "And got hurt on top of that."
+   
+   
+   jump schoolcursediscuss
+   
+   
+   
+ 
 
    if persistent.colin_route_unlocked: 
 
