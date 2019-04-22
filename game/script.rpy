@@ -2548,7 +2548,7 @@ label shouhei4:
 
       $cpoints += 1
       
- label schoolcursediscuss:
+label schoolcursediscuss:
 
    # 3.? More detailed discussion of the school curse.
 
