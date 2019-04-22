@@ -2464,7 +2464,7 @@ label shouhei4:
    
    "I hope Olly listens this time."
    
-   show bg school lab with hpunch   #i want to make this effect last at least 5 seconds long how do i add that
+   show bg school lab with hpunch   #i want to make this effect last at least 3 seconds long how do i add that
   
    "The student and I are still grappling. I'm trying to get to the bottle he's holding, and he's still trying to push me away."
    
