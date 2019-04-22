@@ -2349,7 +2349,9 @@ label postforest:
    
    "I'm standing on some type of second-story platform, a winding bridge-like thing overlooking part of the campus. There's a hallway with a row of doors to my right."
    
-   "Project Room 1. Project Room 2. Project Room 3. And so it goes, with each door further down. Huh. I think I can guess what's inside each one."
+   "Project Room 1. Project Room 2. Project Room 3. And so it goes, with each door further down."
+
+   "Huh. I think I can guess what's inside each one."
    
    "It's quieter around this side of the campus. The sky overhead is melting into dusky blues and purples. Most people must be at one of the dining halls now, or eating at one of the food stands near the dorms."
    
@@ -2408,9 +2410,9 @@ label shouhei4:
    
    "His other hand holds a clear glass flask, with several yellow butteflies fluttering inside."
    
-   v "Are you supposed to be here?"
-   
    show v at center
+   
+   v "Are you supposed to be here?"
    
    s1 "Who are you?"
    
@@ -2422,7 +2424,7 @@ label shouhei4:
    
    s1 "It's none of your business what I'm doing."
    
-   "The student's hair is a faint blonde shade, with a more grayish tint to it than Liam's. He's wearing a cream-colored sweater and navy slacks."
+   "The student's hair is a faint blonde shade, with a grayer tint to it than Liam's. He's wearing a cream-colored sweater and navy slacks."
    
    "He's not wearing any of the safety aprons or gloves that most students are reminded to wear when handling projects."
    
@@ -2448,9 +2450,13 @@ label shouhei4:
    
    "My phone vibrates in my pocket. The familiar sound of something whooshing out."
    
+   show o at left
+   
    o "Viola! What...?"
    
    v "Just go!"
+   
+   hide o
    
    "I hope Olly listens this time."
    
@@ -2463,6 +2469,8 @@ label shouhei4:
    "Whatever it is collides into me with a thunk, and my jaw rattles."
    
    hide v
+   
+   "The student mutters something panickedly."
    
    play sound crash
    
