@@ -2311,7 +2311,7 @@ label shouhei3:
    
    s "I'm..."
    
-   "I can't really hear his next words after that, over the soft chirping of birds and crunching pine needles. I stop walking and turn my head."
+   "I can't really hear his next words after that, over the soft chirping of birds and shifting pine needles. I stop walking and turn my head."
    
    v "Yes?"
    
@@ -2342,14 +2342,68 @@ label postforest:
    $lpoints += 1
 
    # 3.? Encounter with Shouhei after reprimanding an NPC 
+   
+   scene bg school hallway
+   
+   "I look up from the textbook I had been skimming through. Now where did I end up walking to?"
+   
+   "I'm standing on some type of second-story platform, a winding bridge-like thing overlooking part of the campus. There's a hallway with a row of doors to my right."
+   
+   "Project Room 1. Project Room 2. Project Room 3. And so it goes, with each door further down. Huh. I think I can guess what's inside each one."
+   
+   "It's quieter around this side of the campus. The sky overhead is melting into dusky blues and purples. Most people must be at one of the dining halls now, or eating at one of the food stands near the dorms."
+   
+   "I should figure out where I am and head back to the dorms. Nora or Liam or somebody could tell me what the best dinner special was today."
+   
+   v normal "What's that?"
+   
+   "I don't know why, but I just take a step back from the hallway, so my right shoulder is resting against the wall. I shift to look around the corner."
+   
+   "Footsteps. Someone slips up to one of the doors. I don't get a good look. Male, I think. Middling height."
+   
+   v "He doesn't look like a teacher."
+   
+   "The figure bends close to one of the doors. He whispers something, and there's a clicking noise. A burnt smell wafts through the air."
+   
+   "He looks down one way of the hallway, then the other side. And goes inside the room."
+   
+   "Hmm. Curious."
+   
+   menu: 
 
-   $spoints += 1
+      "Walk downstairs.":
+       jump walkaway
+
+      "Follow him.":
+
+         $spoints += 1
+         jump shouhei4
+         
+label walkaway:
+
+   "Some people seem to do their work best at odd times. And I guess he felt like preferring a time with more privacy when doing their research."
+   
+   "Anyways, I don't really have a reason to stick around here."
+   
+   "It takes me a little bit of looping around two sets of stairs, but eventually I find my way back to the dorms and get dinner."
+   
+   "I'll think about my Cursebreaking assignment from today after that. Food first." 
+   
+   jump schoolcursediscuss
+   
+label shouhei4:
+
+   v "That's...definitely not normal behavior. Probably."
+   
+   "I should follow him."
 
    if persistent.colin_route_unlocked: 
 
       # 3.? People practicing spellcasting with their familiars; Colin admits he doesn't have one. 
 
       $cpoints += 1
+      
+ label schoolcursediscuss:
 
    # 3.? More detailed discussion of the school curse.
 
