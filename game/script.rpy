@@ -2484,11 +2484,13 @@ label shouhei4:
    
    "How would I explain this mess? It looks. Bad. It would be bad."
    
-   s angry "She's right about that."
+   s "She's right about that."
    
    "The student doesn't make it out the door."
    
    "Shouhei's there."
+   
+   show s angry at left
    
    s "Crossley. Ken Crossley, wasn't it?"
    
@@ -2499,6 +2501,8 @@ label shouhei4:
    kc "It was just a prank, that was all."
    
    s "Damaging school property? Intefering with a fellow student's research? Injuring another student?"
+   
+   show s at center
    
    s "All for a simple prank, according to you? I've already told a professor there was trouble here."
    
@@ -2539,6 +2543,8 @@ label shouhei4:
    s "I told you, I informed one of the professors already. You better go to the health center. Get that checked on."
    
    v "Right. I'll go."
+   
+   hide s
    
    "I walk out and Olly floats next to me, hovering, the rest of the way to the health center."
    
