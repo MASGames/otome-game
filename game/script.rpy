@@ -1969,7 +1969,10 @@ label posthomework:
 
    scene bg v dorm
    
-   show v upside down  # can we flip Viola's sprite upside down in the scene? That would be hilarious and appropriate
+   # can we flip Viola's sprite upside down in the scene? That would be hilarious and appropriate
+   show v upside down: 
+      xalign 0
+      yalign 0
 
    v "Cursebreaking homework." 
 
@@ -2009,7 +2012,7 @@ label posthomework:
    
    "But there are some things I can say." 
 
-   v normal "Yeah, it is. I guess it started when I was younger--my nurse liked telling tales of valor and cunning that often involved the protagonist having to solve some riddle or break through some lock, and it...always seemed like real magic to me, you know?"
+   v "Yeah, it is. I guess it started when I was younger--my nurse liked telling tales of valor and cunning that often involved the protagonist having to solve some riddle or break through some lock, and it...always seemed like real magic to me, you know?"
 
    v "I dragged Liam and--well, my friends at the time, into so much trouble, running around our property trying to find puzzles to solve and treasure to rescue."
 
@@ -2378,7 +2381,7 @@ label postforest:
    
    "I should figure out where I am and head back to the dorms. Nora or Liam or somebody could tell me what the best dinner special was today."
    
-   v normal "What's that?"
+   v "What's that?"
    
    "I don't know why, but I just take a step back from the hallway, so my right shoulder is resting against the wall. I shift to look around the corner."
    
@@ -2572,7 +2575,7 @@ label shouhei4:
    "Shouhei turns from the door. Takes one step, two steps closer to me, his eyes glancing over my face."
    
    hide s
-   show s normal:
+   show s normal at center:
       zoom 1.0
       linear 1.0 zoom 1.15
    
