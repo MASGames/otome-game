@@ -2442,7 +2442,7 @@ label shouhei4:
    
    "My elbow bangs onto something hard. I grit my teeth."
    
-   "I have to think. I have been getting some physical strength training in our Cursebreaking classes. But I don't know how good I would be in a head-to-head fight."
+   "I have to think. I have been getting some physical strength training in our Cursebreaking classes. But I don't know how good I would be in a hand-to-hand fight."
    
    v "Olly! Go get someone! Hurry!"
    
@@ -2456,17 +2456,17 @@ label shouhei4:
    
    "The student and I are still grappling. I'm trying to get to the bottle he's holding, and he's still trying to push me away."
    
-   "I've managed somehow to get him towards the doorframe. Maybe I can pull him away from the project."
+   "I've managed somehow to get him towards the doorframe, pressing one of his arms against the wall. Maybe I can pull him away from the project."
    
-   "His arm flails. I see something coming towards me and I duck. But not quick enough."
+   "His arm flails. I see a greenish blur coming towards me and I duck. But not quick enough."
    
-   "Whatever it is collides into me, and my jaw rattles."
+   "Whatever it is collides into me with a thunk, and my jaw rattles."
    
    hide v
    
    play sound crash
    
-   "A crash."
+   "And then, a crash."
    
    "I jump away instinctively."
    
@@ -2534,9 +2534,9 @@ label shouhei4:
    
    "That side, the spot against my cheekbone that I'm touching, aches fiercely."
    
-   v "And what happened here..."
+   v "And for what happened here..."
    
-   s "I told you I informed one of the professors already. You better go to the health center. Get that checked on."
+   s "I told you, I informed one of the professors already. You better go to the health center. Get that checked on."
    
    v "Right. I'll go."
    
