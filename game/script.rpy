@@ -18,7 +18,8 @@ define kc = Character ("Ken Crossley")
 
 define audio.dooropen = "Door Squeak.mp3"
 define audio.magiceffect = "shootingstar.mp3"
-define audio.forest= "Nature Ambiance.mp3"
+define audio.forest = "Nature Ambiance.mp3"
+define audio.crash = "mirror breaking.mp3"
 
 default lpoints = 0
 default spoints = 0
@@ -2401,6 +2402,8 @@ label shouhei4:
    
    s1 "What?"
    
+   show kc at right
+   
    "The student has an unlabeled green bottle of something in his hand."
    
    "His other hand holds a clear glass flask, with several yellow butteflies fluttering inside."
@@ -2443,7 +2446,7 @@ label shouhei4:
    
    "My phone vibrates in my pocket. The familiar sound of something whooshing out."
    
-   o "Viola! Why are you...?"
+   o "Viola! What...?"
    
    v "Just go!"
    
@@ -2453,7 +2456,13 @@ label shouhei4:
    
    "I've managed somehow to get him towards the doorframe. Maybe I can pull him away from the project."
    
-   "His arm flails. A crash."
+   "His arm flails. I see something coming towards me and I duck. But not quick enough."
+   
+   "Whatever it is collides into me, and my jaw rattles."
+   
+   play sound crash
+   
+   "A crash."
    
    "I jump away instinctively."
    
@@ -2491,7 +2500,7 @@ label shouhei4:
    
    s "And if you don't want to inform the student council what you did, that's fine. I can go put in the report myself."
    
-   "The student, Ken, is looking less angry now. More worried."
+   "The student, Ken, is looking less angry now. And much more worried."
    
    kc "Fine! Fine, I'll go report it myself. Just my bad luck today."
    
@@ -2507,12 +2516,29 @@ label shouhei4:
    
    s "And got hurt on top of that."
    
+   v "Really."
+   
+   "Shouhei, looking uncomfortable, lifts one of his hands to touch his cheek."
+   
+   "I mirror his action. Oh. Ow."
+   
+   v "It's not bleeding?"
+   
+   "He shakes his head."
+   
+   "That side, the spot against my cheekbone that I'm touching, aches fiercely."
+   
+   v "And what happened here..."
+   
+   s "I told you I informed one of the professors already. You better go to the health center. Get that checked on."
+   
+   v "Right. I'll go."
+   
+   "I walk out and Olly floats next to me, hovering, the rest of the way to the health center."
+   
+   "Yeah. I'll have an exciting explanation for this the next time I see Nora. Or Liam. Whoever sees me first."
    
    jump schoolcursediscuss
-   
-   
-   
- 
 
    if persistent.colin_route_unlocked: 
 
