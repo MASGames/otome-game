@@ -2442,7 +2442,7 @@ label shouhei4:
    
    s1 "Oh, give up!"
    
-   scene bg school lab with hpunch 
+   show bg school lab with hpunch 
    
    "A jolt to my side, and a shove. I almost lose my footing."
    
@@ -2464,9 +2464,8 @@ label shouhei4:
    
    "I hope Olly listens this time."
    
-   scene bg school lab with hpunch:
-      time 5.0
-   
+   show bg school lab with hpunch (5.0)
+  
    "The student and I are still grappling. I'm trying to get to the bottle he's holding, and he's still trying to push me away."
    
    "I've managed somehow to get him towards the doorframe, pressing one of his arms against the wall. Maybe I can pull him away from the project."
