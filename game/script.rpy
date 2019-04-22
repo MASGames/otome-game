@@ -2410,6 +2410,8 @@ label shouhei4:
    
    v "Are you supposed to be here?"
    
+   show v at center
+   
    s1 "Who are you?"
    
    "I look over at the little signpost on the right side of the wall next to the door."
@@ -2418,7 +2420,7 @@ label shouhei4:
    
    v "Unless your name is Camellia, I think you should leave."
    
-   s1 angry "It's none of your business what I'm doing."
+   s1 "It's none of your business what I'm doing."
    
    "The student's hair is a faint blonde shade, with a more grayish tint to it than Liam's. He's wearing a cream-colored sweater and navy slacks."
    
@@ -2459,6 +2461,8 @@ label shouhei4:
    "His arm flails. I see something coming towards me and I duck. But not quick enough."
    
    "Whatever it is collides into me, and my jaw rattles."
+   
+   hide v
    
    play sound crash
    
