@@ -2542,6 +2542,10 @@ label shouhei4:
    
    v "It's not bleeding?"
    
+   show s:
+      zoom 1.0
+      linear 1.0 zoom 1.5
+   
    "He shakes his head."
    
    "That side, the spot against my cheekbone that I'm touching, aches fiercely."
