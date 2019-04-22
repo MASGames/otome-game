@@ -2464,7 +2464,8 @@ label shouhei4:
    
    "I hope Olly listens this time."
    
-   show bg school lab with hpunch (5.0)
+   show bg school lab with hpunch
+      repeat 5
   
    "The student and I are still grappling. I'm trying to get to the bottle he's holding, and he's still trying to push me away."
    
