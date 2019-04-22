@@ -2400,6 +2400,8 @@ label shouhei4:
    
    play sound dooropen
    
+   scene bg school lab
+   
    v angry "What are you doing?"
    
    s1 "What?"
@@ -2440,6 +2442,8 @@ label shouhei4:
    
    s1 "Oh, give up!"
    
+   scene bg school lab with hpunch 
+   
    "A jolt to my side, and a shove. I almost lose my footing."
    
    "My elbow bangs onto something hard. I grit my teeth."
@@ -2459,6 +2463,9 @@ label shouhei4:
    hide o
    
    "I hope Olly listens this time."
+   
+   scene bg school lab with hpunch:
+      time 5.0
    
    "The student and I are still grappling. I'm trying to get to the bottle he's holding, and he's still trying to push me away."
    
