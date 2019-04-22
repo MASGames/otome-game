@@ -2687,28 +2687,28 @@ label postpick:
       "Flynn, Galena, Thomas, and Utsurikawa."
       jump true_start
    
-   elif cpoints == 5 and persistent.colin_route_unlocked:
+   elif cpoints > max(lpoints, max(npoints, spoints)) and persistent.colin_route_unlocked:
 
       "Flynn."
       jump colin_start
 
-   elif lpoints == 5: 
+   elif lpoints > max(cpoints, max(npoints, spoints)): 
 
       "Thomas."
       jump liam_start
    
-   elif npoints == 5: 
+   elif npoints > max(cpoints, max(lpoints, spoints)): 
 
       "Galena."
       jump nora_start
 
-   elif spoints == 5: 
+   elif spoints max(cpoints, max(lpoints, npoints)): 
 
       "Utsurikawa."
       jump shouhei_start
 
    else:
 
-      "ERROR: we should never get here."
+      "ERROR: we should never get here. C: [cpoints] L: [lpoints] N: [npoints] S: [spoints]"
 
    return
