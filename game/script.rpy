@@ -14,7 +14,7 @@ define mystery = Character("???")
 define s1 = Character("Student 1")
 define s2 = Character("Student 2")
 define j = Character("Janitor") # :D
-define kc = Character("Ken Crossley", image = "kc")
+define kc = Character("Ken", image = "kc")
 
 define audio.dooropen = "Door Squeak.mp3"
 define audio.magiceffect = "shootingstar.mp3"
@@ -2568,7 +2568,8 @@ label shouhei4:
    
    "Shouhei turns from the door. Takes one step, two steps closer to me, his eyes glancing over my face."
    
-   show s:
+   hide s
+   show s normal:
       zoom 1.0
       linear 1.0 zoom 1.15
    
