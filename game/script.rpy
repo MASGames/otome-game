@@ -14,7 +14,7 @@ define mystery = Character("???")
 define s1 = Character("Student 1")
 define s2 = Character("Student 2")
 define j = Character("Janitor") # :D
-define kc = Character("Ken Crossley")
+define kc = Character("Ken Crossley", image = "kc")
 
 define audio.dooropen = "Door Squeak.mp3"
 define audio.magiceffect = "shootingstar.mp3"
