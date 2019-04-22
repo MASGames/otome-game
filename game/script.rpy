@@ -1972,7 +1972,7 @@ label posthomework:
    # can we flip Viola's sprite upside down in the scene? That would be hilarious and appropriate
    show v upside down: 
       xalign 0.5
-      yalign 0.15
+      yalign 0.05
 
    v "Cursebreaking homework." 
 
