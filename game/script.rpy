@@ -2548,9 +2548,11 @@ label shouhei4:
    
    v "It's not bleeding?"
    
-   show s:
+   "Shouhei turns from the door. Takes one step, two steps closer to me, his eyes glancing over my face."
+   
+   transform s:
       zoom 1.0
-      linear 1.0 zoom 1.2
+      linear 1.0 zoom 1.15
    
    "He shakes his head."
    
