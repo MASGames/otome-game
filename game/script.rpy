@@ -32,6 +32,7 @@ image l normal = "l normal.jpg"
 image l happy = "l happy.jpg"
 image n normal = "n normal.jpg"
 image c normal = "c normal.jpg"
+image v upside down = im.Flip("v normal.jpg", vertical=True)
 
 label start:
 
@@ -1967,10 +1968,10 @@ label posthomework:
    n "...Should I ask why you're sitting on the ceiling?" 
 
    scene bg v dorm
+   
+   show v upside down  # can we flip Viola's sprite upside down in the scene? That would be hilarious and appropriate
 
-   # can we flip Viola's sprite upside down in the scene? That would be hilarious and appropriate
-
-   v normal "Cursebreaking homework." 
+   v "Cursebreaking homework." 
 
    n laughing "Again?" 
 
@@ -2107,6 +2108,8 @@ label posthomework:
    v "Ask me again if I'm still up here in an hour."
 
    "Heart a little bit lighter, I turn back to the box."
+   
+   hide v
 
    # 2.? Kinuko seeks out Liam and Viola 
    
