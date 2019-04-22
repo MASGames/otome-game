@@ -2550,7 +2550,7 @@ label shouhei4:
    
    "Shouhei turns from the door. Takes one step, two steps closer to me, his eyes glancing over my face."
    
-   transform s:
+   show s:
       zoom 1.0
       linear 1.0 zoom 1.15
    
