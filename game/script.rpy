@@ -2460,7 +2460,7 @@ label shouhei4:
    
    s1 "Oh, give up!"
    
-   scene bg school lab with hpunch 
+   show bg school lab with hpunch 
    
    "A jolt to my side, and a shove. I almost lose my footing."
    
@@ -2482,9 +2482,8 @@ label shouhei4:
    
    "I hope Olly listens this time."
    
-   scene bg school lab with hpunch:
-      time 5.0
-   
+   show bg school lab with hpunch   #i want to make this effect last at least 3 seconds long how do i add that
+  
    "The student and I are still grappling. I'm trying to get to the bottle he's holding, and he's still trying to push me away."
    
    "I've managed somehow to get him towards the doorframe, pressing one of his arms against the wall. Maybe I can pull him away from the project."
@@ -2567,9 +2566,11 @@ label shouhei4:
    
    v "It's not bleeding?"
    
+   "Shouhei turns from the door. Takes one step, two steps closer to me, his eyes glancing over my face."
+   
    show s:
       zoom 1.0
-      linear 1.0 zoom 1.2
+      linear 1.0 zoom 1.15
    
    "He shakes his head."
    
