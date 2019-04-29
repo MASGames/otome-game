@@ -2409,7 +2409,7 @@ label liam5:
    
    l "But when it gets later on in the year, it'll get a lot louder around here, especially close to exams season."
    
-   "There's some tools he's wrapping up in cloth that I recognize slightly, from seeing Nora work on Perrault. The examination area around him looks neat and clean as it always does."
+   "There's some tools he's wrapping up in cloth that I can recognize, from seeing Nora work on Perrault. The examination area around him looks neat and clean as it always does."
    
    v "Did Clara help out today?"
    
@@ -2419,7 +2419,7 @@ label liam5:
    
    l "I don't mind it as much, even if it does get tiring. But I am learning a lot here, over stuff I usually only hear about in class."
    
-   l "And even if my tuition and boarding is already covered by one of the Wynderwold scholarships, there's still books and food expenses to think about."
+   l "And even if my tuition and boarding is already covered by the Wynderwold scholarships, there's still books and food expenses to think about."
    
    v "Do you...worry about that a lot?"
    
@@ -2465,7 +2465,7 @@ label liam5:
    
    menu: 
 
-      "I should leave.":
+      "He doesn't need me here.":
          $lpoints += 1
          jump liam5a
 
@@ -2474,6 +2474,23 @@ label liam5:
    
 label liam5a:
 
+   "He doesn't need me here. Liam's the one who has the most experience with the students at the health center."
+   
+   "He will know how to best handle it."
+   
+   v "Fine. I'll just head outside. I'll wait for you."
+   
+   l "Thanks. I'll see you in a bit, okay?"
+   
+   "I step out of Liam's examination room, and go through the doors."
+   
+   "My shoulders are still tense and I pace a circle around the fountain in the waiting room, until I can feel my muscles relax."
+   
+   "The girl at the front table isn't there anymore. I guess she headed home."
+   
+   "I check the time projected on the wall, and sigh as I plop down on one of the curving sofas."
+   
+   "."
 
 label liam5b:
 
