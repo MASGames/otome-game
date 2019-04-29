@@ -2455,6 +2455,8 @@ label liam5:
  
    s1 "Isn't that your job to figure this out? What are they even paying you to work here for?"
    
+   "Wow. What is with this guy's attitude?"
+   
    v "Hey! Can't you lay off of him?"
    
    l "Viola."
@@ -2480,7 +2482,10 @@ label liam5a:
    
    v "Fine. I'll just head outside. I'll wait for you."
    
-   l "Thanks. I'll see you in a bit, okay?"
+   l normal "Thanks. I'll see you in a bit, okay?"
+   
+   hide s1
+   hide l
    
    "I step out of Liam's examination room, and go through the doors."
    
@@ -2506,7 +2511,7 @@ label liam5a:
    
    v "Do you get a lot of students like that?"
    
-   l "...Not many. Let's talk on our way to the cafeteria, shall we?"
+   l "...Not too many. Let's talk on our way to the cafeteria, shall we?"
    
    v "Sure."
    
@@ -2536,7 +2541,7 @@ label liam5a:
    
    "He's laughing."
    
-   l "I'm glad you wanted to stick up for me, Viola. Just maybe with nicer wording next time."
+   l "I'm glad you wanted to stick up for me, Viola. Just maybe not with that wording next time."
    
    jump shouhei4
 
@@ -2544,7 +2549,38 @@ label liam5b:
 
    "I should say something. I can't just ignore this."
    
-   v "."
+   v "If you can't say something nice, shutting up would be another option."
+   
+   l "Viola!"
+   
+   "Is he mad? At me?"
+   
+   "The student makes a gesture at me that was clearly not meant as a compliment."
+   
+   v "Hey, listen here, I wasn't the one who--"
+   
+   l "Viola. Can you go?"
+   
+   "Wait. I didn't want to make Liam upset."
+   
+   l "I'm tired today. I think I'll head back to my dorm after I take care of this."
+   
+   l "You shouldn't be in here when there's a patient. Sorry."
+   
+   "He is mad. I close my mouth. I know what he says does make some kind of sense, so."
+   
+   v "Okay. Bye then."
+   
+   "Liam waves at me, his smile a little strained."
+   
+   hide l
+   hide s1
+   
+   "I head out, past the waiting room, past the doors. Still fuming."
+   
+   "I guess I'll be eating alone today. Why did I end up saying all that?"
+   
+   jump shouhei4
 
    # 3.? Encounter with Shouhei after reprimanding an NPC 
 
