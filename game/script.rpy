@@ -2361,9 +2361,15 @@ label postforest:
 
    # 3.? Worldbuilding / friendly interaction scene? Nods to alternate paths history took? 
 
-   # 3.? Scene with Liam at the health center 
+   # 3.? Scene with Liam at the health center and a student bursts in with a sick familiar 
 
    $lpoints += 1
+   
+   scene bg health center
+   
+   "At this time of the day, the"
+   
+
 
    # 3.? Encounter with Shouhei after reprimanding an NPC 
    
