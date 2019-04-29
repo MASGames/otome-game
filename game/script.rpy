@@ -2367,9 +2367,27 @@ label postforest:
    
    scene bg health center
    
-   "At this time of the day, the"
+   "At this time of the evening, the health center is a quiet place. There's sets of semicircular sofas and chairs arranged all over the place, and the soothing sound of running water."
    
+   "Oh, I recognize that fountain."
+   
+   "I mean, I say fountain, but it's really more like a miniature water display on a stand in the center of the room. On the top of it, a silvery bird is swooping in flight, one wing touching down on the water."
 
+   "The Gray Jackdaw. There was a story before, about this familiar saving a healer's life after she had fallen ill. It was a story from long, long time ago. I don't remember too much of the finer details."
+   
+   "I should look it up later."
+   
+   "The student at the front of the reception desk is yawning behind her hand when she sees me, with a textbook open in her other hand."
+   
+   s1 "You're here to see your friend, right? I think he should be helping to clean up, you can go on in!"
+   
+   v normal "Thanks!"
+   
+   "I head past the sofas and walk through the white doors."
+   
+   v "Liam?"
+   
+   l "Hi! Give me just a minute here."
 
    # 3.? Encounter with Shouhei after reprimanding an NPC 
    
