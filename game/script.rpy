@@ -2363,21 +2363,31 @@ label postforest:
 
    # 3.? Scene with Liam at the health center and a student bursts in with a sick familiar 
 
-   $lpoints += 1
+label liam5:
    
-   scene bg health center
+   scene bg health center waiting room 
    
-   "At this time of the evening, the health center is a quiet place. There's sets of semicircular sofas and chairs arranged all over the place, and the soothing sound of running water."
+   "At this time of the evening, the health center sounds quiet. There's sets of semicircular sofas and chairs arranged all over the place, and the soothing sound of running water."
    
-   "Oh, I recognize that fountain."
+   "I look closer at the fountain near the middle of the waiting area."
    
-   "I mean, I say fountain, but it's really more like a miniature water display on a stand in the center of the room. On the top of it, a silvery bird is swooping in flight, one wing touching down on the water."
+   "Well, I say fountain, but it's really more like a miniature water display on a stand in the center of the room."
+   
+   "On the top of it, a shiny silver bird swooping in flight, one wing touching down on the water that spills over the two basins below it."
 
-   "The Gray Jackdaw. There was a story before, about this familiar saving a healer's life after she had fallen ill. It was a story from long, long time ago. I don't remember too much of the finer details."
+   "The sculpture echoes off of something in the back of my mind. The Gray Jackdaw."
+   
+   "Ah, that was it. A story about a jackdaw familiar saving a healer's life after she had fallen ill."
+   
+   "The healer survived, and later went on to become one of the most influential figures in the field."  
+   
+   "The story was from a long, long time ago. I don't remember too much of the finer details."
    
    "I should look it up later."
    
-   "The student at the front of the reception desk is yawning behind her hand when she sees me, with a textbook open in her other hand."
+   "A vaguely familiar-looking student with a high braided ponytail is yawning at the reception desk."
+   
+   "Like most of the students I've seen around the health center, she's wearing a pale smock, with the tiny embroidered shape of a jackdaw just under her right shoulder."
    
    s1 "You're here to see your friend, right? I think he should be helping to clean up, you can go on in!"
    
@@ -2385,9 +2395,87 @@ label postforest:
    
    "I head past the sofas and walk through the white doors."
    
+   scene bg health center
+   
    v "Liam?"
    
-   l "Hi! Give me just a minute here."
+   l happy "Hey! Give me just a minute here."
+   
+   v "Are you the last one here?"
+   
+   l "Not sure. I know Valery--that is, my supervisor--should still be around, and maybe two other student workers?"
+   
+   l "I'll just put some of this equipment away first. Valery told me the working hours tends to be easy in these early months."
+   
+   l "But when it gets later on in the year, it'll get a lot louder around here, especially close to exams season."
+   
+   "There's some tools he's wrapping up in cloth that I recognize slightly, from seeing Nora work on Perrault. The examination area around him looks neat and clean as it always does."
+   
+   v "Did Clara help out today?"
+   
+   l "Only when I asked her to. I think it's better to have her rest a lot more, especially since I come here a lot straight after class."
+   
+   v "Is that hard? For you, I mean. I see you down here a lot."
+   
+   l "I don't mind it as much, even if it does get tiring. But I am learning a lot here, over stuff I usually only hear about in class."
+   
+   l "And even if my tuition and boarding is already covered by one of the Wynderwold scholarships, there's still books and food expenses to think about."
+   
+   v "Do you...worry about that a lot?"
+   
+   l "Thanks, Viola. I think I'm doing all right. Really." 
+   
+   "Liam listens to me a lot. I think it's fair if he can share his problems with me too."
+   
+   v "Listen, since it's close to dinner and all--"
+   
+   #add sound effect of running feet 
+   
+   "The door to the examination room bangs open."
+   
+   show s1 at right
+   
+   s1 "Hey! You! You're one of the workers here."
+   
+   l "Yes. I am. What is it?"
+   
+   s1 "Well. I'm just here for a tour."
+   
+   l "What? Are you?"
+   
+   s1 "No, obviously NOT."
+   
+   "The student roughly tosses their phone onto the table, and their familiar pops up."
+   
+   "It looks like a lizard-type familiar, with a light brown color and darker stripes, a little shorter than my arm."
+   
+   "Its eyes are closed. Sleeping, maybe?"
+   
+   l "When did you begin noticing problems with your familiar?"
+ 
+   s1 "Isn't that your job to figure this out? What are they even paying you to work here for?"
+   
+   v "Hey! Can't you lay off of him?"
+   
+   l "Viola."
+   
+   "Liam looks at me. His eyes are mild, but there's a warning there."
+   
+   "Seriously? I can't believe this student would talk to him this way!"
+   
+   menu: 
+
+      "I should leave.":
+         $lpoints += 1
+         jump liam5a
+
+      "I should say something.":
+         jump liam5b
+   
+label liam5a:
+
+
+label liam5b:
 
    # 3.? Encounter with Shouhei after reprimanding an NPC 
    
