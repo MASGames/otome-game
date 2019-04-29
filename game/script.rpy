@@ -2365,7 +2365,7 @@ label postforest:
 
 label liam5:
    
-   scene bg health center waiting room 
+   scene bg healthcenter #waiting room in health center
    
    "At this time of the evening, the health center sounds quiet. There's sets of semicircular sofas and chairs arranged all over the place, and the soothing sound of running water."
    
@@ -2433,8 +2433,6 @@ label liam5:
    
    "The door to the examination room bangs open."
    
-   show s1 at right
-   
    s1 "Hey! You! You're one of the workers here."
    
    l "Yes. I am. What is it?"
@@ -2484,12 +2482,11 @@ label liam5a:
    
    l normal "Thanks. I'll see you in a bit, okay?"
    
-   hide s1
    hide l
    
    "I step out of Liam's examination room, and go through the doors."
    
-   scene bg health center waiting room
+   #scene bg waiting room in health center
    
    "My shoulders are still tense and I pace a circle around the fountain in the waiting room, until I can feel my muscles relax."
    
@@ -2515,7 +2512,7 @@ label liam5a:
    
    v "Sure."
    
-   scene bg dining hall
+   scene bg dininghall
    
    l "So. You remember from those history lessons you had right? How most of us were born with some form of magic?"
    
@@ -2574,7 +2571,6 @@ label liam5b:
    "Liam waves at me, his smile a little strained."
    
    hide l
-   hide s1
    
    "I head out, past the waiting room, past the doors. Still fuming."
    
