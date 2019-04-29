@@ -2395,7 +2395,7 @@ label liam5:
    
    "I head past the sofas and walk through the white doors."
    
-   scene bg health center
+   scene bg healthcenter
    
    v "Liam?"
    
@@ -2484,17 +2484,71 @@ label liam5a:
    
    "I step out of Liam's examination room, and go through the doors."
    
+   scene bg health center waiting room
+   
    "My shoulders are still tense and I pace a circle around the fountain in the waiting room, until I can feel my muscles relax."
    
    "The girl at the front table isn't there anymore. I guess she headed home."
    
    "I check the time projected on the wall, and sigh as I plop down on one of the curving sofas."
    
-   "."
+   "I'm still a little angry."
+   
+   "My stomach growls. And that might help explain part of why I had snapped at that student too."
+   
+   l "Viola?"
+   
+   v "Liam! It hasn't even been 15 minutes yet. You finished up that quickly?"
+   
+   l "About that. My supervisor ended up stepping in for me."
+   
+   l "Our visitor was...loud. Valery said she could hear us from down the hall and didn't want to stand for that."
+   
+   v "Do you get a lot of students like that?"
+   
+   l "...Not many. Let's talk on our way to the cafeteria, shall we?"
+   
+   v "Sure."
+   
+   scene bg dining hall
+   
+   l "So. You remember from those history lessons you had right? How most of us were born with some form of magic?"
+   
+   v "Yeah. The whole world's population, no matter the country or the time. Different societies didn't always call it magic."
+   
+   v "Whatever they called it, everyone had it though. Just with differing degrees of specialization and training."
+   
+   l "Right. Familiars weren't always a common thing, either."
+   
+   l "And with the shifts between the bonding with physical familiars and their later digital counterparts"
+   
+   l "there was a whole body of knowledge about the magician-familiar connection that had to be adapted or improvised upon as well."
+   
+   l "With the old families, there was some pushback too, on that digital shift. Some took to the changes easier than others."
+   
+   l "The student we saw today...he might just have been afraid that there was a problem or illness with his familiar that he wouldn't know how to fix."
+   
+   l "And ended up expressing that badly."
+   
+   v "You mean by being an absolute dick to the person he was asking for help from?"
+   
+   "Liam has his hand over his forehead, and his shoulders are shaking."
+   
+   "He's laughing."
+   
+   l "I'm glad you wanted to stick up for me, Viola. Just maybe with nicer wording next time."
+   
+   jump shouhei4
 
 label liam5b:
 
+   "I should say something. I can't just ignore this."
+   
+   v "."
+
    # 3.? Encounter with Shouhei after reprimanding an NPC 
+
+label shouhei4:
    
    scene bg school hallway
    
@@ -2531,7 +2585,7 @@ label liam5b:
 
       "Follow him.":
          $spoints += 1
-         jump shouhei4
+         jump shouhei4a
          
 label walkaway:
 
@@ -2545,7 +2599,7 @@ label walkaway:
    
    jump schoolcursediscuss
    
-label shouhei4:
+label shouhei4a:
 
    v "That's...definitely not normal behavior."
    
