@@ -2397,13 +2397,15 @@ label liam5:
    
    scene bg healthcenter
    
-   v "Liam?"
+   v normal "Liam?"
    
-   l happy "Hey! Give me just a minute here."
+   show l happy
+   
+   l "Hey! Give me just a minute here."
    
    v "Are you the last one here?"
    
-   l "Not sure. I know Valery--that is, my supervisor--should still be around, and maybe two other student workers?"
+   l normal "Not sure. I know Valery--that is, my supervisor--should still be around, and maybe two other student workers?"
    
    l "I'll just put some of this equipment away first. Valery told me the working hours tends to be easy in these early months."
    
@@ -2419,7 +2421,7 @@ label liam5:
    
    l "I don't mind it as much, even if it does get tiring. But I am learning a lot here, over stuff I usually only hear about in class."
    
-   l "And even if my tuition and boarding is already covered by the Wynderwold scholarships, there's still books and food expenses to think about."
+   l "And even if my tuition and boarding is already covered by the Wyderwold scholarships, there's still books and food expenses to think about."
    
    v "Do you...worry about that a lot?"
    
@@ -2480,7 +2482,7 @@ label liam5a:
    
    v "Fine. I'll just head outside. I'll wait for you."
    
-   l normal "Thanks. I'll see you in a bit, okay?"
+   l "Thanks. I'll see you in a bit, okay?"
    
    hide l
    
@@ -2498,9 +2500,11 @@ label liam5a:
    
    "My stomach growls. And that might help explain part of why I had snapped at that student too."
    
+   show l normal
+   
    l "Viola?"
    
-   v "Liam! It hasn't even been 15 minutes yet. You finished up that quickly?"
+   v normal "Liam! It hasn't even been 15 minutes yet. You finished up that quickly?"
    
    l "About that. My supervisor ended up stepping in for me."
    
@@ -2514,17 +2518,19 @@ label liam5a:
    
    scene bg dininghall
    
+   show l normal
+   
    l "So. You remember from those history lessons you had right? How most of us were born with some form of magic?"
    
-   v "Yeah. The whole world's population, no matter the country or the time. Different societies didn't always call it magic."
+   v normal "Yeah. The whole world's population, no matter the country or the time. Different societies didn't always call it magic."
    
    v "Whatever they called it, everyone had it though. Just with differing degrees of specialization and training."
    
    l "Right. Familiars weren't always a common thing, either."
    
-   l "And with the shifts between the bonding with physical familiars and their later digital counterparts"
+   l "And with the shifts between the bonding with physical familiars and their later digital counterparts,"
    
-   l "there was a whole body of knowledge about the magician-familiar connection that had to be adapted or improvised upon as well."
+   l "there was a whole body of knowledge about the magician-familiar connection that had to be adapted or improvised upon as well." #Does this need to be two paragraphs? It fits in one text box.
    
    l "With the old families, there was some pushback too, on that digital shift. Some took to the changes easier than others."
    
@@ -2538,7 +2544,7 @@ label liam5a:
    
    "He's laughing."
    
-   l "I'm glad you wanted to stick up for me, Viola. Just maybe not with that wording next time."
+   l laughing "I'm glad you wanted to stick up for me, Viola. Just maybe not with that wording next time."
    
    jump shouhei4
 
