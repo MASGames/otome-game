@@ -2858,16 +2858,12 @@ label schoolcursediscuss:
          jump shouhei5
 
 label shouhei5:
-
-   #shouhei's reply to what he would do with the school curse
    
    "I'll ask Shouhei first what he thinks about the school curse."
    
    "I'm curious. Even if our interactions have cooled down--or is that warmed up?--a little from our previous tenseness, I have no idea what he will say."
    
    v "What would you do if you got the school curse, Shouhei?"
-   
-   show s at center
    
    s "Do good with it."
    
@@ -2904,8 +2900,6 @@ label shouhei5:
    "He looks at me for a second, fragments of blue sky overhead slipping away in the reflection of his glasses before it clears."
    
    s "If you want to call it that. Sure."
-   
-   hide s
    
    jump postpick
   
