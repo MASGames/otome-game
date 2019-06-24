@@ -2977,7 +2977,7 @@ label postpick:
       "Galena."
       jump nora_start
 
-   elif spoints max(cpoints, max(lpoints, npoints)): 
+   elif spoints > max(cpoints, max(lpoints, npoints)): 
 
       "Utsurikawa."
       jump shouhei_start
