@@ -2855,8 +2855,56 @@ label schoolcursediscuss:
          
          "Some thoughts about why she's picking Shouhei."
 
-         jump postpick
+         jump shouhei5
 
+label shouhei5:
+
+   #shouhei's reply to what he would do with the school curse
+   
+   "I'll ask Shouhei first what he thinks about the school curse."
+   
+   "I'm curious. Even if our interactions have cooled down--or is that warmed up?--a little from our previous tenseness, I have no idea what he will say."
+   
+   v "What would you do if you got the school curse, Shouhei?"
+   
+   s "Do good with it."
+   
+   "I look around our circle."
+   
+   "Liam has a surprised expression. Nora is looking at Shouhei, thoughtful. Colin's lip is curled up, one of his eyebrows raised high."
+   
+   v "When you say do good, what exactly do you--?"
+   
+   c "I was wondering the same thing."
+   
+   s "I mean what I say. Power and wealth? It doesn't subtract any existing power you already have, it merely supplements it."
+   
+   s "I don't care whether I ever encounter the curse or not. Magic itself carries its own intent, does it not?"
+   
+   s "It follows the lines of what you mean to do with it. If the curse gives good fortune to some and bad to others, it must have judged those students on some level."
+   
+   s "If the fortune it gives me can be shared with other people who will use it for good, I would be satisfied."
+   
+   n "How exactly would you distinguish between the good people and the not-as-good?"
+   
+   l "She has a point. The situation and circumstances matter a lot in these things."
+   
+   s "I don't have a perfect answer. It would depend on my personal knowledge of a person, the past records of their actions."
+   
+   s "The competent ones. The honorable ones. Those worthy of trust."
+   
+   v "That's what you would do with the power then. When you mean doing good, you mean doing--what?"
+   
+   s "Hmm. Addressing any misuse of magic, as a first step. Preventing the same thing from happening again."
+   
+   v "So you would use the curse for...Justice?"
+   
+   "He looks at me for a second, fragments of blue sky overhead slipping away in the reflection of his glasses before it clears."
+   
+   s "If you want to call it that. Sure."
+   
+   jump postpick
+  
 label postpick: 
 
    # 3.? More detailed discussion of the break between Viola and Shouhei's families.
