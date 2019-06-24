@@ -2867,6 +2867,8 @@ label shouhei5:
    
    v "What would you do if you got the school curse, Shouhei?"
    
+   show s at center
+   
    s "Do good with it."
    
    "I look around our circle."
@@ -2902,6 +2904,8 @@ label shouhei5:
    "He looks at me for a second, fragments of blue sky overhead slipping away in the reflection of his glasses before it clears."
    
    s "If you want to call it that. Sure."
+   
+   hide s
    
    jump postpick
   
