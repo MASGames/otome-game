@@ -1957,6 +1957,28 @@ label posthomework:
 
    s2 "It wasn't supposed to do that! I'm not sure how to make it stop!"
 
+   c "Oh for--"
+
+   "Before I can do anything more than stand there staring, Colin runs forward, holding out a hand in clear command. He shouts a spell--not one I'm familiar with--and the root-like tentacles suddenly stop moving."
+
+   c "Come on, let's get you out of there. I can't hold this spell for long."
+
+   "He and the other student start dragging the trapped guy out from under the monster, but it's taking time."
+
+   "Time that--as I see the uppermost tentacle twitch--they may not have!"
+
+   v "Oly!" 
+   
+   o "Right!"
+
+   "I try to repeat the spell as clearly as I can, holding my phone so that Oly can help me with extra power and control, and sigh in relief when the plant-thing stops moving again."
+
+   "I can feel the strain of the spell tugging at the back of my head, but with Oly's help it's not bad. I can hold it, at least long enough for--there they go!"
+
+   c "Thanks for the save, Viola! You can let it go now!"
+
+   "All three of them are safely out of the way of the plant-thing. Colin exchanges some low-voiced words with the other two, and then runs back over."
+
    # 2.?? More on Viola and her major 
 
    $npoints += 1
