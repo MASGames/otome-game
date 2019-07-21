@@ -489,7 +489,7 @@ label health1:
 
    l "So. Um. Do you want this? This was your favorite before, and I saw it hidden away under some drinks at the stand we were at. But, uh, I don't know if you still like it."
 
-   "It's a little container of green jello, with a green apple on the lid. I complained a lot when I was smaller, I think, at how many times I tried something green, only to find out it was lime-flavored and not apple."
+   "It's a little container of green jello, with a green apple on the lid."
 
    "Liam's face is looking at mine. His hand holding the jello moves down a little, like he wants to put it back into the paper bag."
 
@@ -1365,7 +1365,7 @@ label liam2:
    
    l normal "You want to be careful here."
    
-   "He walks out onto the balcony, leans an elbow against the white columned railing while staring into the distance." 
+   "He walks out onto the balcony, and turns his head to look back at me once, to make sure I'm following." 
    
    "After a moment, he puts one hand down on the railing and swings one leg up--"
    
@@ -1603,7 +1603,7 @@ label posthomework:
 
    scene bg v dorm
 
-   # 2.? Viola and Nora talk about Nora's side projects
+   # 2.2 Viola and Nora talk about Nora's side projects
 
    "Cursebreaking today was fantastic! We talked about (TK something cool). I don't know if it'll come in handy at all for my immediate goals, but it's days like this that remind me that this really is what I want to do, even after breaking the curse on the school." 
 
@@ -1805,7 +1805,7 @@ label posthomework:
 
    n happy "I will." 
 
-   # 2.? Viola and Shouhei have an encounter, it's a bit awkward.
+   # 2.3 Viola and Shouhei have an encounter, it's a bit awkward.
 
    $spoints += 1
    
@@ -1817,11 +1817,11 @@ label posthomework:
    
    "To my Magical Law and History class, to be exact. It's still--a bit heavy on the timeline charts and names sometimes."
    
-   "And yes, I did have a basic grounding in it, thanks to the nannies we had, but when we were kids, running outside exploring trees and secret rooms was way more appealing than going through centuries of famous figures and old court transcripts."
+   "And yes, I did have a basic grounding in it, thanks to the tutors we had, but when we were kids, running outside exploring trees and secret rooms was way more appealing than going through centuries of famous figures and old court transcripts."
    
    "Nora has been pretty helpful. She knows more about the modern laws and up-to-date inventors than the early bits, and it's better to have a study buddy to review with anyways."
    
-   "Professor Prasad did promise a much more exciting lesson today. Something about how the rise of the law came about after catastrophic overlapping curses were cast on rulers during periods of power struggles?"
+   "Professor Prasad did promise a much more exciting lesson today. Something about how the rise of the law came about after catastrophic overlapping curses were cast on warring rulers?"
    
    "Agh! It would take too long for me to get to class from here on foot. If only--"
    
@@ -1839,7 +1839,7 @@ label posthomework:
    
    "I must have missed hearing that at the tour at the beginning of the year."
    
-   "The swan boat drifts closer to shore and stops. The wing swings open."
+   "The swan boat drifts closer to shore and stops. The wing--the door, really--swings open."
    
    "I jump forward, and slide into a seat, relieved that I wouldn't have to run to class. The door clicks shut behind me."
    
@@ -1921,7 +1921,7 @@ label posthomework:
    
    "We were just heading to the same class today. This...will probably happen again, won't it? I won't be unprepared, next time." 
    
-   # 2.? Possibly a scene about other NPCs having fun playing with magic?
+   # 2.4 Possibly a scene about other NPCs having fun playing with magic?
 
    scene bg outdoors
 
@@ -1979,7 +1979,7 @@ label posthomework:
 
    "All three of them are safely out of the way of the plant-thing. Colin exchanges some low-voiced words with the other two, and then runs back over."
 
-   # 2.?? More on Viola and her major 
+   # 2.5 More on Viola and her major 
 
    $npoints += 1
 
@@ -2136,7 +2136,7 @@ label posthomework:
    
    hide v
 
-   # 2.? Kinuko seeks out Liam and Viola 
+   # 2.6 Kinuko seeks out Liam and Viola 
    
    show l normal
    
@@ -2377,7 +2377,7 @@ label postforest:
    
    "Placeholder dialogue!"
   
-   # 2.? Scene involving either Eliza or Viola's family contacting her, more family history? 
+   # 2.7 Scene involving either Eliza or Viola's family contacting her, more family history? 
 
    ### MONTH THREE BEGINS ###
 
@@ -2460,14 +2460,8 @@ label liam5:
    s1 "Hey! You! You're one of the workers here."
    
    l "Yes. I am. What is it?"
-   
-   s1 "Well. I'm just here for a tour."
-   
-   l "What? Are you?"
-   
-   s1 "No, obviously NOT."
-   
-   "The student roughly tosses their phone onto the table, and their familiar pops up."
+    
+   "Without saying anything, the student roughly tosses their phone onto the table and their familiar pops up."
    
    "It looks like a lizard-type familiar, with a light brown color and darker stripes, a little shorter than my arm."
    
@@ -2475,7 +2469,7 @@ label liam5:
    
    l "When did you begin noticing problems with your familiar?"
  
-   s1 "Isn't that your job to figure this out? What are they even paying you to work here for?"
+   s1 "Just today, duh. Isn't that your job to figure this out? What are they even paying you to work here for?"
    
    "Wow. What is with this guy's attitude?"
    
@@ -2489,7 +2483,7 @@ label liam5:
    
    menu: 
 
-      "He doesn't need me here.":
+      "I don't say anything.":
          $lpoints += 1
          jump liam5a
 
@@ -2550,9 +2544,7 @@ label liam5a:
    
    l "Right. Familiars weren't always a common thing, either."
    
-   l "And with the shifts between the bonding with physical familiars and their later digital counterparts,"
-   
-   l "there was a whole body of knowledge about the magician-familiar connection that had to be adapted or improvised upon as well." #Does this need to be two paragraphs? It fits in one text box.
+   l "And with the shifts between the bonding with physical familiars and their later digital counterparts, there was a whole body of knowledge about the magician-familiar connection that had to be adapted or improvised upon as well." 
    
    l "With the old families, there was some pushback too, on that digital shift. Some took to the changes easier than others."
    
