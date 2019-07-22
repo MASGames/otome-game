@@ -15,6 +15,8 @@ define s1 = Character("Student 1")
 define s2 = Character("Student 2")
 define j = Character("Janitor") # :D
 define kc = Character("Ken", image = "kc")
+define vf = Character("Viola's Father")
+define vm = Character("Viola's Mother")
 
 define audio.dooropen = "Door Squeak.mp3"
 define audio.magiceffect = "shootingstar.mp3"
@@ -2405,9 +2407,9 @@ label postforest:
    
    v "Hello Father. Mother."
    
-   Viola's Father "Viola, my dear. How is your roommate treating you? Making many new friends lately?" 
+   vf "Viola, my dear. How is your roommate treating you? Making many new friends lately?" 
    
-   Viola's Mother "Of course she has been making friends. She had said last time, didn't she, Adrian? She had been meeting with Liam again at school."
+   vm "Of course she has been making friends. She had said last time, didn't she, Adrian? She had been meeting with Liam again at school."
    
    v "Nora and I are getting along well. Liam's staying busy with his Healing classes."
    
@@ -2415,7 +2417,7 @@ label postforest:
    
    "Father, though smiling, looks a little distracted. Mother keeps up the chatter a bit longer than he does, before inquiring about winter plans."
    
-   Viola's Mother "Your father does want to get some things settled on the calendar for the winter holidays. Is there anything you would like to do once you come home?"
+   vm "Your father does want to get some things settled on the calendar for the winter holidays. Is there anything you would like to do once you come home?"
    
    v "Since it would be a break and all, can I...Can we visit my sister?"
    
@@ -2423,15 +2425,15 @@ label postforest:
    
    "There's a look that flickers between my parents, before Father answers first."
    
-   Viola's Father "Now dear, why don't we discuss that when you get home. The break is still some while away now."
+   vf "Viola, why don't we discuss that when you get home? The break is still some while away now."
    
    v "So it's a no."
    
-   Viola's Mother "You know she was doing as well as can be expected, when we last saw her."
+   vm "You know she was doing as well as can be expected, when we last saw her."
    
    v "I haven't seen her for over a year!"
    
-   Viola's Father "Don't argue about this. I said we could discuss it, once you're less busy."
+   vf "Don't argue about this. I said we could discuss it, once you're less busy."
    
    "There is no time to argue about it. We end the call shortly after, on a colder note than when it first started."
    
