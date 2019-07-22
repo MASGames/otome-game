@@ -2374,10 +2374,98 @@ label shouhei3:
    "I can't hope for much on that front. I decide not to worry too much about it now. There's lot of other things I have to think about, right now anyways."
    
 label postforest:
-   
-   "Placeholder dialogue!"
   
-   # 2.7 Scene involving either Eliza or Viola's family contacting her, more family history? 
+   # 2.7 Scene involving either Eliza or Viola's family contacting her, more family history
+   
+   scene bg v dorm
+   
+   "I shuffle the papers on my desk and tap my hand against the tall stack of them. Phew. All finished. The last mystery box from Cursebreaking, the post-assignment writeup, and the three-page essay for Magical Law class."
+   
+   "I stretch out my arms and look to Nora's side of the room. She's not here, it seems. She had said she was going into town to fix up one of her tools and would be back late."
+   
+   "I had no other assignments left and I could relax for the rest of the weekend. Well, if I really wanted to, I could study for the quiz in Summoning 101 next week."
+   
+   "But come on. Like I needed to study for that, when Olly and I had been together for as long as we had. I look at Olly, who is curled up in a spot of waning sunlight at the corner of the desk."
+   
+   v "Olly, is there anything I'm forgetting for next week?"
+   
+   o "Doesn't look like it. Oh! A message is coming in for you."
+   
+   #include sound effect of a phone ringing
+   
+   o "That would be your parents. Viola? Do you want to answer?"
+   
+   "I take in a breath. This shouldn't be a surprise. It has been about three weeks since the last call. It's nice to know that they cared enough to check in how my first year was going."
+   
+   "Or--and this thought seems traitorous--did they want to make sure that the remaining Ashmark heir hadn't screwed up anything this early in the school year?"
+   
+   "Not like I'm going to know, just sitting here wondering. I lay a hand on my phone and turn it clockwise on my desk."
+   
+   "A sphere of light rises to blossom into a sunburst, which pulses and spreads into a large screen against the wall. My parents's images waver until it settles."
+   
+   v "Hello Father. Mother."
+   
+   Viola's Father "Viola, my dear. How is your roommate treating you? Making many new friends lately?" 
+   
+   Viola's Mother "Of course she has been making friends. She had said last time, didn't she, Adrian? She had been meeting with Liam again at school."
+   
+   v "Nora and I are getting along well. Liam's staying busy with his Healing classes."
+   
+   "We talk for a few minutes like this, with perfunctory questions and my perfunctory answers. Yes, classes are going well. Yes, my marks are acceptable."
+   
+   "Father, though smiling, looks a little distracted. Mother keeps up the chatter a bit longer than he does, before inquiring about winter plans."
+   
+   Viola's Mother "Your father does want to get some things settled on the calendar for the winter holidays. Is there anything you would like to do once you come home?"
+   
+   v "Since it would be a break and all, can I...Can we visit my sister?"
+   
+   "It's worth a shot, just to ask."
+   
+   "There's a look that flickers between my parents, before Father answers first."
+   
+   Viola's Father "Now dear, why don't we discuss that when you get home. The break is still some while away now."
+   
+   v "So it's a no."
+   
+   Viola's Mother "You know she was doing as well as can be expected, when we last saw her."
+   
+   v "I haven't seen her for over a year!"
+   
+   Viola's Father "Don't argue about this. I said we could discuss it, once you're less busy."
+   
+   "There is no time to argue about it. We end the call shortly after, on a colder note than when it first started."
+   
+   "I put down my phone, and blink my eyes, hard. Great. My good mood from earlier is ruined."
+   
+   "I open a drawer, intending to sweep some of my pens into it. My eyes land on a photo."
+   
+   "It's a family photo. Eliza and I in our best formal wear, hair combed back with a gold ribbon in hers and a purple ribbon in mine."
+   
+   "I must have been what--six years old? We're outside, posed under the shade of a tree."
+   
+   "Father in a suit, an elbow leaning against the tree trunk. His smile has a faintly wry cast to it, dark eyes and dark hair."
+   
+   "Father had been considered something of a beauty of the Ashmark family when he had been young, quick with words and quick to smile."
+   
+   "As he grew up as the eldest of his brothers and as a heir, he still smiled plenty. If you smile and shake someone's hand, he had said once, it was harder for them to notice the knife you had hidden up your other sleeve."
+   
+   "In the picture, Mother has a flower in her hair, something bright and yellow that Eliza had picked. Her hair is lighter than Father's, a hazelnut brown as opposed to a darker walnut."
+   
+   "The light shirt she is wearing is rolled up at the sleeves to the elbow, decorated by a silky sea green scarf the same shade as her pants."
+   
+   "She was of a quieter disposition than Father, more straightforward than he was. A clever student by all accounts; spoke three languages, was a star student in her Botany and Beasts studies, and dabbled in finance."
+   
+   "Eliza and I are smiling in the photo, mine more enthuastic than hers. Both of us have Father's dark hair, though Mother always said my face resembled his the most."
+   
+   "On Eliza's face, there is something of Mother's cool observing gaze as she looks at the camera, standing just slightly in front of me."
+   
+   "A sound at the door breaks me out of my thoughts and I slam the drawer shut."
+   
+   n "Hey Viola! I'm back!"
+   
+   v "Oh. Hi. How was your visit to town?"
+   
+   "We talk more about her trip for about half an hour, and I make the appropriate responses to the purchases she shows me before we both head to bed."  
 
    ### MONTH THREE BEGINS ###
 
