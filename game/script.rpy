@@ -3015,7 +3015,7 @@ label postpick:
 
    scene bg outdoors
 
-   "It's almost the end of the week. Though the weather has turned chilly, with a bite of cold that stings at our hands and cheeks, the conversation around us is lively and bright."
+   "It's almost the end of the week. Though the weather has turned chilly, with a bite of cold that stings at our hands and cheeks, the conversation of other students around us is lively and bright."
 
    "The next day is Friday after all. It's been long enough into the year that we've become used to the pace of our assignments, and the professors have a general policy not to add anything onto that workload on Fridays."
    
@@ -3039,7 +3039,7 @@ label postpick:
    
    l "Good thing for you, I didn't drop any of this ink."
    
-   "Liam lifts his hand to rub his head. Colin both lifts his hands, shrugs his shoulders somewhat apolegetically." 
+   "Liam lifts his hand to rub his head. Colin lifts both his hands, shrugs his shoulders somewhat apolegetically." 
 
    hide l
    
