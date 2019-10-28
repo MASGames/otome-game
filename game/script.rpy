@@ -476,6 +476,8 @@ label health1:
    "The words hang awkwardly in the air for a second. I would be fine if he didn't want to, but it would be nice. To catch up."
    
    l "Yes! Just let me clean up here for a second. I'll be right out."
+   
+   scene bg outdoors
 
    "We both get bags of sandwiches from a little stand outside the health center. Liam seems to take a lot longer to choose his sandwich and pay."
    
@@ -3010,6 +3012,108 @@ label shouhei5:
 label postpick: 
 
    # 3.? More detailed discussion of the break between Viola and Shouhei's families.
+
+   scene bg outdoors
+
+   "It's almost the end of the week. Though the weather has turned chilly, with a bite of cold that stings at our hands and cheeks, the conversation around us is lively and bright."
+
+   "The next day is Friday after all. It's been long enough into the year that we've become used to the pace of our assignments, and the professors have a general policy not to add anything onto that workload on Fridays."
+   
+   "Liam, at my right side, is inking in some color on a sketch of some yellow wildflowers."
+
+   "Nora, sitting against a nearby tree trunk and staring at the sky, has a book folded facedown over her knee. That must belong to the mystery series she told me she had just started reading last night."
+
+   "Colin, who had dropped in along with Liam, has a small bag of purplish hard candy in one hand. With his other hand, he's tossing them up into the air one at a time, and catching them in his mouth."
+   
+   "I close my eyes momentarily, trying to enjoy whatever little sunlight there was on this afternoon. Winter will be here in a few weeks."
+   
+   l "Ouch."
+   
+   show l normal at left
+   
+   v "Liam?"
+
+   show c normal at center
+   
+   c "My bad. I threw that one a little too far."
+   
+   l "Good thing for you, I didn't drop any of this ink."
+   
+   "Liam lifts his hand to rub his head. Colin both lifts his hands, shrugs his shoulders somewhat apolegetically." 
+
+   hide l
+   
+   v "How much of that have you eaten anyways?"
+   
+   n "Of the twenty pieces that he threw into the air, he caught seventeen of them. I would be impressed by that rate if it wasn't a little terrifying."
+   
+   c "Look, blackberry is a good flavor." 
+
+   "He rolls off his seat to hold the bag towards me."
+   
+   c "A candy for your thoughts, miss?"
+   
+   v "Depends. What are you asking for in exchange?"
+   
+   "Colin keeps the bag in the air, not taking it away. Whatever levity had been on his face shifts, and his eyes shine a little brighter."
+   
+   c "At the beginning of the year, in class that time, what was the whole deal with you and Utsurikawa?" 
+   
+   "My posture, which had been relaxed before, straightens up. My pulse seems to have sped up, loud enough to echo in my ears."
+   
+   "Nora has also leaned forward, her face sympathetic. Liam has moved closer to me, one of his hands raised between me and Colin, as if to bat away the question."
+   
+   v "It's okay Liam. I actually...prefer that he asks me directly, instead of getting it from elsewhere."
+   
+   l "You sure?"
+   
+   "I nod firmly. While I can't say I'm pleased about Colin's question exactly, I think I can stay calm enough to answer him."
+   
+   v "Colin. What do you already know about it? Or about our families?"
+   
+   c "Just what most people know. Families known for strong magic blah blah blah, sorta old powerful reputation blah blah, and so forth."
+   
+   c "I don't know more details than that. Liam didn't tell me much else besides that he was close friends with you."
+
+   v "Right. Well. Your summary wasn't entirely incorrect."
+   
+   v "The families Ashmark and Utsurikawa do have their own respective histories that they are proud of. That's not an unusual thing for many other students at this school."
+
+   v "In the past, due to some various circumstances, our families were kind of like neighbors. Shouhei and I became friends, with Liam too. Or we were."
+   
+   v "We were both second children. Our older sisters, Eliza and Mariko were close. Best friends, you could say."
+   
+   v "At least, until mine was charged in a murder case involving Mariko Utsurikawa, the eldest Utsurikawa daughter."
+
+   v "The courts determined she was guilty. And then after...Shouhei and I just stopped being friends."
+   
+   c "I see."
+   
+   "Colin's face isn't afraid, or pitying, or any of the other reactions I might have hated."
+
+   "He looks thoughtful, instead. He's frowning though it seems like it's directed more at himself."
+   
+   c "I was curious. That was my fault. Sorry for touching on a sore topic."
+
+   "He pats me on the elbow with his right hand, somewhat awkwardly. Liam's face is neutral, but I get the sense that on the inside, he's glaring at Colin."
+
+   v "Thanks."
+   
+   "A rustling sound, as his candy bag drops in my lap."
+   
+   c "Here, you should take this. It's getting dark soon and I need to head back to the dorms."
+   
+   v "All right."
+   
+   n "I'll help you get the blanket, Viola."
+   
+   "We all stand, and Nora folds up the covering on the field that we had been sitting on."
+   
+   "I wave to Liam, who pats me on the head reassuringly before heading off behind Colin."
+   
+   "On the way back to our rooms, Nora chats lightly with me about the plot twists in the mystery series, and I pop one of the candies into my mouth."
+   
+   "These are delicious. I guess I can forgive Colin, just a little, for bringing it up."
 
    scene bg mf_class
 
