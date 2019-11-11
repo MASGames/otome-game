@@ -90,9 +90,36 @@ label liam_start:
    
    l "Hmm. It's like..."
    
-   l "Think about a mosaic."
+   l "Imagine a mosaic. With a hundred--no, a thousand pieces, in all kinds of colors."
    
+   l "Imagine that same mosaic with all its pieces scattered."
    
+   l "In some areas of the mosaic, it's fine if one or two pieces are missing."
+   
+   l "In some areas, without the key pieces, the whole picture is lost."
+   
+   l "And you try to gather up those thousands of pieces, and put them back together. In the dark."
+   
+   l "I think...that's what it's like. Though I haven't worked on any really difficult cases yet."
+   
+   v "Wow. Something like that--"
+   
+   "I can see it in my mind's eye, the glass pieces scattering, jewel-bright ruby and sapphire and gold, and a careful hand trying to"
+   
+   "delicately place them, one by one, back together, without cutting their fingers on any of the sharp edges."
+   
+   l "Viola? Did that make sense? Or did I ramble for too long--?"
+   
+   v "No, no. You explained it very well."
+   
+   l "I'm glad I haven't lectured you into a nap like Olly. What are you doing with Cursebreaking now?"
+   
+   "We spend the rest of the hour discussing our most recent assignments and Liam's health center work."
+   
+   "While didn't land on a project idea yet when we left the library, I'm sure we'll get to one soon by our next meeting."
+
+   
+   #Scene 4.2
    
    
    
