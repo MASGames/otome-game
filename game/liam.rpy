@@ -104,9 +104,7 @@ label liam_start:
    
    v "Wow. Something like that--"
    
-   "I can see it in my mind's eye, the glass pieces scattering, jewel-bright ruby and sapphire and gold, and a careful hand trying to"
-   
-   "delicately place them, one by one, back together, without cutting their fingers on any of the sharp edges."
+   "I can see it in my mind's eye, the glass pieces scattering, jewel-bright ruby and sapphire and gold, and a careful hand trying to delicately place them, one by one, back together, without cutting their fingers on any of the sharp edges."
    
    l "Viola? Did that make sense? Or did I ramble for too long--?"
    
