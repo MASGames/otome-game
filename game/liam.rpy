@@ -143,7 +143,7 @@ label liam_start:
    
    "I think I would just feel better if I could take on more of a lead on the responsibilities for the project. Give him less to worry about."
    
-   Student "Ashmark?"
+   s1 "Ashmark?"
    
    "I turn my head. It's another student, who just stopped by our table. They look vaguely familiar."
    
@@ -151,23 +151,23 @@ label liam_start:
    
    v "Yes?"
    
-   Student "Is that book you're holding 'Corinne's Cursebreaking Cases: Volume 1'?"
+   s1 "Is that book you're holding 'Corinne's Cursebreaking Cases: Volume 1'?"
    
    v "Yes. I'm not done with it though. Sorry, in case you were thinking of borrowing it."
    
-   Student "Oh. Nothing for it then. What's with those other books then? I didn't think we had a Healing portion on our next test."
+   s1 "Oh. Nothing for it then. What's with those other books then? I didn't think we had a Healing portion on our next test."
    
    v "We don't. Liam here helped pick those out. We have a project that has something to do with Healing and Cursebreaking, after all."
    
    "The student's face, which up til this moment had been friendly, goes a little cold."
    
-   Student "Ah, Healing? That shouldn't be the hardest part of your project then."
+   s1 "Ah, Healing? That shouldn't be the hardest part of your project then."
    
    l "Healing, as a major, has a lot of branches and subfields going on. It's a bit more complicated than most people think."
    
-   Student "Please. Looking after sickly people or someone else's familiar--it's not really a dangerous field, is it?"
+   s1 "Please. Looking after sickly people or someone else's familiar--it's not really a dangerous field, is it?"
    
-   Student "Sometimes it sounds pretty cushy to me, compared to Cursebreaking. Isn't that right, Ashmark?"
+   s1 "Sometimes it sounds pretty cushy to me, compared to Cursebreaking. Isn't that right, Ashmark?"
    
    "My hands clench. Who does this person think they are?" 
    
@@ -231,7 +231,7 @@ label librarytalk:
    
    l "Wait."
     
-   Student "What?"
+   s1 "What?"
    
    l "The next time you or your familiar, if you have one, falls ill..."
     
@@ -239,7 +239,7 @@ label librarytalk:
    
    l "We will treat you anyways. Because that's what we do, when someone is in pain."
 
-   Student "Hmmph. Thanks so much for the lecture. I gotta go to my next class."
+   s1 "Hmmph. Thanks so much for the lecture. I gotta go to my next class."
    
    "I glare at the back of the student as they go all the way out to the exit of the library."
    
@@ -292,23 +292,43 @@ label libraryfight:
    
    "I'm already standing, my chair pushed back with a loud screech."
    
-   Student "What for?"
+   s1 "What for?"
    
-   "The student doesn't sound as certain of themself, their expression more puzzled than patronizing."
+   "The student's voice isn't as certain as it was before, their expression more puzzled than patronizing."
    
-   v "Come now. We're both Cursebreaking students. Are you scared of a friendly duel?"
+   v "Come now. We're both Cursebreaking students. Don't tell me--you're scared of a friendly duel?"
    
    v "And if we are going to do this, I'd rather not accidentally destroy some of the valuable books in here."
    
    l "Viola!"
    
-   "Liam's hand is curled around one of my arms."
+   "Liam's hand is curled around one of my arms. Holding on, tightly."
    
    v "What is it?"
    
    l "We didn't both come in here for you to get into a fight!"
+    
+   "His voice rises above the usual quiet chatter. I look around, notice some other students staring obviously at us."
    
-   #continue scene later
+   s1 "Hey, hey! I wasn't looking for a fight."
+ 
+   s1 "I was just making conversation after all. Some people just can't keep their heads."
+   
+   "The student grumbles some more under their breath, and leaves."
+   
+   "I shake off Liam's hand. He lets go."
+   
+   v "You didn't want me to fight him?"
+   
+   "I make sure my voice is quieter this time."
+    
+   l "No. I didn't want you to do that."
+   
+   "What did he want me to do then? I don't understand."
+   
+   "The rest of our study session passes in an awkward silence for the next ten, fifteen minutes, before we go our separate ways to get dinner."
+   
+   "I almost wish he had asked me to eat with him."
    
 label nextthing:
    
