@@ -196,7 +196,7 @@ menu:
    "Get angry.":
       jump libraryfight
    
-   label librarytalk:
+label librarytalk:
    #this scene is the good choice 
 
    "I take in a breath. The other student is already being dismissive of Liam."
@@ -283,7 +283,7 @@ menu:
    
    jump to liam4.3
    
-   label libraryfight:
+label libraryfight:
    #this scene is the not good choice 
    
    "I don't want to look at Liam's face, and see him sad."
