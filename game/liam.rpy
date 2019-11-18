@@ -1,5 +1,3 @@
-default lpoints = 0
-
 label liam_start:
 
    ### LIAM'S ROUTE: MONTH FOUR BEGINS ###
