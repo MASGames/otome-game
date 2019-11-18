@@ -163,15 +163,17 @@ label liam_start:
    
    Student "Ah, Healing? That shouldn't be the hardest part of your project then."
    
-   l "Healing, as a major, has a lot of branches and complicated questions to work on."
+   l "Healing, as a major, has a lot of branches and subfields going on. It's a bit more complicated than most people think."
    
-   Student "Please. Looking after people or someone else's familiar--it's not really a dangerous field, is it?"
+   Student "Please. Looking after sickly people or someone else's familiar--it's not really a dangerous field, is it?"
    
    Student "Sometimes it sounds pretty cushy to me, compared to Cursebreaking. Isn't that right, Ashmark?"
    
-   "My hands clench. Who does this person think they are? I remember Liam, softly whispering to me in the library about his Healing classes."
+   "My hands clench. Who does this person think they are?" 
    
-   "The careful way he looks after the familiars others bring to him in the health center."
+   "I remember Liam, softly whispering to me in the library about his Healing classes, his eyes bright and excited."
+   
+   "The careful way he looks after the familiars in the health center."
    
    "All the times he worried over small animals who were injured, or even me, after I scraped my knees from running in the gardens"
    
@@ -181,15 +183,134 @@ label liam_start:
    
    "He would be quiet, but there would always be two or three tears that slipped down his face when he put a bandage on me."
    
-   "I should"
+   "The other student is still waiting for my response, with a bit of a smirk on their face, like they're expecting me to laugh along with their joke."
    
+   menu: 
    
+   "Wait for Liam to respond."
+   $l points=+1
+   jump to liam4.2a
    
+   "Get angry."
+   jump to liam4.2b
    
+   label liam4.2a
+   #this scene is the good choice 
+
+   "I take in a breath. The other student is already being dismissive of Liam."
    
+   "I'm angry, but I shouldn't ignore what Liam is thinking. I'll see how he wants to respond."
    
+   "Though I had been standing up a second ago, I force myself to sit down, ignoring the other student's puzzled look."
    
+   v "Liam? It's a little noisy here isn't it? Do you want to go somewhere else?"
    
+   "Liam's blue eyes are wide, like he's surprised. Surprise and relief."
+   
+   "Did he think I was going to get into a fight?"
+   
+   "Well...there was that time when we were four and someone pushed Liam at the playground to get to the swings. I threw sand at them."
+   
+   "And that time when were six, and someone stepped on Liam's painted flowerpot in art class. On purpose. I'm pretty sure I kicked their knees out from under them."
+
+   "But they didn't get hurt! Much."
+   
+   "And that time when we were ten and..."
+   
+   "Okay. He would have been right to be worried."
+   
+   v "If you're all right with staying here we can stay too."
+   
+   l "We'll stay."
+   
+   v "Okay. Sure."
+   
+   "I look up to see the other student still standing there. I make a slight wave with my hand, shooing them away."
+   
+   v "I think our conversation is done here."
+   
+   l "Wait."
+    
+   Student "What?"
+   
+   l "The next time you or your familiar, if you have one, falls ill..."
+    
+   l "Please bring them to a Healer. You may not think what we do is exciting, or even respect us."
+   
+   l "We will treat you anyways. Because that's what we do, when someone is in pain."
+
+   Student "Hmmph. Thanks so much for the lecture. I gotta go to my next class."
+   
+   "I glare at the back of the student as they go all the way out to the exit of the library."
+   
+   "At least, until a hand pats the top of my head."
+   
+   v "Liam?"
+   
+   "His hand freezes. He looks at me, and draws his arm back to his side."
+   
+   l "Ah. Sorry. You were just glaring so fiercely at them. It was..."
+   
+   "He clears his throat."
+   
+   l "I'm just glad you wanted to defend me." 
+   
+   l "But more than that, I do appreciate that you asked how I wanted to handle it first."
+   
+   v "You love Healing. And you work hard at it."
+   
+   v "I thought you would be mad, about what they said."
+   
+   l "I am. But it's not unexpected."
+   
+   l "Healing isn't exactly a field of exciting derring-do, after all."
+   
+   l "And there are some who think that if a familiar is weak enough to get sick, then they'll simply move on to a stronger familiar."
+   
+   l "I...hate people who think like that."
+
+   "Liam's serious when he says that, his lips turned down into a frown, his brows drawn together."
+   
+   "I don't know what else I can say, so I nudge him with my elbow."
+   
+   v "Should we take a break now? I heard there's a new snack stall near your dorms. I can treat you."
+   
+   l "Snacks before dinner? Getting a little rebellious are we, Miss Ashmark?"
+   
+   "His expression is lighter now. That suits him better."
+   
+   jump to liam4.3
+   
+   label liam4.2b
+   #this scene is the not good choice 
+   
+   "I don't want to look at Liam's face, and see him sad."
+   
+   "I'm not sad though. The blood pounding through my veins indicates the opposite."
+   
+   v "Should we go outside?"
+   
+   "I'm already standing, my chair pushed back with a loud screech."
+   
+   Student "What for?"
+   
+   "The student doesn't sound as certain of themself, their expression more puzzled than patronizing."
+   
+   v "Come now. We're both Cursebreaking students. Are you scared of a friendly duel?"
+   
+   v "And if we are going to do this, I'd rather not accidentally destroy some of the valuable books in here."
+   
+   l "Viola!"
+   
+   "Liam's hand is curled around one of my arms."
+   
+   v "What is it?"
+   
+   l "We didn't both come in here for you to get into a fight!"
+   
+   #continue scene later
+   
+   #label scene liam4.3
    
    
    
