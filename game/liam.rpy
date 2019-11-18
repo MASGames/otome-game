@@ -186,15 +186,15 @@ label liam_start:
    "He would be quiet, but there would always be two or three tears that slipped down his face when he put a bandage on me."
    
    "The other student is still waiting for my response, with a bit of a smirk on their face, like they're expecting me to laugh along with their joke."
-   
-   menu: 
-   
+  
+  menu: 
+
    "Wait for Liam to respond."
-   $lpoints+ =1
-   jump to librarytalk
+      $lpoints +=1
+      jump to librarytalk
    
    "Get angry."
-   jump to libraryfight
+      jump to libraryfight
    
    label librarytalk:
    #this scene is the good choice 
