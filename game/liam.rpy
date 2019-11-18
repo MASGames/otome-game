@@ -143,7 +143,7 @@ label liam_start:
    
    "I think I would just feel better if I could take on more of a lead on the responsibilities for the project. Give him less to worry about."
    
-   Student 1 "Ashmark?"
+   Student "Ashmark?"
    
    "I turn my head. It's another student, who just stopped by our table. They look vaguely familiar."
    
