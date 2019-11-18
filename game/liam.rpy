@@ -191,10 +191,10 @@ menu:
 
    "Wait for Liam to respond.":
       $lpoints +=1
-      jump to librarytalk
+      jump librarytalk
    
    "Get angry.":
-      jump to libraryfight
+      jump libraryfight
    
    label librarytalk:
    #this scene is the good choice 
