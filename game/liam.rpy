@@ -117,7 +117,76 @@ label liam_start:
    "While didn't land on a project idea yet when we left the library, I'm sure we'll get to one soon by our next meeting."
 
    
-   #Scene 4.2
+   #Scene 4.2 studying in a library and someone insults Liam
+   
+   scene bg library
+   
+   "It's been a week. In between the rest of my classes, I've been doing my best to finish the books Liam and I had checked out last time."
+   
+   "We still haven't hit on a project idea yet. But what information I have managed to read has been fascinating."
+   
+   #will include 2 or 3 examples of magical worldbuilding in that above sentence later. 
+   
+   show l normal
+   
+   l "This is a little more difficult than I expected."
+   
+   v "Yeah. I'm sorry. If I could only brainstorm on this faster, then we would be able to work on it sooner."
+   
+   l "Hey. What do you mean, if only you could think faster? I thought I was your project partner too."
+   
+   v "Oh! No, that's not what I meant. I know you are. It's just..."
+
+   "I bite my lip. Liam's eyes have dark circles under them now, most days than not."
+   
+   "In between studying for his Healing classes, and his part time work at the health center, I know he has to deal with his own stress too."
+   
+   "I think I would just feel better if I could take on more of a lead on the responsibilities for the project. Give him less to worry about."
+   
+   Student 1 "Ashmark?"
+   
+   "I turn my head. It's another student, who just stopped by our table. They look vaguely familiar."
+   
+   "A classmate in Cursebreaking 101, I think. They sit...somewhere far behind me, so I haven't had the chance to talk to them much."
+   
+   v "Yes?"
+   
+   Student 1 "Is that book you're holding 'Corinne's Cursebreaking Cases: Volume 1'?"
+   
+   v "Yes. I'm not done with it though. Sorry, in case you were thinking of borrowing it."
+   
+   Student 1 "Oh. Nothing for it then. What's with those other books then? I didn't think we had a Healing portion on our next test."
+   
+   v "We don't. Liam here helped pick those out. We have a project that has something to do with Healing and Cursebreaking, after all."
+   
+   "The student's face, which up til this moment had been friendly, goes a little cold."
+   
+   Student 1 "Ah, Healing? That shouldn't be the hardest part of your project then."
+   
+   l "Healing, as a major, has a lot of branches and complicated questions to work on."
+   
+   Student 1 "Please. Looking after people or someone else's familiar--it's not really a dangerous field, is it?"
+   
+   Student 1 "Sometimes it sounds pretty cushy to me, compared to Cursebreaking. Isn't that right, Ashmark?"
+   
+   "My hands clench. Who does this person think they are? I remember Liam, softly whispering with me about his Healing classes."
+   
+   "The careful way he looks after the familiars others bring to him in the health center."
+   
+   "All the times he helped look after other small animals who were injured, or even me, after I scraped my knees from running in the gardens"
+   
+   "or got a bruise from falling off a tree." 
+   
+   "Even if I didn't cry, Liam would cry sometimes, when treating me when we were small."
+   
+   "He would be quiet, but there would always be two or three tears that slipped down his face when he put a bandage on me."
+   
+   
+   
+   
+   
+   
+   
    
    
    
