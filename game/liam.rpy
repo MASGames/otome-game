@@ -281,7 +281,7 @@ label librarytalk:
    
    "His expression is lighter now. That suits him better."
    
-   jump liam4.3
+   jump nextthing
    
 label libraryfight:
    #this scene is the not good choice 
@@ -312,7 +312,7 @@ label libraryfight:
    
    #continue scene later
    
-label liam4.3:
+label nextthing:
    
    this to be written later
    
