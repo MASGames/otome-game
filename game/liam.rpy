@@ -187,7 +187,7 @@ label liam_start:
    
    "The other student is still waiting for my response, with a bit of a smirk on their face, like they're expecting me to laugh along with their joke."
   
-  menu: 
+menu: 
 
    "Wait for Liam to respond."
       $lpoints +=1
