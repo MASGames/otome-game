@@ -151,29 +151,29 @@ label liam_start:
    
    v "Yes?"
    
-   Student 1 "Is that book you're holding 'Corinne's Cursebreaking Cases: Volume 1'?"
+   Student "Is that book you're holding 'Corinne's Cursebreaking Cases: Volume 1'?"
    
    v "Yes. I'm not done with it though. Sorry, in case you were thinking of borrowing it."
    
-   Student 1 "Oh. Nothing for it then. What's with those other books then? I didn't think we had a Healing portion on our next test."
+   Student "Oh. Nothing for it then. What's with those other books then? I didn't think we had a Healing portion on our next test."
    
    v "We don't. Liam here helped pick those out. We have a project that has something to do with Healing and Cursebreaking, after all."
    
    "The student's face, which up til this moment had been friendly, goes a little cold."
    
-   Student 1 "Ah, Healing? That shouldn't be the hardest part of your project then."
+   Student "Ah, Healing? That shouldn't be the hardest part of your project then."
    
    l "Healing, as a major, has a lot of branches and complicated questions to work on."
    
-   Student 1 "Please. Looking after people or someone else's familiar--it's not really a dangerous field, is it?"
+   Student "Please. Looking after people or someone else's familiar--it's not really a dangerous field, is it?"
    
-   Student 1 "Sometimes it sounds pretty cushy to me, compared to Cursebreaking. Isn't that right, Ashmark?"
+   Student "Sometimes it sounds pretty cushy to me, compared to Cursebreaking. Isn't that right, Ashmark?"
    
-   "My hands clench. Who does this person think they are? I remember Liam, softly whispering with me about his Healing classes."
+   "My hands clench. Who does this person think they are? I remember Liam, softly whispering to me in the library about his Healing classes."
    
    "The careful way he looks after the familiars others bring to him in the health center."
    
-   "All the times he helped look after other small animals who were injured, or even me, after I scraped my knees from running in the gardens"
+   "All the times he worried over small animals who were injured, or even me, after I scraped my knees from running in the gardens"
    
    "or got a bruise from falling off a tree." 
    
@@ -181,7 +181,7 @@ label liam_start:
    
    "He would be quiet, but there would always be two or three tears that slipped down his face when he put a bandage on me."
    
-   
+   "I should"
    
    
    
