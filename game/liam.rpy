@@ -188,13 +188,13 @@ label liam_start:
    menu: 
    
    "Wait for Liam to respond."
-   $l points+ =1
-   jump to liam4.2a
+   $lpoints+ =1
+   jump to librarytalk
    
    "Get angry."
-   jump to liam4.2b
+   jump to libraryfight
    
-   label liam4.2a:
+   label librarytalk:
    #this scene is the good choice 
 
    "I take in a breath. The other student is already being dismissive of Liam."
@@ -281,7 +281,7 @@ label liam_start:
    
    jump to liam4.3
    
-   label liam4.2b:
+   label libraryfight:
    #this scene is the not good choice 
    
    "I don't want to look at Liam's face, and see him sad."
@@ -310,9 +310,9 @@ label liam_start:
    
    #continue scene later
    
-   label scene liam4.3:
+   label liam4.3:
    
-   this scene to be written later
+   this to be written later
    
    
    
