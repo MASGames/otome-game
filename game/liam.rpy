@@ -189,11 +189,11 @@ label liam_start:
   
 menu: 
 
-   "Wait for Liam to respond."
+   "Wait for Liam to respond.":
       $lpoints +=1
       jump to librarytalk
    
-   "Get angry."
+   "Get angry.":
       jump to libraryfight
    
    label librarytalk:
