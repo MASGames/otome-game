@@ -253,9 +253,7 @@ label librarytalk:
    
    "He clears his throat."
    
-   l "I'm just glad you wanted to defend me." 
-   
-   l "But more than that, I do appreciate that you asked how I wanted to handle it first."
+   l "I'm just glad you wanted to defend me. But I'm even more glad you didn't jump in without thinking about it first."
    
    v "You love Healing. And you work hard at it."
    
@@ -296,7 +294,7 @@ label libraryfight:
    
    "The student's voice isn't as certain as it was before, their expression more puzzled than patronizing."
    
-   v "Come now. We're both Cursebreaking students. Don't tell me--you're scared of a friendly duel?"
+   v "Well? We're both Cursebreaking students. Don't tell me--you're scared of a friendly duel?"
    
    v "And if we are going to do this, I'd rather not accidentally destroy some of the valuable books in here."
    
@@ -324,7 +322,7 @@ label libraryfight:
     
    l "No. I didn't want you to do that."
    
-   "What did he want me to do then? I don't understand."
+   "What did he want me to do then? Say nothing? Not do anything at all? I don't understand."
    
    "The rest of our study session passes in an awkward silence for the next ten, fifteen minutes, before we go our separate ways to get dinner."
    
