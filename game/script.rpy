@@ -215,10 +215,6 @@ label start:
    v normal "–-And the first rose bush was originally donated by one of my ancestors, though it's at the center of the garden, so we didn't see it this time."
   
    n "Wow, that's, what--several hundred years ago?  And it still blooms?"
-
-   #v "Magic."
-   
-   #n happy "Fair point." [I feel like this banter fits a little less in a world where magic is normal.]
    
    v "Miranda Ashmark wasn't big on entropy."
 
@@ -248,6 +244,9 @@ label start:
    c "I'll keep an eye out."  
    
    v "Oh, right--and this is my familiar, Oleander." 
+   
+   show n normal at left
+   show c normal at right
 
    "I pull out my phone--Olly can manifest through my pocket too, but it's only polite to show your phone when introducing familiars. He appears with a bit of a twirl, spreading his wings wide and puffing his chest out proudly." 
    
@@ -287,7 +286,7 @@ label start:
    
    "I glance over at Colin, the only one of us who hasn't brought out their familiar yet. He notices, and his face turns sheepish."
    
-   c normal "I actually don't have a familiar. Yeah, I know, whatever."
+   c "I actually don't have a familiar. Yeah, I know, whatever."
    
    v "Oh, that's fine."
    
@@ -296,6 +295,12 @@ label start:
    "Plenty of people don't have familiars. Maybe he can't afford one. Maybe he doesn't want to talk about it."
    
    "Maybe I should stop thinking about this."
+   
+   hide n
+   hide c
+   hide l # Not that he's actually here right now, given the sprite location definitions, but I thought I'd put this in here as a reminder.
+   
+   show pm
    
    "Thankfully, the professor comes in, and my conversational abilities are saved."
    
@@ -489,7 +494,9 @@ label health1:
 
    "I'm folding up some used paper napkins into my paper bag to throw away when Liam taps something against my hand."
    
-   v "Liam, what...?"
+   v normal "Liam, what...?"
+   
+   show l normal
 
    l "So. Um. Do you want this? This was your favorite before, and I saw it hidden away under some drinks at the stand we were at. But, uh, I don't know if you still like it."
 
@@ -779,6 +786,8 @@ label postlunch:
    hide o
 
    "Olly swoops up from my phone, floating up to the doorknob and presses his snout against it. The door chimes. 'Viola Ashmark, first year' glows in silvery letters across the front of the door."
+   
+   # Should 'first year' be 'freshman'? 'first year' is awfully Hogwarts.
 
    "The letters dissolve into the wood. 'Please enter' flashes on the door a moment later."
 
@@ -876,9 +885,9 @@ label liampostcolin:
 
    "Liam is silent still, watching me. He pats his hand on the chair next to the one he is sitting in."
 
-   "I sit down. Kick at the bottom of my chair legs, just to see the wheels move over the floor.."
+   "I sit down. Kick at the bottom of my chair legs, just to see the wheels move over the floor."
 
-   v "It's just…"
+   v "It's just..."
 
    "I still don't know what to say. Liam remembers. He's one of the few who would remember, who would understand."
 
@@ -886,7 +895,7 @@ label liampostcolin:
 
    v "I think--I don't know. You can talk to him, Liam, I don't think it's fair if I'm the one to tell you not to."
 
-   "My chair spins, slowly. One circle, and another. My thoughts are, too. Honestly speaking though, I don't want to have to think about him." 
+   "My chair spins, slowly. One circle, and another. My thoughts are, too. Honestly speaking, though, I don't want to have to think about him." 
    
    "I do want to see him though, get some answers. Get to the truth. If Liam does become friends with him again...something in my stomach clenches at that."
    
@@ -985,6 +994,8 @@ label common_nora1:
    "Oh. The question--the sheer normalcy of the question--catches me off guard, and I have to actually think a moment." 
 
    v "Not a whole lot, anymore, to be honest. It's usually a lot of networking--talking with the other high families, working together to solve issues in magical society. Or, you know, backstabbing each other and stealing the credit. That happens a lot, too." 
+   
+   # All society is magical, so maybe that word isn't necessary?
 
    v "No one really wants to work with the family whose heir got a life sentence for actually stabbing someone in the back, though. So." 
 
@@ -1023,7 +1034,7 @@ label common_nora1:
 
    l thoughtful "No, you're right--my other classes all gave us that information on day 1." 
 
-   v "Same here." 
+   v normal "Same here." 
 
    "Before we have a chance to speculate further, Professor Marquez walks in." 
 
@@ -1957,11 +1968,13 @@ label posthomework:
 
    "And it looks like it's standing on someone! Though from the expletives they're shouting, they sound more angry than injured."
 
-   s1 "Would you get this thing off me?! This is not funny anymore!"
+   s1 "Would you get this thing off me?! This isn't funny anymore!"
 
    s2 "It wasn't supposed to do that! I'm not sure how to make it stop!"
 
-   c "Oh for--"
+   c angry "Oh for--"
+   
+   hide c
 
    "Before I can do anything more than stand there staring, Colin runs forward, holding out a hand in clear command. He shouts a spell--not one I'm familiar with--and the root-like tentacles suddenly stop moving."
 
@@ -1971,21 +1984,71 @@ label posthomework:
 
    "Time that--as I see the uppermost tentacle twitch--they may not have!"
 
-   v "Oly!" 
+   v "Olly!" 
    
    o "Right!"
 
-   "I try to repeat the spell as clearly as I can, holding my phone so that Oly can help me with extra power and control, and sigh in relief when the plant-thing stops moving again."
+   "I try to repeat the spell as clearly as I can, holding my phone so that Olly can help me with extra power and control, and sigh in relief when the plant-thing stops moving again."
 
-   "I can feel the strain of the spell tugging at the back of my head, but with Oly's help it's not bad. I can hold it, at least long enough for--there they go!"
+   "I can feel the strain of the spell tugging at the back of my head, but with Olly's help it's not bad. I can hold it, at least long enough for--there they go!"
 
    c "Thanks for the save, Viola! You can let it go now!"
 
    "All three of them are safely out of the way of the plant-thing. Colin exchanges some low-voiced words with the other two, and then runs back over."
+   
+   show c angry
+   
+   c "Jeez, that was a mess. He really could've gotten hurt."
+   
+   v "Good thing we were here, I guess. What were they even doing?"
+   
+   c normal "Looked like a prank gone wrong. You'd think they'd be more careful in a place like this."
+   
+   v "People do dumb stuff everywhere."
+   
+   c "Don't I know it."
+   
+   v "What was that spell you did, anyway? I didn't recognize it."
+   
+   c "Oh, it's nothing special. Variation on a minor counter. My mom calls it the 'You stop that!'. Works better on sentient things, though. I should've used something else, but this one's kind of instinctive."
+   
+   v happy "Your mom makes her own spells? That's so cool!"
+   
+   c "Nah, it's an old family trick. Passed down through generations of parents with unruly children."
+   
+   v normal "Still, it takes a lot of juice to make one up, even if it's just a minor adjustment."
+   
+   c "I guess. You don't really think about random family stuff being weird until you realize nobody else does it."
+   
+   v "Oh, I know. It took me way too long to realize houses get dirty if you don't have a cleaning staff to do it for you."
+   
+   c "...you had a *cleaning staff*?"
+   
+   v embarrassed "Well, one person. And not in a while. But yeah."
+   
+   "There were a lot of things about my family's lifestyle it took me too long to realize weren't ordinary."
+   
+   "At least dusting spells are pretty easy to learn."
+   
+   c happy "Okay, moneybags. Does my lady require a carriage to take her back to the dorms, or can you walk?"
+   
+   v happy "Perish the thought! Only the finest litter for my esteemed personage."
+   
+   "We both laugh as we keep walking back to the dorms. A few years ago, this kind of teasing might've made me feel bad. Or angry, even. But time's softened that particular blow, and I can tell Colin doesn't mean anything by it."
+   
+   "That spell, though. It took a lot of concentration for me to copy it. I don't think it's as minor as he made it sound."
+   
+   "But like he said. You don't always realize when family traditions aren't what everybody does."
+   
+   "Besides, it's no big deal. And I've got homework to do."
 
    # 2.5 More on Viola and her major 
 
    $npoints += 1
+   
+   # Do we need points here?
+   
+   scene bg black
 
    "It turns out that Professor Reynell really likes mystery boxes." 
 
@@ -2745,7 +2808,7 @@ label walkaway:
    
 label shouhei4a:
 
-   v "That's...definitely not normal behavior."
+   v "That's...definitely not normal behavior." # Would she be saying this out loud?
    
    "I run down the hallway, right up to the room he had gone into."
    
@@ -2762,8 +2825,6 @@ label shouhei4a:
    "The student has an unlabeled green bottle of something in his hand."
    
    "His other hand holds a clear glass flask, with several yellow butteflies fluttering inside."
-   
-   show v at center
    
    v "Are you supposed to be here?"
    
@@ -2824,8 +2885,6 @@ label shouhei4a:
    "His arm flails. I see a greenish blur coming towards me and I duck. But not quick enough."
    
    "Whatever it is collides into me with a thunk, and my jaw rattles."
-   
-   hide v
    
    "The student mutters something panickedly."
    
@@ -3017,7 +3076,7 @@ label postpick:
 
    "It's almost the end of the week. Though the weather has turned chilly, with a bite of cold that stings at our hands and cheeks, the conversation of other students around us is lively and bright."
 
-   "The next day is Friday after all. It's been long enough into the year that we've become used to the pace of our assignments, and the professors have a general policy not to add anything onto that workload on Fridays."
+   "The next day is Friday, after all. It's been long enough into the year that we've become used to the pace of our assignments, and the professors have a general policy not to add anything onto that workload on Fridays."
    
    "Liam, at my right side, is inking in some color on a sketch of some yellow wildflowers."
 
@@ -3043,7 +3102,9 @@ label postpick:
 
    hide l
    
-   v "How much of that have you eaten anyways?"
+   v normal "How much of that have you eaten anyways?"
+   
+   show n normal at right
    
    n "Of the twenty pieces that he threw into the air, he caught seventeen of them. I would be impressed by that rate if it wasn't a little terrifying."
    
@@ -3060,6 +3121,8 @@ label postpick:
    c "At the beginning of the year, in class that time, what was the whole deal with you and Utsurikawa?" 
    
    "My posture, which had been relaxed before, straightens up. My pulse seems to have sped up, loud enough to echo in my ears."
+   
+   show l normal
    
    "Nora has also leaned forward, her face sympathetic. Liam has moved closer to me, one of his hands raised between me and Colin, as if to bat away the question."
    
@@ -3091,7 +3154,7 @@ label postpick:
    
    "Colin's face isn't afraid, or pitying, or any of the other reactions I might have hated."
 
-   "He looks thoughtful, instead. He's frowning though it seems like it's directed more at himself."
+   "He looks thoughtful, instead. He's frowning, though it seems like it's directed more at himself."
    
    c "I was curious. That was my fault. Sorry for touching on a sore topic."
 
