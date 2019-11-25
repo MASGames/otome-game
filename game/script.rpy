@@ -413,7 +413,9 @@ label health1:
    #Do we want to have child sprites for Viola, Liam, and Shouhei? If so, we should use them here. If not, maybe we should keep the whole scene black; it'd need a few different CGs to convey the progression of events, and it's short enough that that's not really practical.
     
    scene bg black
-    
+
+   # should we have separate child sprites for Liam and Viola?
+
    l "Viola! Viola! Where are you?"
     
    v "What happened?"
