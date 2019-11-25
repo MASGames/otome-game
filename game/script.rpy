@@ -1976,7 +1976,7 @@ label posthomework:
    
    hide c
 
-   "Before I can do anything more than stand there staring, Colin runs forward, holding out a hand in clear command. He shouts a spell--not one I'm familiar with--and the root-like tentacles suddenly stop moving."
+   "Before I can do anything more than stand there staring, Colin runs forward, holding out a hand in clear command. A small orange pattern appears in front of him--not one I'm familiar with--and the root-like tentacles suddenly stop moving."
 
    c "Come on, let's get you out of there. I can't hold this spell for long."
 
@@ -1988,7 +1988,7 @@ label posthomework:
    
    o "Right!"
 
-   "I try to repeat the spell as clearly as I can, holding my phone so that Olly can help me with extra power and control, and sigh in relief when the plant-thing stops moving again."
+   "I try to copy the pattern as clearly as I can, holding my phone so that Olly can help me with extra power and control, and sigh in relief when the plant-thing stops moving again."
 
    "I can feel the strain of the spell tugging at the back of my head, but with Olly's help it's not bad. I can hold it, at least long enough for--there they go!"
 
