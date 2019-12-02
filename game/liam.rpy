@@ -332,6 +332,116 @@ label nextthing:
    
    #Scene 4.3: Viola talks briefly to Liam's supervisor then goes to find him in the library
    
+   scene bg health center
+   
+   "After our weeks of research, Liam and I have finally decided on our project idea. A curse sensing instrument."
+   
+   "Certainly, there are already other basic curse sensors out there. But the one we want to create will be different."
+   
+   "Not only will it indicate whether a curse has taken effect or not, it will determine whether the curse is a location-based one or a personal one."
+   
+   "Some people run into certain curses because of some long-ago curse laid on a body of water or a certain town."
+
+   "If they are suffering from any physical ailments from the curse, moving their locations is usually enough to mitigate the worst of the effects."
+   
+   "Other may meet a curse that only targeted one person, from an unknown caster. Those cases take more work."
+   
+   "Our curse sensing instrument should not only help determine the most efficient Cursebreaking tactic, but also locate the source of the curse."
+   
+   #later on this project will help them find the source of the plague to a certain plant and they might rework this invention a bit
+   
+   "The health center has closed by now. It should be fine for me to go in."
+   
+   v "Liam?"
+   
+   "I don't see him. Instead, a woman with a long dark braid and gray eyes pops out, with a stack of clipboards in her arms."
+   
+   vv "Are you Viola? I'm Valery. Come inside, I got something for you to hand to him."
+
+   "I head into the room. Valery is taller than I am, and moves around the room looking for something, with a sort of short, sharp energy."
+   
+   "She's not wearing the usual health center robes now, but is wearing a plain colored sweater and jeans."
+   
+   vv "Ah! Here it is. Liam said he was going to borrow this today, but he went right to the library after his shift."
+   
+   "She hands me the book. I flip through it briefly. It looks like a manual on the history and construction of various instruments that Healers have used."
+   
+   "This should be useful for our project."
+   
+   vv "Before you go, you want to help yourself to a snack?"
+   
+   "She has pushed in her armload of clipboards into one of the cabinets, and now has a bag of dried cherries in her hand."
+   
+   "She waves to a different cabinet, and I peek inside to see what looks like a small fruit bowl, bags of candies, and different bags of snacks."
+   
+   v "Thank you."
+   
+   "I help myself to a fruit, without looking too closely at what it is, and place it in my bag."
+   
+   v "Why is there a snack stash in the health center anyways?"
+   
+   vv "How should I put this...Magic takes energy. Many students have familiars as an extra source of magic."
+   
+   vv "But if the students don't look after their own health, even with the help of their familiar, using magic can become impossible if the energy is not there."
+   
+   vv "You'd be surprised at how many students come in with a sluggish familiar, and how much better they feel after a snack."
+   
+   vv "Some students have to deal with different issues with their energy. Students with asthma, or certain chronic conditions for example."
+   
+   v "I see. A snack stash would be pretty practical to have in a health center then."
+   
+   vv "You could take a snack for Liam too, if you want. When that kid starts working hard on something, I worry he forgets to eat, if you didn't take him to dinner so often."
+   
+   v "Kid? I thought you were only about three or four years older than us?"
+   
+   vv "Hahaha. I suppose you're right, kiddo. Listen to me, soon I'll start reminiscing about the good old days, and yelling at you all to walk and not run over the grass."
+   
+   vv "Matter of fact, it wasn't too long ago since I started studying Healing here, but I guess I can't help feel a lot older, knowing I'm leaving next year."
+   
+   v "How did you choose Healing, anyways? I know some people...don't seem to respect the major very much."
+   
+   "I frown, remembering that confrontation Liam and I had with that other student in the library. I hope he isn't still bothered by it."
+   
+   "Valery looks at me, her eyes sharper, and tosses the emptied snack bag in her hand towards a trash can at the other end of the room. It lands in."
+   
+   vv "Those people are fools. But I can understand why some would think that. It's slow work. Not a lot of fame in it."
+   
+   vv "In the past, people either figured out what was wrong with their familiar on their own. Or they had a family-assigned healer."
+   
+   vv "And preventing magical explosions from happening in the first place will never seem as exciting as jumping into the middle of one to stop it."
+   
+   vv "But regardless, I didn't choose to do this for the glamor. I chose this actually because I couldn't decide on one single thing."
+   
+   vv "I actually worked oh, about five different jobs before coming here. Sailor, landscaper, poker dealer--I've done a lot."
+   
+   vv "Out of all the majors, Healing had a bit of everything I was curious about. And everyone I've met before says I have a good touch with people."
+   
+   "Valery smiles, and taps on the wall near the clock."
+   
+   vv "Listen to me ramble on. I don't mind chatting all this time, but I do need to close up. Isn't Liam waiting for you?"
+   
+   v "Ah, yes. Sorry!"
+   
+   vv "It's no big deal. See you around."
+   
+   "I get up, and making sure I have the book in hand, jog off to the library."
+
+   scene bg library
+   
+   "I feel a little guilty as I walk into the library. I hope Liam didn't wait too long."
+   
+   "The library closes up in...two hours? That should give us enough time to make some progress."
+   
+   #this is the scene when liam is sleeping
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
    
