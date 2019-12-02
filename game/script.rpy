@@ -17,6 +17,7 @@ define j = Character("Janitor") # :D
 define kc = Character("Ken", image = "kc")
 define vf = Character("Viola's Father")
 define vm = Character("Viola's Mother")
+define vv = Character("Valery")
 
 define audio.dooropen = "Door Squeak.mp3"
 define audio.magiceffect = "shootingstar.mp3"
