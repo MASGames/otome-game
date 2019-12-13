@@ -24,15 +24,17 @@ label liam_start:
    
    show l happy
    
-   v "Over here!"
+   v happy "Over here!"
    
    "I move aside my bag from the chair next to me, and Liam slides in."
    
-   hide l
+   hide l # There doesn't seem to be a reason to hide him?
    
-   l "Sorry about being late! There was just some clean up at the health center, and I had to run back to the dorm to get my things--"
+   l normal "Sorry about being late! There was just some clean up at the health center, and I had to run back to the dorm to get my things--"
    
-   v "You don't have to apologize for that, Liam. I'm glad you got here."
+   v normal "You don't have to apologize for that, Liam. I'm glad you got here."
+   
+   show l happy
    
    "Liam smiles, and runs his hand over the side of his head, flattening some tufts of hair that had gotten messed up from his run here."
    
@@ -40,7 +42,7 @@ label liam_start:
    
    v "I did get some books we might want to use, but it might be better to talk together first?"
    
-   v "Actually, I did want to ask. Can you tell me more about your major, Healing? I know some of the concepts, but it's a different beast than having experience with it."
+   v "Actually, I did want to ask. Can you tell me more about your major? I know some of the concepts, but that's a different beast than having experience with it."
    
    "Liam taps one of his hands against a book, and tips his head back."
    
@@ -58,11 +60,15 @@ label liam_start:
    
    "From Liam's phone, Clara has gotten herself out, and has started poking Olly's head with her paw."
    
+   show cl normal at left
+   
    l "There is. First, studying how magic flows through all kinds of familiars helps give us the broader eye we need for patients later on."
    
    l "Second. Familiars, just from the way they store magic, tend to be a little more durable than humans are."
    
    l "So, it's safer I suppose, for us to start with familiars while in training."
+   
+   show o normal at right
    
    "Olly, who had been napping, has started making grumbling sounds, and peeks open an eye at Clara."
    
@@ -72,13 +78,19 @@ label liam_start:
    
    l "Summoning, yes. And Cursebreaking. Though in that area, I would bow to your expertise."
    
+   show o happy at right
+   
    "Olly jumps up, and snaps, teasingly, at Clara's paw without touching it." 
    
    "Clara jumps back, and bats a crumpled piece of paper at Olly." 
    
+   hide o # Actually, it would be cute if we could figure out how to show sprites moving to different spots and define further-right and further-left locations for them to go.
+   
    "Olly whacks it back with his tail, and with a tiny hiss, retreats to sit in one of my jacket pockets."
    
    o "I was sleeping!"
+   
+   hide cl
    
    "Liam strokes down Clara's ears, and whispers something to her. Clara nods, and dissolves back into the phone."
    
@@ -110,18 +122,18 @@ label liam_start:
    
    v "No, no. You explained it very well."
    
-   l "I'm glad I haven't lectured you into a nap like Olly. What are you doing with Cursebreaking now?"
+   l happy "I'm glad I haven't lectured you into a nap like Olly. What are you doing with Cursebreaking now?"
    
    "We spend the rest of the hour discussing our most recent assignments and Liam's health center work."
    
-   "While didn't land on a project idea yet when we left the library, I'm sure we'll get to one soon by our next meeting."
+   "While we didn't land on a project idea yet when we left the library, I'm sure we'll get to one soon by our next meeting."
 
    
    #Scene 4.2 studying in a library and someone insults Liam
    
    scene bg library
    
-   "It's been a week. In between the rest of my classes, I've been doing my best to finish the books Liam and I had checked out last time."
+   "It's been a week. In between the rest of my classes, I've been doing my best to finish the books Liam and I checked out last time."
    
    "We still haven't hit on a project idea yet. But what information I have managed to read has been fascinating."
    
@@ -131,7 +143,7 @@ label liam_start:
    
    l "This is a little more difficult than I expected."
    
-   v "Yeah. I'm sorry. If I could only brainstorm on this faster, then we would be able to work on it sooner."
+   v normal "Yeah. I'm sorry. If I could only brainstorm on this faster, then we would be able to work on it sooner."
    
    l "Hey. What do you mean, if only you could think faster? I thought I was your project partner too."
    
@@ -196,6 +208,8 @@ menu:
    
 label librarytalk:
    #this scene is the good choice 
+   
+   show l normal
 
    "I take in a breath. The other student is already being dismissive of Liam."
    
@@ -203,7 +217,9 @@ label librarytalk:
    
    "Though I had been standing up a second ago, I force myself to sit down, ignoring the other student's puzzled look."
    
-   v "Liam? It's a little noisy here isn't it? Do you want to go somewhere else?"
+   v normal "Liam? It's a little noisy here isn't it? Do you want to go somewhere else?"
+   
+   show l surprised
    
    "Liam's blue eyes are wide, like he's surprised. Surprise and relief."
    
@@ -221,7 +237,7 @@ label librarytalk:
    
    v "If you're all right with staying here we can stay too."
    
-   l "We'll stay."
+   l normal "We'll stay."
    
    v "Okay. Sure."
    
@@ -249,11 +265,11 @@ label librarytalk:
    
    "His hand freezes. He looks at me, and draws his arm back to his side."
    
-   l "Ah. Sorry. You were just glaring so fiercely at them. It was..."
+   l blushing2 "Ah. Sorry. You were just glaring so fiercely at them. It was..."
    
    "He clears his throat."
    
-   l "I'm just glad you wanted to defend me. But I'm even more glad you didn't jump in without thinking about it first."
+   l normal "I'm just glad you wanted to defend me. But I'm even more glad you didn't jump in without thinking about it first."
    
    v "You love Healing. And you work hard at it."
    
@@ -265,7 +281,7 @@ label librarytalk:
    
    l "And there are some who think that if a familiar is weak enough to get sick, then they'll simply move on to a stronger familiar."
    
-   l "I...hate people who think like that."
+   l angry "I...hate people who think like that."
 
    "Liam's serious when he says that, his lips turned down into a frown, his brows drawn together."
    
@@ -273,7 +289,7 @@ label librarytalk:
    
    v "Should we take a break now? I heard there's a new snack stall near your dorms. I can treat you."
    
-   l "Snacks before dinner? Getting a little rebellious are we, Miss Ashmark?"
+   l happy "Snacks before dinner? Getting a little rebellious are we, Miss Ashmark?"
    
    "His expression is lighter now. That suits him better."
    
@@ -284,9 +300,9 @@ label libraryfight:
    
    "I don't want to look at Liam's face, and see him sad."
    
-   "I'm not sad though. The blood pounding through my veins indicates the opposite."
+   "I'm not sad, though. The blood pounding through my veins indicates the opposite."
    
-   v "Should we go outside?"
+   v angry "Should we go outside?"
    
    "I'm already standing, my chair pushed back with a loud screech."
    
@@ -297,6 +313,8 @@ label libraryfight:
    v "Well? We're both Cursebreaking students. Don't tell me--you're scared of a friendly duel?"
    
    v "And if we are going to do this, I'd rather not accidentally destroy some of the valuable books in here."
+   
+   show l normal
    
    l "Viola!"
    
@@ -316,7 +334,7 @@ label libraryfight:
    
    "I shake off Liam's hand. He lets go."
    
-   v "You didn't want me to fight him?"
+   v normal "You didn't want me to fight him?"
    
    "I make sure my voice is quieter this time."
     
@@ -334,7 +352,7 @@ label nextthing:
    
    scene bg health center
    
-   "After our weeks of research, Liam and I have finally decided on our project idea. A curse sensing instrument."
+   "After our weeks of research, Liam and I have finally decided on our project idea. A curse-sensing instrument."
    
    "Certainly, there are already other basic curse sensors out there. But the one we want to create will be different."
    
@@ -346,21 +364,23 @@ label nextthing:
    
    "Other may meet a curse that only targeted one person, from an unknown caster. Those cases take more work."
    
-   "Our curse sensing instrument should not only help determine the most efficient Cursebreaking tactic, but also locate the source of the curse."
+   "Our curse-sensing instrument should not only help determine the most efficient Cursebreaking tactic, but also locate the source of the curse."
    
    #later on this project will help them find the source of the plague to a certain plant and they might rework this invention a bit
    
    "The health center has closed by now. It should be fine for me to go in."
    
-   v "Liam?"
+   v normal "Liam?"
    
    "I don't see him. Instead, a woman with a long dark braid and gray eyes pops out, with a stack of clipboards in her arms."
+   
+   show vv normal
    
    vv "Are you Viola? I'm Valery. Come inside, I got something for you to hand to him."
 
    "I head into the room. Valery is taller than I am, and moves around the room looking for something, with a sort of short, sharp energy."
    
-   "She's not wearing the usual health center robes now, but is wearing a plain colored sweater and jeans."
+   "She's not wearing the usual health center robes now, but is wearing a plain colored sweater and jeans." # We probably don't need clothes descriptions once we have the sprites.
    
    vv "Ah! Here it is. Liam said he was going to borrow this today, but he went right to the library after his shift."
    
@@ -374,11 +394,11 @@ label nextthing:
    
    "She waves to a different cabinet, and I peek inside to see what looks like a small fruit bowl, bags of candies, and different bags of snacks."
    
-   v "Thank you."
+   v happy "Thank you."
    
    "I help myself to a fruit, without looking too closely at what it is, and place it in my bag."
    
-   v "Why is there a snack stash in the health center anyways?"
+   v normal "Why is there a snack stash in the health center anyways?"
    
    vv "How should I put this...Magic takes energy. Many students have familiars as an extra source of magic."
    
@@ -386,7 +406,7 @@ label nextthing:
    
    vv "You'd be surprised at how many students come in with a sluggish familiar, and how much better they feel after a snack."
    
-   vv "Some students have to deal with different issues with their energy. Students with asthma, or certain chronic conditions for example."
+   vv "Some students have to deal with different issues with their energy. Students with asthma, or certain chronic conditions, for example."
    
    v "I see. A snack stash would be pretty practical to have in a health center then."
    
@@ -406,7 +426,7 @@ label nextthing:
    
    vv "Those people are fools. But I can understand why some would think that. It's slow work. Not a lot of fame in it."
    
-   vv "In the past, people either figured out what was wrong with their familiar on their own. Or they had a family-assigned healer."
+   vv "In the past, people either figured out what was wrong with their familiar on their own, or they had a family-assigned healer."
    
    vv "And preventing magical explosions from happening in the first place will never seem as exciting as jumping into the middle of one to stop it."
    

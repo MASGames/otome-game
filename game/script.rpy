@@ -714,7 +714,7 @@ label garden1:
    
    hide p
    
-   show n embarrassed
+   show n blushing2
     
    "Nora definitely looks embarrassed now. I don't see why, though." 
     
@@ -822,9 +822,9 @@ label colin1:
     
     "WHY'D I SAY THAT."
     
-    c embarrassed "Um."
+    c blushing2 "Um."
     
-    v embarrassed "At. The...other doors, because Liam's probably behind one of them? Yeah."
+    v blushing2 "At. The...other doors, because Liam's probably behind one of them? Yeah."
     
     c "Yeah."
     
@@ -1309,7 +1309,7 @@ label nora2:
 
    "Nora ducks her head, looking almost embarrassed." 
 
-   n embarrassed "Thanks. If you want, I could let you and Olly try a beta version, once I have it working a little bit better?" 
+   n blushing2 "Thanks. If you want, I could let you and Olly try a beta version, once I have it working a little bit better?" 
 
    v "Olly? Would you mind?" 
    
@@ -1327,7 +1327,7 @@ label nora2:
 
    n "...For now, we probably ought to be working on homework, though." 
 
-   v embarrassed "Right." 
+   v blushing2 "Right." 
 
    n "Perrault, please turn to page 28." 
 
@@ -1807,7 +1807,7 @@ label posthomework:
 
    "I hadn't ever really thought much about how my phone and Olly did the things they did, and what sort of things they might be able to do instead, but. Listening to Nora speak kind of made me want to learn." 
 
-   n embarrassed "Thanks. I like to think that what I'm doing will be helpful to people, but sometimes I get so caught up in the problem-solving aspects that it can be hard to see."
+   n blushing2 "Thanks. I like to think that what I'm doing will be helpful to people, but sometimes I get so caught up in the problem-solving aspects that it can be hard to see."
 
    v normal "I'm still really looking forward to trying out the textbook-reading app, once that's ready, too." 
    
@@ -2027,7 +2027,7 @@ label posthomework:
    
    c "...you had a *cleaning staff*?"
    
-   v embarrassed "Well, one person. And not in a while. But yeah."
+   v blushing2 "Well, one person. And not in a while. But yeah."
    
    "There were a lot of things about my family's lifestyle it took me too long to realize weren't ordinary."
    
@@ -3001,7 +3001,6 @@ label schoolcursediscuss:
    v "Placeholder text for this scene here."
 
    v "Characters are asked what they'd do if they got the school curse."
-
    menu:
 
       "Ask Colin first" if persistent.colin_route_unlocked == True:
@@ -3009,7 +3008,7 @@ label schoolcursediscuss:
          
          "Some thoughts about why she's picking Colin."
 
-         jump postpick
+         jump colin5
 
       "Ask Nora first":
          $npoints += 1
@@ -3024,8 +3023,40 @@ label schoolcursediscuss:
          "Some thoughts about why she's picking Shouhei."
 
          jump shouhei5
+         
+label colin5:
+    
+    show c normal at right
+    show n normal at left
+    show s normal
+    
+    "I don't know what Colin thinks about the curse--or much about him at all, really. And I'm curious."
+    
+    v normal "What about you, Colin?"
+    
+    c surprised "Uh..."
+    
+    c normal "I don't really have any ambitions big enough for that. I'll leave changing the world to other people."
+    
+    n happy "That's about what I thought you'd say."
+    
+    v happy "You picked kind of a weird school if you don't want to make waves."
+    
+    c "Honestly, I applied on a dare. I didn't think I'd actually get in."
+    
+    c "I really should've known better."
+    
+    c "Anyway, I figure it's not worth chasing after. Trying to get on a curse's good side is way too risky, and I'd rather concentrate on what's in front of me."
+    
+    c "Power is nice and all, but it won't help you with finals, you know?"
+    
+    "I cringe at the reminder. I still have studying to do, and judging by how Nora purses her lips, so does she."
 
 label shouhei5:
+    
+   show s normal
+   show c normal at right
+   show n normal at left
    
    "I'll ask Shouhei first what he thinks about the school curse."
    
@@ -3037,7 +3068,7 @@ label shouhei5:
    
    "I look around our circle."
    
-   "Liam has a surprised expression. Nora is looking at Shouhei, thoughtful. Colin's lip is curled up, one of his eyebrows raised high."
+   "Liam has a surprised expression. Nora is looking at Shouhei, thoughtful. Colin's lip is curled up, one of his eyebrows raised high." # I don't think Liam is in this one? Or it wouldn't make sense why there's no option to ask him.
    
    v "When you say do good, what exactly do you--?"
    
@@ -3063,7 +3094,7 @@ label shouhei5:
    
    s "Hmm. Addressing any misuse of magic, as a first step. Preventing the same thing from happening again."
    
-   v "So you would use the curse for...Justice?"
+   v "So you would use the curse for...justice?"
    
    "He looks at me for a second, fragments of blue sky overhead slipping away in the reflection of his glasses before it clears."
    
