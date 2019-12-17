@@ -3006,7 +3006,7 @@ label schoolcursediscuss:
       "Ask Colin first" if persistent.colin_route_unlocked == True:
          $cpoints += 1
          
-         "Some thoughts about why she's picking Colin."
+         "I don't know what Colin thinks about the curse--or much about him at all, really. And I'm curious."
 
          jump colin5
 
@@ -3030,8 +3030,6 @@ label colin5:
     show n normal at left
     show s normal
     
-    "I don't know what Colin thinks about the curse--or much about him at all, really. And I'm curious."
-    
     v normal "What about you, Colin?"
     
     c surprised "Uh..."
@@ -3050,8 +3048,26 @@ label colin5:
     
     c "Power is nice and all, but it won't help you with finals, you know?"
     
+    show n normal at left
+    
     "I cringe at the reminder. I still have studying to do, and judging by how Nora purses her lips, so does she."
-
+    
+    v normal "Still, I feel like coming here specifically hoping you won't get the curse is a good way to get the curse."
+    
+    c "If it's operating under the irony principle, sure. But I don't think it's subtle enough for that. The curse strikes me as just a big showy display of power, not the kind of insidious manipulation you find in smaller-scale stuff. Probably it wasn't even really thinking."
+    
+    v "That's...certainly a viewpoint."
+    
+    "I kind of want to ask him to go into more detail, because it's not really a perspective I've seen before, but he did have a point about finals."
+    
+    c "I should get going. I've got like, three essays to work on."
+    
+    v "Yeah, me too. C'mon, Nora."
+    
+    n "Sure thing."
+    
+    "As we disperse, Shouhei walks off without saying a word. If he had any thoughts on Colin's theory, he doesn't voice them."
+       
 label shouhei5:
     
    show s normal
