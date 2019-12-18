@@ -762,7 +762,61 @@ label dorms1:
 
    # 1.5d Lunch with Colin
 
-   c "y"
+   "Colin probably wants his bracelet back. I should find him before he gets too far."
+   
+   "Thankfully, he's barely out of the building. I catch up to him, waving."
+   
+   show c normal2 # He'll need bracelet-less versions of his normal and surprised sprites.
+   
+   v normal "Hey, Colin! This is yours, right? I found it on the floor."
+   
+   show c surprised2
+   
+   "Colin takes one look at the bracelet and his eyes widen. He glances at his wrist--bare, of course."
+   
+   c "The floor? What?"
+   
+   v "Yeah, in class. It must've fallen off. Here you go."
+   
+   "I hold out the bracelet for him. After a moment, he takes it and slips it back around his wrist."
+   
+   c normal "Thanks."
+   
+   v "No problem. Don't wear it so loose next time."
+   
+   c surprised "I wasn't. I don't know how it--"
+   
+   c angry "...never mind."
+   
+   "Is he in a bad mood? Maybe I should leave."
+   
+   c normal "But seriously, thanks."
+   
+   "Oh, he seems better now. Score!"
+   
+   v happy "It's pretty. Where did you get it?"
+   
+   c "Oh, it's a family thing. It's supposed to be lucky."
+   
+   v normal "Supposed to be?"
+   
+   c "Luck is relative. You're studying curses, right? You know the interesting times principle?"
+   
+   v happy "I did a paper on it in high school. A-. Mrs. Lindel said I didn't cite enough sources."
+   
+   c "Sometimes I feel like my whole life is a case study for it."
+   
+   v normal "...honestly, same."
+   
+   show c happy
+   
+   "He's got a really nice smile. It doesn't fill his whole face, but it feels more personal that way. I kind of want to see it again."
+   
+   v happy "Hey, wanna grab lunch? Liam's at his job and I don't know where Nora is, so I'm on my own today."
+   
+   c "Sure."
+   
+   
     
 label postlunch:
    
