@@ -734,7 +734,7 @@ label garden1:
     
    "I hesitate. Even though it's no big secret--I had to fill it in on my admission form!--saying it out loud feels like a confidence, even if I'm not going into all the reasons *why*." 
     
-   v "I want to study Cursebreaking, if I can make it through all the prerequisites with high enough grades." 
+   v "I want to study cursebreaking, if I can make it through all the prerequisites with high enough grades." 
     
    n "Wow! That's also pretty intense. Good luck to both of us!" 
     
@@ -826,7 +826,7 @@ label postlunch:
 
    scene bg hallway
 
-   "There's still an hour or two before my first Cursebreaking class of the year. It's only the third day of the school year and I don't want to give a bad impression by being late to any classes before we even turn in our first assignments." 
+   "There's still an hour or two before my first cursebreaking class of the year. It's only the third day of the school year and I don't want to give a bad impression by being late to any classes before we even turn in our first assignments." 
    
    "I still have time to find Liam. If I could only remember which room is his..."
    
@@ -980,17 +980,52 @@ label liampostcolin:
 
    "And off we go, to the cafeteria. My steps are lighter now, hearing Liam's footsteps following me. No matter what, I think, I know I can count on him."
 
-   jump common_nora1
+# 1.7b Viola's first cursebreaking class
 
+    scene bg class2
+    
+    # Feel free to fill in any details about the professor I've forgotten.
+    
+    "Dinner with Liam was nice, but my thoughts kept drifting to what would happen afterwards. The reason I came here to begin with. My first step into what I've been thinking about for years, the beginning of my path to fixing all of the wrongs that have been done here."
+    
+    "Which is a very dramatic way of saying that it's my first day of Cursebreaking 101."
+    
+    "I don't recognize any of the other students milling about the room. Will I make any friends here? Maybe if they find out what my motivation is, they'll be a little wary around me. Most people come to this school planning to roll the dice, and they might not take kindly to someone who wants to stop the game."
+    
+    "Finally, the professor enters and everyone settles down."
+    
+    show pc
+    
+    pc "Hello, everyone, and welcome to Cursebreaking 101. I'm Professor Eli Corbet. We'll get to introductions soon, but first, I want to clear some things up."
+    
+    pc "There's no need to waste time introducing yourself if you're going to leave ten minutes in, after all."
+    
+    "Nobody says anything, but an air of uneasiness trickles into the classroom."
+    
+    pc "Cursebreaking's a fine profession. Useful skill, too, even if you decide to take a different career path. There's plenty of good schools that teach it. But you're not going to those schools. You're going to this one. And I don't need to tell you that this school's relationship with curses is a bit more complicated than most."
+    
+    pc "I'll lay it out right here, folks. We get plenty of students who want to break the school's curse. You're not the first, and you won't be the last."
+    
+    pc "Maybe someone you know got hurt by it. Maybe you want to do something good for the world. Maybe you just want to prove how cool you are. Whatever your reason is, you should know that people have been trying for centuries. There are people trying right now, with much more resources and experience than you."
+    
+    "I hear the faint sound of some people shifting in their seats. I stay perfectly still--he's not even looking at me, and it still feels like if I even blink, I'll lose something."
+    
+    pc "I'm not saying this to make you feel bad. Hell, I used to be like that myself, all ready to take on the big bad curse and save the world. But I didn't. And the odds are very, very high that you won't either."
+    
+    pc "Take it from me, folks: undoing this curse is an extremely crowded field, and you're much better off not strutting in like you're the chosen one."
+    
+    "The tension in the air is palpable. How many of us *are* here for that? A couple kids are looking at their desks. Maybe he said he didn't want to make us feel bad, but there's a pit in my stomach that sinks lower and lower the more he talks."
+    
+    "I should've figured I wouldn't be the first. I'm not the only person who's ever had a grudge."
+    
+    
 label common_nora1:
 
    # 1.8 Viola and Nora chat in the evening
 
    scene bg v dorm
 
-   $npoints += 1 # Does this need to be here? It's not a choice scene.
-
-   "Liam and I talked for so long over dinner that the cafeteria personnel eventually had to politely ask us to leave. We kept the conversation carefully away from...certain topics, but luckily having known each other for (TK seven?) years means there's never a shortage of things to talk about." 
+   "Liam and I talked for so long over dinner that the cafeteria personnel eventually had to politely ask us to leave. We kept the conversation carefully away from...certain topics, but luckily having known each other for (TK seven?) years means there's never a shortage of things to talk about." #Since it was already stated that they were eating before Viola's class, wouldn't the meal have been fairly quick? Also, now that there's a scene in between, it should be mentioned here.
 
    "I'm glad we did. I'm feeling a bit better about this whole situation after having taken my mind off it for a while." 
 
@@ -1731,7 +1766,7 @@ label posthomework:
 
    v "You have eaten, right?" 
 
-   "I grabbed lunch at the cafeteria, using all the extra time I had to pore over my Cursebreaking text for the quiz that Professor Reynell had given in the first part of class." 
+   "I grabbed lunch at the cafeteria, using all the extra time I had to pore over my cursebreaking text for the quiz that Professor Reynell had given in the first part of class." 
 
    "(Which, as far as I can tell, I aced. Another reason today's class was great!)" 
 
@@ -1917,7 +1952,7 @@ label posthomework:
    
    "A sound of water rippling as the boat meanders away from shore."
    
-   "I wipe my hand over my face, and look up. To the back is a little shelf for student's bags. To the front, a shimmering image is floating as a silvery hologram of a structure. It looks like the boat is floating past one of the buildings for Cursebreaking exams."
+   "I wipe my hand over my face, and look up. To the back is a little shelf for student's bags. To the front, a shimmering image is floating as a silvery hologram of a structure. It looks like the boat is floating past one of the buildings for cursebreaking exams."
    
    "And to my right--"
    
@@ -2152,7 +2187,7 @@ label posthomework:
 
    n "I'll stick to the ground, thanks." 
 
-   n normal "You know--it occurs to me, I've never really asked before--why did you choose Cursebreaking? Is this really that interesting to you?" 
+   n normal "You know--it occurs to me, I've never really asked before--why did you choose cursebreaking? Is this really that interesting to you?" 
 
    "I hesitate. I'm not sure I'm ready to share the full reason. I don't want Nora to start thinking I'm some sort of conspiracy theory-chasing nut."
    
@@ -2414,7 +2449,7 @@ label liam4:
    
    "I feel just a bit relieved, beneath all that, to be absolutely honest. We know where we stand now."
    
-   "I'll study Cursebreaking, Liam has his Healing, and Shouhei will learn what he came here to learn. We're not going to stay the same as we were when we were small."
+   "I'll study cursebreaking, Liam has his healing, and Shouhei will learn what he came here to learn. We're not going to stay the same as we were when we were small."
    
    l "Viola."
    
@@ -2503,7 +2538,7 @@ label postforest:
    
    scene bg v dorm
    
-   "I shuffle the papers on my desk and tap my hand against the tall stack of them. Phew. All finished. The last mystery box from Cursebreaking, the post-assignment writeup, and the three-page essay for Magical Law class."
+   "I shuffle the papers on my desk and tap my hand against the tall stack of them. Phew. All finished. The last mystery box from cursebreaking, the post-assignment writeup, and the three-page essay for Magical Law class."
    
    "I stretch out my arms and look to Nora's side of the room. She's not here, it seems. She had said she was going into town to fix up one of her tools and would be back late."
    
@@ -2533,7 +2568,7 @@ label postforest:
    
    vm "Of course she has been making friends. She had said last time, didn't she, Adrian? She had been meeting with Liam again at school."
    
-   v "Nora and I are getting along well. Liam's staying busy with his Healing classes."
+   v "Nora and I are getting along well. Liam's staying busy with his healing classes."
    
    "We talk for a few minutes like this, with perfunctory questions and my perfunctory answers. Yes, classes are going well. Yes, my marks are acceptable."
    
@@ -2859,7 +2894,7 @@ label walkaway:
    
    "It takes me some time looping around two sets of stairs, but eventually I find my way back to the dorms and get dinner."
    
-   "I'll think about my Cursebreaking assignment from today after that. Food first." 
+   "I'll think about my cursebreaking assignment from today after that. Food first." 
    
    jump schoolcursediscuss
    
@@ -2917,7 +2952,7 @@ label shouhei4a:
    
    "My elbow bangs onto something hard. I grit my teeth."
    
-   "I have to think. I have been getting some physical strength training in our Cursebreaking classes. But I don't know how good I would be in a hand-to-hand fight."
+   "I have to think. I have been getting some physical strength training in our cursebreaking classes. But I don't know how good I would be in a hand-to-hand fight."
    
    v "Olly! Go get someone! Hurry!"
    
