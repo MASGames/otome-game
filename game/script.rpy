@@ -1002,22 +1002,21 @@ label liampostcolin:
    "Nobody says anything, but an air of uneasiness trickles into the classroom."
    
    pc "Cursebreaking's a fine profession. Useful skill, too, even if you decide to take a different career path. There's plenty of good schools that teach it. But you're not going to those schools. You're going to this one. And I don't need to tell you that this school's relationship with curses is a bit more complicated than most."
-    
-    pc "I'll lay it out right here, folks. We get plenty of students who want to break the school's curse. You're not the first, and you won't be the last."
-    
-    pc "Maybe someone you know got hurt by it. Maybe you want to do something good for the world. Maybe you just want to prove how cool you are. Whatever your reason is, you should know that people have been trying for centuries. There are people trying right now, with much more resources and experience than you."
-    
-    "I hear the faint sound of some people shifting in their seats. I stay perfectly still--he's not even looking at me, and it still feels like if I even blink, I'll lose something."
-    
-    pc "I'm not saying this to make you feel bad. Hell, I used to be like that myself, all ready to take on the big bad curse and save the world. But I didn't. And the odds are very, very high that you won't either."
-    
-    pc "Take it from me, folks: undoing this curse is an extremely crowded field, and you're much better off not strutting in like you're the chosen one."
-    
-    "The tension in the air is palpable. How many of us *are* here for that? A couple kids are looking at their desks. Maybe he said he didn't want to make us feel bad, but there's a pit in my stomach that sinks lower and lower the more he talks."
-    
-    "I should've figured I wouldn't be the first. I'm not the only person who's ever had a grudge."
-    
-    
+   
+   pc "I'll lay it out right here, folks. We get plenty of students who want to break the school's curse. You're not the first, and you won't be the last."
+   
+   pc "Maybe someone you know got hurt by it. Maybe you want to do something good for the world. Maybe you just want to prove how cool you are. Whatever your reason is, you should know that people have been trying for centuries. There are people trying right now, with much more resources and experience than you."
+   
+   "I hear the faint sound of some people shifting in their seats. I stay perfectly still--he's not even looking at me, and it still feels like if I even blink, I'll lose something."
+   
+   pc "I'm not saying this to make you feel bad. Hell, I used to be like that myself, all ready to take on the big bad curse and save the world. But I didn't. And the odds are very, very high that you won't either."
+   
+   pc "Take it from me, folks: undoing this curse is an extremely crowded field, and you're much better off not strutting in like you're the chosen one."
+   
+   "The tension in the air is palpable. How many of us *are* here for that? A couple kids are looking at their desks. Maybe he said he didn't want to make us feel bad, but there's a pit in my stomach that sinks lower and lower the more he talks."
+   
+   "I should've figured I wouldn't be the first. I'm not the only person who's ever had a grudge."
+     
 label common_nora1:
 
    # 1.8 Viola and Nora chat in the evening
