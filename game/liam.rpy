@@ -137,7 +137,13 @@ label liam_start:
    
    "We still haven't hit on a project idea yet. But what information I have managed to read has been fascinating."
    
-   #will include 2 or 3 examples of magical worldbuilding in that above sentence later. 
+   "One book I skimmed follows the history of crystal miners who held strikes against the companies that used healers to magically take away their exhaustion and send them down the mines again for twenty hour shifts."
+   
+   "In the past, some jewels were favored for storing small bits of magic and were mined for that use. But they never could help as much as an animal familiar would."
+   
+   "Another book details possible substitutions for common healing herbs across other countries and climates. Gold spiceblossom from South America, for instance, has similar effects in healing to the fox-ear root from Finland."
+   
+   "I look over the table at Liam, to see if he just got any ideas in the last five minutes."
    
    show l normal
    
@@ -450,9 +456,103 @@ label nextthing:
    
    "I feel a little guilty as I walk into the library. I hope Liam didn't wait too long."
    
-   "The library closes up in...two hours? That should give us enough time to make some progress."
+   "The library closes up in...just under two hours, I think? That should give us enough time to make some progress."
    
    #this is the scene when liam is sleeping
+   
+   v "Liam, I went to the health center, but Valery said--"
+   
+   "I stop talking."
+   
+   "The library is quiet at this hour. I only saw one other student on my way in, who had held the door open for me and then hurried away with a quick impersonal nod."
+   
+   "There's the gentle cooing of birds settling to sleep. The soft humming of the glowing lamps at the tables."
+   
+   "A wheel squeaks slightly in the distance, the librarian pushing it singing something indistinctly into the air."
+   
+   "On the table in front of me, Liam is sleeping, his head resting over his arms."
+   
+   #show a cg here that just has liam sleeping on a table, like from an aerial perspective overhead
+   
+   "I take a seat next to him, pulling out the chair as smoothly as I can. I lower my head to peek at Liam, propping my chin on my crossed arms."
+   
+   "A few of his bangs have turned upwards, like he had shifted positions while he was sleeping."
+   
+   "One of his cheeks is squashed against his hand. The way the lamplight falls over his face turns his skin slightly pink, shines a little over the tips of his eyelashes, his lips."
+   
+   "If I could draw as well as Liam does, maybe I would be tempted to..."
+   
+   "I shake my head. What am I thinking?"
+   
+   "We don't have much time here. I should"
+   
+menu: 
+
+   "Let him sleep.":
+      $lpoints +=1
+      jump jacketscene
+   
+   "We have a project to work on.":
+      jump nojacket
+      
+label jacketscene:
+#this scene is the good choice
+
+   "Liam mumbles something and makes a sound like a sigh, a soft exhale."
+   
+   "Staring at him this closely, I can see the dark circles under his eyes, his eyebrows pinched together like he's thinking about something. Or dreaming."
+   
+   "We do have our project, but since he's already sleeping...I want to let him rest. I can't remember the last time I saw him this tired."
+   
+   "When we were smaller, it seemed like Liam had the most energy out of all of us."
+   
+   "Well, energy might be the wrong word for it. Endurance, maybe, fits him better."
+   
+   "Before we had Clara and Olly, Liam and I once had the bright idea of trying to find and capture our own familiars in our backyards."
+   
+   "Feeling very clever and pleased with ourselves, we had set up a simple box-and-stick trap on the grass, with a crumbled handful of cookies under it as bait."
+   
+   "It took me just twenty minutes to get bored. I tried to tug Liam away from the trap, whined that we could play tag or something else."
+   
+   "He just shook his head and sat in the same spot we were in before. He waited for one hour, two hours."
+   
+   "No familiars came, but we eventually went back indoors after a tutor came out and called for me."
+   
+   "Liam turns again again, and mumbles something."
+   
+   l "...Cold"
+   
+   "He's not wearing much other than the plain button-up shirt he usually wears when working at the health center."
+   
+   "I unbutton the coat I am wearing and pull it off."
+   
+   "My fingers clench around the fabric. Should I?"
+   
+   "It takes just a second to make up my mind. I don't want him to get sick."
+   
+   "I lower the jacket onto his shoulders, and tug it up over his neck."
+   
+   #show a cg scene here with the jacket added on a sleeping liam 
+   
+   "He stops moving, and his brow smoothes out."
+   
+   "As I pull my hand away from the jacket, the edge of my thumb brushes against his cheek."
+   
+   "I breathe in. Out. There's no reason for my heartbeat to be going this fast, this suddenly."
+   
+   "I move my hand away and grab instead for one of the books next to Liam's notes, and flip through it."
+   
+   "He can rest. I can still make some progress on our work."
+
+label nojacket:
+
+   v "Hey. I'm here."
+   
+   "I reach out a hand and shake his shoulder, just a little."
+
+   "More to be written here later."
+   #note will likely break up the long scene 4.3 into two separate scenes later for ease of reading
+    
    
    
    
