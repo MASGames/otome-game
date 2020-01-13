@@ -982,7 +982,7 @@ label liampostcolin:
 
 # 1.7b Viola's first cursebreaking class
 
-    scene bg class2
+   scene bg class2
     
     # Feel free to fill in any details about the professor I've forgotten.
     
