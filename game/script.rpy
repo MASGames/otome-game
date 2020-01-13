@@ -985,24 +985,23 @@ label liampostcolin:
    scene bg class2
     
     # Feel free to fill in any details about the professor I've forgotten.
+   "Dinner with Liam was nice, but my thoughts kept drifting to what would happen afterwards. The reason I came here to begin with. My first step into what I've been thinking about for years, the beginning of my path to fixing all of the wrongs that have been done here."
+   
+   "Which is a very dramatic way of saying that it's my first day of Cursebreaking 101." 
+
+   "I don't recognize any of the other students milling about the room. Will I make any friends here? Maybe if they find out what my motivation is, they'll be a little wary around me. Most people come to this school planning to roll the dice, and they might not take kindly to someone who wants to stop the game."
+
+   "Finally, the professor enters and everyone settles down."
+
+   show pc
     
-    "Dinner with Liam was nice, but my thoughts kept drifting to what would happen afterwards. The reason I came here to begin with. My first step into what I've been thinking about for years, the beginning of my path to fixing all of the wrongs that have been done here."
-    
-    "Which is a very dramatic way of saying that it's my first day of Cursebreaking 101."
-    
-    "I don't recognize any of the other students milling about the room. Will I make any friends here? Maybe if they find out what my motivation is, they'll be a little wary around me. Most people come to this school planning to roll the dice, and they might not take kindly to someone who wants to stop the game."
-    
-    "Finally, the professor enters and everyone settles down."
-    
-    show pc
-    
-    pc "Hello, everyone, and welcome to Cursebreaking 101. I'm Professor Eli Corbet. We'll get to introductions soon, but first, I want to clear some things up."
-    
-    pc "There's no need to waste time introducing yourself if you're going to leave ten minutes in, after all."
-    
-    "Nobody says anything, but an air of uneasiness trickles into the classroom."
-    
-    pc "Cursebreaking's a fine profession. Useful skill, too, even if you decide to take a different career path. There's plenty of good schools that teach it. But you're not going to those schools. You're going to this one. And I don't need to tell you that this school's relationship with curses is a bit more complicated than most."
+   pc "Hello, everyone, and welcome to Cursebreaking 101. I'm Professor Eli Corbet. We'll get to introductions soon, but first, I want to clear some things up."
+   
+   pc "There's no need to waste time introducing yourself if you're going to leave ten minutes in, after all."
+   
+   "Nobody says anything, but an air of uneasiness trickles into the classroom."
+   
+   pc "Cursebreaking's a fine profession. Useful skill, too, even if you decide to take a different career path. There's plenty of good schools that teach it. But you're not going to those schools. You're going to this one. And I don't need to tell you that this school's relationship with curses is a bit more complicated than most."
     
     pc "I'll lay it out right here, folks. We get plenty of students who want to break the school's curse. You're not the first, and you won't be the last."
     
