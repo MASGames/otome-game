@@ -354,7 +354,7 @@ label libraryfight:
    
 label nextthing:
    
-   #Scene 4.3: Viola talks briefly to Liam's supervisor then goes to find him in the library
+   #Scene 4.3: Viola talks briefly to Liam's supervisor at the health center
    
    scene bg health center
    
@@ -378,7 +378,7 @@ label nextthing:
    
    v normal "Liam?"
    
-   "I don't see him. Instead, a woman with a long dark braid and gray eyes pops out, with a stack of clipboards in her arms."
+   "I don't see him. Instead, a woman with a long dark braid and gray eyes pops out from the hall with a stack of clipboards in her arms."
    
    show vv normal
    
@@ -386,11 +386,12 @@ label nextthing:
 
    "I head into the room. Valery is taller than I am, and moves around the room looking for something, with a sort of short, sharp energy."
    
-   "She's not wearing the usual health center robes now, but is wearing a plain colored sweater and jeans." # We probably don't need clothes descriptions once we have the sprites.
+   "She's not wearing the usual health center robes now, but is wearing a plain colored sweater and jeans." 
+   #We probably don't need clothes descriptions once we have the sprites. #just wanted this detail in to emphasize that health center people usually wear some kind of uniform when working but it can be changed
    
    vv "Ah! Here it is. Liam said he was going to borrow this today, but he went right to the library after his shift."
    
-   "She hands me the book. I flip through it briefly. It looks like a manual on the history and construction of various instruments that Healers have used."
+   "She hands me the book. I flip through it briefly. It looks like a manual on the history and construction of various instruments used by healers."
    
    "This should be useful for our project."
    
@@ -414,7 +415,7 @@ label nextthing:
    
    vv "Some students have to deal with different issues with their energy. Students with asthma, or certain chronic conditions, for example."
    
-   v "I see. A snack stash would be pretty practical to have in a health center then."
+   v "I see. A snack stash here would be pretty practical then."
    
    vv "You could take a snack for Liam too, if you want. When that kid starts working hard on something, I worry he forgets to eat, if you didn't take him to dinner so often."
    
@@ -426,7 +427,7 @@ label nextthing:
    
    v "How did you choose Healing, anyways? I know some people...don't seem to respect the major very much."
    
-   "I frown, remembering that confrontation Liam and I had with that other student in the library. I hope he isn't still bothered by it."
+   "I frown, remembering that confrontation Liam and I had with that other student in the library. I hope Liam isn't still bothered by it."
    
    "Valery looks at me, her eyes sharper, and tosses the emptied snack bag in her hand towards a trash can at the other end of the room. It lands in."
    
@@ -450,13 +451,15 @@ label nextthing:
    
    vv "It's no big deal. See you around."
    
-   "I get up, and making sure I have the book in hand, jog off to the library."
+   "I get up, and making sure I have the book in hand, head off to the library."
+
+   #Scene 4.4: Viola goes to the library and sees Liam sleeping
 
    scene bg library
    
    "I feel a little guilty as I walk into the library. I hope Liam didn't wait too long."
    
-   "The library closes up in...just under two hours, I think? That should give us enough time to make some progress."
+   "Augury's Atrium closes up in...just under two hours, I think? That should give us enough time to make some progress."
    
    #this is the scene when liam is sleeping
    
@@ -506,7 +509,7 @@ label jacketscene:
    
    "When we were smaller, it seemed like Liam had the most energy out of all of us."
    
-   "Well, energy might be the wrong word for it. Endurance, maybe, fits him better."
+   "Well, energy might be the wrong word for it. Endurance, maybe? Patience?"
    
    "Before we had Clara and Olly, Liam and I once had the bright idea of trying to find and capture our own familiars in our backyards."
    
@@ -520,7 +523,7 @@ label jacketscene:
    
    "Liam turns again again, and mumbles something."
    
-   l "...Cold"
+   l "...Cold."
    
    "He's not wearing much other than the plain button-up shirt he usually wears when working at the health center."
    
@@ -536,13 +539,15 @@ label jacketscene:
    
    "He stops moving, and his brow smoothes out."
    
-   "As I pull my hand away from the jacket, the edge of my thumb brushes against his cheek."
+   "As I pull my hand away from the jacket, my fingers accidentally brush against a few of his bangs, flattening them against his forehead."
    
-   "I breathe in. Out. There's no reason for my heartbeat to be going this fast, this suddenly."
+   "I inhale, and hold my breath. There's no reason for my heartbeat to be going this fast, this suddenly."
    
-   "I move my hand away and grab instead for one of the books next to Liam's notes, and flip through it."
+   "I move my hand away and sit back, flipping open the book that Valery, his supervisor, gave us."
    
-   "He can rest. I can still make some progress on our work."
+   "He can rest. I can still make some progress on our work, until he wakes up."
+   
+   jump librarywalk
 
 label nojacket:
 
@@ -550,8 +555,92 @@ label nojacket:
    
    "I reach out a hand and shake his shoulder, just a little."
 
-   "More to be written here later."
-   #note will likely break up the long scene 4.3 into two separate scenes later for ease of reading
+   l "...Hmmrph?"
+
+   #cg scene of liam opening his eyes
+   
+   l normal "Viola?"
+   
+   v "Yeah. It's me."
+   
+   "I pull out the chair next to him, setting out my papers and the book from Valery onto the table."
+   
+   l "I fell asleep?" 
+   
+   v "Yeah. Pretty deeply too. Were you having a good dream?"
+   
+   l "...No. Just...old memories."
+   
+   "He smiles, and there's something gentle in the curve of it. He rolls back his shoulders, and looks up at me." 
+   
+   l "I'm happy that you're the first face I see after waking up though." 
+
+   "He doesn't sound like he's lying. I flick my eyes down to a random open page in front of me, unsure of what sort of expression I would have if I looked at him now."
+   
+   l "Is that the book from Valery?"
+   
+   v "Yes."
+   
+   "I'm relieved that he's changed the topic. The project. Right. Our project for class. That project. We can talk about project stuff."
+   
+   l "We know we want to make a curse-sensing instrument. What else do you think we'll need to research for it?"
+   
+   v "Well, materials for one, whether we'll use wood or crystal or metal. How close in proximity the instrument should be to detect a curse."
+   
+   v "We'll need to make sure the instrument can differentiate between a curse and other kinds of spells of course."
+   
+   "I can't imagine what would happen if our instrument was used in a healing center for example. It would be close to useless if it couldn't detect the difference between a healing spell and a casted curse."
+
+   l "Not metal."
+   
+   v "What?"
+   
+   l "Metal has traditionally been used to break certain lower-level curses. It's fine if the aim is to break a curse, but not so much when we want to just detect it."
+   
+   v "That's right."
+   
+   "I look over at Liam, see him jotting down his notes in short, sharp motions. He really has been studying hard, hasn't he?"
+   
+   "Liam then moves on to sketches of what we think the instrument should look like."
+   
+   #Scene 4.4b that concludes both of the above scenes
+   
+label librarywalk:
+   
+   "Time passes quickly. The night shift librarian eventually drifts by to remind us that they were closing, and we needed to be out of Augury's Atrium in five minutes."
+   
+   l normal "Let me walk you back to the dorm."
+   
+   v "All right. Thank you."
+   
+   scene bg dorm 
+   
+   "The walk back to my dorm is peaceful. We don't see anything much, just the odd on-off flickering of lights in dorm windows, like fireflies."
+   
+   v "Good night, then. See you in class."
+   
+   l "Viola?"
+   
+   "I turn around."
+   
+   l "Here."
+   
+   "A soft weight rests around my neck, as Liam pulls something from his bag and loops it around me."
+   
+   l "You forgot your scarf on the library table. Thought I should pick it up for you."
+   
+   "He finishes the last loop and pulls his hand away, the air from that movement stirring past my cheek."
+   
+   v "...Thank you."
+   
+   "He smiles again at me, and closing his bag, turns to go."  
+   
+#Scene 4.5 to be written later
+   
+   
+   
+   
+  
     
    
    
