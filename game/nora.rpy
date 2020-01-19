@@ -31,3 +31,9 @@ label nora_start:
    "We don't talk much on the way to the usual spot."
 
    "Once we get settled on our usual bench, Nora turns to me."
+
+   n normal "So, partners, huh? Do you have any ideas for our project?"
+
+   v normal "Honestly, not yet. Maybe we could do something based on one of your other projects, so you can spend your time on that too? I know they're important to you."
+
+   n "That would be great! But I don't want to do something you won't enjoy. It's your project too, after all. And what we do has to involve more than just artificing."
