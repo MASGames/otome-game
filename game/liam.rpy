@@ -635,7 +635,19 @@ label librarywalk:
    
    "He smiles again at me, and closing his bag, turns to go."  
    
-#Scene 4.5 to be written later
+#Scene 4.5: Scene with a hint of Shouhei and Nora in it 
+
+   Scene bg outside
+   
+   "Today, surprisingly, is not a day for working out our project. Liam and I both attended two classes today, after all, and are now walking together outside after I had ran into him."
+   
+   "There's still a tiny bit of light out, enough to see our paths by. Around us, other students chat about their Beasts and Botany homework, or complain about a moved rehearsal time for theater club."
+   
+   "We dodge around a huge line in front of one of the school's event halls. A few glowing posters float in mid-air, colorful and glittering, but it's hard to read them with the number of people lining up in front of it."
+   
+   "Oh well. I don't feel like I would have the energy to attend it, whatever it was. There's always some new event or another every two weeks or so."
+   
+   
    
    
    
