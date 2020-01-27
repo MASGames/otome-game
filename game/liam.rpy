@@ -639,13 +639,111 @@ label librarywalk:
 
    Scene bg outside
    
-   "Today, surprisingly, is not a day for working out our project. Liam and I both attended two classes today, after all, and are now walking together outside after I had ran into him."
+   "Today, surprisingly, is not a day for working out our project. Liam and I both attended two classes today after all, and are now walking together outside after I had ran into him."
    
    "There's still a tiny bit of light out, enough to see our paths by. Around us, other students chat about their Beasts and Botany homework, or complain about a moved rehearsal time for theater club."
    
    "We dodge around a huge line in front of one of the school's event halls. A few glowing posters float in mid-air, colorful and glittering, but it's hard to read them with the number of people lining up in front of it."
    
-   "Oh well. I don't feel like I would have the energy to attend it, whatever it was. There's always some new event or another every two weeks or so."
+   "Oh well. I don't feel like I would have the energy to attend it, whatever it was. There's always some new event or another every two weeks or so. Besides, I have twenty pages of Cursebreaking reading to get to today."
+   
+   show l normal
+   
+   l: "...and that's what Professor Fletcher finished up with today."
+   
+   v: "Hmm? Sorry, I didn't hear that."
+   
+   l: "My psychology professor, Professor Fletcher. He said that the animal form that a person's familiar is in doesn't really reflect much about their personalities or their magic potential, despite some popular beliefs."
+   
+   l: "In previous centuries, the animal familiar someone had might just tell you about the geographical location they came from, but that was it."
+   
+   S1: "Liam!"
+   
+   "A student standing some distance away waves at Liam. He's jogs forward, followed by two or three other boys." 
+   
+   S1: "We got an extra box of takeout back at our dorm. You want to eat with us?"
+   
+   "Liam turns to me."
+   
+   l: "They're friends of mine from the WW club."
+   
+   S1: "The Wyderwold Wildcrafting Club. We study and sometimes forage for useful plants, wild mushrooms, things like that around the campus grounds."
+   
+   l: "Everything they collect gets inspected by a Botany professor first, to make sure it's safe."
+   
+   S1: "He's not an official member, but Liam here has been an amazing help for our club guidebook for wild plants this year."
+   
+   S1: "With your illustrations, I think it'll be our most popular volume yet."
+   
+   S1: "So food with us today? Yea or nay? If we don't hurry, you know our buddy Charles would be too happy to finish your helping."
+   
+   v: "You should go eat with your friends."
+   
+   l: "You don't...want to come along too, Viola?"
+   
+   v: "Not this time. Got things to do. Go."
+   
+   l: "All right."
+   
+   "Liam nods once, pats me on the shoulder, and walks away from me towards his group."
+   
+   "I'll see if Nora is back at the dorms yet. If she is, we could grab dinner together."
+   
+   "Between our classes and projects, I feel like we haven't chatted in a while. It could be nice to catch up."
+   
+   bg scene dorm
+   
+   v: "Nora...is not in the dorm. Dinner for one then."
+   
+   "After I finish dinner, I'm back at the dorm, a list of my readings running through my mind."
+   
+   "Huh. Nora still isn't back yet. Her schedule tacked up over her desk doesn't show any evening Wednesday classes."
+   
+   "After two hours, I feel a crick in my neck, and push back my chair. That was enough progress on my assignments for today."
+   
+   "Maybe I should stretch my legs. It's too late to go anywhere interesting in particular, but I can at least loop around the building."
+   
+   "I get out of our room, and start strolling down the hallway that glides past other doors, towards the front door of the building."
+   
+   n: "Hey, heading out?"
+   
+   "The front door swings open and closes, and I see Nora."
+   
+   v: "You're back! No, I was just walking."
+   
+   "There's the sound of footsteps going away from the door, and I squint a bit through the glass panes. Does that figure look familiar?"
+   
+   n: "Well, I'm back, yeah."
+   
+   v: "It's almost time for me to turn in I think. Where had you been?"
+   
+   "She doesn't have to answer if she doesn't want to. But from what I know of Nora's routine, she isn't usually the kind of person to stay out late." 
+   
+   "More the kind to stay up late in our dorm, scribbling over some blueprint or another on her desk."
+   
+   "Nora's expression looks a little hesitant."
+   
+   n: "I'll tell you when we're back in the room."
+   
+   "It's only a couple steps back and we lock our dorm door. I sit on my desk chair, and spin it around to face her."
+   
+   v: "So...?"
+   
+   n: "I was at that exhibit the school had today. You know, the one about decorative artifacts used by royalty?"
+   
+   v: "I think I saw the lines for that. Was it fun?"
+   
+   n: "I was with Shouhei."
+   
+   v: "Oh, you were with--"
+   
+   "With Shouhei?"
+   
+   #more to be written here later#
+   
+   
+   
+   
    
    
    
