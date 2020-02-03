@@ -709,7 +709,9 @@ label librarywalk:
    
    "The front door swings open and closes, and I see Nora."
    
-   v: "You're back! No, I was just walking."
+   show n normal
+   
+   v: "You're back! No, I was just walking around. I'm going back to our room in a bit."
    
    "There's the sound of footsteps going away from the door, and I squint a bit through the glass panes. Does that figure look familiar?"
    
@@ -729,9 +731,13 @@ label librarywalk:
    
    v: "So...?"
    
-   n: "I was at that exhibit the school had today. You know, the one about decorative artifacts used by royalty?"
+   n: "I was at that exhibit the school had today."
    
-   v: "I think I saw the lines for that. Was it fun?"
+   v: "I think I saw the lines for that. What was it called? I didn't read the posters for that too closely."
+   
+   n: "The exhibit? Divine Rites: Artifacts for Changing Fates and Fortunes. Pretty fascinating stuff."
+   
+   v: "It looked really popular. Did you go with some of your artificing major friends to that or--?"
    
    n: "I was with Shouhei."
    
@@ -739,7 +745,43 @@ label librarywalk:
    
    "With Shouhei?"
    
-   #more to be written here later#
+   n: "Yeah. We happened to run into each other when we were waiting in line, and ended up chatting a lot around the exhibit."
+   
+   v: "..."
+   
+   n: "Viola? Are you...surprised? I know you told us at the beginning of the year about the whole mess between your families and--so--"
+   
+   v: "You thought it would be awkward for me to hear that you had seen him?"
+   
+   n: "Yeah. Are you--?"
+   
+   "I don't know if she's going to ask me if I'm angry or upset or anything like that. I'd rather she didn't."
+   
+   v: "It's fine. He's one of our classmates. I'm not going to faint away from shock if you two ended up hanging out or anything."
+   
+   "Well. That's what I say. I don't know if it sounds sincere enough for Nora to believe me."
+   
+   "I'm not mad about it, but if. Nora, my roommate, ends up being closer friends with Shouhei than with me, I think it might bother me. Just a little."
+   
+   "But that's more of a problem for me to deal with. Not them."
+   
+   v: "I have talked with him a couple times in between class. He goes to school here too. It's not surprising if people I know see him."
+   
+   n: "Okay. If you're okay with it..."
+   
+   v: "I would prefer it if he's not hanging out in our room here, but anything else is okay. Okay?"
+   
+   n: "Okay."
+   
+   v: "Okay."
+   
+   v: "I think that might be one OK too many in one conversation. I need to sleep."
+   
+   n: "Haha, okay. Yeah. Night!"
+   
+   "On her desk somewhere behind me, I hear the familiar sounds of Nora firing up her artificing tools, working on another one of her endless list of projects."
+   
+   "I slide under the covers of my bed, and fall fast asleep."
    
    
    
