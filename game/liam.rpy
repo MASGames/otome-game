@@ -637,7 +637,7 @@ label librarywalk:
    
 #Scene 4.5: Scene with a hint of Shouhei and Nora in it 
 
-   Scene bg outside
+   scene bg outdoors
    
    "Today, surprisingly, is not a day for working out our project. Liam and I both attended two classes today after all, and are now walking together outside after I had ran into him."
    
@@ -691,7 +691,7 @@ label librarywalk:
    
    "Between our classes and projects, I feel like we haven't chatted in a while. It could be nice to catch up."
    
-   bg scene dorm
+   scene bg dorm
    
    v "Nora...is not in the dorm. Dinner for one then."
    
