@@ -657,25 +657,25 @@ label librarywalk:
    
    l "In previous centuries, the animal familiar someone had might just tell you about the geographical location they came from, but that was it."
    
-   S1 "Liam!"
+   s1 "Liam! Oi!"
    
    "A student standing some distance away waves at Liam. He's jogs forward, followed by two or three other boys." 
    
-   S1 "We got an extra box of takeout back at our dorm. You want to eat with us?"
+   s1 "We got an extra box of takeout back at our dorm. You want to eat with us?"
    
    "Liam turns to me."
    
-   l "They're friends of mine from the WW club."
+   l "They're friends of mine from the WW club. That's the club president."
    
-   S1 "The Wyderwold Wildcrafting Club. We study and sometimes forage for useful plants, wild mushrooms, things like that around the campus grounds."
+   s1 "The Wyderwold Wildcrafting Club. We study and sometimes forage for useful plants, wild mushrooms, things like that around the campus grounds."
    
    l "Everything they collect gets inspected by a Botany professor first, to make sure it's safe."
    
-   S1 "He's not an official member, but Liam here has been an amazing help for our club guidebook for wild plants this year."
+   s1 "He's not an official member, but Liam here has been an amazing help for our club guidebook for wild plants this year."
    
-   S1 "With your illustrations, I think it'll be our most popular volume yet."
+   s1 "With your illustrations, I think it'll be our most popular volume yet."
    
-   S1 "So dinner with us today? Yea or nay? If we don't hurry, you know Charles would be too happy to finish your helping."
+   s1 "So dinner with us today? Yea or nay? If we don't hurry, you know Charles would be too happy to finish your helping."
    
    v "You should go eat with your friends."
    
