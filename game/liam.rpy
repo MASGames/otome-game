@@ -761,7 +761,9 @@ label librarywalk:
    
    "Well. That's what I say. I don't know if it sounds sincere enough for Nora to believe me."
    
-   "I'm not mad about it, but if. Nora, my roommate, ends up being closer friends with Shouhei than with me, I think it might bother me. Just a little."
+   "I'm not mad about it. I'm not."
+   
+   "But if Nora, my roommate, ends up being closer friends with Shouhei than with me, I think it might bother me. Just a little."
    
    "But that's more of a problem for me to deal with. Not them."
    
