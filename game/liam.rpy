@@ -649,41 +649,41 @@ label librarywalk:
    
    show l normal
    
-   l: "...and that's what Professor Fletcher finished up with today."
+   l "...and that's what Professor Fletcher finished up with today."
    
-   v: "Hmm? Sorry, I didn't hear that."
+   v "Hmm? Sorry, I didn't hear that."
    
-   l: "My psychology professor, Professor Fletcher. He said that the animal form that a person's familiar is in doesn't really reflect much about their personalities or their magic potential, despite some popular beliefs."
+   l "My psychology professor, Professor Fletcher. He said that the animal form that a person's familiar is in doesn't really reflect much about their personalities or their magic potential, despite some popular beliefs."
    
-   l: "In previous centuries, the animal familiar someone had might just tell you about the geographical location they came from, but that was it."
+   l "In previous centuries, the animal familiar someone had might just tell you about the geographical location they came from, but that was it."
    
-   S1: "Liam!"
+   S1 "Liam!"
    
    "A student standing some distance away waves at Liam. He's jogs forward, followed by two or three other boys." 
    
-   S1: "We got an extra box of takeout back at our dorm. You want to eat with us?"
+   S1 "We got an extra box of takeout back at our dorm. You want to eat with us?"
    
    "Liam turns to me."
    
-   l: "They're friends of mine from the WW club."
+   l "They're friends of mine from the WW club."
    
-   S1: "The Wyderwold Wildcrafting Club. We study and sometimes forage for useful plants, wild mushrooms, things like that around the campus grounds."
+   S1 "The Wyderwold Wildcrafting Club. We study and sometimes forage for useful plants, wild mushrooms, things like that around the campus grounds."
    
-   l: "Everything they collect gets inspected by a Botany professor first, to make sure it's safe."
+   l "Everything they collect gets inspected by a Botany professor first, to make sure it's safe."
    
-   S1: "He's not an official member, but Liam here has been an amazing help for our club guidebook for wild plants this year."
+   S1 "He's not an official member, but Liam here has been an amazing help for our club guidebook for wild plants this year."
    
-   S1: "With your illustrations, I think it'll be our most popular volume yet."
+   S1 "With your illustrations, I think it'll be our most popular volume yet."
    
-   S1: "So food with us today? Yea or nay? If we don't hurry, you know our buddy Charles would be too happy to finish your helping."
+   S1 "So dinner with us today? Yea or nay? If we don't hurry, you know Charles would be too happy to finish your helping."
    
-   v: "You should go eat with your friends."
+   v "You should go eat with your friends."
    
-   l: "You don't...want to come along too, Viola?"
+   l "You don't...want to come along too, Viola?"
    
-   v: "Not this time. Got things to do. Go."
+   v "Not this time. Got things to do. Go."
    
-   l: "All right."
+   l "All right."
    
    "Liam nods once, pats me on the shoulder, and walks away from me towards his group."
    
@@ -693,11 +693,11 @@ label librarywalk:
    
    bg scene dorm
    
-   v: "Nora...is not in the dorm. Dinner for one then."
+   v "Nora...is not in the dorm. Dinner for one then."
    
    "After I finish dinner, I'm back at the dorm, a list of my readings running through my mind."
    
-   "Huh. Nora still isn't back yet. Her schedule tacked up over her desk doesn't show any evening Wednesday classes."
+   "Hm. Nora still isn't back yet. Her schedule tacked up over her desk doesn't show any evening Wednesday classes."
    
    "After two hours, I feel a crick in my neck, and push back my chair. That was enough progress on my assignments for today."
    
@@ -705,19 +705,19 @@ label librarywalk:
    
    "I get out of our room, and start strolling down the hallway that glides past other doors, towards the front door of the building."
    
-   n: "Hey, heading out?"
-   
-   "The front door swings open and closes, and I see Nora."
+   n "Hey, heading out?"
    
    show n normal
    
-   v: "You're back! No, I was just walking around. I'm going back to our room in a bit."
+   "The front door swings open and closes, and I see Nora."
+   
+   v "You're back! No, I was just walking around. I'm going back to our room in a bit."
    
    "There's the sound of footsteps going away from the door, and I squint a bit through the glass panes. Does that figure look familiar?"
    
-   n: "Well, I'm back, yeah."
+   n "Well, I'm back, yeah."
    
-   v: "It's almost time for me to turn in I think. Where had you been?"
+   v "It's almost time for me to turn in I think. Where had you been?"
    
    "She doesn't have to answer if she doesn't want to. But from what I know of Nora's routine, she isn't usually the kind of person to stay out late." 
    
@@ -725,39 +725,39 @@ label librarywalk:
    
    "Nora's expression looks a little hesitant."
    
-   n: "I'll tell you when we're back in the room."
+   n "I'll tell you when we're back in the room."
    
    "It's only a couple steps back and we lock our dorm door. I sit on my desk chair, and spin it around to face her."
    
-   v: "So...?"
+   v "So...?"
    
-   n: "I was at that exhibit the school had today."
+   n "I was at that exhibit the school had today."
    
-   v: "I think I saw the lines for that. What was it called? I didn't read the posters for that too closely."
+   v "I think I saw the lines for that. What was it called? I didn't read the posters for that too closely."
    
-   n: "The exhibit? Divine Rites: Artifacts for Changing Fates and Fortunes. Pretty fascinating stuff."
+   n "The exhibit? Divine Rites: Artifacts for Changing Fates and Fortunes. Pretty fascinating stuff."
    
-   v: "It looked really popular. Did you go with some of your artificing major friends to that or--?"
+   v "It looked really popular. Did you go with some of your artificing major friends to that or--?"
    
-   n: "I was with Shouhei."
+   n "I was with Shouhei."
    
-   v: "Oh, you were with--"
+   v "Oh, you were with--"
    
    "With Shouhei?"
    
-   n: "Yeah. We happened to run into each other when we were waiting in line, and ended up chatting a lot around the exhibit."
+   n "Yeah. We happened to run into each other when we were waiting in line, and ended up chatting a lot around the exhibit."
    
-   v: "..."
+   v "..."
    
-   n: "Viola? Are you...surprised? I know you told us at the beginning of the year about the whole mess between your families and--so--"
+   n "Viola? Are you...surprised? I know you told us at the beginning of the year about the whole mess between your families and--so--"
    
-   v: "You thought it would be awkward for me to hear that you had seen him?"
+   v "You thought it would be awkward for me to hear that you had seen him?"
    
-   n: "Yeah. Are you--?"
+   n "Yeah. Are you--?"
    
    "I don't know if she's going to ask me if I'm angry or upset or anything like that. I'd rather she didn't."
    
-   v: "It's fine. He's one of our classmates. I'm not going to faint away from shock if you two ended up hanging out or anything."
+   v "It's fine. He's one of our classmates. I'm not going to pass out from shock if you two ended up hanging out or anything."
    
    "Well. That's what I say. I don't know if it sounds sincere enough for Nora to believe me."
    
@@ -765,23 +765,23 @@ label librarywalk:
    
    "But that's more of a problem for me to deal with. Not them."
    
-   v: "I have talked with him a couple times in between class. He goes to school here too. It's not surprising if people I know see him."
+   v "I have talked with him a couple times in between class. He goes to school here too. It's not surprising if people I know see him."
    
-   n: "Okay. If you're okay with it..."
+   n "Okay. If you're okay with it..."
    
-   v: "I would prefer it if he's not hanging out in our room here, but anything else is okay. Okay?"
+   v "I would prefer it if he's not hanging out in our room here, but anything else is okay. Okay?"
    
-   n: "Okay."
+   n "Okay."
    
-   v: "Okay."
+   v "Okay."
    
-   v: "I think that might be one OK too many in one conversation. I need to sleep."
+   v "I think that might be one OK too many in one conversation. I need to sleep."
    
-   n: "Haha, okay. Yeah. Night!"
+   n "Haha, okay. Yeah. I'll still be up for a while but sleep well."
    
-   "On her desk somewhere behind me, I hear the familiar sounds of Nora firing up her artificing tools, working on another one of her endless list of projects."
+   "On her desk somewhere behind me, I hear the familiar sounds of Nora firing up her artificing tools, working on another one of her projects."
    
-   "I slide under the covers of my bed, and fall fast asleep."
+   "I slide under the covers of my bed, wondering if I care that she and Shouhei have spent time together. Before I can ponder more on my feelings about it, I end up falling fast asleep."
    
    
    
