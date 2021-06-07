@@ -318,6 +318,7 @@ label start:
    scene bg #CG scene: Viola and Liam staring at the person standing in front of the door, Nora and Colin confused in background
 
    v "That person is--" #I'm sure there's a way to show a character's name without showing their sprite, but actually, what do you guys think about showing sprites at Viola's location during CGs? It's especially useful for if the CGs don't show everyone's faces. We'd just have to make and define new side images.
+#I think having side images for sprites could be distracting since im not inclined to fully check all the code there. one thing i was considering for shouhei's appearance was to have his silhouette do a fade in into the scene on top of the CG somehow? instead of having a side image. my assumption was the CG would have all the important characters in there anyways, except for mysterious appearances.
 
    pm "Shouhei Utsurikawa, was it? Come in, come in--take a seat anywhere that's free!"
 
@@ -2896,7 +2897,7 @@ label walkaway:
    
 label shouhei4a:
 
-   v "That's...definitely not normal behavior." # Would she be saying this out loud?
+   v "That's...definitely not normal behavior." # Would she be saying this out loud? #Counting it as a VN game mechanic conceit for them to talk to themselves sometimes haha. 
    
    "I run down the hallway, right up to the room he had gone into."
    
