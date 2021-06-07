@@ -1958,7 +1958,7 @@ label posthomework:
    
    s "..."
    
-   "I turn my head slowly to the left, to peek through window carved--no, combined--with the wing. The boat is clearly already in the middle of the river."
+   "I turn my head slowly to the left, to peek through the window carved--no, combined--with the wing. The boat is clearly already in the middle of the river."
     
    "The space feels small. Even if the boat was meant to carry up to 4 students, Shouhei and I are the only ones in here right now."
    
