@@ -837,25 +837,25 @@ label librarywalk:
    
    "The noise I made has made them turn around. The friend behind her at their table giggles, looking a little embarrassed." 
    
-   #add instructions to show student. later will add instructions for Lottie's character name."
-   
    s1 "I have an event to head off to Lottie! I hate to go, but I have to leave you here now."
    
    "The first student goes. I look at the second student who had spoken so casually about Liam, as if she knew anything about him."
    
    v angry "Lottie, was it?"
    
-   s2 "Yes. You're...ah. The girl who always shows up at the health center when we close. Vanessa?"
+   show la
+   
+   la "Yes. Lottie Arch. And you are...? Ah. The girl who always shows up at the health center when we close. Vanessa?"
    
    v angry "Viola."
    
-   s2 "So it is." 
+   la "So it is." 
    
    "Lottie smiles, unruffled and sweet. Her eyes flicker over my expression, for a moment with a vaguely cold analysis, a degree cooler than her smile."
    
    "Her expression is thoroughly unshaken--it's a kind of smile I've seen before at parties, when my family used to hold them. Teeth in an amused curve, with porcelain gloss."
    
-   s2 "Viola. Yes--Liam has mentioned you before, I believe. Sorry if my conversation seems to have upset you. But it's rude to eavesdrop, is it not?"
+   la "Viola. Yes--Liam has mentioned you before, I believe. Sorry if my conversation seems to have upset you. But it's rude to eavesdrop, is it not?"
    
    "Too bad. I couldn't forget the conversation even as much as I like to, what with my back to the bench close enough to their table to hear every word."
    
@@ -863,29 +863,29 @@ label librarywalk:
    
    v normal "It's rude to insult someone's close friend in public, whether you were aware that someone could hear or not. Isn't that so?"
    
-   s2 "Insult? I hope you didn't misunderstand--I just spoke my thoughts, in a private conversation with friends. Your personal connection to Liam has no bearing on it."
+   la "Insult? I hope you didn't misunderstand--I just spoke my thoughts, in a private conversation with friends. Your personal connection to Liam has no bearing on it."
    
-   v "No matter what anyone else may think of him, first or second or last--personally, he is someone important to me! Not that I expect you to understand that."
+   v "No matter what anyone else may think of him--personally, he is someone important to me! I don't expect you to understand that."
    
    "Lottie looks up, her gaze more pointed now."
    
-   s2 "He must possess more good points than I thought, for someone to speak so passionately for him. I'll consider him more seriously."
+   la "He must possess more good points than I thought, for someone to speak so passionately for him. I'll consider him more seriously."
    
    v "You--what do you mean to do?"
    
-   s2 "As I said. If he has an interest in me, I'll accept it. Everything I said about our compatibility was true, after all." 
+   la "As I said. If he has an interest in me, I'll accept it. Everything I said about our compatibility was true, after all." 
    
    "Suddenly, irrationally, I'm even more furious. I know--people can judge others, are allowed to make decisions on those judgments but the way she had spoken--"
    
    "Someone who would leave Liam so lightly, if someone else came into their eyes, someone she saw as better--"
    
-   s2 "I like to make my own choices supported by my own reasoning. I honestly have some interest in Liam. I'm not indifferent."
+   la "I like to make my own choices supported by my own reasoning. I honestly have some interest in Liam. I'm not indifferent."
 
    "You can stay indifferent. I wish--I don't want him to--"
    
-   s2 "You two were friends when you were young, weren't you? But then, we all know--" 
+   la "You two were friends when you were young, weren't you? But then, we all know--" 
    
-   s2 "Children do grow up, in the end. What do you have to offer him now, other than childhood sentiments?"
+   la "Children do grow up, in the end. What do you have to offer him now, other than childhood sentiments?"
    
    "I open my mouth to speak, say something to refute her, to shout, to scream--"
    
@@ -893,9 +893,9 @@ label librarywalk:
    
    "Lottie turns to look towards a direction, and shrugs. Picks up her bag from a chair."
    
-   s2 "Sorry again for stirring up an argument with you. I might see you around."
+   la "Sorry again for stirring up an argument with you. I might see you around."
    
-   #instructions for s2 leaving.
+   hide la
    
    "I breathe in, out. Nothing but the smell of cold air, damp stone and wood. I couldn't believe how angry I had been."
    
@@ -905,6 +905,49 @@ label librarywalk:
    
    l "I thought it was odd you didn't answer my earlier text. What are you standing out here for when we could be inside?" 
    
-   #finish rest of scene later
+   v "...Just thinking of something annoying. I didn't even notice it had been getting colder out here. You had texted?"
+
+   l "Well, I'm here now. It's easier to tell you--I got a new letter from my parents." 
+
+   #honestly idk if mothers or parents sound more natural in this line, you guys just lmk 
+   
+   l "They had been delayed up north for a short time--took a side trip to look at lichens, and Marjorie got sort of carried away with carting off too many rock samples on where they grew--"
+   
+   l "They say they'll still be traveling up until spring, but when it's summer, they said you are welcome to visit me, and see them again too." 
+   
+   "He's smiling. His familiar, Clara, is on his shoulder too, looking at me bright-eyed."
+   
+   "The anger I had been previously feeling dissipates. Not gone, but calmed, hurtling waves to slow-rolling ripples." 
+   
+   v "You would...want me to see you?" 
+   
+   l "I'm...yeah. I know I would like to see you. We can make up for some of that lost time."
+   
+   v "You mean that?"
+   
+   "It's not insecurity that pushes me to ask, I don't think. There are so many other things Liam could be doing then--summer is when he can keep busy with his own growing garden, his Healing studies." 
+   
+   l "Even if you're busy, I..."
+   
+   "Liam turns his head, fiddles with the lining of his hood."
+   
+   l "Even if it's 1am in the middle of the night and I'm dead asleep, if you were the one who knocked at my window I would answer you."
+
+   v "Now I know you can't really mean that. You were always the angriest one out of all of us if someone woke you up too early."
+   
+   l "Hey, you can't think someone with a face as good-looking as mine would lie to you, would you? Besides--I wouldn't mind getting up if you were the one who needed me."
+   
+   "I laugh." 
+   
+   v "Okay--I give up, this is a dumb argument anyways."
+   
+   "Winter has arrived, and still--outside, the light gleams with warmth off of Liam's face as we walk to get hot drinks, as he talks animatedly about medicinal uses of lichen."
+   
+   "The cafe doesn't have enough left over for my favorite order after Liam buys his--so he asks for a second empty cup and pours half of his drink into it, so we can share it between us."
+   
+   #Scene 5.2 ???
+   
+   
+   
    
    
