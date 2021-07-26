@@ -791,7 +791,7 @@ label librarywalk:
    
    scene bg outdoors
    
-   "It really is winter now. When I look at the trees and buildings and windows, I almost imagine I can see the frost glazing over it in real-time, tinting everything with silvery sheen." 
+   "It really is winter now. When I look at the trees and buildings and windows, I almost imagine I can see the frost glazing over it in real-time, tinting everything with a silvery sheen." 
    
    "I tuck my hands into my pockets. Olly is taking a rest inside my phone. He has been working hard with me and Liam after all, with all our tests on our curse detector in progress." 
    
@@ -890,6 +890,8 @@ label librarywalk:
    "I open my mouth to speak, say something to refute her, to shout, to scream--"
    
    "A bell marking the hour rings through the air. It cuts cleanly through my thoughts, through the tense atmosphere."
+   
+   #add school bell sound later
    
    "Lottie turns to look towards a direction, and shrugs. Picks up her bag from a chair."
    
