@@ -912,6 +912,7 @@ label librarywalk:
    l "Well, I'm here now. It's easier to tell you--I got a new letter from my parents." 
 
    #honestly idk if mothers or parents sound more natural in this line, you guys just lmk 
+   # Parents is fine, but we should decide what Liam calls his moms, if we haven't already--I think "mom" and "mama" are what lesbian couples usually go with? Not first names, definitely.
    
    l "They had been delayed up north for a short time--took a side trip to look at lichens, and Marjorie got sort of carried away with carting off too many rock samples on where they grew--"
    
