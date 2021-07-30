@@ -18,6 +18,7 @@ define kc = Character("Ken", image = "kc")
 define vf = Character("Viola's Father")
 define vm = Character("Viola's Mother")
 define vv = Character("Valery")
+define la = Character("Lottie", image = "la") 
 
 define audio.dooropen = "Door Squeak.mp3"
 define audio.magiceffect = "shootingstar.mp3"
@@ -134,7 +135,7 @@ label start:
    
    "The dorm administrators set up a station in the main hall of the dorms, where you can leave your boxes and they'll be dealt with appropriately." 
    
-   "I'm sure if recycling is exactly the right word, given that I also heard that that was where you were supposed to go to get materials to pack up for the summer." 
+   "I'm not sure if recycling is exactly the right word, given that I also heard that that was where you were supposed to go to get materials to pack up for the summer." 
    
    "It seems like a waste if they're going to end up breaking the boxes down at the beginning of the year just to reconstitute them into...more boxes, at the end of the year. But as far as I'm concerned, the boxes will be out of my dorm room and not my problem anymore, which is all I need to know."
    
@@ -315,9 +316,10 @@ label start:
 
    mystery "Sorry for being late, Professor."
 
-   scene bg #CG scene: Viola and Liam staring at the person standing in front of the door, nora and Colin confused in background
+   scene bg #CG scene: Viola and Liam staring at the person standing in front of the door, Nora and Colin confused in background
 
    v "That person is--" #I'm sure there's a way to show a character's name without showing their sprite, but actually, what do you guys think about showing sprites at Viola's location during CGs? It's especially useful for if the CGs don't show everyone's faces. We'd just have to make and define new side images.
+#I think having side images for sprites could be distracting since im not inclined to fully check all the code there. one thing i was considering for shouhei's appearance was to have his silhouette do a fade in into the scene on top of the CG somehow? instead of having a side image. my assumption was the CG would have all the important characters in there anyways, except for mysterious appearances.
 
    pm "Shouhei Utsurikawa, was it? Come in, come in--take a seat anywhere that's free!"
 
@@ -407,15 +409,13 @@ label health1:
     
    "He’s with someone else. Another student. It looks like their bird familiar has some kind of issue."
     
-   l "Just remember to let him rest after every 3 cycles or so, and he will be fine. Come back again if he starts having issues later. You’ll both be all right now."
+   l "Just remember to let him rest after every 3 cycles or so, and he will be fine. Come back again if he starts having issues later. You’ll both be all right now." #Wouldn't healing be more for physical injuries, actually? Fixing digital familiars is more Nora than Liam.
     
    "The familiar--a grey plover--nuzzles Liam’s hand before sinking back into its phone. It’s easy for many people (and their familiars) to trust Liam, with his calm presence and his reassuring voice. That reminds me..."
     
    #Do we want to have child sprites for Viola, Liam, and Shouhei? If so, we should use them here. If not, maybe we should keep the whole scene black; it'd need a few different CGs to convey the progression of events, and it's short enough that that's not really practical.
     
    scene bg black
-
-   # should we have separate child sprites for Liam and Viola?
 
    l "Viola! Viola! Where are you?"
     
@@ -523,7 +523,7 @@ label lake1:
 
    hide o
    
-   "It’s a nice day. The outdoors would be a great spot to relax and eat lunch, especially after the crowded classroom. I jiggle the doorhandle of the exit until the door turns from red to rust-orange to blue, and push it open. The air is cool, and smells like sun-warmed grass, a hint of pine."
+   "It’s a nice day. The outdoors would be a great spot to relax and eat lunch, especially after the crowded classroom. I jiggle the doorhandle of the exit until the door turns from red to rust-orange to blue, and push it open. The air is cool, and smells like sun-warmed grass, a hint of pine." # I've apparently completely forgotten this worldbuilding aspect, but I think Michelle did too, given that there's no reference to it in the start of Liam's scene. Why do we have it again? It doesn't seem very practical for a room lots of people would be leaving at once.
     
    "The school tries to keep the environment comfortable for students most of the time, so the weather tends to be more temperate. I have heard there was some tricky spellwork that cordoned off a certain lab building on campus to include about ten different kinds of land and habitat types. The BB students sure love that feature." 
     
@@ -663,7 +663,7 @@ label garden1:
     
    "I'm sure I can find a nice place to eat lunch there, and maybe I'll have time to wander around a bit more before my next class." 
     
-   "Luckily, everyone else is gone now, so there's no waiting or arguing over the door. The last person left it on an eye-wateringly bright pink--wherever that goes--so I pull on it to reset to default grey, then turn it to exit the building." 
+   "Luckily, everyone else is gone now, so there's no waiting or arguing over the door. The last person left it on an eye-wateringly bright pink--wherever that goes--so I pull on it to reset to default grey, then turn it to exit the building." # Same as my note for the start of Shouhei's scene.
     
    "The sun feels nice on my face, but it's just warm enough that the intermittent shade once I enter the gardens feels good, too. I wander for a while, letting my feet go where they will." 
     
@@ -882,11 +882,11 @@ label colin1:
     
     c "Yeah."
     
-    "Remember me as I lived: good at standardized tests, bad at...this."
+    "Remember me as I lived: good at essay questions, bad at...this."
     
     l "Viola!"
     
-    "Liam's head pokes out from behind another door. I'm saved! He smiles when he sees me and waves, the holograph of Clara nestling on top of his head."
+    "Liam's head pokes out from behind another door. I'm saved! He smiles when he sees me and waves, the holograph of Clara nestling on top of his head." # I know I'm the one who wrote this, but I don't remember what I thought the other doors were. I should probably edit this scene a little later.
     
     c "I'm gonna...let you two talk now."
     
@@ -916,7 +916,7 @@ label liampostcolin:
 
    "Colin hangs his towel over the back of a chair and fully zips up his jacket. The door opens with a creak and closes behind him."
 
-   "I walk into the room, to see their shared dorm room. Other than the small living area and kitchen area where Colin had been standing, the rest of the room is neat. In decent shape." 
+   "I walk farther inside, to see their shared dorm room. Other than the small living area and kitchen area where Colin had been standing, the rest of the room is neat. In decent shape." 
    
    "Liam's space has a cheerful blue plaid quilt over his bed, some open textbooks on top of his desk, and no boxes to be seen anywhere on the floor."
    
@@ -1085,7 +1085,7 @@ label common_nora1:
 
    v "Not a whole lot, anymore, to be honest. It's usually a lot of networking--talking with the other high families, working together to solve issues in magical society. Or, you know, backstabbing each other and stealing the credit. That happens a lot, too." 
    
-   # All society is magical, so maybe that word isn't necessary?
+   # All society is magical, so maybe that word isn't necessary? But just "solve issues in society" sounds a bit grand.
 
    v "No one really wants to work with the family whose heir got a life sentence for actually stabbing someone in the back, though. So." 
 
@@ -1824,7 +1824,7 @@ label posthomework:
 
    n "And then there are our oldest customers, who've had the same familiar for decades, but can no longer see or hear them as well anymore--or the phone, either. Those break my heart the most." 
 
-   "I nod again. My grandparents are still alive and in good health, my grandmather happily telling my father all the things she would be doing differently if she was still in charge of the family." 
+   "I nod again. My grandparents are still alive and in good health, my grandmother happily telling my father all the things she would be doing differently if she was still in charge of the family." 
 
    "(One minor side benefit to proving Eliza's innocence: I won't have to deal with my dad doing the exact same thing, when he decides it's time to retire and hand down the reins.  Because I already know that he absolutely will.)" 
 
@@ -1960,7 +1960,7 @@ label posthomework:
    
    s "..."
    
-   "I turn my head slowly to the left, to peek through window carved--no, combined--with the wing. The boat is clearly already in the middle of the river."
+   "I turn my head slowly to the left, to peek through the window carved--no, combined--with the wing. The boat is clearly already in the middle of the river."
     
    "The space feels small. Even if the boat was meant to carry up to 4 students, Shouhei and I are the only ones in here right now."
    
@@ -2898,7 +2898,7 @@ label walkaway:
    
 label shouhei4a:
 
-   v "That's...definitely not normal behavior." # Would she be saying this out loud?
+   v "That's...definitely not normal behavior." # Would she be saying this out loud? #Counting it as a VN game mechanic conceit for them to talk to themselves sometimes haha. 
    
    "I run down the hallway, right up to the room he had gone into."
    

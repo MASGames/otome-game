@@ -785,25 +785,170 @@ label librarywalk:
    
    "I slide under the covers of my bed, wondering if I care that she and Shouhei have spent time together. Before I can ponder more on my feelings about it, I end up falling fast asleep."
    
+   ###LIAM'S ROUTE: MONTH FIVE BEGINS###
    
+   #Scene 5.1 Brief love rival scene and exposition on liam's family
    
+   scene bg outdoors
    
+   "It really is winter now. When I look at the trees and buildings and windows, I almost imagine I can see the frost glazing over it in real-time, tinting everything with a silvery sheen." 
    
+   "I tuck my hands into my pockets. Olly is taking a rest inside my phone. He has been working hard with me and Liam after all, with all our tests on our curse detector in progress." 
    
+   "Professor Reynell from Cursebreaking class had agreed to look at our project notes too, early next week, to see if we were heading in the right direction. At our current pace, I'm fairly confident that Liam and I will have a decent project to turn in by the deadline."
    
+   "I roll back my shoulders and sink my head lower into my scarf as a cold breeze sweeps by. My fingers play with the fringe a little--this is the same scarf that Liam had returned to me, not too long ago."
    
+   "I hope he remembered to bring his gloves and scarf with him today too with these temperatures--with how busy he is, it wouldn't surprise me if things slipped from his mind every so often."
    
+   "The bench I'm sitting on isn't too cozy. I consider whether I should head to one of the school cafes to get a drink when--"
    
-  
+   s1 "...you're considering him? Really? Liam from the health center?"
+   
+   s2 "You sound as if you've some objections. I have my reasons." 
+   
+   "My back stiffens. I only know one Liam who works at the health center. He hasn't mentioned any other students there that share his name. Why are they talking about him?"
+   
+   "The voice of the second student, that of a girl most likely, continues, sweet and light as sugar crystals falling into a glass--"
+   
+   s2 "Even if he isn't a first-choice pick, his looks are good enough." 
+   
+   s2 "In terms of money--true, it is a little lacking there. But my family is stable enough, and our company's investments in high-demand magical properties has bright prospects."
+   
+   s2 "In terms of magical ability, if I continue with my Healing major, we have enough similar knowledge to find things to talk about. We wouldn't bore each other."
+   
+   s1 "So my question is--for this Liam, you really like him?"
+   
+   s2 "Who knows? He's easy to get along with, when he's showing me how things work at the health center for my job. I wouldn't say no to going to the winter ball with him."
+   
+   s1 "Oh? So he's just an option you like out of convenience."
+   
+   s2 "You make me sound so cruel. Like I said, he's not my first-choice pick from the whole class, but he's nice enough to while away some time with."
+   
+   s2 "If there's a better option down the road, I can leave him then. Many fish in the sea, and all that."
     
+   "There's an obvious, loud sound as I stand from the bench. Something clatters to the ground--my bookbag?" 
    
+   "My teeth dig into my bottom lip. 'Not a first-choice pick?' 'She can leave him then?' Who could say such things? About Liam?"
    
+   "From where I had turned around, I can't see much--though from the second student who had finished speaking, all I can see is a chignon of hair, tied off with a thin pale ribbon."
    
+   s2 "Oh?"
    
+   "The noise I made has made them turn around. The friend behind her at their table giggles, looking a little embarrassed." 
    
+   s1 "I have an event to head off to Lottie! I hate to go, but I have to leave you here now."
    
+   "The first student goes. I look at the second student who had spoken so casually about Liam, as if she knew anything about him."
    
+   v angry "Lottie, was it?"
    
+   show la
+   
+   la "Yes. Lottie Arch. And you are...? Ah. The girl who always shows up at the health center when we close. Vanessa?"
+   
+   v angry "Viola."
+   
+   la "So it is." 
+   
+   "Lottie smiles, unruffled and sweet. Her eyes flicker over my expression, for a moment with a vaguely cold analysis, a degree cooler than her smile."
+   
+   "Her expression is thoroughly unshaken--it's a kind of smile I've seen before at parties, when my family used to hold them. Teeth in an amused curve, with porcelain gloss."
+   
+   la "Viola. Yes--Liam has mentioned you before, I believe. Sorry if my conversation seems to have upset you. But it's rude to eavesdrop, is it not?"
+   
+   "Too bad. I couldn't forget the conversation even as much as I like to, what with my back to the bench close enough to their table to hear every word."
+   
+   "I have to calm myself. Whatever we say here will also be in public, where any passing student or teacher could see."
+   
+   v normal "It's rude to insult someone's close friend in public, whether you were aware that someone could hear or not. Isn't that so?"
+   
+   la "Insult? I hope you didn't misunderstand--I just spoke my thoughts, in a private conversation with friends. Your personal connection to Liam has no bearing on it."
+   
+   v "No matter what anyone else may think of him--personally, he is someone important to me! I don't expect you to understand that."
+   
+   "Lottie looks up, her gaze more pointed now."
+   
+   la "He must possess more good points than I thought, for someone to speak so passionately for him. I'll consider him more seriously."
+   
+   v "You--what do you mean to do?"
+   
+   la "As I said. If he has an interest in me, I'll accept it. Everything I said about our compatibility was true, after all." 
+   
+   "Suddenly, irrationally, I'm even more furious. I know--people can judge others, are allowed to make decisions on those judgments but the way she had spoken--"
+   
+   "Someone who would leave Liam so lightly, if someone else came into their eyes, someone she saw as better--"
+   
+   la "I like to make my own choices supported by my own reasoning. I honestly have some interest in Liam. I'm not indifferent."
+
+   "You can stay indifferent. I wish--I don't want him to--"
+   
+   la "You two were friends when you were young, weren't you? But then, we all know--" 
+   
+   la "Children do grow up, in the end. What do you have to offer him now, other than childhood sentiments?"
+   
+   "I open my mouth to speak, say something to refute her, to shout, to scream--"
+   
+   "A bell marking the hour rings through the air. It cuts cleanly through my thoughts, through the tense atmosphere."
+   
+   #add school bell sound later
+   
+   "Lottie turns to look towards a direction, and shrugs. Picks up her bag from a chair."
+   
+   la "Sorry again for stirring up an argument with you. I might see you around."
+   
+   hide la
+   
+   "I breathe in, out. Nothing but the smell of cold air, damp stone and wood. I couldn't believe how angry I had been."
+   
+   "Not because somebody wanted to go to the winter ball with him or thought of dating Liam. He's smart and gentle-hearted, popular with those he meets. So why was I so--?"
+   
+   show l normal
+   
+   l "I thought it was odd you didn't answer my earlier text. What are you standing out here for when we could be inside?" 
+   
+   v "...Just thinking of something annoying. I didn't even notice it had been getting colder out here. You had texted?"
+
+   l "Well, I'm here now. It's easier to tell you--I got a new letter from my parents." 
+
+   #honestly idk if mothers or parents sound more natural in this line, you guys just lmk 
+   # Parents is fine, but we should decide what Liam calls his moms, if we haven't already--I think "mom" and "mama" are what lesbian couples usually go with? Not first names, definitely.
+   
+   l "They had been delayed up north for a short time--took a side trip to look at lichens, and Marjorie got sort of carried away with carting off too many rock samples on where they grew--"
+   
+   l "They say they'll still be traveling up until spring, but when it's summer, they said you are welcome to visit me, and see them again too." 
+   
+   "He's smiling. His familiar, Clara, is on his shoulder too, looking at me bright-eyed."
+   
+   "The anger I had been previously feeling dissipates. Not gone, but calmed, hurtling waves to slow-rolling ripples." 
+   
+   v "You would...want me to see you?" 
+   
+   l "I'm...yeah. I know I would like to see you. We can make up for some of that lost time."
+   
+   v "You mean that?"
+   
+   "It's not insecurity that pushes me to ask, I don't think. There are so many other things Liam could be doing then--summer is when he can keep busy with his own growing garden, his Healing studies." 
+   
+   l "Even if you're busy, I..."
+   
+   "Liam turns his head, fiddles with the lining of his hood."
+   
+   l "Even if it's 1am in the middle of the night and I'm dead asleep, if you were the one who knocked at my window I would answer you."
+
+   v "Now I know you can't really mean that. You were always the angriest one out of all of us if someone woke you up too early."
+   
+   l "Hey, you can't think someone with a face as good-looking as mine would lie to you, would you? Besides--I wouldn't mind getting up if you were the one who needed me."
+   
+   "I laugh." 
+   
+   v "Okay--I give up, this is a dumb argument anyways."
+   
+   "Winter has arrived, and still--outside, the light gleams with warmth off of Liam's face as we walk to get hot drinks, as he talks animatedly about medicinal uses of lichen."
+   
+   "The cafe doesn't have enough left over for my favorite order after Liam buys his--so he asks for a second empty cup and pours half of his drink into it, so we can share it between us."
+   
+   #Scene 5.2 ???
    
    
    
