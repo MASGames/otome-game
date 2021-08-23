@@ -851,7 +851,7 @@ label librarywalk:
    
    la "Viola. Yes--Liam has mentioned you before, I believe."
    
-    "Lottie smiles, though her glance is obviously on guard. Her eyes flicker over my expression, just a degree cooler than her smile."
+   "Lottie smiles, though her glance is obviously on guard. Her eyes flicker over my expression, just a degree cooler than her smile."
    
    "Her expression is thoroughly unshaken--it's a kind of smile I've seen before at parties, when my family used to hold them. Teeth in an amused curve, with porcelain gloss."
    
