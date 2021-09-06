@@ -952,7 +952,112 @@ label librarywalk:
    
    "By the time we've finished our shared drink, I've already pushed the earlier conversation with Lottie to the back of my mind. I have other things to take care of, before I can think about that."
    
-   #Scene 5.2 ???
+   #Scene 5.2 More class project stuff discussed, mention of Nora and Shouhei around here 
+   
+   scene bg dorm
+   
+   "It's near evening on a Friday. If I wanted to, I could be making a head start on my Magical Law and History homework for next week."
+   
+   "The Cursebreaking homework that was assigned today, wonder of wonders, turned out to be some fifty-odd pages of reading instead of another puzzle. Some students mentioned hearing Professor Reynell muttering about" 
+   
+   "a troublesome post-winter invitation as a speaker with The Wayfinder Foundation he had to prepare for."
+   
+   "My eyes glance slightly over to Nora's desk--ah, there. A flyer of a creamy-white color with golden text that whispers instead of shouts, announcing the planned date for the Wayfinder Foundation's big yearly competition."
+   
+   "Is she thinking of signing up? Come to think of it, she won't be back for a while. I had just barely walked through the door after class before she darted out past me."
+   
+   "She had tossed out a greeting to me over her shoulder, saying she was almost late for a dinner at one of town's cafes--had she said it was a dinner date?"
+   
+   "Nora had been dressed up a little nicer than she usually might have on any other Friday, in something with a rich indigo hue."
+   
+   "Perrault had followed after Nora first, before he circled in the air in my sight, and drifted back into the dorm. Lowered his head to grab a purse hanging off of Nora's chair, and floated away again through the door."
+   
+   "I do hope she has fun though, even if she is meeting with...I shake my head. I have other things I should be focusing on now, anyways."
+   
+   o "Viola! Is it working? Like the way it should?"
+   
+   "Olly is holding a pebble between his paws that glows black. Though it is considered a cursed item, it's fairly safe though--a perfectly normal item used for testing exercises for young Cursebreaking students."
+
+   "If it's broken or tampered with destructively, at most, it would only give out a puff of smoke like a blown out candle, before turning into an inert white stone."
+   
+   show o normal at center
+   
+   v "Try floating to the right of me, Olly."
+   
+   o "Your right? Or is it to the right on my side--wait, I understand! Is this helping?"
+   
+   "I look down at the clear bowl in my hands. In its center, what looks like a palm-sized arrowhead shaped out of dark quartz sways, like a leaf following the movement of a breeze."
+   
+   "It seems to want to go back to pointing to straight ahead of me, before it sways, visibly to the right."
+  
+   o "Yes! Viola, I helped!"
+   
+   "Olly, in his flight, then backflips while holding the cursed rock between his paws, moving only about 3 inches backwards from me in the air."
+   
+   "The arrow snaps back to the center immediately."
+   
+   v "Oh--it looks like the range of our sensor isn't strong enough yet."
+   
+   "I look down at the bowl, the first practical prototype of the research carried out by me and Liam for our curse detector."
+   
+   "We didn't use metal, as I had suggested. We did go through several tests with sensors carved from wood, but those tended to spark up into flame when used more than thrice and were less durable than we had hoped."
+   
+   "We don't have our other materials yet. We had sent in a request to Professor Marquez, who had signed off on our list, but it'll still take some time to get to us."
+
+   "I had heard that the rules didn't use to be as stringent for accessing magical project materials here, when one could simply ask for anything they needed from one of the library storehouses--"
+   
+   "I wonder if that had been recently added just this year."
+   
+   l "Thinking hard?" 
+   
+   show l normal
+   
+   v "Hardly thinking. Daydreaming, more like."
+   
+   v "You're a little later than I thought you would be."
+   
+   l "Am I? Clara--you could have said something."
+   
+   show c normal
+   
+   c "..."
+   
+   c "I did. Once." --she thumps her right paw in the air on Liam's head--"Twice." --she thumps her left paw on Liam's head-- "Three times!" --she sets herself down with emphasis on Liam's shoulder." 
+   
+   l "Sorry, sorry. I'll remember to listen to you for sure next time. There was a lot going on today--I had to run through some closing procedures at the health center with another student--Lottie."
+   
+   v "Oh."
+   
+   l "Do you know her?"
+   
+   v "I've...seen her around, once or twice."
+   
+   l "I see. More students always show up near winter, once the stress of school starts getting to them. It's always great to have more hands to help at the center."
+   
+   "I try to change the topic, none too gracefully."
+   
+   v "I think that's true enough. What should we do now?"
+   
+   l "Bread before roses I think. Or well, our homework, as is more appropriate."
+   
+   v "It is a Friday though--there's no harm in relaxing just a little, before tomorrow."
+   
+   c "And as long as you are treating me as your scheduler--you really only have a short shift tomorrow, Liam, for about 2 hours in the afternoon."
+   
+   l "Okay, okay. That's fair--I've heard of a new soup and coffee place near the north courtyard. Bread bowls the size of a moon on your plate, some students say."
+   
+   v "Sure. Let me just get my scarf and we'll go." 
+   
+   "Dinner is very good, as Liam had promised. We both agree that the progress on our project can wait, at least until we get the stuff we need."
+   
+   "The rest of the time, Liam tells me about the drawings of the autumn flora he has been doing for the WW club."
+   
+   "The club members had been having a minor squabble over whether moss could count as one of their winter plant entires in their illustrated book, to which Liam had laughed and said he could do the drawings first before they made up their minds."
+   
+   "I return to the dorm later than planned--Nora comes in about ten minutes after me. We both nod to each other in greeting, and head off to our respective sides of the dorm before falling asleep."
+   
+   #Scene 5.3 Choice scene, with you getting a flower depending on the choice??
+   
    
    
    
