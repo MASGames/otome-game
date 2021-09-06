@@ -1022,7 +1022,17 @@ label librarywalk:
    
    c "..."
    
-   c "I did. Once." --she thumps her right paw in the air on Liam's head--"Twice." --she thumps her left paw on Liam's head-- "Three times!" --she sets herself down with emphasis on Liam's shoulder." 
+   c "I did. Once." 
+
+   "She thumps her right paw in the air on Liam's head."
+
+   c "Twice." 
+   
+   "She thumps her left paw on Liam's head."
+   
+   c "Three times!" 
+   
+   "She sets herself down with emphasis on Liam's shoulder." 
    
    l "Sorry, sorry. I'll remember to listen to you for sure next time. There was a lot going on today--I had to run through some closing procedures at the health center with another student--Lottie."
    
