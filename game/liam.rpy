@@ -970,7 +970,7 @@ label librarywalk:
    
    "Nora had been dressed up a little nicer than she usually might have on any other Friday, in something with a rich indigo hue."
    
-   "Perrault had followed after Nora first, before he circled in the air in my sight, and drifted back into the dorm. Lowered his head to grab a purse hanging off of Nora's chair, and floated away again through the door."
+   "Perrault had followed after Nora first, before he circled in the air in my sight, and drifted back into the dorm. Lowered his head to chirp over a purse hanging off of Nora's chair--Nora dashed in and grabbed it before running out again."
    
    "I do hope she has fun though, even if she is meeting with...I shake my head. I have other things I should be focusing on now, anyways."
    
@@ -1018,19 +1018,19 @@ label librarywalk:
    
    l "Am I? Clara--you could have said something."
    
-   show c normal
+   show cl normal
    
-   c "..."
+   cl "..."
    
-   c "I did. Once." 
+   cl "I did. Once." 
 
    "She thumps her right paw in the air on Liam's head."
 
-   c "Twice." 
+   cl "Twice." 
    
    "She thumps her left paw on Liam's head."
    
-   c "Three times!" 
+   cl "Three times!" 
    
    "She sets herself down with emphasis on Liam's shoulder." 
    
@@ -1052,7 +1052,7 @@ label librarywalk:
    
    v "It is a Friday though--there's no harm in relaxing just a little, before tomorrow."
    
-   c "And as long as you are treating me as your scheduler--you really only have a short shift tomorrow, Liam, for about 2 hours in the afternoon."
+   cl "And as long as you are treating me as your scheduler--you really only have a short shift tomorrow, Liam, for about 2 hours in the afternoon."
    
    l "Okay, okay. That's fair--I've heard of a new soup and coffee place near the north courtyard. Bread bowls the size of a moon on your plate, some students say."
    
@@ -1066,7 +1066,7 @@ label librarywalk:
    
    "I return to the dorm later than planned--Nora comes in about ten minutes after me. We both nod to each other in greeting, and head off to our respective sides of the dorm before falling asleep."
    
-   #Scene 5.3 Choice scene, with you getting a flower depending on the choice??
+   #Scene 5.3 Choice scene, with winter ball invite, with you getting a flower depending on the choice??
    
    
    
