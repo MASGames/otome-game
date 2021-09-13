@@ -1066,8 +1066,152 @@ label librarywalk:
    
    "I return to the dorm later than planned--Nora comes in about ten minutes after me. We both nod to each other in greeting, and head off to our respective sides of the dorm before falling asleep."
    
-   #Scene 5.3 Choice scene, with winter ball invite, with you getting a flower depending on the choice??
+   #Scene 5.3 Asks about plans for winter, lead-up to winter ball invite
    
+   #scene bg v's estate home hallway
+
+   "Ah--what am I doing here?"
+   
+   "My perspective--is at a much shorter height than the one I'm used to. And this place is---too familiar."
+
+   "A long hallway, the carpet plush underfoot. Fine, soothing landscape paintings on the walls." 
+   
+   "A pair of double-doors at the end, the window panes of them allowing a glimpse of the outside." 
+   
+   "It doesn't take me long to recognize that I'm having a dream. Of something that happened, a long time ago."
+   
+   "I move, one step after another. My movements hurry as they get closer to the doors, apparently in fear of a call of 'Miss Viola Ashmark!' chasing behind me."
+   
+   "Of course--this had been after one of my lessons, that had seemed to drag on and on to my younger self--I must have been--six? Seven?"
+   
+   "Perhaps it had been on one of the prominent family histories--so-and-so's third cousin's second nephew's marriage to a member of minor royalty."
+   
+   "My hands push at the doors, eagerly--they give way, as I step out into the fresh air--" 
+   
+   scene bg v's estate outdoors
+   
+   "There's someone I had wanted to see."
+   
+   "I had said I would be here--where are--?"
+
+   #just show cg scene with liam's child sprite in this one, with a cat he is petting--cg can be in sepia memory tone
+   
+   v "Liam!"
+
+   "He's there, sitting with his knees drawn up. His eyes are half-closed, almost dozing, with his back to one of the hedges at the side."
+   
+   "A line of snowdrops have unfurled their heads spanning out from both sides of his spot--an honor guard in miniature, flanking him in bloom."
+   
+   "Curled on his lap is an orange tabby, the size of a small pumpkin--its look is a far cry from Eliza's sleek familiar, Agatha."
+   
+   "It should be one of the gardner's cats--he lifts its head lazily and slinks off at my approach--presumably to head indoors to the gardener's house, where it's warmer."
+   
+   "Liam opens his eyes fully, and stretches his arms." 
+   
+   l "You came, Viola."
+   
+   v "Yes. Liam--Isn't it pretty late? I said you didn't have to wait, if my lesson today went on too long."
+
+   "I drop down to see him face-to-face, both my arms wrapping around each other. The evening sky isn't pitch-black, not just yet, but it's late enough for the wind to nip at my fingers." 
+   
+   l "Of course I would wait. If I wasn't here waiting for you--wouldn't you be..."
+   
+   scene bg outdoors
+   
+   "Those words in Liam's younger voice fade away. I blink open my eyes."
+   
+   show l normal
+   
+   l "You're up."
+   
+   "I'm on a long bench outside the health center, Liam himself sitting next to me. Why hadn't I gone in?"
+   
+   "Oh that's right. I had wanted to finish my hot tea before heading inside for the end of Liam's shift."
+   
+   "But the view outside had been nice, so I had lingered longer after I had thrown away the cup."
+   
+   "Until I had fallen asleep, apparently."
+   
+   l "You know--"
+   
+   "He closes the textbook he had been reading, and leans towards me, a smile tilting up his lips. I'm aware, suddenly of his height. His closeness."
+   
+   l "I felt bad at first--I didn't know you had shown up so early."
+   
+   v "You could have woken me up earlier too." 
+   
+   "I'm not actually angry--this is said in a more lightly indignant way. I'm glad I still wasn't holding onto a cup of tea when I nodded off."
+   
+   l "But you must have been out here for--nearly an hour? If it had been that long, I didn't mind giving another extra ten minutes for you to wake up."
+   
+   l "Besides--you didn't need to wait for me for such a long time. I could have seen you---"
+   
+   v "I didn't mind."
+   
+   l "...You didn't?"
+   
+   v "If I wasn't here waiting for you, then--"
+   
+   "I stop. I'm not sure how I wanted to finish the rest of my words."
+   
+   "I stand up instead, pulling up my bag to my shoulders."
+   
+   v "We can go now--it's getting colder, isn't it?"
+   
+   "Liam looks a little puzzled for a moment, but shrugs. Stands with me."
+   
+   l "We should get the items we need for our project perhaps around next week. Or our notifications said some time---right after winter break, at the latest."
+   
+   l "By the way, Viola--what are your plans for the winter break?"
+   
+   v "My plans?"
+   
+   "Winter break is coming up."
+   
+   "Some students head home for those few weeks to their families. Others, either for their studies or out of convenience, choose to stay at school."
+   
+   "Liam had mentioned his mothers would still at least be one ocean away then--it's likely he'll stay."
+   
+   "But if I go home--I don't know. Couldn't there be a chance for me, however slim, to see Eliza? Or find more info on that case then."
+   
+   "I open my mouth to tell him..."
+   
+ menu: 
+
+   "I'll be going home":
+      jump winterleave
+   
+   "I plan to stay.":
+      $lpoints +=1
+      jump winterstay
+      
+label winterleave:
+ 
+   v "I'll be going home."
+   
+   "If I'm lucky, my parents may have changed their mind about seeing Eliza. And there must be something, some clue at home that I can find."
+   
+   "It's a good chance for me to search thoroughly."
+   
+   jump winterquestion
+    
+label winterstay:
+ 
+   v "I think I'll be staying."
+   
+   v "It would be nice not to rush to pack up. Besides, there will be others here too. And I'll get to see you."
+   
+   jump winterquestion
+ 
+label winterquestion:
+ 
+   l "So that's what you'll be doing. All right."
+ 
+   v "Yeah. Was there something else--?"
+ 
+   l "Nothing that I need to say right now. Let's go--the dining hall queue looks to be getting longer." 
+ 
+ #Scene 5.4 Winter ball invite scene
    
    
    
