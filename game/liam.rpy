@@ -1176,7 +1176,7 @@ label librarywalk:
    
    "I open my mouth to tell him..."
    
- menu: 
+menu: 
 
    "I'll be going home":
       jump winterleave
