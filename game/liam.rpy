@@ -1088,7 +1088,7 @@ label librarywalk:
    
    "My hands push at the doors, eagerly--they give way, as I step out into the fresh air--" 
    
-   scene bg v's estate outdoors
+   scene bg ashmark estate outdoors
    
    "There's someone I had wanted to see."
    
