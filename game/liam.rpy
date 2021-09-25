@@ -1246,7 +1246,7 @@ label winterquestion:
    
    hide n
    
-   "I peer over at the screen Nora's pointing at. It's on one of those film and TV accounts that most students have--oh!"
+   "I peer over at the screen Nora's pointing at. It's on one of those film and TV accounts that most students have--"
    
    v "I remember that one! It's the one with the cursed faerie prince and the girl who rescues him?"
    
