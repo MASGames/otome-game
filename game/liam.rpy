@@ -1186,12 +1186,21 @@ menu:
       jump winterstay
       
 label winterleave:
+#this scene might be rewritten later but for now it'll be left like this as a placeholder for a bad choice
  
    v "I'll be going home."
    
    "If I'm lucky, my parents may have changed their mind about seeing Eliza. And there must be something, some clue at home that I can find."
    
    "It's a good chance for me to search thoroughly."
+   
+   "For a moment, something crosses Liam's face--is that disappointment?"
+   
+   "It clears up as I blink though. Maybe he would have liked to talk to me more over break?"
+   
+   "It could be a little lonely, if he has to wait until summer to see his mothers." 
+
+   "But--I've made up my mind. And I'll get to see him soon enough, after the winter holidays end."
    
    jump winterquestion
     
@@ -1210,6 +1219,94 @@ label winterquestion:
    v "Yeah. Was there something else--?"
  
    l "Nothing that I need to say right now. Let's go--the dining hall queue looks to be getting longer." 
+   
+   scene bg dorms
+   
+   "Liam walks me back to the dorms after we eat. I watch as he leaves, his jacket a bright splash of color against the gray sky and landscape."
+
+   "He turns around ten steps away, and looks in my direction. Raises a hand, and waves, two, three times, before he tucks his hand back into his pocket and walks away."
+   
+   show n normal
+   
+   "Nora's in the room. On her desk, Perrault is dozing around some bits and bobs. Nora herself is on her bed, looking at her computer."
+   
+   "She waves as I walk in."
+
+   "I look over at my desk, at the stacked papers and my notes. Exams are starting up in about a week. Usually a written portion for about 30 minutes, followed by a practical."
+   
+   "But on the other hand--it's not like I haven't been studying in parts and pages over the last 2 weeks. And my notes are all organized, and ready to go."
+   
+   "If I calculated the time correctly--I still have enough time to review what I need to. I can relax tonight."
+   
+   n "Oh hey!"
+   
+   v "What is it?"
+   
+   n "I used to love this movie as a kid! Had no idea that I would be able to find it again on here."
+   
+   hide n
+   
+   "I peer over at the screen Nora's pointing at. It's on one of those film and TV accounts that most students have--oh!"
+   
+   v "I remember that one! It's the one with the cursed faerie prince and the girl who rescues him?"
+   
+   n "Yeah! Would you want to rewatch it?"
+   
+   v "Why not? Since it's on there and all..."
+
+   "We settle down casually on the seating area in our dorm, Nora's laptop perched on an extra laptop stand she had lying around."
+   
+   "As we had both seen the film before, we don't hesitate to chat between lulls in the plot."
+   
+   n "Hey, do you know? What's with the Winter Ball stuff that students keep bringing up? The one that happens...after the exams?"
+   
+   v "Oh. The Winter Ball--"
+   
+   "It's a relatively old tradition. One that had started up with the very first class of the school, it seems."
+   
+   "After exams, there would be a weekend to rest. And about 2 days after that--the Winter Ball." 
+   
+   "An event leaning, perhaps a little too much, towards a 'faux-European-glamour aesthetic' as I remember one of Eliza's friends had put it--but a popular one."
+   
+   "An invitation to the ball just to a singular person, was widely understood to convey a clear declaration of romantic interest."
+   
+   "Of course, it was not uncommon either for students to attend in groups, or as friendly companions."
+   
+   "It was also a grand enough event for families to come and view--seeing as it took place conveniently enough just a day before winter break officially started."
+   
+   "From the viewing balconies around the dance floor, it also gave the families a chance to see the state of their progeny's social relations, possible alliances, or romantic attachments."
+   
+   "Knowledge of dancing was encouraged--a lot of the more traditional-minded families tended to hire dancing masters for the children starting around age 12 or older."
+   
+   "For other students, borrowing spelled dancing shoes at the door was also an option."
+   
+   "Fancier dress was likewise required--the students of the drama costuming department or textiles design--I had forgotten which--would even refurbish gowns and other formalwear upon student request."
+   
+   "The fee for that was affordable--roughly less than the price for a cup of tea. They only needed enough lead time to take your measurements and your preferred clothing color--which was a couple days or so."
+   
+   "They had pictures before, displaying some of their past work for the ball."
+   
+   "A gown of a blue mirror-like color, sparkling with tiny beaded silver dragonflies, delicately and gracefully threaded along the skirt."
+   
+   "A seemingly sedate dove-gray suit with a half-cape--until a swirl of their cape revealed an eye-catching lining of pomegranate brocade with a stitched tapestry-like scene of gamboling birds--strange and alive." 
+   
+   n "That sounds...well, as a once-a-year event, it sounds fun."
+   
+   n "Don't think I would enjoy having to dress up for something like that every week though--"
+   
+   n "Oh, wait! This part was always my favorite!"
+   
+   "We both turn back to the screen, our chat on the Winter Ball diverted instead by the pivotal ball scene between the cursed prince and the protagonist."
+   
+   "..."
+   
+   "...Ah, it's dark. Have I fallen asleep right as the film ended?"
+   
+   "I keep my eyes closed, instead of opening them immediately."
+   
+   "Ah...I think I remember now. Liam's voice, echoing in my mind--familiar but softer, younger--"
+   
+   "If I wasn't waiting here for you...wouldn't you be lonely?"
  
  #Scene 5.4 Winter ball invite scene
    
