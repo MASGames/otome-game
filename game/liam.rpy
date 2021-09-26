@@ -1521,7 +1521,7 @@ label winterballtogether:
 
 #he's in a winter ball outfit here
 
-   "He gives me a sidelong glance, his hand extended towards me.
+   "He gives me a sidelong glance, his hand extended towards me."
 
    "I loop my arm with his. Our hands touch."
 
