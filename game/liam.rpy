@@ -1309,6 +1309,38 @@ label winterquestion:
    "If I wasn't waiting here for you...wouldn't you be lonely?"
  
  #Scene 5.4 Winter ball invite scene
+ 
+   scene bg outside
+   
+   s1 "I'm doomed, I'm doomed, I'm doomed! My exam is in two days and my brain Will explode before then!"
+   
+   s2 "Look. buddy. If your last practical is with Professor Prasad, she's known to be pretty evenhanded for grading exams, as long as you can present something coherently."
+   
+   "I can't see their faces, but the first student, instead of seeming encouraged by this, swoons theatrically into their friend's side."
+   
+   s1 "Oh woe! Even my closest friend refuses to understand my burdens! If I fail and my brain has gone kabloom, I'll entrust my familiar to you."
+   
+   s2 "..."
+   
+   s2 "There, there. There, there, there. Why do I sometimes feel like your familiar possesses the bulk of the brain cells between you two?"
+
+   "The students take a turn around the path. I want to laugh a little bit, to myself."
+   
+   "The exams this week have been--mostly fine, actually. My last exam is actually with Professor Prasad, for Magical Law & History."
+
+   "We would be doing mock trial arguments for different magical law topics she's covered. I believe mine would be on...familiar theft."
+   
+   "I know Liam hasn't been at the health center as much, with the reviewing he's been doing. He's told me his roommate, Colin has been more easygoing towards his own studying."
+   
+   "I've heard Nora at her desk sometimes, muttering terms and spell equations under her breath while drawing lacelike patterns on graph paper."
+   
+   "Liam's asked to see me actually--I should hurry."
+   
+   "I let my feet take me to the spot among the trees, in the place we've been to before."
+   
+   show l normal
+   
+   
    
    
    
