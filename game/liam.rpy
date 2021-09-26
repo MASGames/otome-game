@@ -1334,11 +1334,262 @@ label winterquestion:
    
    "I've heard Nora at her desk sometimes, muttering terms and spell equations under her breath while drawing lacelike patterns on graph paper."
    
-   "Liam's asked to see me actually--I should hurry."
+   "Liam's asked to see me today actually--I should hurry."
    
-   "I let my feet take me to the spot among the trees, in the place we've been to before."
+   "I let my feet take me up to the balcony, up to that place we've been to before."
+   
+   scene bg treehouse   #that tall tree with a sitting platform that they studied at before
+
+   "As I take the last step off the ladder down to the platform, my right foot wobbles--"
+   
+   "A warm palm catches the back of my shoulder, steadying me."
+   
+   l "Don't slip. There's been more frost on that ladder there, since the change of the weather."
    
    show l normal
+   
+   v "I didn't fall. Thanks."
+   
+   "I lower myself to sit down on the platform--Liam thoughtfully, has already cleared away any of the leaves or twigs that would normally have fallen here."
+   
+   v "So, what was it you wanted to call me over for? Did you need--some study help or something?"
+   
+   l "No. No. It's--well. Hold out your hands."
+   
+   l "You can close your eyes too."
+   
+   "I do and hold out my palms."
+   
+   "Something light and square-shaped presses down, and my thumbs clasp around it."
+   
+   v "Can I see it now?"
+   
+   l "Sure."
+   
+   v "This is....a winter present?"
+   
+   v "I...I can open this?"
+   
+   l "Mm. That's what it's for. I planned to give it to you early, so I didn't forget after the rush of exams and the holidays."
+   
+   "I lift up the corners of the wrapping paper, and undo the bow, opening the box to see..."
+   
+   v "Oh. I can't believe you got this. Liam--"
+   
+   #idk what the present is it's going to be described later in 2 lines here lolol
+   
+   l "As long as it suits you...I'm glad. I had wanted to pass this to you today."
+   
+   l "That's all."
+   
+   "He turns his head to the side, still smiling, and rises from his seat, apparently readying himself to hop down the tree."
+   
+   "For some reason, I can't help myself from calling out to him."
+   
+   v "Wait."
+   
+   v "I know you've said you're staying at school for the break. So, for the Winter Ball, were you..."
+   
+   "His eyes on me are curious. But also--expectant?"
+   
+   l "Was I what?"
+
+   v "For the ball, were you..."
+   
+   "What had I wanted to ask him?"
+   
+menu: 
+
+   "Go with me?":
+      $lpoints +=1
+      jump balltogether
+   
+   "I might see you there":
+      jump ballnodate
+
+label balltogether:
+
+   v "Go with me." 
+   
+   v "I--I meant. Do you want to go with me?" 
+   
+   v "To the Winter Ball?"
+   
+   show l blush
+   
+   l "..."
+   
+   l "..."
+   
+   "He opens his mouth." 
+   
+   l "You..."
+   
+   "I hold my breath. Maybe I should just take my present and go. He had wanted to leave before this."
+   
+   "Why did I stop him?"
+   
+   "After break, I can just forget I had ever asked--"
+   
+   l "Yes. If you wanted to go with me."
+   
+   v "Yes?"
+   
+   l "Yes."
+   
+   l "Didn't I just say that?"
+   
+   v "Yes. Great! We'll go together."
+   
+   v "Because it's always better to go with a person you know. Like a friend!"
+   
+   l "...As a friend."
+   
+   v "I...isn't that true?"
+   
+   l "Mm. Yeah. We'll go together though."
+   
+   "He agreed to go. He agreed--!"
+   
+   "But did his expression change to being a bit disappointed there? Why is that?"
+   
+   show cl happy
+   
+   cl "Oh good."
+   
+   cl "If he hadn't agreed, he would have been very bored otherwise, just sitting with his books in the winter suite during break."
+   
+   l "Unnecessary commentary there, Clara. But...I'm glad we can go, Viola."
+   
+   v "Yeah. I--we'll figure out other stuff about it later. I should let you get back to studying too."
+   
+   l "Mm, thoughtful of you. Yes. We'll make plans. Later, Viola."
+   
+   "I leave."
+   
+   "There's the last exam to think of first. Then...Liam and the ball."
+   
+   jump winterballtogether
+
+label ballnodate:
+
+   v "Would you be going?"
+   
+   l "I'm...not sure. I think--if I'm not too tired by the exams, I think I will."
+   
+   v "Oh."
+   
+   "Why was I so hesitant to speak now?"
+   
+   v "I may see you there then."
+   
+   "Liam breathes in. Then he just smiles."
+   
+   l "All right. If I see you...We might have a dance or two. Or talk, for certain."
+   
+   v "Thanks. I'll go now--thanks for the present too. I really, really do like it."
+   
+   "Liam waves a hand at me, smile a bit wider now. I get up, ready to climb down from the tree."
+   
+   l "Viola!"
+   
+   v "Hmm?"
+   
+   "Liam tosses something. I catch it in my hands."
+   
+   l "Don't forget your gift."
+   
+   v "I--sorry. Yes. Don't study too hard, Liam."
+   
+   "I tuck the present into my bag, and go."
+   
+   jump winterballneutral
+
+#Scene 5.5 Winter Ball    #the scenes would have some slight changes romantic/less romance no cg or some cgs, depending if you go together or not
+
+label winterballtogether:
+
+   "Even in the hall just outside the ballroom, I can already hear the warm, excited murmurings and strains of light music. The footsteps and movements of the crowd."
+
+   "Like butterflies, I've already seen the pairs and circles of well-dressed attendees float to and fro in front of me."
+
+   "Most would be students. Some would be visiting family, heading to the upstairs balconies of the ballroom set aside for them"
+
+   l "Here."
+
+   show l normal   
+
+#he's in a winter ball outfit here
+
+   "He gives me a sidelong glance, his hand extended towards me.
+
+   "I loop my arm with his. Our hands touch."
+
+   "Surprisingly, Liam closes his fingers around mine."
+
+   "Well. We're as ready to go in as I ever would be."
+
+   "I dip my chin, and we step forward."
+
+   "The suited man at the top of the ballroom stairs looks at us, and nods, once seeing the ticket rune glow on the palms of both our gloves."
+
+   "He tips his head up and announces, in a clear and elegant tone--"
+
+   "Announcing one Miss Viola Ashmark, accompanied by Mister Liam Thomas!"
+
+   "We step down the stairs into the ballroom."
+
+   "It sweeps out into a space of golden light and marble flooring."
+
+   "Warm light from sparkling chandeliers, over a backdrop of velvet curtains and floating drapery. There's a scent of flowers, in great vases around the room."
+
+   "As we take our steps from the carpeted stairs onto the floor, we see a place roped off for the orchestral accompaniment, their instruments singing sweetly."
+
+   "Along the sides, suited waiters sweep in and out with trays of light drinks and servings of snacks and sweets onto long tables"
+
+   "with scattered seating for tired attendees."
+
+   "The majority of the space though, is left empty--for attending students and later dancing."
+
+#show cg scene of ballroom here
+
+   "And at our front--"
+
+   "The other students, though dressed in more elegant dresses and suits than they usually did. Some faces I think I recognize--others I do not."
+
+#they talk and have a dance soon (romantic)
+
+label winterballneutral:
+
+   "The announcer waves me in, and follow along, behind a small grouping of students in light-colored gowns, and flowers in their hair."
+
+   "Warm light from sparkling chandeliers, over a backdrop of velvet curtains and floating drapery. There's a scent of flowers, in great vases around the room."
+
+   "As we take our steps from the carpeted stairs onto the floor, we see a place roped off for the orchestral accompaniment, their instruments singing sweetly."
+
+   "Along the sides, suited waiters sweep in and out with trays of light drinks and servings of snacks and sweets onto long tables"
+
+   "with scattered seating for tired attendees."
+
+   "The majority of the space though, is left empty--for attending students and later dancing."
+
+   "I don't see anyone I recognize yet--"
+
+   "(Like Liam?)"
+
+   "I do think I see a glimpse of Nora. Shouhei is next to her, his hair longer, tied back into a low ponytail."
+
+   "She had left for the Winter Ball earlier than I did."
+
+   "I draw back into a corner. A few other students in my year pass before me, thin fluted glasses in their hands."
+
+   "There are voices overhead. I turn my head, subtly, and see some of the visiting adults in the balcony behind me."
+   
+   "I think I recognize--yes. That's one or two faces of the older families. One of the--oh, the head editor for Glimmer is there too, I think."
+
+#liam does have one dance with her (neutrally, casually), and other stuff happens
+   
+   
    
    
    
