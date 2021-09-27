@@ -1537,11 +1537,11 @@ label winterballtogether:
 
    "Announcing one Miss Viola Ashmark, accompanied by Mister Liam Thomas!"
 
-   "We step down the stairs into the ballroom."
+   "We step down the stairs into the ballroom--"
 
    "It sweeps out into a space of golden light and marble flooring."
 
-   "Warm light from sparkling chandeliers, over a backdrop of velvet curtains and floating drapery. There's a scent of flowers, in great vases around the room."
+   "Warm light from sparkling chandeliers, over a backdrop of velvet curtains and floating drapery. There's the scent of flowers, in great vases around the room."
 
    "As we take our steps from the carpeted stairs onto the floor, we see a place roped off for the orchestral accompaniment, their instruments singing sweetly."
 
@@ -1555,13 +1555,99 @@ label winterballtogether:
 
    "And at our front--"
 
-   "The other students, though dressed in more elegant dresses and suits than they usually did. Some faces I think I recognize--others I do not."
+   "The other students, albeit dressed in more elegant dresses and suits than they usually did. Some faces I think I recognize--others I do not."
+   
+   #play sound effect here
+   
+   "The crowd parts way politely enough, to let us move among the throng."
+   
+   "Liam leans over to me, his breath tickling my cheek."
+   
+   l "Careful of the pins in your hair. One of them seems to be falling."
+   
+   "I turn my head, slowly."
+   
+   v "Could you fix it for me?"
+   
+   "From this angle, I can see the knot of the tie at Liam's throat, as he reaches up an arm to gently tuck back in my hair decoration."
+   
+   "Liam's suit is a very dark blue, dark enough to sink into--though there is detailing down the lapels and around his shoulders of delicate gold thread."
+   
+   "Like stray rays of sunbeams, mysteriously blossoming through the night sky."
+   
+   "As for me--"
+   
+   "I hold my head higher, trusting that the small crystals clipped to my hair would stay put."
+   
+   "The skirt of my gown falls just low enough the touch the floor, but luckily, not long enough for me to trip over it ungracefully."
+   
+   "The lower layers of it are a deep blue-violet, more midnight than dusk--but on top of it is a lighter silvery layer, and many, many overlapping bright white sequins--"
+   
+   "'A dress the color of moonrise' as the alterer for my dress had so fancifully put it."
+   
+   n "You're here too, Viola!"
+   
+   #a cg scene of other characters in ball outfits show here--or maybe just 1 or 2 of them, to leave their other looks as a surprise?
+   
+   "We nod and chat cheerfully enough for a while, until--"
+   
+   l "There's enough people now that they're starting up the dances."
+   
+   "So it is. The beginning strains from the orchestra are sweeter, more familiar ones."
+   
+   l "Well then--"
+   
+   "He untangles his hand from mine, and bows, just low enough that I can see his eyes, bright and questioning."
+   
+   l "How about it?"
+   
+   "I take his hand, without question."
+   
+   "His lips move into a smile, and he rises back up, one of his hands moving down to my waist."
+   
+   "We move into a waltz."
+   
+   #add waltz song here 
+   
+   "One-two-three, one-two-three--I concentrate for the first two, three measures or so--I had chosen to forgo the spelled dance shoes after all."
+   
+   "My attention lifts upwards when I hear a little laugh from Liam."
+   
+   l "Sorry, sorry. I just thought it was... You're dancing very well."
+   
+   l "Much better than you had when you were ten."
+   
+   v "Was that meant to be a compliment?"
+
+   "Liam's eyes crinkle a little, his smile more amused."
+   
+   l "Do you want a better one?"
+   
+   v "If you have to strain yourself thinking of one, then I'd rather you didn't."
+   
+   "One-two-three, one-two-three--the music floats, and despite our conversation, so do our steps--not always in-beat, but we follow each other's movements easily, without stumbling."
+   
+   "The song ends--and Liam bows."
+   
+   l "Forgive me for the teasing--I shouldn't have said anything that would make you unhappy today."
+   
+   l "A party like this one is meant to be fun, after all."
+ 
+   v "You haven't forgotten how to dance either."
+   
+   "Liam's lips twitch."
+   
+   l "That may have been because of the four-day cram session I attended for dancing, instead of relying on very good muscle memory."
+   
+   l "Your movements were far smoother than mine."
 
 #they talk and have a dance soon (romantic)
 
 label winterballneutral:
 
    "The announcer waves me in, and follow along, behind a small grouping of students in light-colored gowns, and flowers in their hair."
+   
+   "Spelled ones, no doubt, to stay fresh and blossoming until the end of the night."
 
    "Warm light from sparkling chandeliers, over a backdrop of velvet curtains and floating drapery. There's a scent of flowers, in great vases around the room."
 
@@ -1577,9 +1663,9 @@ label winterballneutral:
 
    "(Like Liam?)"
 
-   "I do think I see a glimpse of Nora. Shouhei is next to her, his hair longer, tied back into a low ponytail."
+   "I do think I see a glimpse of Nora. Shouhei is next to her, his hair tied back into a low ponytail, in a chic, sharp suit."
 
-   "She had left for the Winter Ball earlier than I did."
+   "She had left from the dorms for the Winter Ball earlier than I had."
 
    "I draw back into a corner. A few other students in my year pass before me, thin fluted glasses in their hands."
 
@@ -1587,7 +1673,7 @@ label winterballneutral:
    
    "I think I recognize--yes. That's one or two faces of the older families. One of the--oh, the head editor for Glimmer is there too, I think."
 
-#liam does have one dance with her (neutrally, casually), and other stuff happens
+#viola overhears some semi-interesting gossip, liam does have one dance with her (neutrally, casually), and other stuff happens
    
    
    
