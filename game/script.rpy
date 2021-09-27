@@ -24,7 +24,6 @@ define audio.dooropen = "Door Squeak.mp3"
 define audio.magiceffect = "shootingstar.mp3"
 define audio.forest = "Nature Ambiance.mp3"
 define audio.crash = "mirror breaking.mp3"
-define audio.ballroom = "Old Viennese Dances- Fritz Kreisler.mp3"
 
 default lpoints = 0
 default spoints = 0
