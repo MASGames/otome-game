@@ -1581,7 +1581,7 @@ label winterballtogether:
    
    "The skirt of my gown falls just low enough the touch the floor, but luckily, not long enough for me to trip over it ungracefully."
    
-   "The lower layers of it are a deep blue-violet, more midnight than dusk--but on top of it is a lighter silvery layer, and many, many overlapping bright white sequins--"
+   "The lower layers of it are a deep blue-violet, more midnight than dusk--but on top of it is a lighter silvery layer, and many, many overlapping white sequins--"
    
    "'A dress the color of moonrise' as the alterer for my dress had so fancifully put it."
    
@@ -1627,6 +1627,10 @@ label winterballtogether:
    
    "One-two-three, one-two-three--the music floats, and despite our conversation, so do our steps--not always in-beat, but we follow each other's movements easily, without stumbling."
    
+   "One spin, and another--"
+
+   "Liam's hand still steady at my waist, his fingers just tangled with the ends of the tied ribbon at my back, and our fingers clasped together, palm to palm--"
+   
    "The song ends--and Liam bows."
    
    l "Forgive me for the teasing--I shouldn't have said anything that would make you unhappy today."
@@ -1640,9 +1644,224 @@ label winterballtogether:
    l "That may have been because of the four-day cram session I attended for dancing, instead of relying on very good muscle memory."
    
    l "Your movements were far smoother than mine."
+   
+   v "My dancing master would have been pleased to hear that from you--"
+   
+   "She had been kind in her own ways back in the day. Olly had liked her--if I had practiced my dance steps well, she would teach us useful spells--"
 
-#they talk and have a dance soon (romantic)
+   "A floating spell to cushion a fall from a high jump. Another spell to muffle footsteps, to better win at shadow tag and hide-and-seek."
 
+   l "The first set is over. Do you want to--?"
+   
+   "Something pushes me at the back--"
+   
+   l "--!"
+   
+   "Liam has grabbed onto me, pulling me to the side besides him."
+   
+   "I hear a faint 'Sorry!' from somewhere to the right, and 'these dang shoes!' before the voice fades away further into the crowd."
+
+   l "It is crowded, isn't it? Did you want to take a rest in the other room? For some drinks, something to eat?"
+   
+   v "Yes. That seems like a good idea."
+   
+   "We head to the other adjoining room to the dance floor, where waiters move in and out."
+
+   "We get some type of sparkling drink in little fluted glasses, plates of appetizers and light evening fare."
+   
+   "We see Colin briefly across the room, dressed in something that would look off-the-cuff or messily blasé on anyone else--but he carries it off."
+   
+   "Colin waves at us once, and gestures with a flower in his hand towards me, as if in an offering."
+   
+   "Liam frowns a little--Colin laughs silently, and tucks the flower away onto his person, still in good humor."
+   
+   "I see Lottie Arch also, who had circled in from the previous dance. She raises her brows when she sees me with Liam, and gives a smile at me that looks a little ironic."
+
+   "After, Liam gives some greetings to some of his other classmates he recognizes, some of his other friends from the health center."
+   
+   "I'm curious to listen to what else the orchestra is playing, so I head back towards the ballroom, after telling Liam."
+   
+   "I listen to two, three songs. Watch other students dance."
+   
+   "My eyes dart briefly to the side area of the ballroom, where many have left their familiars for safekeeping."
+   
+   "I'm reassured to see the rows of crystal cases holding our phones, glowing with protective spells, and the two guards in front of the case." 
+
+   "If anything had happened--some of the students' families were in the viewing balconies on the upper levels of the ballroom--they would certainly have words."
+   
+   "I find myself wandering a little further and further away from the crush of the ballroom--towards one of the open balconies, facing the sea."
+   
+   "The view should be beautiful too."
+   
+   "I've just stepped over the threshold of the open doors to the balcony when I hear--"
+   
+   s1 "--there are certainly more faces here than I thought I would see. Do you know? One of those dancers from early on looked quite familiar."
+   
+   s2 "Which one?"
+   
+   s1 "Ah--dark-haired, curly-haired, had a very light dress? It was stylish enough, though too plain for me. Her escort was--blonde, I think." 
+   
+   s2 "Would that be--Ashmark? Viola Ashmark?"
+   
+   s1 "--Oh? That name--no. No. Her?"
+   
+   s1 "With that face, I'm sure the papers have shown it somewhere--wasn't there word of her sister from a handful of years ago--?"
+   
+   s2 "Yes. That one."
+   
+   "I've tensed in place. I'm not sure if I want to head out there or stay--but my hands have already curled up, shaking--"
+   
+   l "Stay."
+   
+   "I look up. Without me noticing, Liam has whisked himself to my side by the balcony wall. He looks at me, and places a finger to his lips."
+   
+   "I hear rustling from what sounds like the students walking. Closer? Closer to where I am?"
+   
+   "Liam moves a step forward, very slowly. Both his hands are braced a little just over my shoulders against the wall."
+   
+   "We're close together--keeping us out of view, I understand, from the students who may or may not have moved in closer to the balcony where we stand."
+   
+   "Behind me, a crush of leaves and some kind of flowers tickles my neck, my collarbones."
+   
+   "Before I can ask Liam if we should move, the students speak again--"
+   
+   s1 "I had wondered why someone with the Ashmark name would be dancing with the mere son of doctors."
+   
+   s1 "If she had no choice after that disgraceful scandal--then no wonder."
+   
+   s1 "Any other potential date may have feared that she too, would lose her senses and stab them to steal their familiar."
+   
+   s1 "She would have learned by example, after all."
+   
+   s2 "Sheesh. Those are dark matters to talk about at such a party--did you get to ask that person you were eyeing up for a dance yet or--?"
+   
+   "The voices fade, apparently heading back inside the ballroom."
+   
+   "Liam breathes, in and out. His breaths match mine."
+   
+   l "They should be gone now."
+   
+   "He steps back, but not too far."
+   
+   "My shoulders relax."
+   
+   l "Viola--are you all right?"
+   
+   "My hands let go of a tendril of a vine I had been clutching, unconsciously in my hand. I feel the leaves and flowers spring back, away from my fingers."
+   
+   "I look at Liam again, his gaze concerned, and say--"
+
+menu: 
+
+   "I'm fine":
+      jump balconyleave
+   
+   "No, not really":
+      $lpoints +=1
+      jump balconyscene
+
+label balconyleave:
+
+   v "It doesn't really matter. I'm fine."
+   
+   l "...But--"
+   
+   v "It's just words."
+   
+   v "It's getting late. Thanks for going with me, but--I'm just tired."
+   
+   l "Oh."
+   
+   l "Okay. Let's get you back."
+   
+   "He's reached out a hand to me. I could--. But at this moment, I don't want to accept his kindness. I can't."
+   
+   v "No thank you. I don't need you to hold my hand everywhere, like a child."
+   
+   "Liam steps back further away from me, the footsteps loud on the stone. Hurt flashes over his face, before he bows his head a fraction."
+   
+   l "You should leave then. Go back safely."
+   
+   "I go get my things and Olly. Walk down the stairs of the ballroom and back to the winter dorms."
+   
+   "I'll apologize to him soon, I promise myself. I turn and turn in the dark for a while, before falling into an uneasy sleep."
+   
+ label balconyscene:
+ 
+   v "No. Not really."
+   
+   "I close my eyes for a second."
+   
+   "It's been so long since I've thought about it, really thought about it to the front of my mind."
+   
+   "Was I in danger of forgetting? Was it really asking too much just to enjoy one night, this one winter ball without being reminded of--"
+   
+   "Of course the students would remember. Would talk. Their families would certainly remember, wouldn't they?"
+   
+   l "--Viola, what would help?"
+   
+   "I open my eyes again, to see his face. A wind sweeps over us--a clean salt smell of the waves. Something gentler, like honey, from the white flowers behind my back."
+   
+   v "We can--stand here. Before going into the crowd again."
+   
+   l "Yes."
+   
+   "He moves away, and turns to lean against the wall at my side."
+   
+   l "If you're feeling bad, you can--"
+   
+   v "I can..?"
+   
+   l "You can hold my hand. If that helps too."
+   
+   "I look at his turned up palm."
+   
+   "Reach out my left hand. He closes his fingers over mine. A considerate grip. A reassuring presence."
+   
+   "I look back towards the night sky, down to where it touches the sea much further in the distance, stars scattered on rolling waves."
+   
+   "I can't do anything about what people say right now. About the curse either. But when we start up classes again, then--"
+   
+   "I can do something, then."
+   
+   "I do feel better after a time. My back hasn't gotten too cold, since it isn't resting against solid stone."
+   
+   v "What are these flowers called?"
+   
+   "Liam shifts in his position next to me. His eyes--in this pose, and this light, gleam down at me, almost a little like a panther's."
+   
+   "His right hand moves, close to my cheek."
+   
+   "I feel his fingertips just almost stroke the skin--on accident? On purpose?"
+   
+   "They move down--then catch hold of something. Something that had been brushing up against the side of my throat, over my shoulder lifts--"
+   
+   l "Sweet alyssum--why do you weep?"
+   
+   "He says this with the air of quoting something."
+   
+   "In his hand, when I shift my glance, is the sprig of a vine with leaves, and small white flowers."
+   
+   l "They love growing by seashores and high cliff walls. They grow remarkably well in many circumstances actually."
+   
+   v "Oh. I see." 
+   
+   "His right hand leaves mine, and he smiles at me as he leans away from the wall to stand upright."
+   
+   "It's a familiar expression on his face. The ambiguous mood lightens."
+   
+   l "You should check if there's any flowers that have accidently been caught around your dress too."
+   
+   "We do, and head back into the ballroom."
+   
+   "There's a last dance, in the late hours. The chandelier lights have been dimmed down, to warmer candlelight."
+   
+   "And this time, when the students move over the floor, some rippling magic follows, silvery stardust trailing all our steps."
+   
+   "Liam walks with me back to the winter dorms, many sleepy goodnights yawned by the other students trailing in from the party."
+   
+   "I'll have to tell Olly about the party tomorrow instead, when I'm awake."
+   
 label winterballneutral:
 
    "The announcer waves me in, and follow along, behind a small grouping of students in light-colored gowns, and flowers in their hair."
