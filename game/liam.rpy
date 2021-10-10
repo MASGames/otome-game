@@ -1786,7 +1786,7 @@ label balconyleave:
    
    "I'll apologize to him soon, I promise myself. I turn and turn in the dark for a while, before falling into an uneasy sleep."
    
- label balconyscene:
+label balconyscene:
  
    v "No. Not really."
    
