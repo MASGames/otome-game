@@ -1540,6 +1540,8 @@ label winterballtogether:
    "We step down the stairs into the ballroom--"
 
    "It sweeps out into a space of golden light and marble flooring."
+   
+   play music "Suite for Violin 8.mp3"
 
    "Warm light from sparkling chandeliers, over a backdrop of velvet curtains and floating drapery. There's the scent of flowers, in great vases around the room."
 
@@ -1592,6 +1594,8 @@ label winterballtogether:
    "We nod and chat cheerfully enough for a while, until--"
    
    l "There's enough people now that they're starting up the dances."
+   
+   stop music fadeout 1.0
    
    "So it is. The beginning strains from the orchestra are sweeter, more familiar ones."
    
