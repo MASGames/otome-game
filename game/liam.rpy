@@ -1541,7 +1541,7 @@ label winterballtogether:
 
    "It sweeps out into a space of golden light and marble flooring."
    
-   play music "Suite for Violin 8.mp3"
+   play sound winterparty
 
    "Warm light from sparkling chandeliers, over a backdrop of velvet curtains and floating drapery. There's the scent of flowers, in great vases around the room."
 
@@ -1558,8 +1558,6 @@ label winterballtogether:
    "And at our front--"
 
    "The other students, albeit dressed in more elegant dresses and suits than they usually did. Some faces I think I recognize--others I do not."
-   
-   #play sound effect here
    
    "The crowd parts way politely enough, to let us move among the throng."
    
@@ -1595,7 +1593,7 @@ label winterballtogether:
    
    l "There's enough people now that they're starting up the dances."
    
-   stop music fadeout 1.0
+   stop sound fadeout 1.0
    
    "So it is. The beginning strains from the orchestra are sweeter, more familiar ones."
    
