@@ -1669,7 +1669,7 @@ label winterballtogether:
    
    "We head to the other adjoining room to the dance floor, where waiters move in and out."
    
-   play sound winterparty volume 0.75
+   play sound "Suite for Violin 8.mp3" volume 0.75
 
    "We get some type of sparkling drink in little fluted glasses, plates of appetizers and light evening fare."
    
