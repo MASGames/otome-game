@@ -1668,6 +1668,8 @@ label winterballtogether:
    v "Yes. That seems like a good idea."
    
    "We head to the other adjoining room to the dance floor, where waiters move in and out."
+   
+   play sound <from 60 to 120.04>winterparty fadein 1.0
 
    "We get some type of sparkling drink in little fluted glasses, plates of appetizers and light evening fare."
    
@@ -1704,6 +1706,8 @@ label winterballtogether:
    s1 "Ah--dark-haired, curly-haired, had a very light dress? It was stylish enough, though too plain for me. Her escort was--blonde, I think." 
    
    s2 "Would that be--Ashmark? Viola Ashmark?"
+   
+   stop sound fadeout 1.0
    
    s1 "--Oh? That name--no. No. Her?"
    
