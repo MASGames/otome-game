@@ -1603,13 +1603,13 @@ label winterballtogether:
    
    l "How about it?"
    
+   play sound ballwaltz
+   
    "I take his hand, without question."
    
    "His lips move into a smile, and he rises back up, one of his hands moving down to my waist."
    
    "We move into a waltz."
-   
-   #add waltz song here 
    
    "One-two-three, one-two-three--I concentrate for the first two, three measures or so--I had chosen to forgo the spelled dance shoes after all."
    
@@ -1634,6 +1634,8 @@ label winterballtogether:
    "Liam's hand still steady at my waist, his fingers just tangled with the ends of the tied ribbon at my back, and our fingers clasped together, palm to palm--"
    
    "The song ends--and Liam bows."
+   
+   stop sound fadeout 1.0
    
    l "Forgive me for the teasing--I shouldn't have said anything that would make you unhappy today."
    
