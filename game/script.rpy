@@ -25,6 +25,7 @@ define audio.magiceffect = "shootingstar.mp3"
 define audio.forest = "Nature Ambiance.mp3"
 define audio.crash = "mirror breaking.mp3"
 define audio.winterparty = "Suite for Violin 8.mp3"
+define audio.ballwaltz = "Words Waltz Remix.mp3"
 
 default lpoints = 0
 default spoints = 0
