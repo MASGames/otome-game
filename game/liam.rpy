@@ -1540,6 +1540,8 @@ label winterballtogether:
    "We step down the stairs into the ballroom--"
 
    "It sweeps out into a space of golden light and marble flooring."
+   
+   play sound winterparty
 
    "Warm light from sparkling chandeliers, over a backdrop of velvet curtains and floating drapery. There's the scent of flowers, in great vases around the room."
 
@@ -1556,8 +1558,6 @@ label winterballtogether:
    "And at our front--"
 
    "The other students, albeit dressed in more elegant dresses and suits than they usually did. Some faces I think I recognize--others I do not."
-   
-   #play sound effect here
    
    "The crowd parts way politely enough, to let us move among the throng."
    
@@ -1592,6 +1592,8 @@ label winterballtogether:
    "We nod and chat cheerfully enough for a while, until--"
    
    l "There's enough people now that they're starting up the dances."
+   
+   stop sound fadeout 1.0
    
    "So it is. The beginning strains from the orchestra are sweeter, more familiar ones."
    
@@ -1666,6 +1668,8 @@ label winterballtogether:
    v "Yes. That seems like a good idea."
    
    "We head to the other adjoining room to the dance floor, where waiters move in and out."
+   
+   play sound "<loop 60>Suite for Violin 8.mp3" 
 
    "We get some type of sparkling drink in little fluted glasses, plates of appetizers and light evening fare."
    
@@ -1699,9 +1703,11 @@ label winterballtogether:
    
    s2 "Which one?"
    
-   s1 "Ah--dark-haired, curly-haired, had a very light dress? It was stylish enough, though too plain for me. Her escort was--blonde, I think." 
+   s1 "Ah--dark-haired, curly-haired, had a very light dress? It was stylish enough, though too plain for me. Her escort was--blonde, I think."
    
    s2 "Would that be--Ashmark? Viola Ashmark?"
+   
+   stop sound fadeout 1.0
    
    s1 "--Oh? That name--no. No. Her?"
    
