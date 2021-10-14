@@ -1597,13 +1597,13 @@ label winterballtogether:
    
    "So it is. The beginning strains from the orchestra are sweeter, more familiar ones."
    
+   play sound ballwaltz
+   
    l "Well then--"
    
    "He untangles his hand from mine, and bows, just low enough that I can see his eyes, bright and questioning."
    
    l "How about it?"
-   
-   play sound ballwaltz
    
    "I take his hand, without question."
    
@@ -1615,7 +1615,7 @@ label winterballtogether:
    
    "My attention lifts upwards when I hear a little laugh from Liam."
    
-   l "Sorry, sorry. I just thought it was... You're dancing very well."
+   l "Sorry, sorry. I just thought it was...You're dancing very well."
    
    l "Much better than you had when you were ten."
    
@@ -1627,15 +1627,15 @@ label winterballtogether:
    
    v "If you have to strain yourself thinking of one, then I'd rather you didn't."
    
-   "One-two-three, one-two-three--the music floats, and despite our conversation, so do our steps--not always in-beat, but we follow each other's movements easily, without stumbling."
+   "One-two-three, one-two-three--the music floats, and despite our conversation, so do our steps--"
+
+   "Not always in-beat, but we follow each other's movements easily, without stumbling."
    
    "One spin, and another--"
 
-   "Liam's hand still steady at my waist, his fingers just tangled with the ends of the tied ribbon at my back, and our fingers clasped together, palm to palm--"
+   "Liam's hand is still steady at my waist, his fingers just tangled with the ends of the tied ribbon at my back--"
    
-   "The song ends--and Liam bows."
-   
-   stop sound fadeout 1.0
+   "Our fingers are clasped together, palm to palm, even through the fabric of our gloves--"
    
    l "Forgive me for the teasing--I shouldn't have said anything that would make you unhappy today."
    
@@ -1654,6 +1654,16 @@ label winterballtogether:
    "She had been kind in her own ways back in the day. Olly had liked her--if I had practiced my dance steps well, she would teach us useful spells--"
 
    "A floating spell to cushion a fall from a high jump. Another spell to muffle footsteps, to better win at shadow tag and hide-and-seek."
+
+   "When Liam and I had danced like this when we were younger, in the times my dancing master wanted to observe my steps with an actual partner--"
+   
+   "Our heights had been about the same, our movements quicker, our circles over the tiled flooring more elliptical than even--"
+   
+   "Now--he's taller. When I look at him, my eyes rest naturally somewhere around his chin. His mouth."
+   
+   "The song ends--and Liam bows."
+   
+   stop sound fadeout 1.0
 
    l "The first set is over. Do you want to--?"
    
